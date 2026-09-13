@@ -48,12 +48,26 @@ export function validarTextoRico(texto: string): { valido: boolean; erros: strin
     }
   }
 
+  // Validação de LaTeX display: $$...$$
+  const regexDisplayMath = /\$\$([\s\S]+?)\$\$/g;
+  let matchDisplay: RegExpExecArray | null;
+  while ((matchDisplay = regexDisplayMath.exec(texto)) !== null) {
+    const mathContent = matchDisplay[1].trim();
+    const checagemMath = validarLatex(mathContent, true);
+    if (!checagemMath.valido) {
+      erros.push(...checagemMath.erros);
+    }
+  }
+
+  // Remove os blocos display para não colidir com a validação inline
+  const textoSemDisplay = texto.replace(regexDisplayMath, ' ');
+
   // Validação de LaTeX inline: $...$
   // Procura fórmulas inline entre $...$, ignorando \$ escapado
   const regexInlineMath = /(?<!\\)\$(.+?)(?<!\\)\$/g;
   let match: RegExpExecArray | null;
-  while ((match = regexInlineMath.exec(texto)) !== null) {
-    const mathContent = match[1];
+  while ((match = regexInlineMath.exec(textoSemDisplay)) !== null) {
+    const mathContent = match[1].trim();
     const checagemMath = validarLatex(mathContent, false);
     if (!checagemMath.valido) {
       erros.push(...checagemMath.erros);

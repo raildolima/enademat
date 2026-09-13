@@ -127,9 +127,10 @@ export function validarResolucaoMarkdown(
   if (fs.existsSync(cegoFile)) {
     try {
       const cegoData = JSON.parse(fs.readFileSync(cegoFile, 'utf-8'));
-      if (cegoData.resposta && data.respostaIndependente !== cegoData.resposta) {
+      const respCega = cegoData.resposta || cegoData.respostaCega || cegoData.respostaIndependente;
+      if (respCega && data.respostaIndependente !== respCega) {
         erros.push(
-          `respostaIndependente ("${data.respostaIndependente}") diverge da resposta da etapa cega ("${cegoData.resposta}") registrada em ${cegoFile}.`
+          `respostaIndependente ("${data.respostaIndependente}") diverge da resposta da etapa cega ("${respCega}") registrada em ${cegoFile}.`
         );
       }
     } catch (e: any) {
