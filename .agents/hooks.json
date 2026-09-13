@@ -1,0 +1,32 @@
+{
+  "validar-conteudo": {
+    "enabled": true,
+    "PostToolUse": [
+      {
+        "matcher": "write_to_file|replace_file_content|multi_replace_file_content",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node scripts/hooks/antigravity-validar.mjs",
+            "timeout": 90
+          }
+        ]
+      }
+    ]
+  },
+  "proteger-acoes": {
+    "enabled": true,
+    "PreToolUse": [
+      {
+        "matcher": "run_command|view_file",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node scripts/hooks/antigravity-proteger.mjs",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}
