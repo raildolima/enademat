@@ -1,0 +1,99 @@
+{
+  "id": "2021-licenciatura-q009",
+  "provaId": "2021-licenciatura",
+  "tipo": "objetiva",
+  "numero": 9,
+  "rotulo": "Questão 9",
+  "parte": "componente-especifico",
+  "ordemCaderno": 14,
+  "paginas": [
+    17
+  ],
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Com o agravamento da pandemia do novo Coronavírus (Sars-CoV-2), alguns termos tornaram-se mais conhecidos, dentre eles o de crescimento exponencial."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "O gráfico da função exponencial a seguir representa a evolução do crescimento do número de pessoas contaminadas por uma doença ao longo do tempo, medido em dias. Observe que o número de pessoas contaminadas dobra a cada três dias."
+    },
+    {
+      "tipo": "imagem",
+      "src": "/figuras/2021-licenciatura/q009-f1.webp",
+      "alt": "Gráfico cartesiano de função exponencial mostrando a evolução de infectados ao longo dos dias dobrando a cada 3 dias."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Supondo que a tendência de crescimento do número de pessoas contaminadas apresentada no gráfico se mantenha ao longo do tempo e seja exponencial, avalie as afirmações a seguir."
+    },
+    {
+      "tipo": "afirmativas",
+      "itens": [
+        {
+          "rotulo": "I",
+          "texto": "Se $C(t)$ representa o número de pessoas contaminadas no tempo $t$, então $C(t) = 2^{t/3}$."
+        },
+        {
+          "rotulo": "II",
+          "texto": "A velocidade de crescimento da contaminação no nono dia é $\\frac{8}{3} \\ln 2$ pessoas/dia."
+        },
+        {
+          "rotulo": "III",
+          "texto": "Com um mês de epidemia, o número de contaminados ultrapassa o de 1 000 pessoas."
+        }
+      ]
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "É correto o que se afirma em"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "I, apenas."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "II, apenas."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "I e III, apenas."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "II e III, apenas."
+        }
+      ]
+    },
+    {
+      "letra": "E",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "I, II e III."
+        }
+      ]
+    }
+  ]
+}

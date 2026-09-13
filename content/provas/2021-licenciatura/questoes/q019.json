@@ -1,0 +1,77 @@
+{
+  "id": "2021-licenciatura-q019",
+  "provaId": "2021-licenciatura",
+  "tipo": "objetiva",
+  "numero": 19,
+  "rotulo": "Questão 19",
+  "parte": "componente-especifico",
+  "ordemCaderno": 24,
+  "paginas": [
+    23
+  ],
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Arthur (1), Bruno (2), Guilherme (3) e Matheus (4) são irmãos que gostam de jogar videogame e de se desafiarem nos jogos."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Considerando a matriz $A = (a_{ij})_{4 \\times 4}$, em que cada elemento $a_{ij}$ representa o número de desafios que o irmão $i$ fez ao irmão $j$:"
+    },
+    {
+      "tipo": "formula",
+      "latex": "A = \\begin{pmatrix} 0 & 3 & 1 & 2 \\\\ 5 & 0 & 3 & 6 \\\\ 2 & 1 & 0 & 4 \\\\ 6 & 0 & 6 & 0 \\end{pmatrix}"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "a diferença entre o número de desafios propostos pelo irmão que mais desafiou e o número de desafios recebidos pelo irmão que menos foi desafiado é igual a"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "0."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "1."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "2."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "10."
+        }
+      ]
+    },
+    {
+      "letra": "E",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "14."
+        }
+      ]
+    }
+  ]
+}

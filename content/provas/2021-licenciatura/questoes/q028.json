@@ -1,0 +1,99 @@
+{
+  "id": "2021-licenciatura-q028",
+  "provaId": "2021-licenciatura",
+  "tipo": "objetiva",
+  "numero": 28,
+  "rotulo": "Questão 28",
+  "parte": "componente-especifico",
+  "ordemCaderno": 33,
+  "paginas": [
+    30
+  ],
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "A figura mostra um cubo ABCDEFGH de aresta 4."
+    },
+    {
+      "tipo": "imagem",
+      "src": "/figuras/2021-licenciatura/q028-f1.webp",
+      "alt": "Cubo ABCDEFGH de aresta 4 com ponto P sobre o segmento FH e triângulo PCH."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Seja P um ponto sobre o segmento FH, suponha que o ângulo PCH mede 30°."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Nessas condições, avalie as seguintes afirmações."
+    },
+    {
+      "tipo": "afirmativas",
+      "itens": [
+        {
+          "rotulo": "I",
+          "texto": "$HP = \\frac{4\\sqrt{6}}{3}$."
+        },
+        {
+          "rotulo": "II",
+          "texto": "$CP = \\frac{8\\sqrt{3}}{3}$."
+        },
+        {
+          "rotulo": "III",
+          "texto": "O ângulo $C\\hat{P}H$ mede 60°."
+        }
+      ]
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "É correto o que se afirma em"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "I, apenas."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "II, apenas."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "I e III, apenas."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "II e III, apenas."
+        }
+      ]
+    },
+    {
+      "letra": "E",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "I, II e III."
+        }
+      ]
+    }
+  ]
+}

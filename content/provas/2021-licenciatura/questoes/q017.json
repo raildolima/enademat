@@ -1,0 +1,99 @@
+{
+  "id": "2021-licenciatura-q017",
+  "provaId": "2021-licenciatura",
+  "tipo": "objetiva",
+  "numero": 17,
+  "rotulo": "Questão 17",
+  "parte": "componente-especifico",
+  "ordemCaderno": 22,
+  "paginas": [
+    22
+  ],
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "A Base Nacional Comum Curricular (BNCC), área da Matemática, Ensino Fundamental, contempla o desenvolvimento da compreensão de conceitos e procedimentos em seus diferentes campos, visando à resolução de situações-problema. No Ensino Médio, na área de Matemática e suas Tecnologias, os estudantes devem utilizar conceitos, procedimentos e estratégias não apenas para resolver problemas, mas também para formulá-los, descrever dados, selecionar modelos matemáticos e desenvolver o pensamento computacional, por meio da utilização de diferentes recursos da área."
+    },
+    {
+      "tipo": "fonte",
+      "texto": "BRASIL. Ministério da Educação. Secretaria de Educação Básica. Base Nacional Comum Curricular (BNCC). Brasília, 2018 (adaptado)."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Acerca do que propõe a BNCC para o desenvolvimento do pensamento computacional no ensino da Matemática, avalie as asserções a seguir e a relação proposta entre elas."
+    },
+    {
+      "tipo": "afirmativas",
+      "itens": [
+        {
+          "rotulo": "I",
+          "texto": "O jogo “Travessia” – na versão do lobo, da ovelha e da couve, na qual o barqueiro necessita atravessar um deles de cada vez de uma margem para outra de um rio, sabendo que o lobo não pode ficar sozinho com a ovelha e que a ovelha não pode ficar sozinha com a couve – pode ser utilizado para desenvolver o pensamento computacional no ensino da Matemática."
+        }
+      ]
+    },
+    {
+      "tipo": "conectivo",
+      "texto": "PORQUE"
+    },
+    {
+      "tipo": "afirmativas",
+      "itens": [
+        {
+          "rotulo": "II",
+          "texto": "O pensamento computacional parte geralmente de situações-problema, por meio das quais se busca desenvolver procedimentos e estratégias como também levantar dados para elaborar hipóteses e utilizar possíveis modelos matemáticos na solução do problema, tomando-se por base o procedimento algorítmico."
+        }
+      ]
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "A respeito dessas asserções, assinale a opção correta."
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "As asserções I e II são proposições verdadeiras, a II é uma justificativa correta da I."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "As asserções I e II são proposições verdadeiras, mas a II não é uma justificativa correta da I."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "A asserção I é uma proposição verdadeira, e a II é uma proposição falsa."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "A asserção I é uma proposição falsa, e a II é uma proposição verdadeira."
+        }
+      ]
+    },
+    {
+      "letra": "E",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "As asserções I e II são proposições falsas."
+        }
+      ]
+    }
+  ]
+}

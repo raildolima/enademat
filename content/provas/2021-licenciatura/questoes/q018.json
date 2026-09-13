@@ -1,0 +1,94 @@
+{
+  "id": "2021-licenciatura-q018",
+  "provaId": "2021-licenciatura",
+  "tipo": "objetiva",
+  "numero": 18,
+  "rotulo": "Questão 18",
+  "parte": "componente-especifico",
+  "ordemCaderno": 23,
+  "paginas": [
+    22
+  ],
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "A teoria da probabilidade nasceu das discussões matemáticas que aconteciam, por correspondência, entre Pascal e Pierre de Fermat. Antes disso, esse ramo da matemática era trabalhado de forma apenas intuitiva e empregado principalmente na resolução de problemas que uniam matemática e jogos. A partir da origem dessa teoria, outros matemáticos deram valiosas contribuições para o seu desenvolvimento, cujas aplicações atualmente podem ser encontradas em Estatística, em Biologia, em Psicologia e em várias outras áreas."
+    },
+    {
+      "tipo": "fonte",
+      "texto": "BOYER, C. B. História da Matemática. São Paulo: Edgard Blücher/Edusp, 1974 (adaptado)."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "A partir das informações do texto, avalie as afirmações a seguir, acerca da evolução histórica do conhecimento matemático."
+    },
+    {
+      "tipo": "afirmativas",
+      "itens": [
+        {
+          "rotulo": "I",
+          "texto": "A matemática é uma construção humana em que os conceitos têm sido desenvolvidos para resolver problemas relacionados às necessidades de diversas culturas, em seus diferentes momentos históricos."
+        },
+        {
+          "rotulo": "II",
+          "texto": "As soluções de problemas de diversas naturezas foram se constituindo em teorias, por meio de questionamentos, respostas e novas problematizações, fazendo emergir o conhecimento matemático."
+        },
+        {
+          "rotulo": "III",
+          "texto": "As percepções que os matemáticos têm do próprio objeto matemático são imutáveis ao longo do tempo, embora a elas se somem contribuições de estudiosos de diferentes áreas."
+        }
+      ]
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "É correto o que se afirma em"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "I, apenas."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "III, apenas."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "I e II, apenas."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "II e III, apenas."
+        }
+      ]
+    },
+    {
+      "letra": "E",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "I, II e III."
+        }
+      ]
+    }
+  ]
+}

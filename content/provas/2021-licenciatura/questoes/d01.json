@@ -1,0 +1,51 @@
+{
+  "id": "2021-licenciatura-d01",
+  "provaId": "2021-licenciatura",
+  "tipo": "discursiva",
+  "numero": 1,
+  "rotulo": "Questão Discursiva 1",
+  "parte": "formacao-geral",
+  "ordemCaderno": 1,
+  "paginas": [
+    2,
+    3
+  ],
+  "enunciado": [
+    {
+      "tipo": "titulo",
+      "texto": "TEXTO I"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Em época de censura, a própria existência da arte passa a ser questionada. Surgem debates em jornais, na rua, em casa, para discutir sua relevância. Não podemos deixar de nos perguntar como chegamos a essa estranha situação em que precisamos justificar a própria existência da arte. Ela pode ser julgada apressadamente como boa ou ruim, mas nem por isso deixa de ser arte."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "O cineasta franco-suíço Jean-Luc Godard aponta para o fato de que “a cultura é a regra; a arte é a exceção”. A arte é, dentro da cultura, o que tensiona a própria cultura para assim levá-la para outros lugares. Enquanto a cultura regula, a arte destoa e movimenta. A arte questiona, incomoda e transforma. Arte e cultura se contradizem, mas andam de mãos dadas."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Os psicanalistas Suely Rolnik e Félix Guattari consideram que o conceito de cultura é profundamente reacionário. É uma maneira de separar atividades semióticas em esferas, às quais os homens são remetidos. Tais atividades, assim isoladas, são padronizadas para o modo de semiotização dominante. A arte, por sua vez, existe plenamente quando junta o que é separado, questiona o que é geralmente aceito, grita onde há silêncio, desorganizando e reorganizando a cultura. Quando se discutem os limites da arte, são, na verdade, os limites da nossa tolerância que estão sendo debatidos."
+    },
+    {
+      "tipo": "fonte",
+      "texto": "SEROUSSI, B. O que faz a arte? In: OLIVIERE, C.; NATALE, E. (org.). Direito, arte e liberdade. São Paulo: Edições Sesc SP, 2018. p. 26-42 (adaptado)."
+    },
+    {
+      "tipo": "titulo",
+      "texto": "TEXTO II"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Capítulo I — Dos Direitos e Deveres Individuais e Coletivos\nArt. 5º Todos são iguais perante a lei, sem distinção de qualquer natureza, garantindo-se aos brasileiros e aos estrangeiros residentes no País a inviolabilidade do direito à vida, à liberdade, à igualdade, à segurança e à propriedade, nos termos seguintes:\n[...]\nIX - é livre a expressão da atividade intelectual, artística, científica e de comunicação, independentemente de censura ou licença."
+    },
+    {
+      "tipo": "fonte",
+      "texto": "BRASIL. Constituição Federal do Brasil. Disponível em: https://www.senado.leg.br. Acesso em: 2 maio 2020."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Considerando as informações e os argumentos presentes nos textos I e II, discorra a respeito da relação entre arte, cultura e censura, à luz da ideia de liberdade artística garantida pela Constituição Federal de 1988. Apresente, em seu texto, duas ações educativas que podem contribuir para minimizar essas tensões e garantir a liberdade artística prevista pela lei. (valor: 10,0 pontos)"
+    }
+  ]
+}

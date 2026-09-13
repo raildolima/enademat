@@ -1,0 +1,110 @@
+{
+  "id": "2021-licenciatura-q026",
+  "provaId": "2021-licenciatura",
+  "tipo": "objetiva",
+  "numero": 26,
+  "rotulo": "Questão 26",
+  "parte": "componente-especifico",
+  "ordemCaderno": 31,
+  "paginas": [
+    29
+  ],
+  "enunciado": [
+    {
+      "tipo": "titulo",
+      "texto": "TEXTO I"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "É cada dia mais presente a integração das tecnologias digitais na educação. Essa integração propicia que parte do ensino seja presencial e parte virtual (ensino híbrido), dando liberdade ao aluno para gerenciar seus horários de estudo. O ensino híbrido é um modelo de educação formal que se caracteriza por mesclar dois modos de ensino; o online e o presencial. Nesse ensino, é fundamental a utilização de novas metodologias que promovam a autonomia do estudante."
+    },
+    {
+      "tipo": "fonte",
+      "texto": "Disponível em: http://www.pos.cps.sp.gov.br. Acesso em: 27 jun. 2020 (adaptado)."
+    },
+    {
+      "tipo": "titulo",
+      "texto": "TEXTO II"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "As metodologias ativas são caminhos para avançar mais no conhecimento profundo, nas competências socioemocionais e em novas práticas. Se queremos que os alunos sejam proativos, precisamos adotar metodologias em que eles se envolvam em atividades cada vez mais complexas, em que tenham que tomar decisões e avaliar os resultados, com apoio de materiais relevantes."
+    },
+    {
+      "tipo": "fonte",
+      "texto": "Disponível em: http://www2.eca.usp.br. Acesso em: 27 jun. 2020 (adaptado)."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Com base nos textos I e II, avalie as afirmações a seguir."
+    },
+    {
+      "tipo": "afirmativas",
+      "itens": [
+        {
+          "rotulo": "I",
+          "texto": "No ensino presencial e online, o material didático, além de motivar o aluno, deve propiciar o desenvolvimento da autonomia e a construção do conhecimento."
+        },
+        {
+          "rotulo": "II",
+          "texto": "Dada a característica abstrata da disciplina de matemática, os materiais didáticos assumem um papel preponderante nas aulas, e a sua utilização determina a aprendizagem do aluno."
+        },
+        {
+          "rotulo": "III",
+          "texto": "O material didático construído para o ensino online por meio de abordagem que privilegie a capacidade de reflexão do aluno permite propiciar uma mediação pedagógica voltada para a construção do conhecimento."
+        }
+      ]
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "É correto o que se afirma em"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "I, apenas."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "II, apenas."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "I e III, apenas."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "II e III, apenas."
+        }
+      ]
+    },
+    {
+      "letra": "E",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "I, II e III."
+        }
+      ]
+    }
+  ]
+}

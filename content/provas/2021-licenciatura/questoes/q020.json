@@ -1,0 +1,90 @@
+{
+  "id": "2021-licenciatura-q020",
+  "provaId": "2021-licenciatura",
+  "tipo": "objetiva",
+  "numero": 20,
+  "rotulo": "Questão 20",
+  "parte": "componente-especifico",
+  "ordemCaderno": 25,
+  "paginas": [
+    23
+  ],
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "A equação $\\frac{dS}{dt} = rS + k$ corresponde a um modelo de uma aplicação bancária com capitalização contínua, em que $S$ é o saldo dessa aplicação em um instante $t$, $r$ é a taxa de juros, constante, dessa aplicação bancária, e $k$ representa os depósitos ($k > 0$) e as retiradas ($k < 0$)."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Com base nas informações apresentadas, avalie as afirmações a seguir."
+    },
+    {
+      "tipo": "afirmativas",
+      "itens": [
+        {
+          "rotulo": "I",
+          "texto": "O modelo matemático que representa esse sistema de capitalização é uma equação diferencial linear de primeira ordem."
+        },
+        {
+          "rotulo": "II",
+          "texto": "Essa equação é insolúvel, pois os valores de $r$ e de $k$ são desconhecidos."
+        },
+        {
+          "rotulo": "III",
+          "texto": "Se não houver depósitos nem retiradas, $k = 0$, então o saldo bancário pode ser expresso por $S(t) = S_0 e^{rt}$, onde $S_0$ é o capital inicialmente investido."
+        }
+      ]
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "É correto o que se afirma em"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "I, apenas."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "II, apenas."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "I e III, apenas."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "II e III, apenas."
+        }
+      ]
+    },
+    {
+      "letra": "E",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "I, II e III."
+        }
+      ]
+    }
+  ]
+}

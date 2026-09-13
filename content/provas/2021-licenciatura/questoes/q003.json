@@ -1,0 +1,111 @@
+{
+  "id": "2021-licenciatura-q003",
+  "provaId": "2021-licenciatura",
+  "tipo": "objetiva",
+  "numero": 3,
+  "rotulo": "Questão 3",
+  "parte": "formacao-geral",
+  "ordemCaderno": 5,
+  "paginas": [
+    8
+  ],
+  "enunciado": [
+    {
+      "tipo": "titulo",
+      "texto": "TEXTO I"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Na Alemanha nazista, no auge da Segunda Guerra Mundial, surgiu a necessidade de abrir mais espaço para os veículos automotivos. Com muitos ciclistas, as bicicletas viraram um empecilho, forçando a criação de um espaço exclusivo para elas – talvez as primeiras ciclovias do mundo. Mas, se na década de 1940 os veículos eram prioridade, hoje, o uso de bicicletas – e das ciclovias – surge como uma das principais alternativas para melhorar a qualidade de vida nas grandes metrópoles. Quando políticas públicas incentivam o uso de bicicletas como meio de transporte para curtas e médias distâncias, um novo panorama se abre."
+    },
+    {
+      "tipo": "fonte",
+      "texto": "COSTA, J. Ciclovias ajudam a humanizar o espaço urbano. Ciência e Cultura. v. 68, n. 2, São Paulo, 2016 (adaptado)."
+    },
+    {
+      "tipo": "titulo",
+      "texto": "TEXTO II"
+    },
+    {
+      "tipo": "imagem",
+      "src": "/figuras/2021-licenciatura/q003-f1.webp",
+      "alt": "Charge retratando ciclista em meio ao trânsito urbano com motoristas e carros."
+    },
+    {
+      "tipo": "fonte",
+      "texto": "Disponível em: http://dopedal.blogspot.com. Acesso em: 29 de abr. 2020."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Considerando as informações apresentadas e o uso de bicicletas como alternativa para melhorar a qualidade de vida nas cidades, avalie as afirmações a seguir."
+    },
+    {
+      "tipo": "afirmativas",
+      "itens": [
+        {
+          "rotulo": "I",
+          "texto": "Dado que as bicicletas são veículos que ocupam pouco espaço na malha viária, prescinde-se de investimentos públicos em construção de ciclovias, sendo prioritárias campanhas de conscientização de motoristas a respeito dos benefícios do uso da bicicleta como meio de transporte."
+        },
+        {
+          "rotulo": "II",
+          "texto": "O uso das bicicletas como meio de transporte contribui para a melhoria da qualidade de vida nas grandes metrópoles, pois elas não emitem poluentes, além de esse uso proporcionar a prática de atividade física."
+        },
+        {
+          "rotulo": "III",
+          "texto": "A partir da Segunda Guerra Mundial, durante o governo da Alemanha nazista, o uso da bicicleta como meio de transporte tornou-se eficaz e passou a prevalecer nas cidades europeias."
+        }
+      ]
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "É correto o que se afirma em"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "I, apenas."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "II, apenas."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "I e III, apenas."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "II e III, apenas."
+        }
+      ]
+    },
+    {
+      "letra": "E",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "I, II e III."
+        }
+      ]
+    }
+  ]
+}

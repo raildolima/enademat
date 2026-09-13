@@ -1,0 +1,107 @@
+{
+  "id": "2021-licenciatura-q011",
+  "provaId": "2021-licenciatura",
+  "tipo": "objetiva",
+  "numero": 11,
+  "rotulo": "Questão 11",
+  "parte": "componente-especifico",
+  "ordemCaderno": 16,
+  "paginas": [
+    19
+  ],
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Uma elipse é o lugar geométrico dos pontos de um plano cuja soma das distâncias a dois pontos fixos desse plano é constante."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Considere a ilustração da elipse."
+    },
+    {
+      "tipo": "imagem",
+      "src": "/figuras/2021-licenciatura/q011-f1.webp",
+      "alt": "Ilustração no plano cartesiano de uma elipse com eixos a e b centrada na origem."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "A equação reduzida dessa elipse é $\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Com base nas informações apresentadas, avalie as afirmações a seguir."
+    },
+    {
+      "tipo": "afirmativas",
+      "itens": [
+        {
+          "rotulo": "I",
+          "texto": "$-a \\le x \\le a$ e $-b \\le y \\le b$."
+        },
+        {
+          "rotulo": "II",
+          "texto": "A elipse está contida em uma circunferência de raio $b$."
+        },
+        {
+          "rotulo": "III",
+          "texto": "Se $(x,y)$ é solução da equação reduzida, então $(-x,-y)$, $(x,-y)$ e $(-x,y)$ também satisfazem a equação da elipse."
+        },
+        {
+          "rotulo": "IV",
+          "texto": "Uma outra forma de representar a elipse dada é $b^2 x^2 + a^2 y^2 - a^2 b^2 = 0$."
+        }
+      ]
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "É correto apenas o que se afirma em"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "I e III."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "II e III."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "II e IV."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "I, II e IV."
+        }
+      ]
+    },
+    {
+      "letra": "E",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "I, III e IV."
+        }
+      ]
+    }
+  ]
+}

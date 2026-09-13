@@ -1,0 +1,103 @@
+{
+  "id": "2021-licenciatura-q027",
+  "provaId": "2021-licenciatura",
+  "tipo": "objetiva",
+  "numero": 27,
+  "rotulo": "Questão 27",
+  "parte": "componente-especifico",
+  "ordemCaderno": 32,
+  "paginas": [
+    30
+  ],
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Buscando levar o aluno a construir ou ampliar o conhecimento sobre equações de primeiro grau, o professor propôs o seguinte problema.\n\nUm colar se rompeu quando duas amigas brincavam.\nUma fileira de pérola escapou.\nA sexta parte das pérolas ao solo caiu.\nUm terço das pérolas uma jovem salvou.\nA décima parte a outra jovem salvou.\nE com seis pérolas o colar ficou.\nDiga-me, quantas pérolas tinha a fileira que escapou?"
+    },
+    {
+      "tipo": "fonte",
+      "texto": "GUSMÃO, G. A. P. et al. (ed.). VII Olimpíada de Matemática do Estado de Goiás: resolução comentada das provas. Goiânia: UFG, 1999 (adaptado)."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Depois de um tempo, um dos alunos afirmou: “professor, esse problema está mal elaborado!”"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Após análise do problema apresentado, avalie as asserções a seguir e a relação proposta entre elas."
+    },
+    {
+      "tipo": "afirmativas",
+      "itens": [
+        {
+          "rotulo": "I",
+          "texto": "O aluno está certo, a única solução possível para esse problema é incoerente com o enunciado."
+        }
+      ]
+    },
+    {
+      "tipo": "conectivo",
+      "texto": "PORQUE"
+    },
+    {
+      "tipo": "afirmativas",
+      "itens": [
+        {
+          "rotulo": "II",
+          "texto": "A quantidade de pérolas deve ser divisível por 3, por 6 e por 10."
+        }
+      ]
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "A respeito dessas asserções assinale a opção correta."
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "As asserções I e II são proposições verdadeiras, e a II é uma justificativa correta da I."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "As asserções I e II são proposições verdadeiras, mas a II não é uma justificativa correta da I."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "A asserção I é uma proposição verdadeira, e a II é uma proposição falsa."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "A asserção I é uma proposição falsa, e a II é uma proposição verdadeira."
+        }
+      ]
+    },
+    {
+      "letra": "E",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "As asserções I e II são falsas."
+        }
+      ]
+    }
+  ]
+}

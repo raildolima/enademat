@@ -1,0 +1,98 @@
+{
+  "id": "2021-licenciatura-q034",
+  "provaId": "2021-licenciatura",
+  "tipo": "objetiva",
+  "numero": 34,
+  "rotulo": "Questão 34",
+  "parte": "componente-especifico",
+  "ordemCaderno": 39,
+  "paginas": [
+    34
+  ],
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "As percepções sobre o termo liderança revelam uma configuração ainda precária da realidade brasileira no campo da gestão escolar. As pesquisas internacionais apresentam uma gama significativa de resultados sobre o tema há, pelo menos, mais de duas décadas. Vale lembrar que os estudos sobre escolas eficazes, na sua maioria, apontam o efeito da liderança do gestor como um dos principais fatores explicativos dessa equação. Um sobrevoo nos dados da pesquisa Olhares Cotidianos sobre a Gestão Escolar (OCGE), realizada com gestores e professores de seis escolas de um município brasileiro, permite identificar, de forma geral, noções sobre o termo, ao se solicitar ao grupo algum tipo de caracterização mais precisa de liderança:\n\n\"Isso aí é uma coisa que se tem ou não se tem.\" (Ana, Grupo Liderança).\n\"O dom da palavra, do convencimento...\" (Andrea, Grupo Liderança).\n\"Carisma\" (Cíntia, Grupo Liderança).\n\"A pessoa nasce com isso ou não.\" (Adriana, Grupo Liderança)."
+    },
+    {
+      "tipo": "fonte",
+      "texto": "COELHO, F. M. O Cotidiano da Gestão Escolar: o método de caso na sistematização de problemas. Educação & Realidade, Porto Alegre, v. 40, n. 4, out./dez. 2015, p. 1.261-1.276 (adaptado)."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Relacionando as ideias de liderança expostas pelas participantes da pesquisa sobre o exercício da gestão escolar, avalie as afirmações a seguir."
+    },
+    {
+      "tipo": "afirmativas",
+      "itens": [
+        {
+          "rotulo": "I",
+          "texto": "As respostas de Ana e Adriana reforçam as concepções defendidas pelas investigações científicas do campo educacional contemporâneo sobre liderança, que afirmam que nem todos podem ser gestores escolares e que é preciso ter a qualidade de empreendedor para ocupar esse cargo."
+        },
+        {
+          "rotulo": "II",
+          "texto": "Ana e Cíntia expõem ideias que são coerentes com os estudos atuais sobre a prática da gestão escolar, pois enfatizam o estilo administrativo do gestor, que é um fator fundamental para se compreender a liderança e as suas relações com os objetivos educacionais das escolas."
+        },
+        {
+          "rotulo": "III",
+          "texto": "Em suas respostas, Andrea e Cíntia expressam a ideia de liderança a partir de um de seus aspectos, o interpessoal, embora outros fatores relevantes interfiram na gestão escolar, como o administrativo e/ou o pedagógico."
+        },
+        {
+          "rotulo": "IV",
+          "texto": "As afirmações das participantes relacionam a liderança a uma capacidade de convencimento e a uma habilidade inata do líder – concepções já ultrapassadas pelas investigações educacionais sobre o tema no cenário contemporâneo."
+        }
+      ]
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "É correto apenas o que se afirma em"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "I e IV."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "II e III."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "III e IV."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "I, II e III."
+        }
+      ]
+    },
+    {
+      "letra": "E",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "I, II e IV."
+        }
+      ]
+    }
+  ]
+}

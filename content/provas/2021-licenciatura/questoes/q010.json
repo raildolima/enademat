@@ -1,0 +1,82 @@
+{
+  "id": "2021-licenciatura-q010",
+  "provaId": "2021-licenciatura",
+  "tipo": "objetiva",
+  "numero": 10,
+  "rotulo": "Questão 10",
+  "parte": "componente-especifico",
+  "ordemCaderno": 15,
+  "paginas": [
+    18
+  ],
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Anualmente é realizado no Brasil o Censo da Educação Superior, que coleta e reúne informações dos cursos de graduação das diversas instituições de Ensino Superior. No Censo de 2017, foram apresentados dados da distribuição de alunos matriculados em cursos de licenciatura."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Os gráficos a seguir apresentam informações do percentual de alunos em relação ao sexo, à organização acadêmica, à categoria administrativa e à modalidade de ensino."
+    },
+    {
+      "tipo": "imagem",
+      "src": "/figuras/2021-licenciatura/q010-f1.webp",
+      "alt": "Gráficos com dados do Censo da Educação Superior 2017 sobre alunos matriculados em licenciatura."
+    },
+    {
+      "tipo": "fonte",
+      "texto": "Disponível em: http://portal.mec.gov.br. Acesso em: 21 de maio 2020."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Considerando as informações apresentadas nos gráficos, assinale a opção correta."
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "A maior quantidade de alunos matriculados é do sexo feminino e está na rede pública de ensino."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "A rede pública possui a maior quantidade de alunos matriculados na modalidade de ensino a distância e a maior parte é do sexo masculino."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "A organização universidade possui a menor quantidade de alunos matriculados e a menor parte é do sexo feminino."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "A modalidade de ensino a distância tem a menor quantidade de alunos matriculados em relação à modalidade presencial."
+        }
+      ]
+    },
+    {
+      "letra": "E",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "A menor quantidade de alunos matriculados é do sexo masculino, da rede pública e na modalidade presencial."
+        }
+      ]
+    }
+  ]
+}

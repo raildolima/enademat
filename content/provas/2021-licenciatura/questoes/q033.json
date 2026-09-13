@@ -1,0 +1,102 @@
+{
+  "id": "2021-licenciatura-q033",
+  "provaId": "2021-licenciatura",
+  "tipo": "objetiva",
+  "numero": 33,
+  "rotulo": "Questão 33",
+  "parte": "componente-especifico",
+  "ordemCaderno": 38,
+  "paginas": [
+    33
+  ],
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "O Decreto n. 5.626/2005, que dispõe sobre a Língua Brasileira de Sinais (Libras) considera a pessoa surda como aquela que, por ter perda auditiva, compreende e interage com o mundo por meio de experiências visuais. Em consonância com o decreto, nas escolas públicas em que há crianças surdas ou com deficiência auditiva matriculadas, faz-se necessário o desenvolvimento de práticas capazes de garantir o seu direito à educação."
+    },
+    {
+      "tipo": "fonte",
+      "texto": "Disponível em: http://www.planalto.gov.br. Acesso em 20 abr. 2020 (adaptado)."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Considerando as ações necessárias para a escola garantir o direito à educação das crianças surdas, avalie as afirmações a seguir."
+    },
+    {
+      "tipo": "afirmativas",
+      "itens": [
+        {
+          "rotulo": "I",
+          "texto": "É necessário criar situações em sala de aula que promovam o convívio social entres as crianças, que estimule o respeito às diferenças, promovendo o reconhecimento das suas potencialidades e o desenvolvimento afetivo, cognitivo, linguístico e sociocultural."
+        },
+        {
+          "rotulo": "II",
+          "texto": "A Libras deve ser assegurada como a primeira língua da criança surda, considerando-se a Língua Portuguesa, na modalidade escrita, como a segunda."
+        },
+        {
+          "rotulo": "III",
+          "texto": "É fundamental disponibilizar intérpretes de Libras para as crianças surdas, e caso não seja possível, é preciso solicitar aos familiares que procurem outra escola mais preparada."
+        },
+        {
+          "rotulo": "IV",
+          "texto": "A escola deve fomentar parcerias com os pais com o objetivo de acolhê-los e ajudá-los a constituir uma imagem positiva de seu filho surdo, auxiliando-o na compreensão da sua realidade."
+        },
+        {
+          "rotulo": "V",
+          "texto": "Os professores precisam desenvolver, em relação aos alunos surdos, processos de avaliação mais subjetivos com foco nas dificuldades de aprendizagem desses alunos."
+        }
+      ]
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "É correto apenas o que se afirma em"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "I e V."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "II e III."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "I, II e IV."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "I, III, IV e V."
+        }
+      ]
+    },
+    {
+      "letra": "E",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "II, III, IV e V."
+        }
+      ]
+    }
+  ]
+}

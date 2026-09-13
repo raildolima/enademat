@@ -1,0 +1,69 @@
+{
+  "id": "2021-licenciatura-q012",
+  "provaId": "2021-licenciatura",
+  "tipo": "objetiva",
+  "numero": 12,
+  "rotulo": "Questão 12",
+  "parte": "componente-especifico",
+  "ordemCaderno": 17,
+  "paginas": [
+    19
+  ],
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "No início do semestre letivo, um estudante tomou emprestado da biblioteca 7 livros, sendo 4 de Geometria, 1 de Topologia e 2 de Álgebra. Chegando em casa, ele os dispôs aleatoriamente em uma prateleira da estante. No dia seguinte, para facilitar a consulta a esse material, o aluno decidiu organizar os livros de forma que o de Topologia separasse os de Geometria dos de Álgebra, não importando qual agrupamento ficasse à direita ou à esquerda. Ao chegar à estante, percebeu, curiosamente, que a disposição dos livros atendia àquilo que ele havia planejado. Pelos seus cálculos, a quantidade de diferentes disposições dos 7 livros na prateleira seria de $7!$, que resulta em 5 040 possibilidades."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Qual a probabilidade de os livros terem sido dispostos da forma que o estudante decidiu organizá-los?"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "$\\frac{1}{720}$"
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "$\\frac{13}{2520}$"
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "$\\frac{1}{105}$"
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "$\\frac{2}{105}$"
+        }
+      ]
+    },
+    {
+      "letra": "E",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "$\\frac{1}{48}$"
+        }
+      ]
+    }
+  ]
+}

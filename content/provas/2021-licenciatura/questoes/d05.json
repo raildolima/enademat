@@ -1,0 +1,56 @@
+{
+  "id": "2021-licenciatura-d05",
+  "provaId": "2021-licenciatura",
+  "tipo": "discursiva",
+  "numero": 5,
+  "rotulo": "Questão Discursiva 5",
+  "parte": "componente-especifico",
+  "ordemCaderno": 13,
+  "paginas": [
+    16
+  ],
+  "enunciado": [
+    {
+      "tipo": "titulo",
+      "texto": "TEXTO I"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Os Parâmetros Curriculares Nacionais (PCN) explicitam o papel da Matemática no Ensino Fundamental pela proposição de objetivos que evidenciam a importância de o aluno valorizá-la como instrumental para compreender o mundo à sua volta. Além disso, destacam que essa área do conhecimento é fruto da criação e da invenção humana, seguindo caminhos diferentes nas diversas culturas."
+    },
+    {
+      "tipo": "fonte",
+      "texto": "BRASIL. Ministério da Educação. Secretaria de Educação Fundamental. Parâmetros Curriculares Nacionais: Matemática. Brasília, 1998 (adaptado)."
+    },
+    {
+      "tipo": "titulo",
+      "texto": "TEXTO II"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "A Base Nacional Comum Curricular (BNCC) aprofunda e amplia alguns dos objetivos dos Parâmetros Curriculares Nacionais (PCN), destacando que os conhecimentos matemáticos são fundamentais para a compreensão e a atuação no mundo. Nas competências específicas da Matemática para o Ensino Fundamental, é ressaltado o reconhecimento desse componente curricular como uma ciência humana, fruto das necessidades e preocupações de diferentes culturas, em diferentes momentos históricos – uma ciência viva que contribui para solucionar problemas científicos e tecnológicos e para alicerçar descobertas e construções, inclusive com impactos no mundo do trabalho."
+    },
+    {
+      "tipo": "fonte",
+      "texto": "BRASIL. Ministério da Educação. Secretaria de Educação Básica. Base Nacional Comum Curricular (BNCC). Brasília, 2018 (adaptado)."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Considerando as ideias sobre a Matemática abordadas nos textos apresentados, faça o que se pede nos itens a seguir."
+    }
+  ],
+  "itens": [
+    {
+      "rotulo": "a",
+      "texto": "Comente como um professor de Educação Básica pode abordar, nas aulas de Matemática, a evolução dessa ciência. (valor: 4,0 pontos)"
+    },
+    {
+      "rotulo": "b",
+      "texto": "Explique como a produção do conhecimento matemático se sucede ao longo do tempo. (valor: 3,0 pontos)"
+    },
+    {
+      "rotulo": "c",
+      "texto": "Discorra sobre uma das contribuições de algumas civilizações e culturas antigas na construção do conhecimento matemático usado na atualidade. (valor: 3,0 pontos)"
+    }
+  ]
+}

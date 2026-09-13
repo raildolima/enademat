@@ -1,0 +1,95 @@
+{
+  "id": "2021-licenciatura-q013",
+  "provaId": "2021-licenciatura",
+  "tipo": "objetiva",
+  "numero": 13,
+  "rotulo": "Questão 13",
+  "parte": "componente-especifico",
+  "ordemCaderno": 18,
+  "paginas": [
+    20
+  ],
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "O teorema do valor médio afirma que, se uma função $f$ é definida e contínua em um intervalo fechado $[a, b]$, sendo derivável no intervalo aberto $(a, b)$, existe um ponto $c$ em $(a, b)$ tal que $f'(c) = \\frac{f(b) - f(a)}{b - a}$."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Considerando esse contexto, avalie as asserções a seguir e a relação proposta entre elas."
+    },
+    {
+      "tipo": "afirmativas",
+      "itens": [
+        {
+          "rotulo": "I",
+          "texto": "Existe um ponto $c$ no intervalo aberto $(a, b)$ tal que a reta tangente ao gráfico de $f$ neste ponto é paralela à reta secante que passa pelos extremos do gráfico de $f$ restrita ao intervalo fechado $[a, b]$."
+        }
+      ]
+    },
+    {
+      "tipo": "conectivo",
+      "texto": "PORQUE"
+    },
+    {
+      "tipo": "afirmativas",
+      "itens": [
+        {
+          "rotulo": "II",
+          "texto": "Se uma função é derivável em um certo ponto, a reta tangente ao gráfico da função nesse ponto pode ser obtida como o limite de uma sequência de retas secantes."
+        }
+      ]
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "A respeito dessas asserções, assinale a opção correta."
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "As asserções I e II são proposições verdadeiras, e a II é uma justificativa correta da I."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "As asserções I e II são proposições verdadeiras, mas a II não é uma justificativa correta da I."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "A asserção I é uma proposição verdadeira, e a II é uma proposição falsa."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "A asserção I é uma proposição falsa, e a II é uma proposição verdadeira."
+        }
+      ]
+    },
+    {
+      "letra": "E",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "As asserções I e II são proposições falsas."
+        }
+      ]
+    }
+  ]
+}

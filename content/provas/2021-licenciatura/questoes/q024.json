@@ -1,0 +1,103 @@
+{
+  "id": "2021-licenciatura-q024",
+  "provaId": "2021-licenciatura",
+  "tipo": "objetiva",
+  "numero": 24,
+  "rotulo": "Questão 24",
+  "parte": "componente-especifico",
+  "ordemCaderno": 29,
+  "paginas": [
+    27
+  ],
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "As Tendências em Educação Matemática, presentes nos cursos de licenciatura em Matemática, complementam o processo de formação dos futuros professores e proporcionam o estudo dos meios de ensino que possam ser aplicados para desenvolver as competências previstas na Educação Básica."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "A Base Nacional Comum Curricular (BNCC), área de Matemática e suas tecnologias, Ensino Médio, orienta que, para o desenvolvimento de competências que envolvem o raciocinar, é necessário que os estudantes possam, em interação com seus colegas e professores, investigar, explicar e justificar os problemas resolvidos, com ênfase nos processos de argumentação matemática. Embora todas as habilidades pressuponham a mobilização do raciocínio, nem todas se restringem ao seu desenvolvimento. Assim, por exemplo, a identificação de regularidades e padrões exige, além de raciocínio, a representação e a comunicação para expressar as generalizações, bem como a construção de uma argumentação consistente para justificar o raciocínio utilizado."
+    },
+    {
+      "tipo": "fonte",
+      "texto": "BRASIL. Ministério da Educação. Secretaria de Educação Básica. Base Nacional Comum Curricular (BNCC). Brasília, 2018 (adaptado)."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Acerca das Tendências em Educação Matemática e do que propõe a BNCC para o desenvolvimento de competências que envolvem o raciocinar no ensino da Matemática, avalie as asserções a seguir e a relação proposta entre elas."
+    },
+    {
+      "tipo": "afirmativas",
+      "itens": [
+        {
+          "rotulo": "I",
+          "texto": "A Resolução de Problemas Matemáticos, a Modelagem Matemática, a Etnomatemática e a História da Matemática são consideradas Tendências em Educação Matemática que possibilitam ao professor explorar outras propostas de ensino dos conceitos matemáticos."
+        }
+      ]
+    },
+    {
+      "tipo": "conectivo",
+      "texto": "PORQUE"
+    },
+    {
+      "tipo": "afirmativas",
+      "itens": [
+        {
+          "rotulo": "II",
+          "texto": "O desenvolvimento de competências para o raciocínio é importante para estruturar as respostas e explicações dos alunos ao se depararem com a resolução de problemas matemáticos, desenvolvendo estratégias de investigação e de argumentação."
+        }
+      ]
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "A respeito dessas asserções, assinale a opção correta."
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "As asserções I e II são proposições verdadeiras, a II é uma justificativa correta da I."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "As asserções I e II são proposições verdadeiras, mas a II não é uma justificativa correta da I."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "A asserção I é uma proposição verdadeira, e a II é uma proposição falsa."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "A asserção I é uma proposição falsa, e a II é uma proposição verdadeira."
+        }
+      ]
+    },
+    {
+      "letra": "E",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "As asserções I e II são proposições falsas."
+        }
+      ]
+    }
+  ]
+}

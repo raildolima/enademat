@@ -1,0 +1,92 @@
+{
+  "id": "2021-licenciatura-q022",
+  "provaId": "2021-licenciatura",
+  "tipo": "objetiva",
+  "numero": 22,
+  "rotulo": "Questão 22",
+  "parte": "componente-especifico",
+  "ordemCaderno": 27,
+  "paginas": [
+    24,
+    25
+  ],
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "O Salto de Rã é um jogo composto por um número ímpar de casas e um número par de peças. O objetivo do jogo é trocar as peças de lugar utilizando o mínimo possível de movimentos. No caso, as peças que estão no lado direito devem ser colocadas no lado esquerdo e vice-versa. O jogador só pode fazer um movimento por vez, e só é permitido saltar uma peça."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "A figura a seguir ilustra essa situação."
+    },
+    {
+      "tipo": "imagem",
+      "src": "/figuras/2021-licenciatura/q022-f1.webp",
+      "alt": "Tabuleiro com casas lineares e rãs dispostas para o jogo Salto de Rã."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "O jogo pode ser utilizado em níveis diferentes de ensino, trabalhando conceitos de contagem e de sequência. Na formação das jogadas, pode-se, a partir dos movimentos obtidos, preencher tabelas com valores numéricos que possibilitam determinar a função discreta $y = 2n + n^2$, que representa o número mínimo de movimentos em relação ao número de peças."
+    },
+    {
+      "tipo": "fonte",
+      "texto": "MENEZES, J. E. (org.). Conhecimento, interdisciplinaridade e atividades de ensino com jogos matemáticos: uma proposta metodológica. Série Contexto Matemático, v. 5. UFRPE, Recife, 2008 (adaptado)."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Em qual das opções a seguir se representa o esboço do gráfico de $y = 2n + n^2$?"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "imagem",
+          "src": "/figuras/2021-licenciatura/q022-alt-a.webp",
+          "alt": "Esboço do gráfico da opção A para y = 2n + n^2."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "imagem",
+          "src": "/figuras/2021-licenciatura/q022-alt-b.webp",
+          "alt": "Esboço do gráfico da opção B para y = 2n + n^2."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "imagem",
+          "src": "/figuras/2021-licenciatura/q022-alt-c.webp",
+          "alt": "Esboço do gráfico da opção C para y = 2n + n^2."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "imagem",
+          "src": "/figuras/2021-licenciatura/q022-alt-d.webp",
+          "alt": "Esboço do gráfico da opção D para y = 2n + n^2."
+        }
+      ]
+    },
+    {
+      "letra": "E",
+      "blocos": [
+        {
+          "tipo": "imagem",
+          "src": "/figuras/2021-licenciatura/q022-alt-e.webp",
+          "alt": "Esboço do gráfico da opção E para y = 2n + n^2."
+        }
+      ]
+    }
+  ]
+}

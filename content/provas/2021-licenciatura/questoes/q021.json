@@ -1,0 +1,98 @@
+{
+  "id": "2021-licenciatura-q021",
+  "provaId": "2021-licenciatura",
+  "tipo": "objetiva",
+  "numero": 21,
+  "rotulo": "Questão 21",
+  "parte": "componente-especifico",
+  "ordemCaderno": 26,
+  "paginas": [
+    24
+  ],
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "A atividade de jogar, se bem orientada, tem papel importante no desenvolvimento de habilidades de raciocínio, como organização, atenção e concentração, tão necessárias para o aprendizado, em especial da Matemática, e para a resolução de problemas em geral. Também no jogo, identificamos o desenvolvimento da linguagem, da criatividade e do raciocínio dedutivo, exigidos na escolha de uma jogada e na argumentação necessária durante a troca de informações."
+    },
+    {
+      "tipo": "fonte",
+      "texto": "BORIN, J. Jogos e resolução de problemas: uma estratégia para as aulas de matemática. São Paulo: IME-USP, 2004 (adaptado)."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "A partir do tema tratado no texto, avalie as afirmações a seguir."
+    },
+    {
+      "tipo": "afirmativas",
+      "itens": [
+        {
+          "rotulo": "I",
+          "texto": "Uma metodologia de ensino que faz uso de jogos pode desenvolver a capacidade do aluno para entender e, até mesmo, justificar afirmações matemáticas."
+        },
+        {
+          "rotulo": "II",
+          "texto": "O êxito das metodologias que utilizam resolução de problemas, de maneira geral, depende dos jogos."
+        },
+        {
+          "rotulo": "III",
+          "texto": "Os jogos eletrônicos, atualmente, são as melhores opções para se desenvolver a capacidade intelectual dos estudantes."
+        },
+        {
+          "rotulo": "IV",
+          "texto": "A capacidade de organizar e expressar ideias e o aumento de concentração são algumas das habilidades proporcionadas pelos jogos."
+        }
+      ]
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "É correto apenas o que se afirma em"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "I e II."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "I e IV."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "II e III."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "I, III e IV."
+        }
+      ]
+    },
+    {
+      "letra": "E",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "II, III e IV."
+        }
+      ]
+    }
+  ]
+}

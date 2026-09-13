@@ -1,0 +1,69 @@
+{
+  "id": "2021-licenciatura-q030",
+  "provaId": "2021-licenciatura",
+  "tipo": "objetiva",
+  "numero": 30,
+  "rotulo": "Questão 30",
+  "parte": "componente-especifico",
+  "ordemCaderno": 35,
+  "paginas": [
+    31
+  ],
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Seja $T : \\mathbb{R}^2 \\to \\mathbb{R}^2$ a transformação linear dada pela reflexão em torno do eixo $x$, seguida da rotação de 90° no sentido anti-horário e da dilatação de fator 2."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Com base nessas informações, é correto afirmar que $T(20, 24)$ é igual a"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "$(40, 48)$."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "$(48, 40)$."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "$(40, -48)$."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "$(48, -40)$."
+        }
+      ]
+    },
+    {
+      "letra": "E",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "$(-48, -40)$."
+        }
+      ]
+    }
+  ]
+}

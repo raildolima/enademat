@@ -1,0 +1,90 @@
+{
+  "id": "2021-licenciatura-q025",
+  "provaId": "2021-licenciatura",
+  "tipo": "objetiva",
+  "numero": 25,
+  "rotulo": "Questão 25",
+  "parte": "componente-especifico",
+  "ordemCaderno": 30,
+  "paginas": [
+    28
+  ],
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "No Brasil, cerca de 90% das pessoas com mais de 25 anos não poupam dinheiro pensando na aposentadoria, segundo pesquisa feita com base na avaliação da estrutura previdenciária de 70 países. Em locais como Nova Zelândia e Estados Unidos, esse percentual é de cerca de 30% e 40%, respectivamente. Mesmo países emergentes, como a Índia e Rússia, têm percentuais melhores que o brasileiro, algo em torno de 80%. Mas também existem países em situações ainda piores, como Argentina e Egito, onde cerca de 95% da população nessa faixa etária não guarda dinheiro para o futuro."
+    },
+    {
+      "tipo": "fonte",
+      "texto": "Disponível em: https://www.infomoney.com.br. Acesso em: 28 jun. 2020 (adaptado)."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Ao se analisar a qualidade final dos sistemas previdenciários, pode-se observar a situação de alguns países e a posição do Brasil neste ranking, como demonstra a representação gráfica a seguir."
+    },
+    {
+      "tipo": "imagem",
+      "src": "/figuras/2021-licenciatura/q025-f1.webp",
+      "alt": "Gráfico de barras apresentando o ranking de qualidade final dos sistemas previdenciários com notas de 1 a 7."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Obs.: As notas vão de 1 a 7, sendo 1 a melhor nota."
+    },
+    {
+      "tipo": "fonte",
+      "texto": "Disponível em: https://www.infomoney.com.br. Acesso em: 28 jun. 2020 (adaptado)."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Com base no contexto e na representação gráfica apresentados, é correto afirmar que"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "o Brasil apresenta 3,98% da população investindo no sistema previdenciário."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "os países com nota máxima 1 e mínima 7 não foram apresentados neste ranking."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "a Suécia tem a menor nota, sendo, portanto, o país que apresenta o pior sistema previdenciário do mundo."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "o Brasil, dos 70 países participantes da pesquisa, está entre aqueles que apresentam os 10 melhores sistemas previdenciários do mundo."
+        }
+      ]
+    },
+    {
+      "letra": "E",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "o índice dos 5 países com os melhores sistemas previdenciários do mundo está, no mínimo, a 0,94 pontos do Brasil."
+        }
+      ]
+    }
+  ]
+}

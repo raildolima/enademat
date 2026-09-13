@@ -1,0 +1,94 @@
+{
+  "id": "2021-licenciatura-q029",
+  "provaId": "2021-licenciatura",
+  "tipo": "objetiva",
+  "numero": 29,
+  "rotulo": "Questão 29",
+  "parte": "componente-especifico",
+  "ordemCaderno": 34,
+  "paginas": [
+    31
+  ],
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Etnomatemática não é apenas o estudo de “matemáticas das diversas etnias”. Criei essa palavra para significar que há várias maneiras, técnicas, habilidades (ticas) de explicar, de entender, de lidar e de conviver com (matema) distintos contextos naturais e socioeconômicos da realidade (etnos). A disciplina denominada Matemática é, na verdade, uma etnomatemática que se originou e se desenvolveu na Europa mediterrânea, tendo recebido algumas contribuições das civilizações indiana e islâmica, e que chegou à forma atual nos séculos XVI e XVII, sendo, a partir de então, levada e imposta a todo o mundo. Hoje, essa matemática adquire um caráter de universalidade, sobretudo devido ao predomínio da ciência e tecnologia modernas, que foram desenvolvidas a partir do século XVII na Europa. Essa universalização é um exemplo do processo de globalização que estamos testemunhando em todas as atividades e áreas de conhecimento."
+    },
+    {
+      "tipo": "fonte",
+      "texto": "D’AMBROSIO, Ubiratan. Sociedade, cultura, matemática e seu ensino. Educação e Pesquisa, São Paulo, v. 31, n. 1, p. 99-120, jan./abr. 2005 (adaptado)."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "A reflexão que o texto promove vai ao encontro do comprometimento docente com a prática pedagógica de modo a acompanhar a evolução do conhecimento matemático. A partir dessa perspectiva, avalie as afirmações a seguir."
+    },
+    {
+      "tipo": "afirmativas",
+      "itens": [
+        {
+          "rotulo": "I",
+          "texto": "O recurso à história da matemática serve de contexto para introduzir e problematizar ideias matemáticas."
+        },
+        {
+          "rotulo": "II",
+          "texto": "O currículo para o ensino de matemática deve se articular com diferentes áreas para possibilitar o desenvolvimento do pensamento analítico."
+        },
+        {
+          "rotulo": "III",
+          "texto": "O professor precisa valorizar a utilização de diferentes e novas tecnologias na sala de aula com a finalidade de verificar principalmente as competências individuais do aluno."
+        }
+      ]
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "É correto o que se afirma em"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "I, apenas."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "III, apenas."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "I e II, apenas."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "II e III, apenas."
+        }
+      ]
+    },
+    {
+      "letra": "E",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "I, II e III."
+        }
+      ]
+    }
+  ]
+}

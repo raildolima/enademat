@@ -1,0 +1,98 @@
+{
+  "id": "2021-licenciatura-q035",
+  "provaId": "2021-licenciatura",
+  "tipo": "objetiva",
+  "numero": 35,
+  "rotulo": "Questão 35",
+  "parte": "componente-especifico",
+  "ordemCaderno": 40,
+  "paginas": [
+    35
+  ],
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "As redes sociais promovem formas de interação entre indivíduos agrupados por interesses mútuos, identidades semelhantes e também por valores compartilhados. Nesse contexto, a Internet vem se tornando um importante espaço para movimentos sociais por possibilitar uma acelerada e ampla difusão de ideias e absorção de novos elementos em busca de algo em comum. Assim, os movimentos sociais se fazem valer cada vez mais da “democracia informacional”, da “ciberdemocracia” e da prática do “ciberativismo”."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "A partir das ideias sobre comunicação e interação virtual, avalie as afirmações a seguir."
+    },
+    {
+      "tipo": "afirmativas",
+      "itens": [
+        {
+          "rotulo": "I",
+          "texto": "Os movimentos sociais tendem a perder força, prestígio e visibilidade com o crescimento da virtualidade junto à nova geração de jovens e adultos."
+        },
+        {
+          "rotulo": "II",
+          "texto": "Ciberdemocracia, democracia informacional e ciberativismo podem ser classificados como movimentos advindos da virtualidade."
+        },
+        {
+          "rotulo": "III",
+          "texto": "As redes sociais potencializam o ativismo fazendo uso da virtualidade, no entanto, ainda são pouco exploradas pelos movimentos sociais da atualidade."
+        },
+        {
+          "rotulo": "IV",
+          "texto": "Tempo e espaço são conceitos a serem repensados a partir da inserção cada vez maior da virtualidade na vida social."
+        },
+        {
+          "rotulo": "V",
+          "texto": "É papel do educador formar e preparar os alunos para uma atuação responsável e crítica frente à virtualidade, explorando suas potencialidades."
+        }
+      ]
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "É correto apenas o que se afirma em"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "I, II e III."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "I, III e IV."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "I, IV e V."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "II, III e V."
+        }
+      ]
+    },
+    {
+      "letra": "E",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "II, IV e V."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "2021-licenciatura-q015",
+  "provaId": "2021-licenciatura",
+  "tipo": "objetiva",
+  "numero": 15,
+  "rotulo": "Questão 15",
+  "parte": "componente-especifico",
+  "ordemCaderno": 20,
+  "paginas": [
+    21
+  ],
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Considerando que, dados os inteiros $m$ e $n$, o $\\operatorname{mdc}(m, n)$ é o maior divisor comum, e o $\\operatorname{mmc}(m, n)$ é o menor múltiplo comum de $m$ e $n$, avalie as afirmações a seguir."
+    },
+    {
+      "tipo": "afirmativas",
+      "itens": [
+        {
+          "rotulo": "I",
+          "texto": "O resto da divisão de $7 \\times 18 - 2$ por 7 é 5."
+        },
+        {
+          "rotulo": "II",
+          "texto": "Se $m = 7 \\times 22 + 5$ e $n = 7 \\times 38 + 6$, o resto da divisão de $m + n$ por 7 é 3."
+        },
+        {
+          "rotulo": "III",
+          "texto": "O $\\operatorname{mmc}(m, n)$ é um divisor do $\\operatorname{mdc}(m, n)$."
+        },
+        {
+          "rotulo": "IV",
+          "texto": "$\\operatorname{mdc}(m, n) \\times \\operatorname{mmc}(m, n) = m \\times n$."
+        }
+      ]
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "É correto apenas o que se afirma em"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "I e III."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "I e IV."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "II e III."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "I, II e IV."
+        }
+      ]
+    },
+    {
+      "letra": "E",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "II, III e IV."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "2021-licenciatura-q016",
+  "provaId": "2021-licenciatura",
+  "tipo": "objetiva",
+  "numero": 16,
+  "rotulo": "Questão 16",
+  "parte": "componente-especifico",
+  "ordemCaderno": 21,
+  "paginas": [
+    21
+  ],
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "A modalidade de Ensino a Distância (EaD) está cada vez mais presente na sociedade, principalmente nos cursos de licenciatura de diversas áreas; por exemplo, no de licenciatura em Matemática. Na atualidade, os avanços das tecnologias da informação e comunicação (TIC) oferecem diferentes possibilidades e desafios, além de novas concepções e práticas de avaliação. Acredita-se ser essencial que a avaliação da aprendizagem na modalidade a distância se caracterize como um processo contínuo e formativo, possibilitando não só o acompanhamento da aprendizagem discente, mas também o desenvolvimento da autonomia crítica do aluno. E o EaD, com diferentes recursos e meios, pode estimular a aprendizagem do estudante no processo de ensino dos conteúdos matemáticos."
+    },
+    {
+      "tipo": "fonte",
+      "texto": "Disponível em: http://www.ucs.br. Acesso em: 6 jun. 2020 (adaptado)."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "A partir do tema tratado no texto, avalie as afirmações a seguir."
+    },
+    {
+      "tipo": "afirmativas",
+      "itens": [
+        {
+          "rotulo": "I",
+          "texto": "Dado que a avaliação é um processo contínuo e formativo, no qual devam ser considerados vários aspectos e condições de ensino dos conteúdos matemáticos, as características próprias do EaD precisam ser levadas em conta no processo de avaliação da aprendizagem dos alunos."
+        },
+        {
+          "rotulo": "II",
+          "texto": "A modalidade de EaD tem características próprias de ensino que devem ser consideradas na avaliação dos alunos, por isso, deve privilegiar o processo formativo no ensino e aprendizagem dos conteúdos matemáticos."
+        },
+        {
+          "rotulo": "III",
+          "texto": "Os avanços das TIC oferecem diversas possibilidades de ensino dos conteúdos matemáticos, por isso, a modalidade de EaD deve utilizar os inúmeros recursos tecnológicos disponíveis para favorecer a aprendizagem dos alunos e criar novas formas de avaliação."
+        }
+      ]
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "É correto o que se afirma em"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "I, apenas."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "II, apenas."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "I e III, apenas."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "II e III, apenas."
+        }
+      ]
+    },
+    {
+      "letra": "E",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "I, II e III."
+        }
+      ]
+    }
+  ]
+}

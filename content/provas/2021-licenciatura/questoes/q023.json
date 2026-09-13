@@ -1,0 +1,94 @@
+{
+  "id": "2021-licenciatura-q023",
+  "provaId": "2021-licenciatura",
+  "tipo": "objetiva",
+  "numero": 23,
+  "rotulo": "Questão 23",
+  "parte": "componente-especifico",
+  "ordemCaderno": 28,
+  "paginas": [
+    26
+  ],
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Para se chegar à resolução de alguns problemas geométricos, pode haver mais de um caminho; por exemplo, quando se pede que, dado um triângulo equilátero ABC, seja determinado um ponto P, no interior ou sobre os lados do triângulo, de tal modo que a soma das distâncias de P a cada um dos três lados seja mínima. A resposta desse problema é interessante, pois qualquer que seja a posição do ponto P, a soma das distâncias a cada lado do triângulo é sempre a mesma: a altura do triângulo, nesse caso. Para resolver esse problema, pode-se utilizar a geometria analítica ou as transformações geométricas."
+    },
+    {
+      "tipo": "fonte",
+      "texto": "VELOSO, E. Geometria: temas actuais. Material para professores. Instituto de Educação Educacional, Lisboa, 1998 (adaptado)."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Com base no texto apresentado, avalie as informações a seguir."
+    },
+    {
+      "tipo": "afirmativas",
+      "itens": [
+        {
+          "rotulo": "I",
+          "texto": "A utilização da resolução de problemas geométricos nas aulas de Matemática permite que o professor aborde situações em diversos contextos e, ao mesmo tempo, trabalhe, de forma didática com os alunos, o rigor e a formalidade matemáticos."
+        },
+        {
+          "rotulo": "II",
+          "texto": "A resolução de problemas geométricos nas aulas de Matemática, para que seja válida, exige do aluno rigor e formalidade, além da necessidade de apresentar mais de um caminho para a resposta."
+        },
+        {
+          "rotulo": "III",
+          "texto": "O professor, ao utilizar o problema geométrico citado, na aula de Matemática, deve explicar a resolução com rigor e formalidade, para que os alunos abstraiam e memorizem o raciocínio empregado e passem a adotá-lo daí em diante, na solução dos demais problemas matemáticos."
+        }
+      ]
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "É correto o que se afirma em"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "I, apenas."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "III, apenas."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "I e II, apenas."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "II e III, apenas."
+        }
+      ]
+    },
+    {
+      "letra": "E",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "I, II e III."
+        }
+      ]
+    }
+  ]
+}

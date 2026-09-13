@@ -1,0 +1,30 @@
+{
+  "id": "2021-licenciatura-d03",
+  "provaId": "2021-licenciatura",
+  "tipo": "discursiva",
+  "numero": 3,
+  "rotulo": "Questão Discursiva 3",
+  "parte": "componente-especifico",
+  "ordemCaderno": 11,
+  "paginas": [
+    14
+  ],
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "A Base Nacional Comum Curricular (BNCC), para o Ensino Médio, contempla a habilidade “de construir e interpretar tabelas e gráficos de frequências com base em dados obtidos em pesquisas por amostras estatísticas, incluindo ou não o uso de softwares que inter-relacionem estatística, geometria e álgebra, no eixo de estatística e probabilidade.”"
+    },
+    {
+      "tipo": "fonte",
+      "texto": "BRASIL. Ministério da Educação. Secretaria de Educação Básica. Base Nacional Comum Curricular (BNCC). Brasília, 2018 (adaptado)."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "A fim de desenvolver em seus alunos a habilidade descrita na BNCC, um professor de Matemática optou por fazer uso de um software de geometria dinâmica que reúne recursos de geometria, álgebra, cálculo e estatística."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Considerando a habilidade curricular a ser desenvolvida e o recurso tecnológico mencionado, discorra sobre duas vantagens e duas desvantagens do uso dessa estratégia didática pelo professor. (valor: 10,0 pontos)"
+    }
+  ]
+}

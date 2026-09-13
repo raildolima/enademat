@@ -1,0 +1,98 @@
+{
+  "id": "2021-licenciatura-q014",
+  "provaId": "2021-licenciatura",
+  "tipo": "objetiva",
+  "numero": 14,
+  "rotulo": "Questão 14",
+  "parte": "componente-especifico",
+  "ordemCaderno": 19,
+  "paginas": [
+    20
+  ],
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Para demonstrar a importância do uso de novas tecnologias na Educação Básica, uma professora de Matemática propôs o problema a seguir, que envolve medidas estatísticas de um conjunto de dados."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Uma loja vende quatro tipos de bicicletas com os seguintes preços por unidade: a bicicleta da marca A custa R\\$ 150,00; a da marca B, R\\$ 250,00; a da marca C, R\\$ 300,00; e a da marca D, R\\$ 400,00. Em uma semana, foram vendidas 11 bicicletas na seguinte ordem de marcas: A, D, D, D, B, D, B, D, B, B e A."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Utilizando um software estatístico, a professora mostrou que é possível encontrar a média, a mediana e a moda do conjunto dos valores das vendas das bicicletas (obtidos na mesma ordem de venda)."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Considerando a situação apresentada, avalie as afirmações a seguir."
+    },
+    {
+      "tipo": "afirmativas",
+      "itens": [
+        {
+          "rotulo": "I",
+          "texto": "A média do conjunto dos valores das vendas das bicicletas é igual ao valor de uma bicicleta da marca C."
+        },
+        {
+          "rotulo": "II",
+          "texto": "A mediana e a moda do conjunto dos valores das vendas das bicicletas são iguais."
+        },
+        {
+          "rotulo": "III",
+          "texto": "A mediana do conjunto dos valores das vendas das bicicletas é maior que a média desses valores."
+        }
+      ]
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "É correto o que se afirma em"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "I, apenas."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "II, apenas."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "I e III, apenas."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "II e III, apenas."
+        }
+      ]
+    },
+    {
+      "letra": "E",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "I, II e III."
+        }
+      ]
+    }
+  ]
+}

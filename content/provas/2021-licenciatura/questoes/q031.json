@@ -1,0 +1,94 @@
+{
+  "id": "2021-licenciatura-q031",
+  "provaId": "2021-licenciatura",
+  "tipo": "objetiva",
+  "numero": 31,
+  "rotulo": "Questão 31",
+  "parte": "componente-especifico",
+  "ordemCaderno": 36,
+  "paginas": [
+    32
+  ],
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Os quilombolas, compreendidos também como povos ou comunidades tradicionais, exigem que as políticas públicas a eles destinadas considerem a sua inter-relação com as dimensões históricas, políticas, econômicas, sociais, culturais e educacionais que acompanham a constituição dos quilombos no Brasil. Consequentemente, a Educação Escolar Quilombola não pode ser pensada somente se levando em conta os aspectos normativos, burocráticos e institucionais relacionados à configuração das políticas educacionais. A sua implementação deverá ser sempre acompanhada de consulta prévia e realizada pelo poder público junto às comunidades quilombolas e suas organizações."
+    },
+    {
+      "tipo": "fonte",
+      "texto": "BRASIL/CNE. Parecer CNE/CEB n. 16/2012. Diretrizes Curriculares Nacionais para a Educação Escolar Quilombola, 2012 (adaptado)."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Considerando o texto e as discussões sobre políticas de articulação escola/comunidade quilombola, avalie as afirmações a seguir."
+    },
+    {
+      "tipo": "afirmativas",
+      "itens": [
+        {
+          "rotulo": "I",
+          "texto": "A relação entre educação e movimentos sociais na educação quilombola objetiva adequar essa organização cultural ao sistema educacional."
+        },
+        {
+          "rotulo": "II",
+          "texto": "A história, a memória, o território, a ancestralidade e os conhecimentos tradicionais da comunidade quilombola são aspectos considerados na garantia do direito à educação quilombola."
+        },
+        {
+          "rotulo": "III",
+          "texto": "O papel da comunidade quilombola é determinante nos processos decisórios acerca da educação escolar a ser nela implementada."
+        }
+      ]
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "É correto o que se afirma em"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "I, apenas."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "II, apenas."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "I e III, apenas."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "II e III, apenas."
+        }
+      ]
+    },
+    {
+      "letra": "E",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "I, II e III."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "2021-licenciatura-d04",
+  "provaId": "2021-licenciatura",
+  "tipo": "discursiva",
+  "numero": 4,
+  "rotulo": "Questão Discursiva 4",
+  "parte": "componente-especifico",
+  "ordemCaderno": 12,
+  "paginas": [
+    15
+  ],
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Uma sequência de números reais é uma função $x : \\mathbb{N} \\to \\mathbb{R}$, que associa a cada número natural $n$ um número real $x_n$, chamado o $n$-ésimo termo da sequência."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Dizemos que uma sequência $(x_n)_{n \\in \\mathbb{N}}$ de números reais converge para o número real $L$ se, dado $\\varepsilon > 0$, existe $n_0$ tal que $n > n_0$ implica $|x_n - L| < \\varepsilon$, e escrevemos $\\lim_{n \\to \\infty} x_n = L$."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Dada uma sequência $x = (x_n)_{n \\in \\mathbb{N}}$ de números reais, uma subsequência de $x$ é a restrição da função $x$ a um subconjunto infinito $\\mathbb{N}' \\subset \\mathbb{N}$."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Pode-se estabelecer, ainda, muitos resultados sobre convergência de sequências e subsequências."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Considerando as informações e a sequência apresentadas, faça o que se pede nos itens a seguir."
+    }
+  ],
+  "itens": [
+    {
+      "rotulo": "a",
+      "texto": "Mostre que $\\lim_{n \\to \\infty} x_n = a$ se, e somente se, $\\lim_{n \\to \\infty} x_{2n} = \\lim_{n \\to \\infty} x_{2n-1} = a$. (valor: 6,0 pontos)"
+    },
+    {
+      "rotulo": "b",
+      "texto": "Dê exemplo de uma sequência $(x_n)_{n \\in \\mathbb{N}}$ tal que exista $\\lim_{n \\to \\infty} x_{2n}$, mas não exista $\\lim_{n \\to \\infty} x_n$. (valor: 4,0 pontos)"
+    }
+  ]
+}
