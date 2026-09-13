@@ -1,0 +1,32 @@
+{
+  "2021-licenciatura": {
+    "largura": 566.93,
+    "altura": 779.53,
+    "cabecalho_max_y": 70.0,
+    "rodape_min_y": 740.0,
+    "margem_esquerda_min_x": 20.0,
+    "margem_direita_max_x": 546.93,
+    "area_min_figura_raster": 1500.0,
+    "area_min_figura_vetorial": 2000.0
+  },
+  "2025-prova1": {
+    "largura": 636.61,
+    "altura": 849.21,
+    "cabecalho_max_y": 100.0,
+    "rodape_min_y": 785.0,
+    "margem_esquerda_min_x": 35.0,
+    "margem_direita_max_x": 600.0,
+    "area_min_figura_raster": 1500.0,
+    "area_min_figura_vetorial": 2000.0
+  },
+  "2025-prova5": {
+    "largura": 566.93,
+    "altura": 779.53,
+    "cabecalho_max_y": 70.0,
+    "rodape_min_y": 740.0,
+    "margem_esquerda_min_x": 20.0,
+    "margem_direita_max_x": 546.93,
+    "area_min_figura_raster": 1500.0,
+    "area_min_figura_vetorial": 2000.0
+  }
+}

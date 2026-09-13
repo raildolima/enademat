@@ -24,7 +24,7 @@ Registrado em: 2026-09-13
 | Fase | Descrição | Status | Detalhes |
 |---|---|---|---|
 | **Fase 0** | Fundação | ✅ Concluída | Git, venv Python, scaffold Vite, dependências, agentes, regras e hooks validados |
-| **Fase 1** | Inventário | ⏳ Não iniciada | Renderização PNG, texto auxiliar, mapa questão→página, gabaritos JSON |
+| **Fase 1** | Inventário | ✅ Concluída | 136 páginas renderizadas com grade, 3 gabaritos conferidos 100%, 202 questões mapeadas |
 | **Fase 2** | Dados e Validador (TDD) | ⏳ Não iniciada | `schema.ts`, `validate.ts`, `build.ts`, fixtures q032, testes unitários |
 | **Fase 3** | Figuras | ⏳ Não iniciada | Manifesto de figuras e recortes WebP aprovados |
 | **Fase 4** | Transcrição | ⏳ Não iniciada | 202 questões transcritas e auditadas |
@@ -35,6 +35,13 @@ Registrado em: 2026-09-13
 ---
 
 ## 3. Log de Atualizações e Checkpoints
+- **2026-09-13**: Conclusão da Fase 1 (Inventário das Provas e Gabaritos).
+  - Scripts `inventario.py`, `renderizar_paginas.py`, `candidatos_figuras.py` e `extrair_gabaritos.py` implementados e executados.
+  - 136 páginas das 3 provas renderizadas limpas (`work/paginas/`) e com grade de coordenadas em pt (`work/paginas-grade/`).
+  - Candidatos de figuras raster e vetoriais detectados e anotados (`work/candidatos/`).
+  - Metadados das 3 provas salvos em `content/provas/<provaId>/prova.json`.
+  - Dupla conferência de gabaritos executada contra a seção 0.7: 100% de coincidência nas 3 provas (zero divergências). Arquivos `gabarito.json` salvos.
+  - Mapeamento completo das 202 questões e textos-base formalizado em `docs/MAPA-QUESTOES.md`.
 - **2026-09-13**: Conclusão da Fase 0 (Fundação).
   - Hashes SHA-256 dos 6 PDFs conferidos e salvos.
   - Repositório Git inicializado com `.gitignore`.

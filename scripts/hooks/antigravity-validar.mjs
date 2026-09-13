@@ -4,7 +4,11 @@ import { execSync } from 'node:child_process';
 let entrada = '';
 process.stdin.on('data', (parte) => (entrada += parte));
 process.stdin.on('end', () => {
-  if (!existsSync('scripts/content/validate.ts')) {
+  const validateScript = existsSync('scripts/content/validate.ts')
+    ? 'scripts/content/validate.ts'
+    : (existsSync('../scripts/content/validate.ts') ? '../scripts/content/validate.ts' : null);
+
+  if (!validateScript) {
     process.exit(0);
   }
 
@@ -14,8 +18,8 @@ process.stdin.on('end', () => {
 
   for (const caminho of encontrados) {
     try {
-      execSync(`npx tsx scripts/content/validate.ts --arquivo "${caminho}"`, {
-        stdio: 'inherit',
+      execSync(`npx tsx ${validateScript} --arquivo "${caminho}"`, {
+        stdio: ['pipe', 'ignore', 'inherit'],
       });
     } catch (err) {
       console.error(`[HOOK VALIDAÇÃO FALHOU]: ${caminho}`);

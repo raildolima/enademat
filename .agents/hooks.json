@@ -7,7 +7,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "node scripts/hooks/antigravity-validar.mjs",
+            "command": "node ../scripts/hooks/antigravity-validar.mjs",
             "timeout": 90
           }
         ]
@@ -22,7 +22,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "node scripts/hooks/antigravity-proteger.mjs",
+            "command": "node ../scripts/hooks/antigravity-proteger.mjs",
             "timeout": 10
           }
         ]

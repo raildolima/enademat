@@ -1,0 +1,11 @@
+{
+  "id": "2021-licenciatura",
+  "ano": 2021,
+  "ordem": 1,
+  "titulo": "ENADE 2021 · Matemática (Licenciatura)",
+  "subtitulo": "Licenciatura",
+  "arquivoProva": "2021 - Matemática - Licenciatura - Prova.pdf",
+  "arquivoGabarito": "2021 - Matemática - Licenciatura - Gabarito.pdf",
+  "alternativasPorQuestao": 5,
+  "linhasDiscursiva": 15
+}
