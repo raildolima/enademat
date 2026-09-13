@@ -80,3 +80,19 @@ export interface IndiceProvas {
   provas: Prova[];
   questoes: ResumoQuestao[];
 }
+
+export interface ProvaCompleta {
+  prova: Prova;
+  gabarito: Gabarito | null;
+  textosBase: Record<string, TextoBase>;
+  questoes: Questao[];
+  resolucoes: Record<string, string>;
+}
+
+export interface FiltrosQuestoes {
+  ano?: number | 'todos';
+  provaId?: ProvaId | 'todas';
+  parte?: Parte | 'todas';
+  tipo?: 'objetiva' | 'discursiva' | 'todas';
+  termo?: string;
+}

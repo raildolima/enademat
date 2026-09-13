@@ -1,0 +1,154 @@
+@import "./tokens.css";
+@import "katex/dist/katex.min.css";
+
+/* Reset básico e tipografia */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: var(--tamanho-base);
+  color-scheme: light dark;
+}
+
+body {
+  font-family: var(--fonte-padrao);
+  line-height: var(--altura-linha);
+  color: var(--cor-texto-principal);
+  background-color: var(--cor-fundo);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Acessibilidade: Navegação por Teclado e Foco Visível */
+:focus-visible {
+  outline: 3px solid var(--cor-foco);
+  outline-offset: 2px;
+  border-radius: var(--raio-sm);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.skip-link {
+  position: absolute;
+  top: -100px;
+  left: var(--espaco-4);
+  background: var(--cor-primaria);
+  color: var(--cor-texto-inverso);
+  padding: var(--espaco-2) var(--espaco-4);
+  font-weight: 600;
+  border-radius: 0 0 var(--raio-md) var(--raio-md);
+  z-index: 1000;
+  text-decoration: none;
+  transition: top var(--transicao-rapida);
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+/* Links */
+a {
+  color: var(--cor-primaria);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: color var(--transicao-rapida);
+}
+
+a:hover {
+  color: var(--cor-primaria-hover);
+}
+
+/* Botões base */
+button {
+  font-family: inherit;
+  font-size: 1rem;
+  line-height: inherit;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+}
+
+/* Imagens */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Tabelas com rolagem */
+.tabela-container {
+  width: 100%;
+  overflow-x: auto;
+  margin: var(--espaco-4) 0;
+  border: 1px solid var(--cor-borda);
+  border-radius: var(--raio-md);
+  background-color: var(--cor-superficie);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 0.95rem;
+}
+
+th, td {
+  padding: var(--espaco-3) var(--espaco-4);
+  border-bottom: 1px solid var(--cor-borda-suave);
+}
+
+th {
+  background-color: var(--cor-superficie-hover);
+  font-weight: 600;
+  color: var(--cor-texto-principal);
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+/* Ajustes para fórmulas KaTeX */
+.katex {
+  font-size: 1.05em;
+  text-rendering: auto;
+}
+
+.katex-display {
+  margin: var(--espaco-3) 0 !important;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: var(--espaco-2) 0;
+}
+
+/* Impressão */
+@media print {
+  body {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  .skip-link, nav, button, .nao-imprimir {
+    display: none !important;
+  }
+}

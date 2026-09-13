@@ -1,0 +1,75 @@
+.layoutContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.cabecalhoApp {
+  background-color: var(--cor-superficie);
+  border-bottom: 1px solid var(--cor-borda);
+  padding: var(--espaco-3) var(--espaco-4);
+  box-shadow: var(--sombra-sm);
+}
+
+.cabecalhoConteudo {
+  max-width: var(--largura-maxima);
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logoLink {
+  display: flex;
+  align-items: center;
+  gap: var(--espaco-2);
+  text-decoration: none;
+  color: var(--cor-texto-principal);
+}
+
+.logoLink:hover {
+  text-decoration: none;
+}
+
+.logoIcone {
+  font-size: 1.4rem;
+}
+
+.logoTexto {
+  font-size: 1.15rem;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+}
+
+.logoSubtexto {
+  font-size: 0.85rem;
+  color: var(--cor-texto-atenuado);
+  font-weight: 500;
+  display: block;
+}
+
+.conteudoPrincipal {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.rodapeApp {
+  background-color: var(--cor-superficie);
+  border-top: 1px solid var(--cor-borda-suave);
+  padding: var(--espaco-6) var(--espaco-4);
+  margin-top: auto;
+}
+
+.rodapeConteudo {
+  max-width: var(--largura-maxima);
+  margin: 0 auto;
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--cor-texto-atenuado);
+  line-height: 1.6;
+}
+
+.rodapeAviso {
+  margin-top: var(--espaco-1);
+}

@@ -1,0 +1,66 @@
+.cartaoGabarito {
+  background-color: var(--cor-superficie);
+  border: 1px solid var(--cor-borda);
+  border-radius: var(--raio-lg);
+  padding: var(--espaco-5);
+  margin-bottom: var(--espaco-6);
+  box-shadow: var(--sombra-sm);
+}
+
+.cabecalhoGabarito {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--espaco-3);
+  padding-bottom: var(--espaco-2);
+  border-bottom: 1px solid var(--cor-borda-suave);
+  flex-wrap: wrap;
+  gap: var(--espaco-2);
+}
+
+.letraGabaritoTexto {
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: var(--cor-sucesso);
+}
+
+.conteudoAlternativaCorreta {
+  margin-top: var(--espaco-2);
+  padding: var(--espaco-3);
+  background-color: var(--cor-superficie-hover);
+  border-radius: var(--raio-md);
+  border-left: 4px solid var(--cor-sucesso);
+}
+
+.feedbackMarcacao {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--espaco-2);
+  padding: var(--espaco-2) var(--espaco-3);
+  border-radius: var(--raio-md);
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.feedbackCorreta {
+  background-color: var(--cor-sucesso-fundo);
+  color: var(--cor-sucesso);
+  border: 1px solid var(--cor-sucesso-borda);
+}
+
+.feedbackIncorreta {
+  background-color: var(--cor-erro-fundo);
+  color: var(--cor-erro);
+  border: 1px solid var(--cor-erro-borda);
+}
+
+.iconeStatus {
+  font-size: 1.1rem;
+  font-weight: 800;
+}
+
+.discursivaTitulo {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--cor-primaria);
+}

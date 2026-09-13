@@ -1,0 +1,77 @@
+.filtrosContainer {
+  background-color: var(--cor-superficie);
+  border: 1px solid var(--cor-borda);
+  border-radius: var(--raio-lg);
+  padding: var(--espaco-5);
+  margin-bottom: var(--espaco-6);
+  box-shadow: var(--sombra-sm);
+}
+
+.filtrosGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: var(--espaco-4);
+  align-items: flex-end;
+}
+
+.campoGrupo {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espaco-1);
+}
+
+.rotuloCampo {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--cor-texto-secundario);
+}
+
+.selectCampo,
+.inputCampo {
+  width: 100%;
+  padding: var(--espaco-2) var(--espaco-3);
+  font-size: 0.95rem;
+  font-family: inherit;
+  color: var(--cor-texto-principal);
+  background-color: var(--cor-superficie);
+  border: 1px solid var(--cor-borda);
+  border-radius: var(--raio-md);
+  transition: border-color var(--transicao-rapida), box-shadow var(--transicao-rapida);
+}
+
+.selectCampo:focus,
+.inputCampo:focus {
+  border-color: var(--cor-foco);
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2);
+}
+
+.buscaGrupo {
+  grid-column: 1 / -1;
+}
+
+.rodapeFiltros {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: var(--espaco-4);
+  padding-top: var(--espaco-3);
+  border-top: 1px solid var(--cor-borda-suave);
+  font-size: 0.9rem;
+  color: var(--cor-texto-secundario);
+}
+
+.btnLimpar {
+  background: none;
+  border: none;
+  color: var(--cor-primaria);
+  font-weight: 600;
+  cursor: pointer;
+  padding: var(--espaco-1) var(--espaco-2);
+  border-radius: var(--raio-sm);
+  text-decoration: underline;
+}
+
+.btnLimpar:hover {
+  color: var(--cor-primaria-hover);
+}

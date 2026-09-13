@@ -1,0 +1,30 @@
+.paginaBanco {
+  width: 100%;
+  max-width: var(--largura-maxima);
+  margin: 0 auto;
+  padding: var(--espaco-6) var(--espaco-4);
+}
+
+.cabecalhoPagina {
+  margin-bottom: var(--espaco-6);
+}
+
+.tituloPrincipal {
+  font-size: 1.85rem;
+  font-weight: 800;
+  color: var(--cor-texto-principal);
+  margin-bottom: var(--espaco-2);
+}
+
+.subtituloPrincipal {
+  font-size: 1.05rem;
+  color: var(--cor-texto-secundario);
+}
+
+.carregandoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: var(--espaco-12);
+  color: var(--cor-texto-secundario);
+}

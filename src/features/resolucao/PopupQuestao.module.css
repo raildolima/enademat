@@ -1,0 +1,79 @@
+.btnGatilho {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--espaco-2);
+  padding: var(--espaco-2) var(--espaco-4);
+  background-color: var(--cor-superficie);
+  color: var(--cor-primaria);
+  border: 1px solid var(--cor-primaria);
+  border-radius: var(--raio-md);
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all var(--transicao-rapida);
+}
+
+.btnGatilho:hover,
+.btnGatilho[aria-expanded="true"] {
+  background-color: var(--cor-primaria-fundo);
+  border-color: var(--cor-primaria-hover);
+}
+
+.popupCaixa {
+  width: min(720px, 92vw);
+  max-height: 70vh;
+  overflow-y: auto;
+  background-color: var(--cor-superficie);
+  border: 1px solid var(--cor-borda);
+  border-radius: var(--raio-lg);
+  box-shadow: var(--sombra-popup);
+  padding: var(--espaco-5);
+  z-index: 1000;
+  animation: fadeIn var(--transicao-rapida);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.cabecalhoPopup {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--espaco-4);
+  padding-bottom: var(--espaco-2);
+  border-bottom: 1px solid var(--cor-borda-suave);
+}
+
+.tituloPopup {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--cor-texto-principal);
+}
+
+.btnFechar {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--espaco-1) var(--espaco-3);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--cor-texto-secundario);
+  background-color: var(--cor-superficie-hover);
+  border: 1px solid var(--cor-borda);
+  border-radius: var(--raio-sm);
+  cursor: pointer;
+  transition: background-color var(--transicao-rapida);
+}
+
+.btnFechar:hover {
+  background-color: var(--cor-superficie-ativa);
+  color: var(--cor-texto-principal);
+}

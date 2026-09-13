@@ -1,0 +1,127 @@
+.containerQuestao {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espaco-6);
+  max-width: var(--largura-leitura);
+  margin: 0 auto;
+}
+
+.secaoTextoBase {
+  background-color: var(--cor-superficie);
+  border: 1px solid var(--cor-borda);
+  border-left: 4px solid var(--cor-primaria);
+  padding: var(--espaco-5);
+  border-radius: var(--raio-md);
+  box-shadow: var(--sombra-sm);
+}
+
+.tituloTextoBase {
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--cor-primaria);
+  margin-bottom: var(--espaco-3);
+  display: flex;
+  align-items: center;
+  gap: var(--espaco-2);
+}
+
+.secaoEnunciado {
+  background-color: var(--cor-superficie);
+  border: 1px solid var(--cor-borda-suave);
+  padding: var(--espaco-6);
+  border-radius: var(--raio-lg);
+  box-shadow: var(--sombra-sm);
+}
+
+.alternativasLista {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espaco-3);
+  margin-top: var(--espaco-4);
+}
+
+.alternativaItem {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--espaco-3);
+  padding: var(--espaco-3) var(--espaco-4);
+  background-color: var(--cor-superficie);
+  border: 2px solid var(--cor-borda-suave);
+  border-radius: var(--raio-md);
+  cursor: pointer;
+  transition: all var(--transicao-rapida);
+  user-select: none;
+  text-align: left;
+  width: 100%;
+}
+
+.alternativaItem:hover:not(.somenteLeitura) {
+  border-color: var(--cor-primaria-hover);
+  background-color: var(--cor-superficie-hover);
+}
+
+.alternativaItem.marcada {
+  border-color: var(--cor-primaria);
+  background-color: var(--cor-destaque-fundo);
+}
+
+.alternativaItem.somenteLeitura {
+  cursor: default;
+}
+
+.alternativaLetraCirculo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  min-width: 2rem;
+  border-radius: var(--raio-full);
+  font-weight: 700;
+  font-size: 0.95rem;
+  background-color: var(--cor-superficie-hover);
+  border: 2px solid var(--cor-borda);
+  color: var(--cor-texto-secundario);
+  transition: all var(--transicao-rapida);
+}
+
+.marcada .alternativaLetraCirculo {
+  background-color: var(--cor-primaria);
+  border-color: var(--cor-primaria);
+  color: var(--cor-texto-inverso);
+}
+
+.alternativaConteudo {
+  flex: 1;
+  padding-top: 0.15rem;
+  line-height: var(--altura-linha);
+}
+
+.discursivaItens {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espaco-4);
+  margin-top: var(--espaco-4);
+}
+
+.discursivaItemCard {
+  background-color: var(--cor-superficie-hover);
+  border: 1px solid var(--cor-borda-suave);
+  border-radius: var(--raio-md);
+  padding: var(--espaco-4);
+}
+
+.discursivaItemCabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--espaco-2);
+  font-weight: 700;
+}
+
+.discursivaItemValor {
+  font-size: 0.85rem;
+  color: var(--cor-texto-atenuado);
+}

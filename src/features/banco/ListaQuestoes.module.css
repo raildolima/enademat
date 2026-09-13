@@ -1,0 +1,79 @@
+.grupoProva {
+  margin-bottom: var(--espaco-8);
+}
+
+.tituloGrupo {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--cor-texto-principal);
+  border-bottom: 2px solid var(--cor-borda);
+  padding-bottom: var(--espaco-2);
+  margin-bottom: var(--espaco-4);
+}
+
+.gradeQuestoes {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: var(--espaco-4);
+}
+
+.cardQuestao {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--cor-superficie);
+  border: 1px solid var(--cor-borda-suave);
+  border-radius: var(--raio-lg);
+  padding: var(--espaco-4);
+  text-decoration: none;
+  color: inherit;
+  box-shadow: var(--sombra-sm);
+  transition: transform var(--transicao-rapida), box-shadow var(--transicao-rapida), border-color var(--transicao-rapida);
+}
+
+.cardQuestao:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--sombra-md);
+  border-color: var(--cor-primaria);
+  text-decoration: none;
+}
+
+.cabecalhoCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--espaco-3);
+  gap: var(--espaco-2);
+}
+
+.rotuloQuestao {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--cor-primaria);
+}
+
+.badgesGrupo {
+  display: flex;
+  gap: var(--espaco-1);
+  flex-wrap: wrap;
+}
+
+.previaQuestao {
+  font-size: 0.92rem;
+  color: var(--cor-texto-secundario);
+  line-height: 1.5;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex: 1;
+}
+
+.vazioMensagem {
+  text-align: center;
+  padding: var(--espaco-10);
+  background-color: var(--cor-superficie);
+  border: 1px dashed var(--cor-borda);
+  border-radius: var(--raio-lg);
+  color: var(--cor-texto-secundario);
+}

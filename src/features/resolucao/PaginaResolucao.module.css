@@ -1,0 +1,100 @@
+.paginaResolucao {
+  width: 100%;
+  max-width: var(--largura-maxima);
+  margin: 0 auto;
+  padding: var(--espaco-6) var(--espaco-4);
+}
+
+.barraFixaSuperior {
+  position: sticky;
+  top: 0;
+  background-color: var(--cor-fundo);
+  z-index: 100;
+  border-bottom: 1px solid var(--cor-borda-suave);
+  padding: var(--espaco-3) 0;
+  margin-bottom: var(--espaco-6);
+  backdrop-filter: blur(8px);
+}
+
+.barraFixaConteudo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: var(--largura-leitura);
+  margin: 0 auto;
+  gap: var(--espaco-4);
+}
+
+.tituloResolucao {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: var(--cor-texto-principal);
+}
+
+.corpoResolucao {
+  max-width: var(--largura-leitura);
+  margin: 0 auto;
+}
+
+.avisoResolucaoPendente {
+  background-color: var(--cor-superficie);
+  border: 1px dashed var(--cor-aviso-borda);
+  border-left: 4px solid var(--cor-aviso);
+  padding: var(--espaco-6);
+  border-radius: var(--raio-lg);
+  margin: var(--espaco-6) 0;
+  color: var(--cor-texto-secundario);
+}
+
+.avisoResolucaoPendente h3 {
+  color: var(--cor-aviso);
+  margin-bottom: var(--espaco-2);
+}
+
+.rodapeResolucao {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: var(--largura-leitura);
+  margin: var(--espaco-8) auto 0 auto;
+  padding-top: var(--espaco-4);
+  border-top: 1px solid var(--cor-borda-suave);
+  flex-wrap: wrap;
+  gap: var(--espaco-3);
+}
+
+.btnAcao {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--espaco-2);
+  padding: var(--espaco-2) var(--espaco-4);
+  background-color: var(--cor-superficie);
+  border: 1px solid var(--cor-borda);
+  border-radius: var(--raio-md);
+  color: var(--cor-texto-principal);
+  font-weight: 600;
+  text-decoration: none;
+  transition: all var(--transicao-rapida);
+}
+
+.btnAcao:hover {
+  background-color: var(--cor-superficie-hover);
+  border-color: var(--cor-primaria);
+  text-decoration: none;
+}
+
+.btnAcao.desabilitado {
+  opacity: 0.4;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.carregandoContainer,
+.erroContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--espaco-12);
+  gap: var(--espaco-4);
+}

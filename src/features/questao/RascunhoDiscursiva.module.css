@@ -1,0 +1,45 @@
+.rascunhoContainer {
+  margin-top: var(--espaco-6);
+  background-color: var(--cor-superficie);
+  border: 1px dashed var(--cor-borda);
+  border-radius: var(--raio-md);
+  padding: var(--espaco-4);
+}
+
+.rascunhoCabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--espaco-2);
+}
+
+.rascunhoTitulo {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--cor-texto-secundario);
+}
+
+.rascunhoAviso {
+  font-size: 0.8rem;
+  color: var(--cor-texto-atenuado);
+}
+
+.textareaRascunho {
+  width: 100%;
+  min-height: 180px;
+  padding: var(--espaco-3);
+  font-family: var(--fonte-mono);
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: var(--cor-texto-principal);
+  background-color: var(--cor-fundo);
+  border: 1px solid var(--cor-borda-suave);
+  border-radius: var(--raio-md);
+  resize: vertical;
+}
+
+.textareaRascunho:focus {
+  outline: none;
+  border-color: var(--cor-foco);
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2);
+}

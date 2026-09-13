@@ -1,0 +1,110 @@
+import React, { useState } from 'react';
+import {
+  useFloating,
+  autoUpdate,
+  offset,
+  flip,
+  shift,
+  useHover,
+  useFocus,
+  useDismiss,
+  useRole,
+  useClick,
+  useInteractions,
+  FloatingPortal,
+  safePolygon,
+} from '@floating-ui/react';
+import type { Questao, TextoBase } from '../../data/tipos';
+import { ConteudoQuestao } from '../../components/ConteudoQuestao';
+import styles from './PopupQuestao.module.css';
+
+interface PopupQuestaoProps {
+  questao: Questao;
+  textoBase?: TextoBase;
+}
+
+export const PopupQuestao: React.FC<PopupQuestaoProps> = ({ questao, textoBase }) => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const { refs, floatingStyles, context } = useFloating({
+    open: isOpen,
+    onOpenChange: setIsOpen,
+    placement: 'bottom-start',
+    whileElementsMounted: autoUpdate,
+    middleware: [
+      offset(8),
+      flip({ fallbackAxisSideDirection: 'start' }),
+      shift({ padding: 8 }),
+    ],
+  });
+
+  const hover = useHover(context, {
+    delay: { open: 120, close: 200 },
+    handleClose: safePolygon(),
+  });
+  const focus = useFocus(context);
+  const click = useClick(context);
+  const dismiss = useDismiss(context, {
+    escapeKey: true,
+    outsidePress: true,
+  });
+  const role = useRole(context, { role: 'dialog' });
+
+  const { getReferenceProps, getFloatingProps } = useInteractions([
+    hover,
+    focus,
+    click,
+    dismiss,
+    role,
+  ]);
+
+  const tituloDialogo = `Enunciado da ${questao.rotulo}`;
+
+  return (
+    <>
+      <button
+        ref={refs.setReference}
+        {...getReferenceProps()}
+        type="button"
+        className={styles.btnGatilho}
+        aria-haspopup="dialog"
+        aria-expanded={isOpen}
+      >
+        <span aria-hidden="true">👁️</span>
+        <span>Ver questão</span>
+      </button>
+
+      {isOpen && (
+        <FloatingPortal>
+          <div
+            ref={refs.setFloating}
+            style={floatingStyles}
+            {...getFloatingProps()}
+            className={styles.popupCaixa}
+            role="dialog"
+            aria-label={tituloDialogo}
+          >
+            <div className={styles.cabecalhoPopup}>
+              <span className={styles.tituloPopup}>{tituloDialogo}</span>
+              <button
+                type="button"
+                onClick={() => setIsOpen(false)}
+                className={styles.btnFechar}
+                aria-label="Fechar pop-up da questão"
+              >
+                ✕ Fechar
+              </button>
+            </div>
+
+            {/* Conteúdo completo somente leitura da questão */}
+            <ConteudoQuestao
+              questao={questao}
+              textoBase={textoBase}
+              somenteLeitura={true}
+            />
+          </div>
+        </FloatingPortal>
+      )}
+    </>
+  );
+};

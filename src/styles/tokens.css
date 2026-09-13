@@ -1,0 +1,116 @@
+:root {
+  /* Tipografia */
+  --fonte-padrao: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  --fonte-mono: ui-monospace, "SF Mono", "Cascadia Code", "Roboto Mono", Consolas, "Liberation Mono", Menlo, monospace;
+  --tamanho-base: 17px;
+  --altura-linha: 1.6;
+  --largura-leitura: 72ch;
+  --largura-maxima: 1100px;
+
+  /* Espaçamentos */
+  --espaco-1: 0.25rem;  /* 4px */
+  --espaco-2: 0.5rem;   /* 8px */
+  --espaco-3: 0.75rem;  /* 12px */
+  --espaco-4: 1rem;     /* 16px */
+  --espaco-5: 1.25rem;  /* 20px */
+  --espaco-6: 1.5rem;   /* 24px */
+  --espaco-8: 2rem;     /* 32px */
+  --espaco-10: 2.5rem;  /* 40px */
+  --espaco-12: 3rem;    /* 48px */
+
+  /* Raios de borda */
+  --raio-sm: 4px;
+  --raio-md: 8px;
+  --raio-lg: 12px;
+  --raio-full: 9999px;
+
+  /* Transições */
+  --transicao-rapida: 120ms ease;
+  --transicao-media: 200ms ease;
+
+  /* Cores - Tema Claro (WCAG 2.2 AA Contrast) */
+  --cor-fundo: #f8fafc;           /* slate-50 */
+  --cor-superficie: #ffffff;      /* white */
+  --cor-superficie-hover: #f1f5f9;/* slate-100 */
+  --cor-superficie-ativa: #e2e8f0;/* slate-200 */
+  --cor-destaque-fundo: #eff6ff;  /* blue-50 */
+  
+  --cor-texto-principal: #0f172a; /* slate-900 */
+  --cor-texto-secundario: #475569;/* slate-600 */
+  --cor-texto-atenuado: #64748b;  /* slate-500 */
+  --cor-texto-inverso: #ffffff;
+
+  --cor-borda: #cbd5e1;           /* slate-300 */
+  --cor-borda-suave: #e2e8f0;     /* slate-200 */
+  --cor-borda-forte: #94a3b8;     /* slate-400 */
+
+  --cor-primaria: #1e40af;        /* blue-800 - institucional */
+  --cor-primaria-hover: #1d4ed8;  /* blue-700 */
+  --cor-primaria-fundo: #dbeafe;  /* blue-100 */
+
+  --cor-sucesso: #15803d;         /* green-700 */
+  --cor-sucesso-fundo: #dcfce7;   /* green-100 */
+  --cor-sucesso-borda: #86efac;   /* green-300 */
+
+  --cor-erro: #b91c1c;            /* red-700 */
+  --cor-erro-fundo: #fee2e2;      /* red-100 */
+  --cor-erro-borda: #fca5a5;      /* red-300 */
+
+  --cor-aviso: #b45309;           /* amber-700 */
+  --cor-aviso-fundo: #fef3c7;     /* amber-100 */
+  --cor-aviso-borda: #fde68a;     /* amber-200 */
+
+  --cor-foco: #2563eb;            /* blue-600 */
+  --sombra-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --sombra-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+  --sombra-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+  --sombra-popup: 0 20px 25px -5px rgba(0, 0, 0, 0.15), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --cor-fundo: #0f172a;           /* slate-900 */
+    --cor-superficie: #1e293b;      /* slate-800 */
+    --cor-superficie-hover: #334155;/* slate-700 */
+    --cor-superficie-ativa: #475569;/* slate-600 */
+    --cor-destaque-fundo: #1e3a8a;  /* blue-900 */
+
+    --cor-texto-principal: #f8fafc; /* slate-50 */
+    --cor-texto-secundario: #cbd5e1;/* slate-300 */
+    --cor-texto-atenuado: #94a3b8;  /* slate-400 */
+    --cor-texto-inverso: #0f172a;
+
+    --cor-borda: #475569;           /* slate-600 */
+    --cor-borda-suave: #334155;     /* slate-700 */
+    --cor-borda-forte: #64748b;     /* slate-500 */
+
+    --cor-primaria: #60a5fa;        /* blue-400 */
+    --cor-primaria-hover: #93c5fd;  /* blue-300 */
+    --cor-primaria-fundo: #172554;  /* blue-950 */
+
+    --cor-sucesso: #4ade80;         /* green-400 */
+    --cor-sucesso-fundo: #052e16;   /* green-950 */
+    --cor-sucesso-borda: #166534;   /* green-800 */
+
+    --cor-erro: #f87171;            /* red-400 */
+    --cor-erro-fundo: #450a0a;      /* red-950 */
+    --cor-erro-borda: #991b1b;      /* red-800 */
+
+    --cor-aviso: #fbbf24;           /* amber-400 */
+    --cor-aviso-fundo: #451a03;     /* amber-950 */
+    --cor-aviso-borda: #92400e;     /* amber-800 */
+
+    --cor-foco: #60a5fa;
+    --sombra-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.4);
+    --sombra-md: 0 4px 6px -1px rgba(0, 0, 0, 0.4), 0 2px 4px -2px rgba(0, 0, 0, 0.4);
+    --sombra-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.45), 0 4px 6px -4px rgba(0, 0, 0, 0.45);
+    --sombra-popup: 0 20px 25px -5px rgba(0, 0, 0, 0.5), 0 8px 10px -6px rgba(0, 0, 0, 0.5);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --transicao-rapida: 0ms;
+    --transicao-media: 0ms;
+  }
+}

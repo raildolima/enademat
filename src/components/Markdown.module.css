@@ -1,0 +1,70 @@
+.markdownContainer {
+  line-height: var(--altura-linha);
+  color: var(--cor-texto-principal);
+  max-width: var(--largura-leitura);
+}
+
+.markdownContainer h1,
+.markdownContainer h2,
+.markdownContainer h3,
+.markdownContainer h4 {
+  color: var(--cor-texto-principal);
+  font-weight: 700;
+  margin-top: var(--espaco-6);
+  margin-bottom: var(--espaco-3);
+  line-height: 1.3;
+}
+
+.markdownContainer h2 {
+  font-size: 1.3rem;
+  border-bottom: 2px solid var(--cor-borda-suave);
+  padding-bottom: var(--espaco-1);
+}
+
+.markdownContainer h3 {
+  font-size: 1.1rem;
+}
+
+.markdownContainer p {
+  margin-bottom: var(--espaco-3);
+}
+
+.markdownContainer ul,
+.markdownContainer ol {
+  margin-bottom: var(--espaco-4);
+  padding-left: var(--espaco-6);
+  display: flex;
+  flex-direction: column;
+  gap: var(--espaco-2);
+}
+
+.markdownContainer blockquote {
+  border-left: 4px solid var(--cor-primaria);
+  padding: var(--espaco-2) var(--espaco-4);
+  margin: var(--espaco-4) 0;
+  background-color: var(--cor-superficie-hover);
+  border-radius: 0 var(--raio-md) var(--raio-md) 0;
+  font-style: italic;
+}
+
+.markdownContainer code {
+  font-family: var(--fonte-mono);
+  background-color: var(--cor-superficie-hover);
+  padding: 0.15rem 0.35rem;
+  border-radius: var(--raio-sm);
+  font-size: 0.9em;
+}
+
+.markdownContainer pre {
+  background-color: var(--cor-superficie-hover);
+  padding: var(--espaco-3);
+  border-radius: var(--raio-md);
+  overflow-x: auto;
+  margin: var(--espaco-4) 0;
+}
+
+.markdownContainer hr {
+  border: none;
+  border-top: 1px solid var(--cor-borda);
+  margin: var(--espaco-6) 0;
+}
