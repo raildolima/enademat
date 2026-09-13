@@ -1,0 +1,61 @@
+{
+  "id": "2025-prova1-q035",
+  "provaId": "2025-prova1",
+  "tipo": "objetiva",
+  "numero": 35,
+  "rotulo": "Questão 35",
+  "parte": "componente-especifico",
+  "ordemCaderno": 36,
+  "paginas": [
+    22
+  ],
+  "textoBaseId": "tb-35-37",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Durante uma aula de Matemática na 1ª série do Ensino Médio, a professora propôs uma atividade interativa com apoio de um chatbot de IA, no qual os estudantes poderiam consultar respostas para questões de probabilidade. Um grupo de estudantes digitou a seguinte pergunta para a IA: “Qual é a probabilidade de tirar cara duas vezes ao lançar uma moeda duas vezes?”. A IA respondeu: “A probabilidade é $\\frac{1}{2}$, porque existe chance igual de cara e coroa em cada lançamento”. Ao ler a resposta, a professora percebeu o erro e decidiu utilizá-lo com objetivo de estimular o protagonismo dos estudantes em sua aprendizagem."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Considerando que os estudantes não perceberam o erro identificado pela professora, assinale a intervenção pedagógica adequada para o uso do erro da IA como estratégia de ensino que favoreça a aprendizagem dos estudantes."
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Chamar a atenção para o fato de que a IA não é infalível, apresentando a resposta correta."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Pedir aos estudantes que informem à IA sobre o erro e solicitem que ela reavalie a resposta fornecida."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Solicitar aos estudantes que representem a situação utilizando uma árvore de possibilidades e avaliem a veracidade da resposta da IA."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Rever o uso da tecnologia, em especial a IA, como apoio ao estudo, mostrando por que ela não deve substituir o conhecimento individual."
+        }
+      ]
+    }
+  ]
+}

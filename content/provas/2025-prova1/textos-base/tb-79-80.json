@@ -1,0 +1,22 @@
+{
+  "id": "tb-79-80",
+  "provaId": "2025-prova1",
+  "titulo": "Texto para questões 79 e 80",
+  "questoes": [79, 80],
+  "blocos": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Um pantógrafo é um instrumento de hastes articuladas e foi criado para fazer reproduções ampliadas ou reduzidas de imagens. O sistema de hastes pode ser movido em torno de um ponto F, onde se conecta um pivô fixo."
+    },
+    {
+      "tipo": "imagem",
+      "src": "figuras/2025-prova1/tb-79-80-f1.webp",
+      "alt": "Diagrama explicativo do pantógrafo articulado ilustrando a ampliação de uma imagem geométrica com pivô fixo em F.",
+      "legenda": "Figura 1: Ampliação de um desenho com o pantógrafo."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "O pantógrafo apresentado é composto por quatro barras, articuladas em A, B, C e $L_1$. O sistema pode girar em torno do pivô fixo em F. Caso um pivô móvel seja fixado em $L_1$ e um lápis seja fixado em $L_2$, o instrumento possibilitará fazer ampliações. Ao mover o pivô pelo desenho menor, o lápis desenhará a ampliação, como indicado na Figura 1. Por sua vez, se um pivô móvel é inserido em $L_2$ e um lápis inserido em $L_1$, o equipamento possibilita criar imagens reduzidas em relação à original. Sabe-se que todo pantógrafo é construído pelas relações $BF = BL_1 = AC$ e $AB = CL_1 = CL_2$. O pantógrafo da Figura 1 satisfaz também a relação $BF = AB$, assim, o instrumento amplia em duas vezes (razão de $2 : 1$) ou reduz pela metade (razão de $1 : 2$) o tamanho das imagens. Se $2BF = AB$, então os desenhos triplicam de tamanho (razão de $3 : 1$) ou se reduzem (razão de $1 : 3$). Caso seja modificada essa relação, as ampliações e reduções se modificam."
+    }
+  ]
+}

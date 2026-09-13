@@ -1,0 +1,57 @@
+{
+  "id": "2025-prova1-q063",
+  "provaId": "2025-prova1",
+  "numero": 63,
+  "tipo": "objetiva",
+  "parte": "componente-especifico",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Nos sistemas de geolocalização utilizados por aplicativos que usam algoritmos computacionais, são aplicados modelos matemáticos para calcular a melhor rota entre dois pontos. Esses modelos consideram variáveis como o tempo estimado, a distância, o fluxo em tempo real e as condições da via. A seleção da melhor rota pode variar de acordo com os critérios utilizados: menor distância, menor tempo, menor consumo de combustível ou até mesmo menor emissão de poluentes. Assim, diferentes modelos matemáticos são utilizados, dependendo do objetivo social ou econômico priorizado.\n\nCom base na análise desses modelos, qual modelo matemático é adequado para explicar o cálculo da melhor rota em um sistema de geolocalização com foco na rapidez de deslocamento?"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Modelo I: Estatístico de crescimento exponencial — calcula o aumento de usuários ativos no aplicativo ao longo do tempo."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Modelo II: Algoritmo de Dijkstra — determina a menor distância entre dois pontos de um grafo, desconsiderando o tempo de percurso."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Modelo III: Probabilístico de regressão linear — estima o consumo de combustível com base na velocidade média e na topografia do percurso."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Modelo IV: Algoritmo A* (A estrela) — busca a rota mais rápida entre dois pontos, considerando as distâncias e o tempo previsto com base em heurísticas."
+        }
+      ]
+    }
+  ],
+  "gabaritoOficial": "D",
+  "rotulo": "Questão 63",
+  "ordemCaderno": 64,
+  "paginas": [
+    37
+  ]
+}

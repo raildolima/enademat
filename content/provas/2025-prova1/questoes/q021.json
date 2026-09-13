@@ -1,0 +1,68 @@
+{
+  "id": "2025-prova1-q021",
+  "provaId": "2025-prova1",
+  "tipo": "objetiva",
+  "numero": 21,
+  "rotulo": "Questão 21",
+  "parte": "formacao-geral",
+  "ordemCaderno": 21,
+  "paginas": [
+    12
+  ],
+  "enunciado": [
+    {
+      "tipo": "titulo",
+      "texto": "Justiça determina melhorias imediatas nas vias de acesso e na estrutura de escolas em assentamentos"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Entre as precariedades identificadas pelo Ministério Público Federal (MPF) está o desgaste da infraestrutura dos prédios das escolas com pisos de areia e barro. Os professores e os estudantes são orientados a fazerem as necessidades fisiológicas na mata porque não há banheiro, nem rede de água ou de esgotamento sanitário."
+    },
+    {
+      "tipo": "fonte",
+      "texto": "Disponível em: www.g1.globo.com. Acesso em: 11 maio 2025 (adaptado)."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Diante da situação retratada na matéria jornalística, que ação compete à escola e contribui para o enfrentamento dessa realidade?"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "A elaboração de um projeto com base em um diagnóstico sobre a situação da rede de água para solucionar o problema."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "A instalação mínima de redes de água e de esgotamento sanitário nas escolas para superar as condições precárias de infraestrutura."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "A articulação da gestão escolar com as autoridades competentes em busca de ações para melhorar a infraestrutura."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "A convocação da comunidade escolar para proceder à despoluição de um rio do entorno."
+        }
+      ]
+    }
+  ]
+}

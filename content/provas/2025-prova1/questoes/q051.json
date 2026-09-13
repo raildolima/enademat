@@ -1,0 +1,57 @@
+{
+  "id": "2025-prova1-q051",
+  "provaId": "2025-prova1",
+  "tipo": "objetiva",
+  "numero": 51,
+  "rotulo": "Questão 51",
+  "parte": "componente-especifico",
+  "ordemCaderno": 52,
+  "paginas": [
+    29
+  ],
+  "textoBaseId": "tb-50-51",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Após conhecer a forma como Al-Khwarizmi resolvia as equações do segundo grau, um estudante disse:\n“Professora! Eu fui acompanhando aqui e percebi que é muito diferente. A parte que fica dentro da raiz não é igual à fórmula que a senhora ensinou. Mas mesmo assim deu o mesmo resultado”.\nAl-Khwarizmi queria encontrar os valores desconhecidos para uma equação, que na notação atual é representada por $x^2 + bx = c$. Assim, o valor de $x$ é determinado de acordo com o processo descrito pela seguinte expressão:"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "$x = \\sqrt{\\frac{b^2}{4} + c} - \\frac{b}{2}$"
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "$x = \\sqrt{\\frac{b^2}{4} - c} - \\frac{b}{2}$"
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "$x = \\sqrt{c + \\frac{b}{2}} - \\frac{b}{2}$"
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "$x = \\sqrt{\\frac{b^2}{4} + c} - \\frac{b}{4}$"
+        }
+      ]
+    }
+  ]
+}

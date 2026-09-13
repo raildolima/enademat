@@ -1,0 +1,39 @@
+{
+  "id": "tb-05-06",
+  "provaId": "2025-prova1",
+  "titulo": "Texto para questões 05 e 06",
+  "questoes": [
+    5,
+    6
+  ],
+  "blocos": [
+    {
+      "tipo": "titulo",
+      "texto": "TEXTO 1"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "As questões ambientais são um tema de preocupação social, econômica e política que perpassam a escola. Elas aparecem na esfera política quando o governo federal reconhece a importância de sediar em Belém, no Pará, a 30ª Conferência das Nações Unidas sobre Mudanças Climáticas (COP30). O evento trará um olhar global sobre as soluções para os desafios do clima. É urgente que abordemos, de forma abrangente e sinérgica, as crises globais interligadas à mudança do clima e à perda de biodiversidade no contexto mais amplo da realização dos Objetivos de Desenvolvimento Sustentável (ODS). Ao fazer isso, devemos continuar reconhecendo e expandindo o papel e as contribuições dos povos indígenas e das comunidades locais na administração da natureza e na liderança climática, ao mesmo tempo que reconhecemos os efeitos desproporcionais que eles sofrem com a mudança do clima."
+    },
+    {
+      "tipo": "fonte",
+      "texto": "Disponível em: www.cop30.br. Acesso em: 1 ago. 2025 (adaptado)."
+    },
+    {
+      "tipo": "titulo",
+      "texto": "TEXTO 2"
+    },
+    {
+      "tipo": "titulo",
+      "texto": "Chuva ácida"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Enquanto ser humano eu vou destruindo o que posso\nO elevador aqui só desce, o demônio é meu sócio\nAbriram, uh, a caixa de Pandora\nSimon diz: saiam agora\nA chuva espalhando, todos os males\nAi ai, uiui, ai como isso arde\nÉ bateria de celulares, césio, similares\nA peste invisível maculando os ares\nMercúrio nos rios, diesel nos mares\nsolo estéril, já fizeram sua parte (uh)"
+    },
+    {
+      "tipo": "fonte",
+      "texto": "CRIOLO. Disponível em: www.letras.mus.br. Acesso em: 1 ago. 2025 (adaptado)."
+    }
+  ]
+}

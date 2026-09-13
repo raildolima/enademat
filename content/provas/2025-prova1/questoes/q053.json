@@ -1,0 +1,58 @@
+{
+  "id": "2025-prova1-q053",
+  "provaId": "2025-prova1",
+  "numero": 53,
+  "tipo": "objetiva",
+  "parte": "componente-especifico",
+  "textoBaseId": "tb-53-54",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Um professor do Ensino Médio, ao utilizar como exemplo a estrutura arquitetônica do Hotel Luxor, investigou com seus estudantes as relações existentes entre vértices, arestas e faces em diferentes poliedros. Para isso, usou palitos de picolé e massa de modelar com o intuito de que os estudantes observassem padrões e deduzissem a Relação de Euler. Posteriormente, propôs aos estudantes que elaborassem situações-problema conectadas à relação deduzida, discutissem e validassem de maneira coletiva as possíveis soluções. Com base nesse cenário, quais tendências em Educação Matemática foram acionadas pelo professor nessa aula?"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Modelagem, Resolução de Problemas e Investigação Matemática."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "História da Matemática, Resolução de Problemas e Investigação Matemática."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Resolução de Problemas, Modelagem e Etnomatemática."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Resolução de Problemas, História da Matemática e Etnomatemática."
+        }
+      ]
+    }
+  ],
+  "gabaritoOficial": "A",
+  "rotulo": "Questão 53",
+  "ordemCaderno": 54,
+  "paginas": [
+    31
+  ]
+}

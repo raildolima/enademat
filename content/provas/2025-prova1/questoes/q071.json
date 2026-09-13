@@ -1,0 +1,72 @@
+{
+  "id": "2025-prova1-q071",
+  "provaId": "2025-prova1",
+  "tipo": "objetiva",
+  "numero": 71,
+  "rotulo": "Questão 71",
+  "parte": "componente-especifico",
+  "ordemCaderno": 72,
+  "paginas": [42],
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Um mapa de contorno, ou mapa topográfico, é uma representação da elevação de um terreno, superfície modelada por uma função $f(x, y)$. Essa representação é construída por linhas chamadas de curvas de nível, que conectam pontos de mesma altitude, ou seja, pontos que pertencem a um plano paralelo ao plano $xy$ no espaço tridimensional. Com base nessas linhas, é possível caracterizar diferentes formações geológicas, que podem ser representadas matematicamente pelas curvas de nível. Como exemplo, seguem algumas formações geológicas que podem ser identificadas, valendo-se do comportamento dessas curvas:\n• montanhas ou colinas: áreas elevadas com declives acentuados ou suaves, apresentam curvas de nível concêntricas e fechadas, com altitudes crescentes em direção ao centro;\n• vales ou cursos de água: áreas rebaixadas alongadas, geralmente com formato em V ou U (glaciais), apresentam curvas de nível com a base do V ou U apontando para a direção de maior altitude;\n• depressões: áreas rebaixadas em relação ao entorno, podendo ser fechadas ou abertas, apresentam curvas de nível com altitudes decrescentes que podem ser fechadas ou abertas;\n• planícies: áreas de superfícies planas ou suavemente onduladas, apresentam curvas de nível muito espaçadas, caracterizando pouca variação de altitude."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Considere o mapa de contorno:"
+    },
+    {
+      "tipo": "imagem",
+      "src": "figuras/2025-prova1/q071-f1.webp",
+      "alt": "Mapa topográfico com curvas de nível destacando as regiões A (curvas espaçadas), B (curvas concêntricas fechadas com altitudes crescentes) e C (curvas em formato de V)."
+    },
+    {
+      "tipo": "fonte",
+      "texto": "SANTOS, M. J. Mapas e perfis topográficos. Disponível em: https://professormarciosantos4.blogspot.com. Acesso em: 21 maio 2025."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Qual alternativa identifica as formações geológicas destacadas pelas letras A, B e C, respectivamente?"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Montanhas ou colinas, vales ou cursos de água e depressões."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Planícies, montanhas ou colinas e vales ou cursos de água."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Planícies, depressões e montanhas ou colinas."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Depressões, vales ou cursos de água e planícies."
+        }
+      ]
+    }
+  ],
+  "gabaritoOficial": "B"
+}

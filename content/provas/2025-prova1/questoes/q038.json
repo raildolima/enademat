@@ -1,0 +1,57 @@
+{
+  "id": "2025-prova1-q038",
+  "provaId": "2025-prova1",
+  "tipo": "objetiva",
+  "numero": 38,
+  "rotulo": "Questão 38",
+  "parte": "componente-especifico",
+  "ordemCaderno": 39,
+  "paginas": [
+    23
+  ],
+  "textoBaseId": "tb-38-39",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Assinale a alternativa que indica um procedimento que atende a essa solicitação da professora."
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Utilizando o teodolito, determinaram o ângulo de um ponto do solo até o topo da copa da árvore e, em seguida, mediram a distância desse ponto até a árvore. Utilizando a tangente do ângulo, obtiveram a altura da árvore."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Utilizando o teodolito, determinaram o ângulo de um ponto do solo até o topo da copa da árvore e, em seguida, mediram a distância desse ponto até a árvore. Utilizando o seno do ângulo, obtiveram a altura da árvore."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Utilizando o Teorema de Tales, determinaram as medidas da altura e da sombra de um arbusto e a medida da sombra da árvore que está sendo investigada. Em seguida, usando a proporção obtida pelo Teorema, calcularam a altura."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Utilizando o Teorema de Tales e o cosseno do ângulo, determinaram as medidas da altura e da sombra de um arbusto e a medida da sombra da árvore que está sendo investigada. Em seguida, usando o cosseno, obtiveram a altura."
+        }
+      ]
+    }
+  ]
+}

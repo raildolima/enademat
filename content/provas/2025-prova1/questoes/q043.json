@@ -1,0 +1,78 @@
+{
+  "id": "2025-prova1-q043",
+  "provaId": "2025-prova1",
+  "tipo": "objetiva",
+  "numero": 43,
+  "rotulo": "Questão 43",
+  "parte": "componente-especifico",
+  "ordemCaderno": 44,
+  "paginas": [
+    25
+  ],
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Como estratégia para explorar a ideia intuitiva de limites introduzida por Karl Weierstrass, pode-se utilizar o limite de sequências e o método de Eudoxo-Arquimedes, também conhecido como o método da exaustão, o qual consiste na aproximação da área desejada por meio da divisão da região em polígonos de áreas suficientemente pequenas."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Como ilustração, uma professora apresentou aos estudantes de licenciatura em Matemática as figuras das iterações no cálculo da área sob o gráfico da função $f(x) = \\frac{\\operatorname{sen} x}{x}$ no intervalo $[0, 2]$. Ela observou que a área da região desejada pode ser aproximada por uma soma de áreas de retângulos de mesma base e que a aproximação fica melhor à medida que essas bases ficam menores. Nas figuras, as bases dos retângulos medem $\\frac{2}{n}$:"
+    },
+    {
+      "tipo": "imagem",
+      "src": "figuras/2025-prova1/q043-f1.webp",
+      "alt": "Gráfico de f(x) = sen(x)/x no intervalo [0, 2] aproximado por 10 retângulos (n = 10) pelo método da exaustão com área aproximada de 1,6585."
+    },
+    {
+      "tipo": "imagem",
+      "src": "figuras/2025-prova1/q043-f2.webp",
+      "alt": "Gráfico de f(x) = sen(x)/x no intervalo [0, 2] aproximado por 50 retângulos (n = 50) pelo método da exaustão com área aproximada de 1,6163."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Ao variar os valores de $n$, observa-se que a área desejada é obtida por meio do limite $\\lim_{n \\to \\infty} \\sum_{i=1}^n \\frac{2}{n} \\operatorname{sen}\\left(\\frac{2i}{n}\\right) \\approx 1{,}6054$, em que $\\frac{2}{n} \\operatorname{sen}\\left(\\frac{2i}{n}\\right)$ refere-se à área do retângulo com base $\\frac{2}{n}$ e altura $f\\left(\\frac{2i}{n}\\right) = \\frac{\\operatorname{sen}(2i/n)}{2i/n}$."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Qual alternativa expressa corretamente uma formalização para o cálculo da área desejada?"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "A soma truncada $\\sum_{i=1}^n \\frac{2}{n} \\operatorname{sen}\\left(\\frac{2i}{n}\\right)$ fica tão próxima de $1{,}6054$ quanto for prescrito, desde que, para isso, o módulo de $x$ fique tão próximo de $0$ quanto necessário."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "A soma truncada $\\sum_{i=1}^n \\frac{2}{n} \\operatorname{sen}\\left(\\frac{2i}{n}\\right)$ fica tão próxima de $1{,}6054$ quanto for prescrito, desde que, para isso, $n$ fique suficientemente grande."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "O valor da função $f(x) = \\frac{\\operatorname{sen} x}{x}$ fica tão próximo de $1$ quanto for prescrito, desde que, para isso, $x$ fique tão próximo de $0$ quanto necessário."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Para todo $r > 0$, existe $N \\in \\mathbb{N}$ tal que o valor $1{,}6054$ pertence ao intervalo de centro $\\sum_{i=1}^n \\frac{2}{n} \\operatorname{sen}\\left(\\frac{2i}{n}\\right)$ e raio $r$, para todo $n > N$."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "2025-prova1-q056",
+  "provaId": "2025-prova1",
+  "numero": 56,
+  "tipo": "objetiva",
+  "parte": "componente-especifico",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Os estudantes com deficiência visual têm no tato seu principal meio de percepção e compreensão do mundo. O uso de recursos concretos com texturas variadas, formas bem definidas e dimensões adequadas torna-se essencial para que esses estudantes possam desenvolver habilidades matemáticas e cognitivas. Assim, o professor precisa planejar estratégias que valorizem a experiência sensorial e promovam a aprendizagem significativa, possibilitando que o ensino da Matemática seja realmente acessível a todos.\n\nGENZ, F. K.; SILVA, L. D.; SILVA, D. F. O ensino de matemática e a deficiência visual: uma proposta para o ensino dos números complexos. Caminhos da Educação Matemática em Revista, n. 2, 2021 (adaptado).\n\nConsiderando os princípios do Desenho Universal para a Aprendizagem (DUA) e os fundamentos da Educação Matemática Inclusiva, qual alternativa representa estratégias de um plano de aula coerente com essas abordagens?"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Organizar estações rotativas com materiais manipuláveis táteis, desafios contextualizados em áudio e recursos digitais acessíveis, permitindo aos estudantes que escolham seus percursos de aprendizagem e expressem suas estratégias por diferentes meios, como oralmente, em Braille ou com apoio de tecnologia assistiva."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Organizar estações rotativas com recursos visuais, direcionando os estudantes com dificuldades para a estação de tarefas menos complexas e os demais para outra estação com desafios que exigem menor mediação docente, para dar atenção aos estudantes que necessitam."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Estruturar a aula com explicações expositivas e exercícios individuais, utilizando a correção comentada para que os estudantes revisem suas ações, oferecendo o conteúdo no mesmo formato a todos, com base na ideia de que todos têm o direito de aprender e expressar seus conhecimentos."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Estruturar a aula em dois formatos distintos: para os estudantes sem deficiência, aplicar uma lista de atividades com menor mediação docente; para os estudantes com deficiência visual, oferecer atividades com materiais táteis incluindo Braille e recursos de tecnologia assistiva como forma de apoio ao aprendizado."
+        }
+      ]
+    }
+  ],
+  "gabaritoOficial": "A",
+  "rotulo": "Questão 56",
+  "ordemCaderno": 57,
+  "paginas": [
+    32
+  ]
+}

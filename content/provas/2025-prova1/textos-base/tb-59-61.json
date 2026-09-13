@@ -1,0 +1,33 @@
+{
+  "id": "tb-59-61",
+  "provaId": "2025-prova1",
+  "titulo": "Texto para questões de 59 a 61",
+  "questoes": [59, 60, 61],
+  "blocos": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Ball, Thames e Phelps (2008) conjecturam que (1) o conhecimento do conteúdo poderia ser subdividido em CCK (conhecimento comum do conteúdo) e SCK (conhecimento especializado do conteúdo); (2) o conhecimento pedagógico do conteúdo poderia ser subdividido em KCS (conhecimento do conteúdo e de estudantes) e KCT (conhecimento do conteúdo e de ensino) (Shulman, 1986)."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Em síntese, eles definem: reconhecer uma resposta errada é um conhecimento comum do conteúdo (CCK); dimensionar rapidamente a natureza de um erro, especialmente aqueles que não são familiares, é um conhecimento especializado do conteúdo (SCK); ter familiaridade com os erros comuns e saber por que diversos estudantes os cometem é um conhecimento de conteúdo e de estudantes (KCS); selecionar uma abordagem de ensino que seja eficiente para superar certas dificuldades e/ou explorar certos aspectos de um conteúdo é um conhecimento do conteúdo e de seu ensino (KCT)."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Os professores sabem resolver o exercício e sabem que tal resposta é incorreta, mas ensinar envolve mais do que identificar respostas incorretas. O professor deve ser capaz de procurar as fontes do erro. Efetivamente, a análise de erros é uma prática comum entre os matemáticos no decorrer de seu próprio trabalho; essa tarefa, no ensino, difere somente pelo fato de que enfoca os erros produzidos pelos estudantes."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Nesse contexto, foi feita uma pesquisa com base na pergunta: *Quantos pares $(x, y)$ de números reais existem, tais que $x + y = xy = \\frac{x}{y}$?*\n\nUma resposta obtida e analisada por pesquisadores em um estudo foi a seguinte:"
+    },
+    {
+      "tipo": "imagem",
+      "src": "figuras/2025-prova1/tb-59-61-f1.webp",
+      "alt": "Resolução manuscrita de um estudante para o sistema x + y = x · y = x / y com tentativas de simplificação incorretas."
+    },
+    {
+      "tipo": "fonte",
+      "texto": "RIBEIRO, A. J. Equação e conhecimento matemático para o ensino: relações e potencialidades para a Educação Matemática. Boletim de Educação Matemática (BOLEMA), 2012 (adaptado).\nCURY, H. N.; RIBEIRO, A. J.; MÜLLER, T. J. Explorando erros na resolução de equações: um caminho para a formação do professor de Matemática. Union-Revista Ibero-americana de Educación Matemática, n. 28, 2011 (adaptado)."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "2025-prova1-q026",
+  "provaId": "2025-prova1",
+  "tipo": "objetiva",
+  "numero": 26,
+  "rotulo": "Questão 26",
+  "parte": "formacao-geral",
+  "ordemCaderno": 26,
+  "paginas": [
+    15
+  ],
+  "enunciado": [
+    {
+      "tipo": "titulo",
+      "texto": "TEXTO 1"
+    },
+    {
+      "tipo": "imagem",
+      "src": "figuras/2025-prova1/q026-f1.webp",
+      "alt": "Quatro diagramas conceituais ilustrando exclusão, segregação, integração e inclusão através da distribuição de círculos coloridos dentro e fora de um grupo maior."
+    },
+    {
+      "tipo": "fonte",
+      "texto": "Disponível em: www.educadorinclusivo.org.br. Acesso em: 15 ago. 2025 (adaptado)."
+    },
+    {
+      "tipo": "titulo",
+      "texto": "TEXTO 2"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Em uma sala de aula do Ensino Fundamental, uma turma recebeu um estudante surdo e que se comunicava por meio da Língua Brasileira de Sinais (Libras). Considerando que o professor regente não era fluente em Libras, para garantir a participação do estudante nas atividades, a escola contratou um intérprete que adaptava e conduzia as atividades pedagógicas com o estudante sem a participação do professor."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Ao relacionar a situação descrita no Texto 2 com a figura apresentada no Texto 1, conclui-se que está ocorrendo um processo de"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "exclusão, pois o professor não dialoga diretamente com o estudante surdo."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "segregação, porque a turma não consegue se comunicar com o estudante surdo."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "inclusão, porque o estudante surdo participa regularmente das aulas com a turma."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "integração, porque o intérprete estabelece uma relação individual com o estudante surdo."
+        }
+      ]
+    }
+  ]
+}

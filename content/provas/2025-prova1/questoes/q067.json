@@ -1,0 +1,66 @@
+{
+  "id": "2025-prova1-q067",
+  "provaId": "2025-prova1",
+  "numero": 67,
+  "tipo": "objetiva",
+  "parte": "componente-especifico",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Uma professora de Matemática está trabalhando conceitos relacionados à distância entre dois pontos no plano cartesiano. Ela percebeu, em conversas com os estudantes, que boa parte mora nos arredores da escola e vem de carro ou de transporte público. Além disso, a maioria deles não faz atividade física de forma regular e se movimenta pouco durante o dia. Nesse contexto, ela lhes apresentou o seguinte problema: “Uma pesquisa apontou que uma pessoa que caminha pelo menos 4 mil passos por dia, o equivalente a pouco mais de 3 km por dia, ganha um benefício que é o aumento da expectativa de vida. Com base nessa afirmação, escolha um trajeto que ligue sua casa à escola e que satisfaça o indicado pela pesquisa”. Uma estudante, em vez de apresentar a rota em um mapa, utilizou um plano cartesiano e marcou com pontos os locais de interesse no bairro (por exemplo: lojas, estabelecimentos e outros). A unidade de medida que ela usou foi o quilômetro."
+    },
+    {
+      "tipo": "imagem",
+      "src": "figuras/2025-prova1/q067-f1.webp",
+      "alt": "Plano cartesiano com marcações dos pontos de interesse no bairro com coordenadas em quilômetros: Casa (0,2; 0,2), Escola (0,8; 1), Vovó (-0,4; 1), Tia (0,5; 0,6), Padaria (1; 0,8) e Mercadinho (0,8; 0,2)"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Para simplificar o modelo, a professora pediu à estudante que considerasse a distância entre dois locais como o segmento de reta que os liga. Qual rota atende à exigência de percorrer mais de 3 km diariamente?"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Distância Casa-Tia, mais distância Tia-Escola, mais distância Escola-Tia, mais distância Tia-Casa."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Distância Casa-Mercadinho, mais distância Mercadinho-Escola, mais distância Escola-Mercadinho, mais distância Mercadinho-Casa."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Distância Casa-Padaria, mais distância Padaria-Escola, mais distância Escola-Padaria, mais distância Padaria-Casa."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Distância Casa-Vovó, mais distância Vovó-Escola, mais distância Escola-Vovó, mais distância Vovó-Casa."
+        }
+      ]
+    }
+  ],
+  "gabaritoOficial": "D",
+  "rotulo": "Questão 67",
+  "ordemCaderno": 68,
+  "paginas": [
+    39
+  ]
+}

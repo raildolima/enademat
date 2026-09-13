@@ -1,0 +1,31 @@
+{
+  "id": "tb-38-39",
+  "provaId": "2025-prova1",
+  "titulo": "Texto para questões 38 e 39",
+  "questoes": [
+    38,
+    39
+  ],
+  "blocos": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Diante do assoreamento do riacho que passava ao lado de uma escola, a professora de Matemática e o professor de Biologia desenvolveram um projeto interdisciplinar para acompanhar os efeitos desse fenômeno na flora da região."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Uma das atividades propostas pela professora de Matemática foi analisar o crescimento das árvores das margens do rio. Para isso, propôs à turma da 1ª série do Ensino Médio que medisse as alturas das árvores."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Os estudantes adotaram o seguinte procedimento: mediram a sombra da árvore e, no mesmo momento, mediram o tamanho da sombra de um estudante. Na sala, realizaram a medida da altura desse estudante e, aplicando-se a regra de três, determinaram a altura da árvore."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Realizando essas medições ao longo do ano, os estudantes criaram tabelas com as alturas das árvores, mês a mês. Com essas informações, concluíram que o crescimento das árvores estava abaixo do padrão esperado para aquela espécie. Posteriormente, utilizando também as informações coletadas na aula de Biologia, confirmaram que a escassez de água estava impactando a flora da região."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "A professora de Matemática propôs aos estudantes que realizassem um segundo procedimento para medir as alturas das árvores, que fosse essencialmente distinto, do ponto de vista matemático, daquele que eles já haviam desenvolvido."
+    }
+  ]
+}

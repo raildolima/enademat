@@ -1,0 +1,66 @@
+{
+  "id": "2025-prova1-q065",
+  "provaId": "2025-prova1",
+  "numero": 65,
+  "tipo": "objetiva",
+  "parte": "componente-especifico",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Os quiocos vivem no nordeste de Angola e fazem desenhos na areia, conhecidos no idioma local por Sona. Um mestre Sona tem a habilidade de fazer seus desenhos sem retirar o dedo da areia até o fechamento da linha que está traçando. Além disso, ele sabe quantas linhas fechadas haverá antes mesmo de começar a desenhar, apenas observando o número de filas e colunas pertencentes a uma rede retangular de pontos. Para executar o desenho, começa-se um traçado com um ângulo de 45° em relação à horizontal e, ao chegar a um lado do retângulo, faz-se uma curva sob um ângulo de 90° para continuar a desenhar a linha. Assim que uma linha retorna ao ponto inicial, entende-se que foi fechada. Caso existam pontos que ainda não foram contornados, uma outra linha se inicia até que todos os pontos estejam contornados. A figura representa corpos de leoas de diferentes tamanhos criados por um mestre Sona."
+    },
+    {
+      "tipo": "imagem",
+      "src": "figuras/2025-prova1/q065-f1.webp",
+      "alt": "Desenhos Sona ilustrando o processo de execução e cinco configurações de redes de pontos com indicação do número de filas, colunas e linhas fechadas"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "GERDES, P. Vivendo a Matemática: desenhos da África. São Paulo: Scipione, 1990 (adaptado).\n\nUma professora fez a seguinte pergunta aos estudantes: “Caso vocês fossem mestres Sona, quantas linhas fechadas haveria num corpo de leoa para uma rede retangular de pontos com 6 filas e 9 colunas?”. Diferentes conjecturas foram feitas e, dentre elas, a que representa o conhecimento do povo quioco expresso nos desenhos na areia é:"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "O corpo de leoa terá 1 linha fechada, pois é o número par de filas e o número ímpar de colunas que definem a quantidade de linhas fechadas."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "O corpo de leoa terá 3 linhas fechadas, pois é o maior divisor comum entre os números de filas e de colunas que define a quantidade de linhas fechadas."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "O corpo de leoa terá 6 linhas fechadas, pois é o número de filas na rede de pontos na areia que determina a quantidade de linhas fechadas."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "O corpo de leoa terá 9 linhas fechadas, pois é o número de colunas na malha de pontos na areia que determina a quantidade de linhas fechadas."
+        }
+      ]
+    }
+  ],
+  "gabaritoOficial": "B",
+  "rotulo": "Questão 65",
+  "ordemCaderno": 66,
+  "paginas": [
+    38
+  ]
+}

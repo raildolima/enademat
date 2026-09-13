@@ -1,0 +1,36 @@
+{
+  "id": "tb-46-47",
+  "provaId": "2025-prova1",
+  "titulo": "Texto para questões 46 e 47",
+  "questoes": [
+    46,
+    47
+  ],
+  "blocos": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Na pesquisa de Cury e Bisognin, foi apresentada a seguinte questão aos estudantes:"
+    },
+    {
+      "tipo": "quadro",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "O valor de dois carros de mesmo preço, adicionado ao de uma moto, soma R\\$ 41 000,00. No entanto, o valor de duas dessas motos, adicionado ao de um carro do mesmo tipo, é de R\\$ 28 000,00. A diferença entre o valor do carro e o da moto, em real, é:\na) 5 000     b) 13 000     c) 18 000     d) 23 000     e) 41 000"
+        }
+      ]
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "As autoras classificaram as resoluções dadas em quatro categorias, indicadas pelas letras A, B, C e D.\n- **Categoria A:** identificou que o problema poderia ser modelado por um sistema de duas equações lineares com duas incógnitas, corretamente expressas, resolveu o sistema e apresentou a resposta correta.\n- **Categoria B:** identificou que o problema poderia ser modelado por um sistema de duas equações lineares com duas incógnitas, corretamente expressas, resolveu o sistema, mas errou alguns detalhes e não apresentou a resposta correta.\n- **Categoria C:** identificou que o problema poderia ser modelado por um sistema de duas equações lineares com duas incógnitas, corretamente expressas, mas não resolveu o sistema.\n- **Categoria D:** não modelou o problema."
+    },
+    {
+      "tipo": "fonte",
+      "texto": "CURY, H. N.; BISOGNIN, E. Análise de soluções de um problema representado por um sistema de equações. *Boletim de Educação Matemática (BOLEMA)*, n. 33, 2009 (adaptado)."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Em seu plano de aula, uma professora de Matemática definiu como objetivo a ser alcançado pelos seus estudantes: “modelar e resolver um sistema de equações de duas incógnitas”. Após discutir a resolução de um sistema de equações, a docente apresentou o problema da pesquisa de Cury e Bisognin e, no momento da avaliação, ela utilizou as quatro categorias para verificar se o objetivo de aprendizagem traçado foi alcançado."
+    }
+  ]
+}

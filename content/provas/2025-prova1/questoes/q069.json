@@ -1,0 +1,57 @@
+{
+  "id": "2025-prova1-q069",
+  "provaId": "2025-prova1",
+  "numero": 69,
+  "tipo": "objetiva",
+  "parte": "componente-especifico",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Em uma atividade de geometria aplicada aos Anos Finais do Ensino Fundamental, um professor propôs aos estudantes que construíssem um tangram tradicional a partir de uma folha de papel quadrada, utilizando dobraduras. Na folha de papel, usa-se uma sequência de dobraduras que divide o quadrado em sete peças geométricas. Na primeira etapa, o quadrado original é dobrado ao longo das diagonais, formando quatro triângulos retângulos congruentes. Na segunda etapa, dobra-se um vértice até o ponto médio da diagonal para formar um triângulo retângulo. A terceira etapa consiste na dobra de um lado do quadrado original até o ponto de intersecção das diagonais, formando um paralelogramo. Por fim, dobra-se um vértice do quadrado original até o ponto de intersecção das diagonais, formando um triângulo retângulo e um quadrado. Após a construção, traçam-se algumas das linhas marcadas pelas dobraduras que formam as sete peças geométricas do tangram tradicional, e elas são recortadas.\n\nEssa atividade permite aos estudantes concluírem que, dentre as sete peças recortadas,"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "todos os triângulos são congruentes entre si."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "existem duas peças que não têm nenhum ângulo reto."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "todas as peças têm pelo menos um ângulo medindo 45 graus."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "existem três classes de polígonos equivalentes, isto é, de mesma área."
+        }
+      ]
+    }
+  ],
+  "gabaritoOficial": "D",
+  "rotulo": "Questão 69",
+  "ordemCaderno": 70,
+  "paginas": [
+    40
+  ]
+}

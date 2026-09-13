@@ -1,0 +1,69 @@
+{
+  "id": "2025-prova1-q041",
+  "provaId": "2025-prova1",
+  "tipo": "objetiva",
+  "numero": 41,
+  "rotulo": "Questão 41",
+  "parte": "componente-especifico",
+  "ordemCaderno": 42,
+  "paginas": [
+    24
+  ],
+  "textoBaseId": "tb-40-41",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Durante uma atividade conjunta com o professor de Física, dois estudantes da 3ª série do Ensino Médio analisaram situações envolvendo vetores no plano e no espaço e apresentaram suas conclusões."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "**Estudante A:** Se dois vetores no plano não são múltiplos escalares um do outro, então não são paralelos. Isso também acontece no espaço."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "**Estudante B:** No espaço, para que três vetores não sejam coplanares, basta que dois a dois não sejam paralelos."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Quanto à validade das conclusões desses estudantes,"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "ambas são verdadeiras."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "ambas são falsas."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "apenas o estudante A concluiu corretamente."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "apenas o estudante B concluiu corretamente."
+        }
+      ]
+    }
+  ]
+}

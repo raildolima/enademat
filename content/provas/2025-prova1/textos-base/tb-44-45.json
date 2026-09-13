@@ -1,0 +1,40 @@
+{
+  "id": "tb-44-45",
+  "provaId": "2025-prova1",
+  "titulo": "Texto para questões 44 e 45",
+  "questoes": [
+    44,
+    45
+  ],
+  "blocos": [
+    {
+      "tipo": "titulo",
+      "texto": "TEXTO 1"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Os erros evidenciam dificuldades na aprendizagem, mas a ocorrência deles não deve ser apenas apontada ou penalizada; é preciso utilizá-los para promover a aprendizagem com estudos e pesquisas e a elaboração de estratégias de ensino baseadas nas dificuldades detectadas."
+    },
+    {
+      "tipo": "fonte",
+      "texto": "CURY, H. N. Análise de erros: uma possibilidade de trabalho em cursos de formação inicial de professores. *Anais do XI Encontro Nacional de Educação Matemática*, 2013. Disponível em: www.sbembrasil.org.br. Acesso em: 8 maio 2025 (adaptado)."
+    },
+    {
+      "tipo": "titulo",
+      "texto": "TEXTO 2"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "A tabela apresenta os resultados da rodada 6 do Campeonato Brasileiro de Futebol, série A, de 2025."
+    },
+    {
+      "tipo": "imagem",
+      "src": "figuras/2025-prova1/tb-44-45-f1.webp",
+      "alt": "Tabela com os resultados dos dez jogos da 6ª rodada do Campeonato Brasileiro Série A de 2025."
+    },
+    {
+      "tipo": "fonte",
+      "texto": "Disponível em: https://cbf.com.br. Acesso em: 10 maio 2025."
+    }
+  ]
+}

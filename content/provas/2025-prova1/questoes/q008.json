@@ -1,0 +1,64 @@
+{
+  "id": "2025-prova1-q008",
+  "provaId": "2025-prova1",
+  "tipo": "objetiva",
+  "numero": 8,
+  "rotulo": "Questão 8",
+  "parte": "formacao-geral",
+  "ordemCaderno": 8,
+  "paginas": [
+    6
+  ],
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "A Educação do Campo emerge da discussão de diálogos com movimentos sociais e em diferentes eventos, como as Conferências Nacionais por uma Educação Básica do Campo. Normativas foram promulgadas, tais como a Resolução CEB/CNE n. 1/2002, que institui Diretrizes Operacionais para a Educação Básica nas Escolas do Campo, em prol de um projeto que continue a “luta para que os sistemas de ensino discutam um currículo para a área rural e que a formação de professores, inicial, continuada ou em serviço, não reproduza o currículo da área urbana na rural”."
+    },
+    {
+      "tipo": "fonte",
+      "texto": "ALENCAR, M. F. S. Educação do Campo e a formação de professores: construção de uma política educacional para o campo brasileiro. *Ci. & Tróp.*, n. 2, 2010 (adaptado)."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Nesse contexto, a formação do professor para a Educação do Campo tem como princípio"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "subordinar a cultura, as memórias e a luta do povo do campo à história urbana."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "identificar os conhecimentos das comunidades do campo, que contrariam o currículo instituído."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "vincular o ensino ao trabalho e desconsiderar os saberes produzidos no contexto escolar urbano."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "reconhecer o campo como lugar de vida e de produção que sofreu com um projeto de desenvolvimento exploratório."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "2025-prova1-q012",
+  "provaId": "2025-prova1",
+  "tipo": "objetiva",
+  "numero": 12,
+  "rotulo": "Questão 12",
+  "parte": "formacao-geral",
+  "ordemCaderno": 12,
+  "paginas": [
+    8
+  ],
+  "textoBaseId": "tb-12-13",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Com base na situação descrita, a ação educativa que intervém concretamente no contexto escolar é"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "realizar um levantamento sobre o desperdício na alimentação escolar e divulgá-lo em um evento científico."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "mapear os locais de descarte de alimentos e elaborar uma redação sobre o uso dos resíduos gerados."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "pesquisar o uso de adubos orgânicos e analisar dados estatísticos sobre os benefícios da compostagem."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "organizar uma oficina para o reaproveitamento de alimentos e acompanhar as mudanças comportamentais na escola."
+        }
+      ]
+    }
+  ]
+}

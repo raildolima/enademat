@@ -1,0 +1,69 @@
+{
+  "id": "2025-prova1-q029",
+  "provaId": "2025-prova1",
+  "tipo": "objetiva",
+  "numero": 29,
+  "rotulo": "Questão 29",
+  "parte": "formacao-geral",
+  "ordemCaderno": 29,
+  "paginas": [
+    17
+  ],
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Motivado pela revisão da Lei n. 12 711/2012, ocorrida no ano de 2023, um professor do Ensino Médio propôs uma roda de conversa, utilizando a charge de jornal como recurso mobilizador para a discussão sobre os impactos das ações afirmativas no sistema educacional brasileiro. A atividade promoveu a reflexão e a crítica sobre os princípios do Plano Nacional de Educação em Direitos Humanos (PNEDH), como o respeito à dignidade humana e o exercício da cidadania democrática no Estado de Direito."
+    },
+    {
+      "tipo": "imagem",
+      "src": "figuras/2025-prova1/q029-f1.webp",
+      "alt": "Charge de Laerte ironizando preconceitos e reações conservadoras contra as cotas e ações afirmativas raciais."
+    },
+    {
+      "tipo": "fonte",
+      "texto": "LAERTE. Disponível em: www1.folha.uol.com.br. Acesso em: 12 maio 2025."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "A atividade proposta pelo professor possibilita ao estudante"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "reconhecer as ações afirmativas previstas em lei desvinculadas do processo histórico de formação do povo brasileiro."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "compreender as ações afirmativas previstas em lei como uma conquista democrática decorrente da mobilização social."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "constatar a neutralidade dos meios de comunicação em relação ao racismo estrutural e às ações afirmativas."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "entender o debate sobre as ações afirmativas como garantia da superação da discriminação racial."
+        }
+      ]
+    }
+  ]
+}

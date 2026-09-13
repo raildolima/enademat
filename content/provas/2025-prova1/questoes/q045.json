@@ -1,0 +1,65 @@
+{
+  "id": "2025-prova1-q045",
+  "provaId": "2025-prova1",
+  "tipo": "objetiva",
+  "numero": 45,
+  "rotulo": "Questão 45",
+  "parte": "componente-especifico",
+  "ordemCaderno": 46,
+  "paginas": [
+    26
+  ],
+  "textoBaseId": "tb-44-45",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Com base nos resultados dos jogos, um estudante do Ensino Fundamental apresentou o seguinte cálculo da média de gols por partida:"
+    },
+    {
+      "tipo": "formula",
+      "latex": "\\text{média} = \\frac{4 \\cdot 4 + 2 \\cdot 1 + 4 \\cdot 1 + 2 \\cdot 2 + 3}{9} = \\frac{29}{9}"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Assinale a intervenção pedagógica adequada para o professor que utiliza a análise de erros como metodologia de ensino, conforme a citação de Cury."
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Indicar o erro do estudante e resolver o problema na lousa, chamando a atenção de toda a turma para o fato de que a rodada do campeonato teve dez partidas e, portanto, o cálculo da média precisa ser realizado fazendo a divisão por dez."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Comunicar ao estudante que seu raciocínio não considerou a partida em que não houve gols, a qual também faz parte da rodada do campeonato e precisa ser considerada para o cálculo da média."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Propor uma investigação com outros conjuntos de dados para o cálculo da média, por exemplo, o número de irmãos ou de bichos de estimação, para levar o estudante a analisar seus cálculos e respostas com relação à presença de valores zero."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Mostrar ao estudante que a rodada do campeonato teve dez partidas e dizer que, por isso, o cálculo da média precisa ser realizado somando-se todos os gols e fazendo-se a divisão por dez."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "2025-prova1-q072",
+  "provaId": "2025-prova1",
+  "tipo": "objetiva",
+  "numero": 72,
+  "rotulo": "Questão 72",
+  "parte": "componente-especifico",
+  "ordemCaderno": 73,
+  "paginas": [42],
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Uma professora de Matemática pretende planejar uma aula para uma turma do Ensino Médio com o intuito de desenvolver a seguinte habilidade da Base Nacional Comum Curricular (BNCC):\n\n(EM13MAT309) Resolver e elaborar problemas que envolvem o cálculo de áreas totais e de volumes de prismas, pirâmides e corpos redondos em situações reais (como o cálculo do gasto de material para revestimento ou pinturas de objetos cujos formatos sejam composições dos sólidos estudados), com ou sem apoio de tecnologias digitais.\n\nObservando as dificuldades dos estudantes, a professora utilizou a Modelagem Matemática relacionada com a Arquitetura. Para isso, ela selecionou a imagem aérea, a seguir, do Centro Cultural Oscar Niemeyer, situado na cidade de Goiânia."
+    },
+    {
+      "tipo": "imagem",
+      "src": "figuras/2025-prova1/q072-f1.webp",
+      "alt": "Vista aérea panorâmica do complexo arquitetônico do Centro Cultural Oscar Niemeyer em Goiânia com sólidos geométricos."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Após a apresentação da imagem, ela propôs aos estudantes que construíssem uma maquete o mais realista possível. Para isso, foi necessário encontrar as medidas reais dos monumentos que compõem o Centro Cultural Oscar Niemeyer e definir qual seria o tamanho das miniaturas dos monumentos.\n\nO modelo matemático que expressa a relação entre as medidas reais e as medidas das miniaturas é uma ferramenta essencial para a produção da maquete solicitada. Essa relação é representada pela expressão:"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "$E = \\frac{d}{D}$, em que $E$ é denominado escala, $d$ é a medida na miniatura e $D$ é a medida real correspondente."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "$R = \\frac{(d + D)}{d}$, em que $R$ é denominado razão áurea, $d$ é a medida na miniatura e $D$ é a medida real correspondente."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "$E = \\frac{(d + D)}{2}$, em que $E$ é denominado escala, $d$ é a medida na miniatura e $D$ é a medida real correspondente."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "$R = (D - d)^2$, em que $R$ é denominado razão áurea, $d$ é a medida na miniatura e $D$ é a medida real correspondente."
+        }
+      ]
+    }
+  ],
+  "gabaritoOficial": "A"
+}

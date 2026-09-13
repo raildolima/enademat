@@ -1,0 +1,60 @@
+{
+  "id": "2025-prova1-q017",
+  "provaId": "2025-prova1",
+  "tipo": "objetiva",
+  "numero": 17,
+  "rotulo": "Questão 17",
+  "parte": "formacao-geral",
+  "ordemCaderno": 17,
+  "paginas": [
+    10
+  ],
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Em uma escola da rede pública municipal, a equipe de educadores está revisando o Projeto Político Pedagógico (PPP) à luz do novo referencial curricular do município, elaborado de acordo com a Base Nacional Comum Curricular (BNCC). Durante as reuniões, surgem diferentes percepções entre os professores: alguns compreendem que esse documento apresenta uma lista de conteúdos obrigatórios a serem cumpridos; e outros entendem que ele orienta as decisões didáticas que deverão ser adaptadas, considerando o contexto da escola e as necessidades dos estudantes. Diante dessa problemática, a coordenadora pedagógica apresenta a perspectiva do currículo moldado, segundo a reflexão de Gimeno Sacristán (2000): “O currículo moldado vai além do currículo prescrito (normativo) e do apresentado (materiais didáticos), devendo ser articulado e ressignificado de acordo com os diferentes componentes curriculares, de modo a convergir para o contexto local e regional”."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Diante do exposto, a concepção curricular apresentada pela coordenadora implica assumir o currículo como"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "construção social e o professor como agente mediador no desenvolvimento curricular."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "elemento neutro e o professor como agente condutor dos referenciais curriculares."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "diretriz nacional e o professor como agente executor do currículo apresentado."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "produto e o professor como agente educacional na apropriação curricular."
+        }
+      ]
+    }
+  ]
+}

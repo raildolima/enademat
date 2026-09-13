@@ -1,0 +1,57 @@
+{
+  "id": "2025-prova1-q068",
+  "provaId": "2025-prova1",
+  "numero": 68,
+  "tipo": "objetiva",
+  "parte": "componente-especifico",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "O cálculo de probabilidades faz parte de qualquer jogo que utiliza dados. Para trabalhar esse conteúdo em uma turma de Ensino Médio, um professor dividiu os estudantes em dois grupos, entregou ao primeiro um par de dados honestos e ao outro, um par de dados viciados, todos visualmente idênticos. Apresentou um jogo em que cada jogada exige o lançamento de um par de dados e a multiplicação dos números das faces obtidas na jogada. Cada grupo joga com o par de dados que havia recebido. O professor pediu aos estudantes que anotassem os resultados obtidos e, no decorrer das partidas, eles observaram que as frequências desses resultados, em cada grupo, estavam significativamente diferentes. Conjecturaram que poderia haver dados viciados. O professor explicou que sim e que, em cada dado do segundo grupo, a probabilidade de se obter a face 5 era o triplo da probabilidade de se obter qualquer uma das outras faces. Ele desafiou a turma a calcular a probabilidade de o produto das faces ser maior ou igual a 18, quando jogados o par de dados viciados.\n\nQual alternativa apresenta o resultado da probabilidade solicitada?"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "$\\frac{5}{18}$"
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "$\\frac{18}{64}$"
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "$\\frac{24}{64}$"
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "$\\frac{26}{64}$"
+        }
+      ]
+    }
+  ],
+  "gabaritoOficial": "D",
+  "rotulo": "Questão 68",
+  "ordemCaderno": 69,
+  "paginas": [
+    40
+  ]
+}

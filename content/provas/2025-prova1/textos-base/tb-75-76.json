@@ -1,0 +1,16 @@
+{
+  "id": "tb-75-76",
+  "provaId": "2025-prova1",
+  "titulo": "Texto para questões 75 e 76",
+  "questoes": [75, 76],
+  "blocos": [
+    {
+      "tipo": "paragrafo",
+      "texto": "As escalas são definidas de acordo com os assuntos representados nos mapas, podendo ser maiores ou menores conforme a necessidade de se observar um espaço com maior ou menor nível de detalhamento, respectivamente. A escala pode ser representada numérica ou graficamente. A escala numérica indica a relação entre as dimensões do espaço representado e do espaço real, por meio de uma proporção numérica. Por exemplo, em uma escala $1 : 100\\,000$; 1 centímetro medido no mapa representa uma distância de $100\\,000$ centímetros ou 1 quilômetro na superfície terrestre."
+    },
+    {
+      "tipo": "fonte",
+      "texto": "Atlas geográfico escolar. Disponível em: https://atlasescolar.ibge.gov.br. Acesso em: 3 jun. 2025 (adaptado)."
+    }
+  ]
+}

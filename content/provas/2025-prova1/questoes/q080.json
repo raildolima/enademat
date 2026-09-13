@@ -1,0 +1,66 @@
+{
+  "id": "2025-prova1-q080",
+  "provaId": "2025-prova1",
+  "tipo": "objetiva",
+  "numero": 80,
+  "rotulo": "Questão 80",
+  "parte": "componente-especifico",
+  "ordemCaderno": 81,
+  "paginas": [47],
+  "textoBaseId": "tb-79-80",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Ao finalizar as ampliações com os pantógrafos, um professor solicitou aos grupos que fizessem medições das plantas baixas criadas e anotassem os comprimentos das paredes externas para calcular o custo do metro quadrado da obra, que, naquela região, estava em R\\$ 1 800,00. Um dos grupos entregou a seguinte planta baixa."
+    },
+    {
+      "tipo": "imagem",
+      "src": "figuras/2025-prova1/q080-f1.webp",
+      "alt": "Planta baixa residencial ampliada exibindo as dimensões em centímetros das paredes externas dos cômodos.",
+      "legenda": "Figura 2: Planta baixa ampliada."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Sabe-se que as medidas das paredes da planta baixa original estão corretas, que foi utilizado um pantógrafo de relação $2BF = AB$ e que a escala da planta baixa original para a casa real é de $1 : 150$ (cada centímetro do desenho equivale a $150\\text{ cm}$ na realidade). Ao discutir a produção do grupo com a turma, o professor constatou que a planta baixa ampliada está com uma das medidas incorreta, dado que o pantógrafo utilizado triplica o tamanho da figura. Se as medidas estivessem corretas, qual seria o custo estimado da obra?"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "R\\$ 351 000,00, pois o custo é inversamente proporcional ao tamanho da obra."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "R\\$ 364 000,00, pois o custo é inversamente proporcional ao tamanho da obra."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "R\\$ 364 500,00, pois o custo é diretamente proporcional ao tamanho da obra."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "R\\$ 351 000,00, pois o custo é diretamente proporcional ao tamanho da obra."
+        }
+      ]
+    }
+  ],
+  "gabaritoOficial": "C"
+}

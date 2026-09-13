@@ -1,0 +1,16 @@
+{
+  "id": "tb-35-37",
+  "provaId": "2025-prova1",
+  "titulo": "Texto para questões de 35 a 37",
+  "questoes": [
+    35,
+    36,
+    37
+  ],
+  "blocos": [
+    {
+      "tipo": "paragrafo",
+      "texto": "A inteligência artificial (IA) tem desempenhado um papel cada vez mais importante na segurança de dados. Ela pode ser usada para proteger os dados no armazenamento, no acesso e durante a transmissão, com sistemas avançados de autenticação e criptografia. A função básica da criptografia é a cifragem de uma mensagem (texto claro) em outra mensagem (texto cifrado) de difícil compreensão, caso seja interceptada por entidades não autorizadas."
+    }
+  ]
+}

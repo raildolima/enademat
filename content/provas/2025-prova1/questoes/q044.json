@@ -1,0 +1,65 @@
+{
+  "id": "2025-prova1-q044",
+  "provaId": "2025-prova1",
+  "tipo": "objetiva",
+  "numero": 44,
+  "rotulo": "Questão 44",
+  "parte": "componente-especifico",
+  "ordemCaderno": 45,
+  "paginas": [
+    26
+  ],
+  "textoBaseId": "tb-44-45",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Sabendo que as equipes recebem três pontos por vitória, um por empate, e que não são atribuídos pontos para derrotas, um estudante do Ensino Médio apresentou o seguinte cálculo da média de pontos conquistados por partida na rodada:"
+    },
+    {
+      "tipo": "formula",
+      "latex": "\\text{média} = \\frac{6 \\cdot 3 + 4 \\cdot 2}{5} = \\frac{26}{5} = 5{,}2"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Qual alternativa apresenta a orientação de um professor que utiliza a análise de erros como metodologia de ensino, para que o estudante compreenda seu erro e faça a respectiva correção?"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Você observou que os pesos devem ser os números de partidas em que são conquistados três ou dois pontos. Mas quantos pontos podem ser conquistados por partida? Tem lógica a sua resposta?"
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Você observou que, em cada partida, quem pontua é o time vitorioso ou, no caso de empate, ambos os times. Mas o que é necessário para o cálculo da média? Você não fez os cálculos corretamente."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Você optou por fazer o cálculo usando a definição de média ponderada. Você tem dificuldade para usar médias ponderadas? Para não errar, faça o cálculo da média aritmética com os pontos distribuídos em cada partida."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Você concorda com esse resultado? Você fez a divisão por 5, e o correto é dividir por 10. Assim, obterá a resposta certa."
+        }
+      ]
+    }
+  ]
+}

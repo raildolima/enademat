@@ -1,0 +1,78 @@
+{
+  "id": "2025-prova1-q033",
+  "provaId": "2025-prova1",
+  "tipo": "objetiva",
+  "numero": 33,
+  "rotulo": "Questão 33",
+  "parte": "componente-especifico",
+  "ordemCaderno": 34,
+  "paginas": [
+    21
+  ],
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Algumas civilizações antigas representavam frações como somas de frações unitárias. No sistema de numeração egípcio, por exemplo, que utilizava símbolos hieróglifos, como na figura,"
+    },
+    {
+      "tipo": "imagem",
+      "src": "figuras/2025-prova1/q033-f1.webp",
+      "alt": "Símbolos hieróglifos egípcios utilizados para representar números inteiros."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "a representação das frações unitárias era feita acrescentando-se um hieróglifo de boca sobre uma determinada quantidade."
+    },
+    {
+      "tipo": "imagem",
+      "src": "figuras/2025-prova1/q033-f2.webp",
+      "alt": "Exemplos de representação de frações unitárias egípcias com o hieróglifo de boca sobre o número."
+    },
+    {
+      "tipo": "fonte",
+      "texto": "IFRAH, G. *História universal dos algarismos: a inteligência dos homens contada pelos números e pelo cálculo*. Rio de Janeiro: Nova Fronteira, 1997."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Ao preparar uma aula de Matemática, um professor do Ensino Fundamental decide utilizar o contexto histórico apresentado. Qual fundamento teórico-metodológico do ensino de frações está sendo abordado pelo professor nessa proposta?"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "A representação das frações na forma de número racional, uma vez que podem ser expressas como números decimais, conforme pode ser verificado na simbologia egípcia."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "A compreensão da natureza do conceito de fração a partir da fração unitária, cuja representação é feita pelo hieróglifo de boca representando o todo, que foi dividido em partes iguais, indicadas pelos demais hieróglifos egípcios."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "O uso de atividades práticas e situações do cotidiano dos estudantes, uma vez que relacionar frações unitárias com situações reais, como dividir ou medir, facilita a compreensão e a aplicação do conceito."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "O ensino com base em resoluções de problemas, em que um problema histórico possibilita o desenvolvimento de habilidades de investigação e a aplicação dos conceitos de fração aprendidos."
+        }
+      ]
+    }
+  ]
+}

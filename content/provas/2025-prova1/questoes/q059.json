@@ -1,0 +1,58 @@
+{
+  "id": "2025-prova1-q059",
+  "provaId": "2025-prova1",
+  "numero": 59,
+  "tipo": "objetiva",
+  "parte": "componente-especifico",
+  "textoBaseId": "tb-59-61",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Em relação à solução apresentada para a pergunta da pesquisa, o conhecimento comum de conteúdo, mais especificamente o conhecimento comum de Matemática, permite ao professor identificar que"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "a passagem da primeira para a segunda linha dessa solução denota, provavelmente, que esse estudante utiliza a ideia e comumente ensinada nas escolas de “passar o $y$ para o outro lado, trocando o sinal”, desconsiderando a restrição $y$ diferente de zero."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "a simplificação de $\\frac{(x + y)}{y}$ resultando em $x = x$ está errada, indicando que o estudante ainda tem dificuldades com a propriedade distributiva. Essa simplificação algébrica realizada de forma correta resulta na equação: $x + 1 = x$."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "o par ordenado $(0, 0)$ não é a solução da equação proposta. Embora seja solução da equação formada pelas duas primeiras expressões $x + y = xy$, não é solução da equação, considerando a terceira expressão $\\frac{x}{y}$, pois $\\frac{0}{0}$ indica um resultado que tende para o infinito."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "a resolução que parte da igualdade $xy = \\frac{x}{y}$ resulta em $y = +1$ ou $y = -1$. No entanto, $y = +1$ implica $x = 0$, resultado que não satisfaz toda equação. A solução apresenta o $y$, um número inteiro negativo, e o $x$, um número racional positivo e não inteiro."
+        }
+      ]
+    }
+  ],
+  "gabaritoOficial": "D",
+  "rotulo": "Questão 59",
+  "ordemCaderno": 60,
+  "paginas": [
+    35
+  ]
+}

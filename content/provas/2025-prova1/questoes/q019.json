@@ -1,0 +1,64 @@
+{
+  "id": "2025-prova1-q019",
+  "provaId": "2025-prova1",
+  "tipo": "objetiva",
+  "numero": 19,
+  "rotulo": "Questão 19",
+  "parte": "formacao-geral",
+  "ordemCaderno": 19,
+  "paginas": [
+    11
+  ],
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Li uma história de um pesquisador europeu no começo do século XX que estava nos EUA e chegou a um território dos hopi. Ele tinha pedido que alguém daquela aldeia facilitasse o encontro dele com uma anciã que ele queria entrevistar. Quando foi encontrá-la, ela estava parada perto de uma rocha. Estava conversando com a irmã dela: uma pedra. Assim como aquela senhora hopi que conversava com a pedra, sua irmã, tem um monte de gente que fala com montanhas.\nPor que essas narrativas não nos entusiasmam? Por que elas vão sendo esquecidas e apagadas em favor de uma narrativa globalizante, superficial, que quer contar a mesma história para a gente?"
+    },
+    {
+      "tipo": "fonte",
+      "texto": "KRENAK, A. *Ideias para adiar o fim do mundo*. São Paulo: Companhia das Letras, 2020 (adaptado)."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Para contemplar a reflexão de Ailton Krenak, os professores da Educação Básica devem considerar na elaboração de um plano de ensino os conhecimentos"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "científicos, fundamentados em uma visão eurocêntrica dos conhecimentos tradicionais locais."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "tradicionais locais, pautados por uma visão hegemônica dos conhecimentos científicos."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "científicos, integrados com os conhecimentos tradicionais locais."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "tradicionais locais, subordinados aos conhecimentos científicos."
+        }
+      ]
+    }
+  ]
+}

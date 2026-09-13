@@ -1,0 +1,22 @@
+{
+  "id": "tb-53-54",
+  "provaId": "2025-prova1",
+  "titulo": "Texto para questões 53 e 54",
+  "questoes": [53, 54],
+  "blocos": [
+    {
+      "tipo": "paragrafo",
+      "texto": "A Arquitetura e a Matemática mantêm uma relação indissociável, essencial em todas as etapas do processo de criação e construção de espaços. A Matemática contribui com cálculos, proporções, equações e conceitos da geometria espacial, fundamentais para o dimensionamento de estruturas como pilares, vigas, lajes, além do desenvolvimento de plantas, maquetes e projetos luminotécnicos. Esses elementos garantem não somente a funcionalidade das edificações, mas também sua harmonia estética, segurança e eficiência, mostrando que a Matemática não apenas colabora com a Arquitetura, ela é parte vital de sua essência. Um exemplo contemporâneo dessa integração entre forma e cálculo é o Hotel Luxor, em Las Vegas."
+    },
+    {
+      "tipo": "imagem",
+      "src": "figuras/2025-prova1/tb-53-54-f1.webp",
+      "alt": "Fotografia da fachada piramidal de vidro escuro do Hotel Luxor em Las Vegas com a esfinge em primeiro plano.",
+      "legenda": "Hotel Luxor, Las Vegas, Estados Unidos"
+    },
+    {
+      "tipo": "fonte",
+      "texto": "Disponível em: www.eunagringa.com.br. Acesso em: 25 maio 2025."
+    }
+  ]
+}

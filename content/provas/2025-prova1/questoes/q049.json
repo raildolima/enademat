@@ -1,0 +1,64 @@
+{
+  "id": "2025-prova1-q049",
+  "provaId": "2025-prova1",
+  "tipo": "objetiva",
+  "numero": 49,
+  "rotulo": "Questão 49",
+  "parte": "componente-especifico",
+  "ordemCaderno": 50,
+  "paginas": [
+    28
+  ],
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Estudos relacionados à Análise de Erros apontam um caminho pedagógico que vai além de aplicar medidas paliativas. A identificação e categorização dos erros cometidos pelos estudantes possibilitam adequar o planejamento de ensino para corrigir os erros conceituais e procedimentais. Para que essa identificação ocorra, os docentes precisam assumir uma postura investigativa e consciente sobre as soluções dos estudantes. Mesmo sendo constantemente delineado como pertencentes ao estudante, muitas dessas variáveis identificadas como prováveis geradoras dos erros estavam associadas ao modelo de ensino ou à postura pedagógica adotada pelo professor. No ensino de probabilidade, por exemplo, frequentemente professores apresentam um “macete” que associa a palavra “ou”, encontrada no enunciado, à ideia de que a solução envolve uma simples “adição de probabilidades”, gerando um dispositivo fácil e prático. No entanto, os estudantes deveriam ser alertados que esta relação somente será satisfeita se os eventos forem mutuamente exclusivos."
+    },
+    {
+      "tipo": "fonte",
+      "texto": "VAZ, R. F. N. Por que errar ainda é tão errado? Algumas reflexões sobre o papel do erro no ensino e na avaliação de matemática. *Revemop*, v. 4, 2022 (adaptado)."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Considerando uma moeda e um dado não viciados, qual alternativa é utilizada por um professor como um contraexemplo para apresentar aos estudantes que a probabilidade da união de dois eventos não é sempre igual à soma das probabilidades desses eventos?"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Calcular a probabilidade de se obter três caras no lançamento de três moedas."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Calcular a probabilidade de se obter uma face par ou uma face 5 voltada para cima no lançamento de um dado."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Calcular a probabilidade de se obter pelo menos 3 caras no lançamento de 5 moedas."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Calcular a probabilidade de se obter uma face ímpar ou um número primo no lançamento de um dado."
+        }
+      ]
+    }
+  ]
+}

@@ -22,9 +22,8 @@ export function validarLatex(latex: string, displayMode = false): { valido: bool
 export function validarTextoRico(texto: string): { valido: boolean; erros: string[] } {
   const erros: string[] = [];
 
-  // Checagem de R$ sem barra: (?<!\\)R\$
-  // Em regex JS: procura R$ não precedido por \
-  const regexRealInvalido = /(?<!\\)R\$/g;
+  // Checagem de R$ sem barra como moeda: procura "R$" não precedido por \ seguido de espaço e/ou dígitos
+  const regexRealInvalido = /(?<!\\)R\$\s*\d/g;
   if (regexRealInvalido.test(texto)) {
     erros.push('Símbolo monetário "R$" sem barra invertida detectado. Deve ser sempre "R\\$".');
   }
@@ -35,9 +34,15 @@ export function validarTextoRico(texto: string): { valido: boolean; erros: strin
     erros.push('HTML cru não permitido no TextoRico.');
   }
 
-  // Placeholders proibidos
-  const termosProibidos = ['\\bTODO\\b', '\\bTBD\\b', '\\bPREENCHER\\b', '\\[incerto\\]', '\\blorem\\b'];
-  for (const termo of termosProibidos) {
+  // Placeholders proibidos (TODO, TBD, PREENCHER devem ser maiúsculos para não colidir com o português "todo")
+  const termosCaseSensitive = ['\\bTODO\\b', '\\bTBD\\b', '\\bPREENCHER\\b'];
+  for (const termo of termosCaseSensitive) {
+    if (new RegExp(termo).test(texto)) {
+      erros.push(`Placeholder ou termo proibido detectado: ${termo}`);
+    }
+  }
+  const termosCaseInsensitive = ['\\[incerto\\]', '\\blorem\\b'];
+  for (const termo of termosCaseInsensitive) {
     if (new RegExp(termo, 'i').test(texto)) {
       erros.push(`Placeholder ou termo proibido detectado: ${termo}`);
     }

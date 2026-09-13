@@ -1,0 +1,57 @@
+{
+  "id": "2025-prova1-q058",
+  "provaId": "2025-prova1",
+  "numero": 58,
+  "tipo": "objetiva",
+  "parte": "componente-especifico",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Para uma educação inclusiva e eficaz, destaca-se o uso do plano educacional individualizado (PEI), construído entre escola e família, como ferramenta essencial. O PEI permite flexibilizar o currículo, acompanhar o desenvolvimento do estudante e prevenir dificuldades emocionais e sociais. No contexto do atendimento educacional especializado (AEE), o PEI pode promover a inclusão efetiva, o desenvolvimento integral, a autonomia e a participação ativa, fortalecendo a parceria entre escola, família e comunidade.\n\nBAPTISTA, L. R. A.; CARDOSO, F. S. Guia prático para elaboração de plano educacional individualizado para altas habilidades ou superdotação. Disponível em: http://app.uff.br. Acesso em: 23 maio 2025 (adaptado).\n\nUm estudante do 7º ano, identificado com altas habilidades/superdotação (AH/SD), demonstra elevado interesse por Matemática e facilidade com conceitos de frações. A professora, em diálogo com a família e com apoio do AEE, elabora um PEI que respeita o perfil do estudante e valoriza sua autonomia e criatividade.\n\nQual estratégia está alinhada com os princípios do PEI e da Educação Matemática Inclusiva, conforme descritos no texto?"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Propor a criação de um portfólio sobre frações equivalentes com atividades investigativas."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Evitar atividades diferenciadas para não criar distanciamento."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Solicitar ao estudante que resolva uma maior quantidade de exercícios do mesmo tipo sobre frações."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Estabelecer como meta principal que o estudante mantenha o mesmo ritmo da turma."
+        }
+      ]
+    }
+  ],
+  "gabaritoOficial": "A",
+  "rotulo": "Questão 58",
+  "ordemCaderno": 59,
+  "paginas": [
+    33
+  ]
+}

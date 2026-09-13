@@ -1,0 +1,60 @@
+{
+  "id": "2025-prova1-q024",
+  "provaId": "2025-prova1",
+  "tipo": "objetiva",
+  "numero": 24,
+  "rotulo": "Questão 24",
+  "parte": "formacao-geral",
+  "ordemCaderno": 24,
+  "paginas": [
+    14
+  ],
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Em uma reunião de planejamento, foi proposta uma discussão sobre os diferentes tipos de avaliação e suas aplicações no processo de ensino e de aprendizagem. Foram apresentadas as características e as funções das avaliações diagnóstica, formativa e somativa no contexto escolar. Os professores foram convidados a descrever suas práticas pedagógicas e a relacioná-las aos diferentes objetivos das avaliações."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Entre as atividades avaliativas descritas, é associada à função formativa aquela que"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "inicia o ensino de frações com uma atividade de recortes de modelos de pizzas de papel divididas em partes iguais, para que os estudantes resolvam uma lista de exercícios."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "propõe uma série de perguntas para serem respondidas pelos estudantes sobre o tema de desmatamento ilegal, com o intuito de identificar os conhecimentos prévios dos estudantes sobre o assunto."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "oferece devolutivas para a produção coletiva de uma linha do tempo com marcos da Revolução Industrial, a fim de orientar o que pode ser aperfeiçoado no trabalho."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "aplica uma prova escrita com questões objetivas e dissertativas sobre os ciclos biogeoquímicos, com a finalidade de classificar os estudantes."
+        }
+      ]
+    }
+  ]
+}

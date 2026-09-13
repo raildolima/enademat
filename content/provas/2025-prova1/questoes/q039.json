@@ -1,0 +1,57 @@
+{
+  "id": "2025-prova1-q039",
+  "provaId": "2025-prova1",
+  "tipo": "objetiva",
+  "numero": 39,
+  "rotulo": "Questão 39",
+  "parte": "componente-especifico",
+  "ordemCaderno": 40,
+  "paginas": [
+    23
+  ],
+  "textoBaseId": "tb-38-39",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "A atividade proposta pelos dois docentes é um projeto interdisciplinar, porque organiza e produz conhecimento integrando as diferentes dimensões dos fenômenos estudados. A interdisciplinaridade no ensino de Matemática"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "permite conectar a geometria e a trigonometria com áreas menos importantes do conhecimento escolar, como a Biologia, por exemplo, dando-lhes mais relevância e um aspecto mais científico."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "desenvolve nos estudantes a capacidade de pensar e aprender Matemática de forma superficial, sustentada por uma perspectiva de educação ambiental em parceria com o professor de Biologia."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "supera uma visão especializada e fragmentada da Matemática, identificando conexões e inter-relações com outras áreas do conhecimento, para permitir uma melhor compreensão da realidade."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "transforma as disciplinas escolares fragmentadas, como Matemática e Biologia, em uma única disciplina, ministrada por todos os docentes, de forma integrada e conectada à contemporaneidade."
+        }
+      ]
+    }
+  ]
+}

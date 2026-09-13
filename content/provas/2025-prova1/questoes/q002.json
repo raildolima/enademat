@@ -1,0 +1,58 @@
+{
+  "id": "2025-prova1-q002",
+  "provaId": "2025-prova1",
+  "tipo": "objetiva",
+  "numero": 2,
+  "rotulo": "Questão 2",
+  "parte": "formacao-geral",
+  "ordemCaderno": 2,
+  "paginas": [
+    2,
+    3
+  ],
+  "textoBaseId": "tb-01-02",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Relacionando os textos 1 e 2, marque a alternativa que apresenta a percepção docente orientada pela função referencial proposta por Choppin (2004)."
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "“Escolho um livro que apresente temáticas sociais essenciais com reflexões sobre o conteúdo da disciplina”."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "“Prefiro os livros com sistematização coerente dos objetos de conhecimento da disciplina e transposição didática adequada”."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "“Considero adequados os livros que expressam conceitos por meio de elementos variados, como imagens, palavras, mapas e gráficos”."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "“Levo em consideração livros que apresentem a norma culta da língua e valores sociais predominantes nos conteúdos apresentados”."
+        }
+      ]
+    }
+  ]
+}

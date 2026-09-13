@@ -1,0 +1,58 @@
+{
+  "id": "2025-prova1-q061",
+  "provaId": "2025-prova1",
+  "numero": 61,
+  "tipo": "objetiva",
+  "parte": "componente-especifico",
+  "textoBaseId": "tb-59-61",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "A avaliação somativa tem por finalidade identificar o que os estudantes aprenderam a partir de suas respostas, mensurar e estabelecer uma pontuação. A avaliação formativa utiliza as produções e o progresso processual dos estudantes para regular o ensino e a aprendizagem.\n\nConsiderando aspectos relacionados à avaliação e, de acordo com o texto, podemos afirmar que"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "a análise de erros pode oferecer contributos à avaliação formativa, pois permite ao docente identificar as dificuldades que os estudantes estão enfrentando e, a partir daí, elaborar estratégias com base no conhecimento pedagógico do conteúdo para a promoção das aprendizagens."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "a análise de erros está, historicamente, associada às práticas somativas da avaliação, podendo oferecer excelentes contribuições frente ao conhecimento do conteúdo na correção e na pontuação dos exames discursivos de Matemática, sobretudo de larga escala."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "a avaliação formativa é uma prática educativa que pode ser interpretada como um conhecimento pedagógico de conteúdo, saber específico dos docentes das universidades e das instituições de Ensino Superior."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "a avaliação formativa é uma ideia difícil de ser implementada na Educação Básica, pois se trata do conhecimento do conteúdo em uma perspectiva antagônica à avaliação somativa que, por sua vez, já está implementada e consolidada nas escolas."
+        }
+      ]
+    }
+  ],
+  "gabaritoOficial": "A",
+  "rotulo": "Questão 61",
+  "ordemCaderno": 62,
+  "paginas": [
+    35
+  ]
+}

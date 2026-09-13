@@ -1,0 +1,15 @@
+{
+  "id": "tb-40-41",
+  "provaId": "2025-prova1",
+  "titulo": "Texto para questões 40 e 41",
+  "questoes": [
+    40,
+    41
+  ],
+  "blocos": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Em um cenário de constantes transformações, a educação deve acompanhar os avanços tecnológicos e pedagógicos. O uso de tecnologias digitais, como o software GeoGebra, pode tornar o ensino da Matemática mais interativo, dinâmico e investigativo. Esse recurso permite explorar representações de vetores no plano e no espaço, além de conceitos, como o produto vetorial e sua relação com áreas de paralelogramos. Ao articular álgebra e geometria, simultaneamente, o GeoGebra possibilita diferentes formas de pensar e resolver problemas, aproximando os estudantes de uma aprendizagem ativa e conectada às transformações da sociedade contemporânea."
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "2025-prova1-q070",
+  "provaId": "2025-prova1",
+  "numero": 70,
+  "tipo": "objetiva",
+  "parte": "componente-especifico",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Uma professora de Matemática utiliza o jogo Minecraft como estratégia para favorecer a compreensão de seus estudantes quanto à localização de pontos em um sistema de coordenadas cartesianas tridimensional. A tarefa planejada pela professora tem a seguinte folha de registro:\n\n“Pratique suas habilidades de teletransporte seguindo a Caça ao Tesouro Coordenada. Se você se perder, pode sempre voltar para a posição original e seguir o caminho de volta pela caça ao tesouro. Você consegue chegar até o final?”.\n\nUm estudante fez os registros no sistema de coordenadas cartesianas conforme a figura."
+    },
+    {
+      "tipo": "imagem",
+      "src": "figuras/2025-prova1/q070-f1.webp",
+      "alt": "Sistema cartesiano tridimensional com eixos x, y e z exibindo a posição dos pontos A, B, C e D com retas pontilhadas perpendiculares ao plano z = 0"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Sabendo que as retas ilustradas na figura, que passam pelos pontos A, B, C e D, são perpendiculares ao plano $z = 0$, qual par de pontos está localizado na região do espaço definida por $x > 0$, $y > 0$ e $z > 0$?"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "A e B."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "C e D."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "A e C."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "B e D."
+        }
+      ]
+    }
+  ],
+  "gabaritoOficial": "B",
+  "rotulo": "Questão 70",
+  "ordemCaderno": 71,
+  "paginas": [
+    41
+  ]
+}

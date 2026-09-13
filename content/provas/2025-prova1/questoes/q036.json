@@ -1,0 +1,61 @@
+{
+  "id": "2025-prova1-q036",
+  "provaId": "2025-prova1",
+  "tipo": "objetiva",
+  "numero": 36,
+  "rotulo": "Questão 36",
+  "parte": "componente-especifico",
+  "ordemCaderno": 37,
+  "paginas": [
+    22
+  ],
+  "textoBaseId": "tb-35-37",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Em uma aula de Matemática no 7º ano do Ensino Fundamental, uma professora solicitou aos estudantes a classificação dos números $126$, $845$, $1\\,020$, $371$ e $999$ de acordo com sua divisibilidade por 2, 3, 5 e 9, justificando cada caso com base nos critérios de divisibilidade estudados. Para tornar a aula mais dinâmica, a professora sugeriu que os estudantes, em duplas, utilizassem uma ferramenta de IA para ajudar na verificação dos critérios de divisibilidade. Ao final da atividade, a professora observou que diversas duplas entregaram respostas com justificativas idênticas, vindas claramente da IA. No entanto, algumas delas estavam incompletas ou conceitualmente equivocadas, como: “126 é divisível por 3 porque termina em número múltiplo de 3”; e “999 é divisível por 9 porque é um número grande e termina em 9”."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Qual intervenção pedagógica utiliza o erro como estratégia para promover a compreensão dos critérios de divisibilidade e o uso crítico da IA?"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Reforçar o conteúdo em uma aula expositiva, apresentando um resumo dos critérios de divisibilidade fornecidos por uma IA, e solicitar aos estudantes que resolvam uma lista de exercícios."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Corrigir as justificativas incorretas da IA na lousa, reforçando que a IA não é confiável, e solicitar aos estudantes que copiem no caderno os critérios corretos de divisibilidade."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Repetir a atividade com os mesmos números, mas sem o uso da IA, reforçando a aprendizagem dos estudantes com a resolução de uma lista de exercícios de forma individual."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Propor aos estudantes a análise de diferentes respostas geradas por IA, identificando erros e, com base nos critérios corretos, justificar as divisibilidades."
+        }
+      ]
+    }
+  ]
+}

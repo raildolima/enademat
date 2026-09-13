@@ -1,0 +1,57 @@
+{
+  "id": "2025-prova1-q010",
+  "provaId": "2025-prova1",
+  "tipo": "objetiva",
+  "numero": 10,
+  "rotulo": "Questão 10",
+  "parte": "formacao-geral",
+  "ordemCaderno": 10,
+  "paginas": [
+    7
+  ],
+  "textoBaseId": "tb-10-11",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Considerando o contexto apresentado, as ações pedagógicas desenvolvidas pelos professores"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "priorizam os conteúdos disciplinares específicos como estratégia motivadora educacional."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "favorecem a experiência de estudantes, enfatizando saberes de uma área de conhecimento."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "incentivam a valorização do mundo do trabalho com base em metodologias de ensino inovadoras."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "integram as vivências dos estudantes ao currículo, promovendo reflexões sobre o mundo do trabalho."
+        }
+      ]
+    }
+  ]
+}

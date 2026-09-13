@@ -1,0 +1,60 @@
+{
+  "id": "2025-prova1-q034",
+  "provaId": "2025-prova1",
+  "tipo": "objetiva",
+  "numero": 34,
+  "rotulo": "Questão 34",
+  "parte": "componente-especifico",
+  "ordemCaderno": 35,
+  "paginas": [
+    21
+  ],
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Com o intuito de trabalhar aplicações de funções no meio social dos estudantes e as relações entre as variáveis dependente e independente, um professor associou o montante de uma aplicação a juros simples de $0{,}93\\%$ ao mês, com capital inicial de R\\$ 500,00, à função dada por $f(t) = 500(1+0{,}0093t)$, $t$ em mês. Em seguida, o professor propôs que os estudantes estimassem o tempo em que o valor do capital inicial deveria permanecer aplicado para se obter o dobro do valor."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Para responder ao professor, os estudantes analisaram a função dada e concluíram que a taxa de variação da função $f(t)$ é"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "constante e igual a $0{,}0093$."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "crescente e igual a $0{,}0093t$."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "crescente e igual a $500(0{,}0093t)$."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "constante e igual a $500(0{,}0093)$."
+        }
+      ]
+    }
+  ]
+}

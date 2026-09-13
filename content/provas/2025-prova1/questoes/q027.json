@@ -1,0 +1,60 @@
+{
+  "id": "2025-prova1-q027",
+  "provaId": "2025-prova1",
+  "tipo": "objetiva",
+  "numero": 27,
+  "rotulo": "Questão 27",
+  "parte": "formacao-geral",
+  "ordemCaderno": 27,
+  "paginas": [
+    15
+  ],
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Um professor, diante de questionamentos acerca da eficácia das vacinas na comunidade, propõe aos estudantes a realização de práticas pedagógicas sobre a relação entre o aumento da ocorrência de doenças que haviam sido erradicadas e o baixo índice de vacinação referente aos imunizantes do Programa Nacional de Imunizações (PNI). Considerando o papel da escola como espaço de promoção do letramento científico, o professor inicia um projeto de conscientização da comunidade escolar quanto à importância da atualização das carteiras vacinais e do combate à desinformação. A fim de atender aos objetivos do projeto, foi elaborada uma proposta de prática pedagógica."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Para que essa proposta promova o letramento científico, o professor deve"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "solicitar uma pesquisa em que os estudantes façam um levantamento junto aos familiares relativo a pendências na carteira de vacinação."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "desenvolver um projeto interdisciplinar em que os estudantes investiguem dados científicos sobre vacinação e apresentem os resultados em uma feira de ciências com a participação da comunidade escolar."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "promover rodas de conversa em que os estudantes construam um espaço de escuta e reflexão coletiva sobre a importância do conhecimento para a tomada de decisão em relação à escolha das melhores vacinas."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "propor uma prática pedagógica em que os estudantes tenham acesso aos materiais informativos da campanha de vacinação organizada pela Secretaria de Saúde na própria unidade escolar."
+        }
+      ]
+    }
+  ]
+}

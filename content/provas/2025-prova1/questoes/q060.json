@@ -1,0 +1,58 @@
+{
+  "id": "2025-prova1-q060",
+  "provaId": "2025-prova1",
+  "numero": 60,
+  "tipo": "objetiva",
+  "parte": "componente-especifico",
+  "textoBaseId": "tb-59-61",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Considere que um professor da licenciatura em Matemática observou que alguns estudantes do 1º período do curso cometeram erros iguais ou similares como aqueles apresentados no texto. Em consequência, desenvolveu algumas estratégias pedagógicas para que os estudantes superassem essas dificuldades. As duas principais estratégias foram:\n\n1. Revisitou estruturas fundamentais da resolução de equações do primeiro grau e sistemas lineares. Utilizou recursos lúdicos, associando à ideia da balança e apresentou uma abordagem mais fundamentada, sem utilizar jargões como “corta e corta” ou “jogue para o outro lado trocando o sinal”.\n2. Utilizando ideias de geometria analítica, apresentou uma abordagem gráfica da resolução de sistemas utilizando recursos computacionais. Representou, para finalizar, as superfícies $z = x + y$; $w = xy$ e $v = \\frac{x}{y}$ para que os estudantes visualizassem o seu comportamento geométrico e suas possíveis curvas de interseções.\n\nDe acordo com as ideias de Ball, Thames e Phelps (2008), as estratégias docentes descritas no texto estão associadas, predominantemente, ao"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "conhecimento especializado do conteúdo."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "conhecimento do conteúdo e de estudantes."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "conhecimento do conteúdo e de ensino."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "conhecimento comum de conteúdo."
+        }
+      ]
+    }
+  ],
+  "gabaritoOficial": "C",
+  "rotulo": "Questão 60",
+  "ordemCaderno": 61,
+  "paginas": [
+    35
+  ]
+}

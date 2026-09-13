@@ -1,0 +1,64 @@
+{
+  "id": "2025-prova1-q014",
+  "provaId": "2025-prova1",
+  "tipo": "objetiva",
+  "numero": 14,
+  "rotulo": "Questão 14",
+  "parte": "formacao-geral",
+  "ordemCaderno": 14,
+  "paginas": [
+    9
+  ],
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Com a intenção de valorizar a presença de estudantes indígenas em uma turma do Ensino Médio, uma professora de Filosofia apresentou o pensamento do escritor indígena Daniel Munduruku: “um caçador aprende com um caçador mais experiente; um jovem aprende sua arte na medida em que é capaz de reproduzir a arte dos mais velhos”. Essa ideia aborda diferentes formas de transmissão de conhecimento por meio da oralidade e da experiência cotidiana."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Pensando nisso, a professora organizou uma proposta pedagógica envolvendo a história de vida dos estudantes e suas experiências com foco no uso da mandioca (aipim ou macaxeira), da qual se faz, por exemplo, a tapioca – um alimento ancestral bastante consumido atualmente. Para isso, buscou-se a memória social das famílias por meio de entrevistas informais sobre os conhecimentos de plantio, de colheita e de preparo da mandioca até o seu consumo na comunidade, a fim de integrar conhecimentos ancestrais ao currículo escolar."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Assinale a alternativa que apresenta uma proposta pedagógica que fomente a cooperação entre escola, família e comunidade em relação às populações indígenas."
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Elaborar um estudo de caso que exemplifique o uso atual da tapioca na comunidade urbana como forma de validar as práticas agrícolas contemporâneas."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Apresentar vídeos gravados com a participação da comunidade escolar, registrando técnicas ancestrais e contemporâneas de se fazer tapioca."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Construir um mural escolar com depoimentos de nutricionistas que sugerem o consumo da tapioca nas dietas."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Transcrever as falas dos entrevistados sobre as práticas ancestrais agrícolas para análise nas aulas."
+        }
+      ]
+    }
+  ]
+}

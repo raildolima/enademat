@@ -1,0 +1,66 @@
+{
+  "id": "2025-prova1-q062",
+  "provaId": "2025-prova1",
+  "numero": 62,
+  "tipo": "objetiva",
+  "parte": "componente-especifico",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Acompanhando o intervalo de uma escola de Ensino Médio, uma professora de Matemática escutou alguns estudantes conversando sobre a perda de um celular.\n\nAtenta ao diálogo, a professora resolveu conciliar a curiosidade dos estudantes com o estudo de conceitos de geometria. Para concretizar a sua ideia, ela propôs uma tarefa de Modelagem Matemática para os estudantes na qual eles pudessem analisar de forma crítica uma situação envolvendo a ciência e a tecnologia. O problema era o seguinte:\n\n**O problema do celular perdido**\n\nUm celular perdido precisa ser encontrado. Felizmente, três torres de celular detectam o sinal. Um sistema de coordenadas cartesianas usado pela cidade indica a localização das torres. As medidas estão em metro. O centro da cidade está localizado na origem e as torres nos pontos A, B e C."
+    },
+    {
+      "tipo": "imagem",
+      "src": "figuras/2025-prova1/q062-f1.webp",
+      "alt": "Gráfico com eixos cartesianos mostrando as torres A (-300, 300), B (300, 300) e C (500, -200) e as circunferências de alcance de cada uma"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "• A torre de celular A está na posição (-300, 300).\n• A torre de celular B está na posição (300, 300).\n• A torre de celular C está na posição (500, -200).\n\nA torre A detecta o sinal a uma distância de $447{,}2$ metros. A torre B detecta o sinal a uma distância de $282{,}8$ metros. A torre C detecta o sinal a uma distância de 500 metros.\n\nAnalisando as informações, qual modelo permite determinar o ponto de localização do celular perdido?"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "$\\begin{cases} (x + 300)^2 + (y - 300)^2 = (447{,}2)^2 \\\\ (x - 300)^2 + (y - 300)^2 = (282{,}8)^2 \\\\ (x - 500)^2 + (y + 200)^2 = (500)^2 \\end{cases}$"
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "$\\begin{cases} (x - 300)^2 + (y - 300)^2 = (447{,}2)^2 \\\\ (x - 300)^2 + (y - 300)^2 = (282{,}8)^2 \\\\ (x - 500)^2 + (y - 200)^2 = (500)^2 \\end{cases}$"
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "$\\begin{cases} (x + 300)^2 - (y - 300)^2 = (447{,}2)^2 \\\\ (x - 300)^2 - (y - 300)^2 = (282{,}8)^2 \\\\ (x - 500)^2 - (y + 200)^2 = (500)^2 \\end{cases}$"
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "$\\begin{cases} (x + 300)^2 + (y - 300)^2 = 447{,}2 \\\\ (x - 300)^2 + (y - 300)^2 = 282{,}8 \\\\ (x - 500)^2 + (y + 200)^2 = 500 \\end{cases}$"
+        }
+      ]
+    }
+  ],
+  "gabaritoOficial": "A",
+  "rotulo": "Questão 62",
+  "ordemCaderno": 63,
+  "paginas": [
+    36
+  ]
+}

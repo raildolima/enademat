@@ -1,0 +1,57 @@
+{
+  "id": "2025-prova1-q055",
+  "provaId": "2025-prova1",
+  "numero": 55,
+  "tipo": "objetiva",
+  "parte": "componente-especifico",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Em uma aula de Matemática, o professor divide os estudantes em quatro grupos para fazer uma roda de conversa sobre sequências.\n\nEle apresenta a sequência $a_n = \\frac{1}{n}$, na qual $n$ pertence ao conjunto dos números inteiros positivos. Logo após, pergunta aos grupos qual é o comportamento dessa sequência à medida que o valor de $n$ aumenta.\n\nCada grupo discute e compartilha sua resposta:\nGrupo 1: a sequência diverge porque os sinais de $a_n$ se alternam.\nGrupo 2: a sequência tende para o infinito, pois seus termos ficam cada vez maiores.\nGrupo 3: a sequência converge para zero, pois seus termos ficam cada vez menores e se aproximam cada vez mais de zero.\nGrupo 4: a sequência tem como limite 1, pois $a_1 = 1$ e esse resultado determina os demais valores da sequência.\n\nQual grupo apresenta a conjectura correta sobre o comportamento dessa sequência?"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Grupo 1."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Grupo 2."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Grupo 3."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Grupo 4."
+        }
+      ]
+    }
+  ],
+  "gabaritoOficial": "C",
+  "rotulo": "Questão 55",
+  "ordemCaderno": 56,
+  "paginas": [
+    32
+  ]
+}

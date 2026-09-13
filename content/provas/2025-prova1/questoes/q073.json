@@ -1,0 +1,55 @@
+{
+  "id": "2025-prova1-q073",
+  "provaId": "2025-prova1",
+  "tipo": "objetiva",
+  "numero": 73,
+  "rotulo": "Questão 73",
+  "parte": "componente-especifico",
+  "ordemCaderno": 74,
+  "paginas": [43],
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Uma professora de Matemática pediu aos estudantes de uma turma da Educação de Jovens e Adultos que determinassem o valor da hipotenusa em um triângulo retângulo com medidas dos catetos $120\\text{ m}$ e $160\\text{ m}$.\n\nApós ela desenhar na lousa o triângulo e escrever as medidas dos catetos, ocorreu o seguinte diálogo:\n\nEstudante: Professora, a senhora sabe que sou pedreiro, né?\nProfessora: Sim, eu me lembro de você ter mencionado em uma aula.\nEstudante: Esse exercício é fácil de fazer.\nProfessora: É mesmo!\nEstudante: A resposta é 200 metros.\nProfessora: Como foi que você fez tão rápido?\nEstudante: É simples. Nas obras nós temos uma regrinha para determinar o esquadro de uma parede. Eu pego um canto da parede, meço $60\\text{ cm}$ e realizo uma marcação. Depois, do mesmo canto eu meço $80\\text{ cm}$ na outra parede e faço uma marcação. A linha que une as duas marcações deverá ter $100\\text{ cm}$. Então, as duas paredes estarão no esquadro.\nProfessora: Mas as medidas que eu pedi são diferentes.\nEstudante: Eu percebi rapidamente que as medidas que a senhora escreveu na lousa eram o dobro das que eu uso na “regrinha”. Então, tem que dar 200.\nProfessora: Mas por que você não usou a fórmula?\nEstudante: Eu nem sabia que tinha uma fórmula!\n\nDiante do cenário em sala de aula, qual tendência em Educação Matemática pode subsidiar uma estratégia de ensino da professora, nas próximas aulas, com o objetivo de valorizar os conhecimentos socioculturais que os estudantes carregam de suas historicidades, e qual conteúdo matemático a professora está referenciando no cenário apresentado, respectivamente?"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Etnomatemática; Fórmula de Bhaskara."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Tecnologias Digitais de Informação e Comunicação; Teorema de Tales."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Etnomatemática; Teorema de Pitágoras."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Tecnologias Digitais de Informação e Comunicação; Teorema de Pick."
+        }
+      ]
+    }
+  ],
+  "gabaritoOficial": "C"
+}

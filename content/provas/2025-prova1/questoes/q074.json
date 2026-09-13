@@ -1,0 +1,55 @@
+{
+  "id": "2025-prova1-q074",
+  "provaId": "2025-prova1",
+  "tipo": "objetiva",
+  "numero": 74,
+  "rotulo": "Questão 74",
+  "parte": "componente-especifico",
+  "ordemCaderno": 75,
+  "paginas": [43],
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Em uma turma do Ensino Médio, o professor de Matemática propôs uma atividade de modelagem com um jogo, que usa 27 palitos. O objetivo do jogo é fazer o oponente retirar o último palito da mesa. Regras: I) os palitos são dispostos na mesa; II) dois jogadores jogam alternadamente; III) cada jogador, na sua vez, retira uma quantidade de palitos, no mínimo 1 e no máximo 4 palitos; IV) quem retirar o último palito perde. Logo após as orientações, a turma foi dividida em duplas para jogar. Por fim, o processo de construção da estratégia máxima (determinar as condições suficientes para ganhar o jogo) e os conceitos matemáticos envolvidos foram discutidos e registrados.\n\nNesse cenário, qual a contribuição desse jogo e como se dá a construção da estratégia máxima, respectivamente?"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Propicia aos estudantes experimentar situações que favorecem a aprendizagem; se um jogador começa, então sempre ganha, independe se a quantidade inicial de palitos é 27 ou não."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Promove autonomia e protagonismo na resolução de problemas; se um jogador começa, mesmo assim pode não ganhar, se a quantidade inicial de palitos for diferente de 27."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Limita o aprofundamento conceitual de conteúdos de Matemática; um jogador deixa para o oponente um número de palitos na forma $5k + 1$, para algum inteiro positivo $k$."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Reduz a complexidade de conteúdos de Matemática; um jogador deixa para o oponente um número de palitos na forma $5k + 2$, para algum inteiro positivo $k$."
+        }
+      ]
+    }
+  ],
+  "gabaritoOficial": "B"
+}

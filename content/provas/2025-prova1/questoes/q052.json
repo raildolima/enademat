@@ -1,0 +1,57 @@
+{
+  "id": "2025-prova1-q052",
+  "provaId": "2025-prova1",
+  "numero": 52,
+  "tipo": "objetiva",
+  "parte": "componente-especifico",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "De acordo com Skovsmose (2007), a Educação Matemática Crítica (EMC) tem como foco o meio social e político, buscando uma prática democrática no processo de ensino e aprendizagem, por meio do qual o estudante é convidado a refletir sobre a Matemática vivenciada em seu contexto, em uma perspectiva crítica. Uma possibilidade de tema para um projeto pedagógico em EMC seria a matemática das casas de apostas.\n\nPara entender a matemática das casas de apostas, primeiro é preciso entender o que são as odds, que traduzido para o português significam “chances”. Uma odd de $2{,}75$ indica que o retorno será $2{,}75$ vezes o valor apostado. Ou seja: uma aposta de 4 reais que é vencedora com essa odd dá um retorno de 11 reais (4 vezes $2{,}75$ é igual a 11).\n\nVamos considerar um exemplo: um jogo entre Vasco e Palmeiras. As odds de uma casa de apostas para esse jogo podem ser:\n• $4{,}41$ para vitória do Vasco;\n• $3{,}74$ para empate;\n• $1{,}79$ para vitória do Palmeiras.\n\nAs probabilidades implícitas (inversos das odds) para esse jogo são: $22{,}68\\%$ de vitória do Vasco; $26{,}74\\%$ de empate e $55{,}86\\%$ de vitória do Palmeiras.\n\nUma professora resolveu problematizar a questão das casas de apostas no Brasil. Solicitou aos estudantes que simulassem uma aposta de uma pessoa que distribuiu seu dinheiro de forma diretamente proporcional às três probabilidades implícitas do jogo Vasco e Palmeiras citado no texto.\n\nEla observou que, se os eventos são mutuamente exclusivos e a soma das probabilidades é $100\\%$, então a aposta proporcional é neutra, isto é, se R\\$ 100 são apostados, o retorno é exatamente R\\$ 100. Ilustrou isso com um exemplo: a probabilidade de se tirar um múltiplo de 3 num dado não viciado é $\\frac{1}{3}$ e a probabilidade de não se tirar um múltiplo de 3 é $\\frac{2}{3}$. As odds são portanto 3 e $1{,}5$, respectivamente. Uma aposta proporcional de R\\$ 100 é aproximadamente igual a apostar R\\$ 33,33 num múltiplo de 3 e R\\$ 66,67 em não sair um múltiplo de 3. Então, se não sair um múltiplo de 3, o retorno é $(1{,}5) \\times (66{,}67)$ que, não fosse a aproximação, seria exatamente R\\$ 100. Analogamente, se sair um múltiplo de 3, o retorno é exatamente o que se apostou ao todo.\n\nAssim, as casas de apostas modificam as odds para que as apostas proporcionais, caso permitidas, não sejam neutras, mas perdedoras.\n\nGALLAS, D. Bets: por que você quase sempre vai perder dinheiro com apostas esportivas, segundo a matemática. Disponível em: www.bbc.com. Acesso em: 16 maio 2025 (adaptado).\nCHIARELLO, A. P. R.; BERNARDI, L. S. Educação financeira crítica: novos desafios na formação continuada de professores. Boletim GEPEM, n. 66, 2014 (adaptado).\n\nEm relação às ideias de Skovsmose (2007) e à aposta proporcional no exemplo do jogo entre Vasco e Palmeiras, a proposta da professora trata-se de um convite"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "à construção de um cenário para investigação, pois pode-se verificar que a casa de apostas aumenta pelo menos uma das odds e ganha aproximadamente $5\\%$ do valor apostado."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "ao paradigma do exercício, pois essa tarefa pode ser organizada em formato de lista de exercícios que confirmam que a casa de apostas diminui pelo menos uma das odds e ganha aproximadamente $5\\%$ do valor apostado."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "à construção de um cenário para investigação, pois pode-se verificar que a casa de apostas diminui pelo menos uma das odds e ganha aproximadamente $5\\%$ do valor apostado."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "ao paradigma do exercício, pois pode-se verificar que a casa de apostas diminui pelo menos uma das odds e ganha aproximadamente $10{,}5\\%$ do valor apostado."
+        }
+      ]
+    }
+  ],
+  "gabaritoOficial": "C",
+  "rotulo": "Questão 52",
+  "ordemCaderno": 53,
+  "paginas": [
+    30
+  ]
+}

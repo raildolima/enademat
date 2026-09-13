@@ -1,0 +1,60 @@
+{
+  "id": "2025-prova1-q020",
+  "provaId": "2025-prova1",
+  "tipo": "objetiva",
+  "numero": 20,
+  "rotulo": "Questão 20",
+  "parte": "formacao-geral",
+  "ordemCaderno": 20,
+  "paginas": [
+    12
+  ],
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Em uma escola de Ensino Fundamental, uma professora organizou uma mostra de cinema com curtas e longas-metragens produzidos em países africanos para ser apresentada à comunidade escolar. A professora orientou que os estudantes deveriam selecionar três filmes, com base em critérios relevantes na compreensão do valor das culturas africanas."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Considerando os objetivos previstos na proposta da professora, os estudantes devem selecionar filmes que"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "retratem os espaços físicos e a vida animal selvagem como elementos característicos do continente africano."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "produzam a sensação de familiaridade no espectador com base nas narrativas audiovisuais europeias e americanas."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "reconhecem as variadas formas de expressão dos povos africanos, suas subjetividades e questões sociais associadas a esses povos."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "apresentem estereótipos relacionados a temáticas da colonização e seus impactos no modo de vida urbanizado em países africanos."
+        }
+      ]
+    }
+  ]
+}

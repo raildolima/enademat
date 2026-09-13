@@ -1,0 +1,73 @@
+{
+  "id": "2025-prova1-q046",
+  "provaId": "2025-prova1",
+  "tipo": "objetiva",
+  "numero": 46,
+  "rotulo": "Questão 46",
+  "parte": "componente-especifico",
+  "ordemCaderno": 47,
+  "paginas": [
+    27
+  ],
+  "textoBaseId": "tb-46-47",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Um dos estudantes respondeu da seguinte forma:\nCarros: $C$\nMoto: $M$"
+    },
+    {
+      "tipo": "formula",
+      "latex": "\\begin{cases} 2C + M = 41\\,000 \\\\ C + 2M = 28\\,000 \\end{cases} \\implies \\begin{cases} -4C - 2M = -82\\,000 \\\\ C + 2M = 28\\,000 \\end{cases} \\implies -3C = -54\\,000 \\implies C = 18\\,000"
+    },
+    {
+      "tipo": "formula",
+      "latex": "2C + M = 41\\,000 \\implies M = 41\\,000 - 2 \\cdot 18\\,000 = 41\\,000 - 36\\,000 = 5\\,000"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Valor do carro R\\$ 18 000,00, logo a resposta é a alternativa c, Figura 1."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Ao avaliar de maneira adequada a resolução do estudante, a professora concluiu que a resposta se enquadra na"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "categoria A."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "categoria B."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "categoria C."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "categoria D."
+        }
+      ]
+    }
+  ]
+}

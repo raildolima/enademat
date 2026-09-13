@@ -1,0 +1,57 @@
+{
+  "id": "2025-prova1-q066",
+  "provaId": "2025-prova1",
+  "numero": 66,
+  "tipo": "objetiva",
+  "parte": "componente-especifico",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Uma empresa de telefonia tem o objetivo de construir uma torre de transmissão de celulares para melhor atender a três prédios públicos. As localizações desses prédios estão representadas em um plano cartesiano com as seguintes coordenadas:\n• escola municipal: coordenada $(4, 7)$,\n• posto de saúde: coordenada $(1, 2)$,\n• biblioteca pública: coordenada $(9, 3)$.\n\nNessa situação, a equipe técnica da empresa precisa determinar as coordenadas para a instalação da torre, de modo que ela seja equidistante dos três prédios. Qual conceito deve ser utilizado para encontrar as coordenadas do ponto de instalação?"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Baricentro."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Circuncentro."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Ortocentro."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Incentro."
+        }
+      ]
+    }
+  ],
+  "gabaritoOficial": "B",
+  "rotulo": "Questão 66",
+  "ordemCaderno": 67,
+  "paginas": [
+    39
+  ]
+}

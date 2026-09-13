@@ -1,0 +1,57 @@
+{
+  "id": "2025-prova1-q011",
+  "provaId": "2025-prova1",
+  "tipo": "objetiva",
+  "numero": 11,
+  "rotulo": "Questão 11",
+  "parte": "formacao-geral",
+  "ordemCaderno": 11,
+  "paginas": [
+    7
+  ],
+  "textoBaseId": "tb-10-11",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "No contexto relatado, o Estágio Supervisionado é concebido como espaço de"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "formação pedagógica que considera o papel do professor-supervisor como coformador."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "interação entre professor-supervisor e estagiários para a aquisição dos conteúdos curriculares."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "aquisição de novas tecnologias pelo professor-supervisor para a aplicação em sala de aula."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "aplicação de conhecimentos teórico-metodológicos do professor-supervisor no cotidiano escolar."
+        }
+      ]
+    }
+  ]
+}

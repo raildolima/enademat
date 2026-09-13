@@ -1,0 +1,66 @@
+{
+  "id": "2025-prova1-q064",
+  "provaId": "2025-prova1",
+  "numero": 64,
+  "tipo": "objetiva",
+  "parte": "componente-especifico",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Um professor de Matemática de Ensino Médio solicitou aos seus estudantes o esboço, com o uso de software, do gráfico de duas funções contínuas: $f_1$, tal que $f_1(0) = 1$ e $f_1(1) = -1$ e $f_2$, tal que $f_2(0) = 1$ e $f_2(1) = 1$. O professor selecionou e apresentou à turma alguns dos gráficos elaborados e solicitou que, com base nas observações, enunciassem condições para a existência ou não de raízes."
+    },
+    {
+      "tipo": "imagem",
+      "src": "figuras/2025-prova1/q064-f1.webp",
+      "alt": "Quatro gráficos de funções contínuas identificados por (I), (II), (III) e (IV) exibindo o comportamento em relação ao eixo x nos intervalos dados"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Quatro estudantes apresentaram suas conjecturas, explicitadas nas alternativas. Está correto quem afirmou que"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "uma função contínua em $[a, b]$ com $f(a) \\cdot f(b) > 0$ tem pelo menos uma raiz real no intervalo $[a, b]$."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "uma função contínua em $[a, b]$ com $f(a) \\cdot f(b) < 0$ tem mais de uma raiz real no intervalo $[a, b]$."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "uma função contínua em $[a, b]$ com $f(a) \\cdot f(b) > 0$ tem mais de uma raiz real no intervalo $[a, b]$."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "uma função contínua em $[a, b]$ com $f(a) \\cdot f(b) < 0$ tem pelo menos uma raiz real no intervalo $[a, b]$."
+        }
+      ]
+    }
+  ],
+  "gabaritoOficial": "D",
+  "rotulo": "Questão 64",
+  "ordemCaderno": 65,
+  "paginas": [
+    37
+  ]
+}

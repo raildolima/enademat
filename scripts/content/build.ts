@@ -130,6 +130,6 @@ export function compilarConteudo(opts: { dryRun?: boolean } = {}): {
 }
 
 // Execução CLI
-if (import.meta.url === `file://${process.argv[1]}`) {
+if (process.argv[1] && (process.argv[1].endsWith('build.ts') || process.argv[1].endsWith('build.js'))) {
   compilarConteudo();
 }

@@ -79,8 +79,13 @@ export function gerarConferenciaHtml(provaId: string, opts: { dryRun?: boolean }
 }
 
 // Execução CLI
-if (import.meta.url === `file://${process.argv[1]}`) {
+if (process.argv[1] && (process.argv[1].endsWith('conferencia.ts') || process.argv[1].endsWith('conferencia.js'))) {
   const args = process.argv.slice(2);
-  const prova = args[0] || '2025-prova1';
+  let prova = '2025-prova1';
+  if (args.includes('--prova')) {
+    prova = args[args.indexOf('--prova') + 1] || '2025-prova1';
+  } else if (args[0] && !args[0].startsWith('--')) {
+    prova = args[0];
+  }
   gerarConferenciaHtml(prova);
 }

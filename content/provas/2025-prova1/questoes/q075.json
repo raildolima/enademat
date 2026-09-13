@@ -1,0 +1,74 @@
+{
+  "id": "2025-prova1-q075",
+  "provaId": "2025-prova1",
+  "tipo": "objetiva",
+  "numero": 75,
+  "rotulo": "Questão 75",
+  "parte": "componente-especifico",
+  "ordemCaderno": 76,
+  "paginas": [44],
+  "textoBaseId": "tb-75-76",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Para estudar escalas, com foco em ampliação e redução, um professor optou pela utilização de mapas. Ele distribuiu para os estudantes dois mapas com escalas diferentes."
+    },
+    {
+      "tipo": "imagem",
+      "src": "figuras/2025-prova1/q075-f1.webp",
+      "alt": "Mapa A com destaque para o território brasileiro e a distância linear de 6,5 cm entre Belém e São Paulo na escala 1 : 38 000 000."
+    },
+    {
+      "tipo": "imagem",
+      "src": "figuras/2025-prova1/q075-f2.webp",
+      "alt": "Mapa B da América do Sul com destaque para a distância linear de 3,0 cm entre Belém e São Paulo com escala desconhecida."
+    },
+    {
+      "tipo": "fonte",
+      "texto": "Disponível em: www.google.com.br/maps. Acesso em: 3 jun. 2025 (adaptado)."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Em ambos os mapas, estão marcadas as distâncias entre as cidades de São Paulo e Belém. O mapa A apresenta escala de $1 : 38\\,000\\,000$ e o mapa B, escala desconhecida. O professor solicitou aos estudantes que calculassem a distância real, em km, entre as cidades, e a escala em que o mapa B foi construído. Qual alternativa indica a solução correta?"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Para calcular a distância real entre as cidades será necessário obter a escala do mapa B, de aproximadamente $1 : 83\\,300\\,000$, e depois calcular a distância entre as cidades, que é de $2\\,470\\text{ km}$."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Para calcular a escala do mapa B será necessário calcular a distância real entre as cidades, que é de $2\\,280\\text{ km}$, e depois calcular a escala, que é de aproximadamente $1 : 76\\,000\\,000$."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "A distância real entre as cidades é de $2\\,470\\text{ km}$ e a escala do mapa B é de aproximadamente $1 : 82\\,300\\,000$ e estes valores podem ser calculados independentemente da ordem."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "A distância real entre as cidades é de $2\\,280\\text{ km}$ e a escala do mapa B é de aproximadamente $1 : 76\\,000\\,000$ e estes valores podem ser calculados independentemente da ordem."
+        }
+      ]
+    }
+  ],
+  "gabaritoOficial": "C"
+}

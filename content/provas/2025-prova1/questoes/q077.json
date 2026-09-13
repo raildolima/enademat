@@ -1,0 +1,55 @@
+{
+  "id": "2025-prova1-q077",
+  "provaId": "2025-prova1",
+  "tipo": "objetiva",
+  "numero": 77,
+  "rotulo": "Questão 77",
+  "parte": "componente-especifico",
+  "ordemCaderno": 78,
+  "paginas": [45],
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "A fim de explorar a divisão euclidiana de números inteiros, uma professora do Ensino Fundamental exemplificou na prática como os dias da semana são cíclicos. Os estudantes conseguiram concluir que cada dia da semana se repete a cada múltiplo de 7 dias, mas não conseguiram resolver problemas do tipo “se hoje é quinta-feira, qual dia da semana será daqui a 365 dias?”, sem olhar o calendário e sem realizar a contagem dia a dia. Uma proposta de intervenção que a professora entendeu adequada foi representar cada dia da semana por um dos possíveis restos na divisão por 7, isto é, um elemento do conjunto $D = \\{0, 1, 2, 3, 4, 5, 6\\}$. Associou o domingo ao 0; a segunda-feira, ao 1, e assim por diante, e solicitou aos estudantes que resolvessem o problema no caso geral: “se o dia da semana é representado por $x$, determine que dia da semana será daqui a $k$ dias”.\n\nDe acordo com essa proposta, o dia da semana procurado é representado pelo"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "resto da divisão de $k$ por 7."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "resto da divisão de $q$ por 7, em que $q$ é o quociente da divisão de $k$ por 7."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "resto da divisão de $q$ por 7, em que $q$ é o quociente da divisão de $(x + k)$ por 7."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "resto da divisão de $(x + k)$ por 7."
+        }
+      ]
+    }
+  ],
+  "gabaritoOficial": "D"
+}

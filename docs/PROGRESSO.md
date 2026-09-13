@@ -27,14 +27,20 @@ Registrado em: 2026-09-13
 | **Fase 1** | Inventário | ✅ Concluída | 136 páginas renderizadas com grade, 3 gabaritos conferidos 100%, 202 questões mapeadas |
 | **Fase 2** | Dados e Validador (TDD) | ✅ Concluída | TDD completo: 13 testes verdes, `schema.ts`, `validate.ts`, `build.ts`, `conferencia.ts` |
 | **Fase 3** | Figuras | ✅ Concluída | 72 figuras recortadas em WebP (35 em 2025-P1, 23 em 2025-P5, 14 em 2021), manifestos e folhas de contato aprovados |
-| **Fase 4** | Transcrição | ⏳ Não iniciada | 202 questões transcritas e auditadas |
+| **Fase 4** | Transcrição | 🔄 Em andamento | 2025-P1 concluída (81 questões); 2025-P5 e 2021 pendentes |
 | **Fase 5** | Aplicação Web | ⏳ Não iniciada | Interface, componentes, pop-up Floating UI, testes E2E |
-| **Fase 6** | Resoluções Comentadas | ⏳ Não iniciada | 202 resoluções com resolução cega, verificador independente e SymPy |
+| **Fase 6** | Resoluções Comentadas | ⏳ Não iniciada | 202 CONFERÊNCIA e resoluções comentadas |
 | **Fase 7** | QA Final e Publicação | ⏳ Não iniciada | Definition of Done, Lighthouse, revisão humana amostral e deploy |
 
 ---
 
 ## 3. Log de Atualizações e Checkpoints
+- **2026-09-13**: Transcrição da Trilha 1 (`2025-prova1` — 81 questões) concluída.
+  - Formação Geral Docente (Q01 a Q30 + Discursiva D01) transcrita fielmente com 7 textos-base e figuras.
+  - Componente Específico (Q31 a Q80) transcrito com 8 textos-base e todas as figuras recortadas.
+  - Validador `validate.ts` aprimorado para auditoria recursiva completa da prova inteira.
+  - Folha de conferência HTML gerada em `work/conferencia/2025-prova1.html`.
+  - Validação estrita KaTeX, decimais `{,}`, moeda `R\$` e integridade das alternativas 100% aprovadas.
 - **2026-09-13**: Conclusão da Fase 3 (Recorte de Figuras das 3 Provas).
   - Script `scripts/pdf/recortar.py` implementado com suporte a aparar margens brancas (`aparar`), extração em 220 DPI e geração automática de folha de contato HTML com grade e metadados.
   - Lote Piloto de `2025-prova1` (páginas 20, 24, 29, 46) recortado, inspecionado e aprovado.

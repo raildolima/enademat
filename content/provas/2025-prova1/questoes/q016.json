@@ -1,0 +1,60 @@
+{
+  "id": "2025-prova1-q016",
+  "provaId": "2025-prova1",
+  "tipo": "objetiva",
+  "numero": 16,
+  "rotulo": "Questão 16",
+  "parte": "formacao-geral",
+  "ordemCaderno": 16,
+  "paginas": [
+    10
+  ],
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Em uma escola localizada em território quilombola, as turmas do Ensino Médio estavam envolvidas com a festividade de Santo Antônio, padroeiro da comunidade. Um professor de História, aproveitando a situação, convidou professores de outras áreas para realizarem atividades pedagógicas sobre a representatividade da festa para o Inventário Cultural Quilombola. Com a mobilização das áreas, foi proposta uma reflexão sobre a autonomia e a identidade escolar presentes no Projeto Político Pedagógico da escola."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Com base no cenário apresentado, uma intervenção didática que considera a colaboração entre escola e comunidade quilombola é aquela que"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "realiza leituras de textos sobre a festividade para normatizar saberes na escola."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "insere festividades contemporâneas para renovar os princípios educativos da escola."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "promove atividades para reconhecer ritos significativos para a comunidade durante a organização da festa."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "organiza feiras com produtos industrializados para possibilitar a integração da comunidade com os espaços urbanos."
+        }
+      ]
+    }
+  ]
+}

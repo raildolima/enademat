@@ -1,0 +1,15 @@
+{
+  "id": "tb-12-13",
+  "provaId": "2025-prova1",
+  "titulo": "Texto para questões 12 e 13",
+  "questoes": [
+    12,
+    13
+  ],
+  "blocos": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Com base nos princípios da Pedagogia de Projetos e em articulação com os Objetivos de Desenvolvimento Sustentável (ODS), especialmente o ODS 12, que trata da produção e do consumo responsáveis, os professores de uma escola pública de Ensino Fundamental desenvolveram um projeto interdisciplinar com o intuito de promover ações educativas sobre o reaproveitamento de resíduos orgânicos na escola. A iniciativa incluiu o desenvolvimento de atividades de separação e de aproveitamento de resíduos da alimentação escolar, bem como a montagem de composteiras artesanais para a produção e o uso de adubo em jardins e hortas da escola."
+    }
+  ]
+}

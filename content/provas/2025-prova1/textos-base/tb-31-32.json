@@ -1,0 +1,25 @@
+{
+  "id": "tb-31-32",
+  "provaId": "2025-prova1",
+  "titulo": "Texto para questões 31 e 32",
+  "questoes": [31, 32],
+  "blocos": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Biembengut defende que a Modelagem Matemática em aula deve ser organizada em três fases: interação, matematização e significação-modelo, respectivamente, com o propósito de desenvolver o pensamento matemático em contextos reais."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Com base nesse fundamento teórico-metodológico do ensino, uma professora propôs a seguinte situação-problema aos estudantes: após o rompimento da barragem em Brumadinho (MG), em 2019, resíduos contendo metais pesados, como o chumbo, dispersaram-se por toda a bacia do Rio Paraopeba. Com o objetivo de avaliar os impactos ambientais dessa contaminação, cientistas recorreram a imagens de satélite para mapear as áreas atingidas. Em uma dessas regiões, representada na figura pelo triângulo retângulo ABC, em escala $1 : 20$, cuja hipotenusa e um dos catetos têm suas medidas, respectivamente, $25\\text{ cm}$ e $20\\text{ cm}$, estimou-se uma concentração superficial média de chumbo de $120\\text{ mg/m}^2$."
+    },
+    {
+      "tipo": "imagem",
+      "src": "figuras/2025-prova1/tb-31-32-f1.webp",
+      "alt": "Triângulo retângulo ABC com ângulo reto em B, cateto AB medindo 20 cm, hipotenusa AC medindo 25 cm e escala gráfica indicando 1 cm = 20 m."
+    },
+    {
+      "tipo": "fonte",
+      "texto": "BIEMBENGUT, M. S. 30 anos de Modelagem Matemática na educação brasileira: das propostas primeiras às propostas atuais. *Alexandria*, n. 2, 1 jul. 2009 (adaptado). Disponível em: google.com. Acesso em: 21 maio 2025 (adaptado)."
+    }
+  ]
+}

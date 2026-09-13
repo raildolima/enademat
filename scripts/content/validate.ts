@@ -258,10 +258,77 @@ export function executarValidacaoCompleta(opts: {
 
     // 2. gabarito.json
     const gabaritoFile = path.join(provaDir, 'gabarito.json');
+    let gabaritoData: any = null;
     if (fs.existsSync(gabaritoFile)) {
-      const gabaritoData = JSON.parse(fs.readFileSync(gabaritoFile, 'utf-8'));
+      gabaritoData = JSON.parse(fs.readFileSync(gabaritoFile, 'utf-8'));
       const resGab = validarGabaritoComReferencia(gabaritoData);
       if (!resGab.valido) todosErros.push(...resGab.erros.map((e) => `[${p}/gabarito.json] ${e}`));
+    }
+
+    // 3. figuras.manifest.json
+    const manifestFile = path.join(provaDir, 'figuras.manifest.json');
+    if (fs.existsSync(manifestFile)) {
+      const manifestData = JSON.parse(fs.readFileSync(manifestFile, 'utf-8'));
+      const resManifest = FigurasManifestSchema.safeParse(manifestData);
+      if (!resManifest.success) todosErros.push(...resManifest.error.issues.map((i) => `[${p}/figuras.manifest.json] ${i.message}`));
+    }
+
+    // 4. textos-base/*.json
+    const tbDir = path.join(provaDir, 'textos-base');
+    if (fs.existsSync(tbDir)) {
+      for (const f of fs.readdirSync(tbDir)) {
+        if (!f.endsWith('.json')) continue;
+        try {
+          const tbData = JSON.parse(fs.readFileSync(path.join(tbDir, f), 'utf-8'));
+          const resTb = TextoBaseSchema.safeParse(tbData);
+          if (!resTb.success) todosErros.push(...resTb.error.issues.map((i) => `[${p}/textos-base/${f}] ${i.message}`));
+          if (tbData.blocos && Array.isArray(tbData.blocos)) {
+            const errsImg = validarBlocosRecursivo(tbData.blocos);
+            todosErros.push(...errsImg.map((e) => `[${p}/textos-base/${f}] ${e}`));
+          }
+        } catch (err: any) {
+          todosErros.push(`[${p}/textos-base/${f}] JSON inválido: ${err?.message}`);
+        }
+      }
+    }
+
+    // 5. questoes/*.json e questoes-discursivas/*.json
+    for (const sub of ['questoes', 'questoes-discursivas']) {
+      const qDir = path.join(provaDir, sub);
+      if (!fs.existsSync(qDir)) continue;
+      for (const f of fs.readdirSync(qDir)) {
+        if (!f.endsWith('.json')) continue;
+        try {
+          const qData = JSON.parse(fs.readFileSync(path.join(qDir, f), 'utf-8'));
+          const resQ = validarQuestaoObj(qData);
+          if (!resQ.valido) todosErros.push(...resQ.erros.map((e) => `[${p}/${sub}/${f}] ${e}`));
+        } catch (err: any) {
+          todosErros.push(`[${p}/${sub}/${f}] JSON inválido: ${err?.message}`);
+        }
+      }
+    }
+
+    // 6. resolucoes/*.md
+    const resDir = path.join(provaDir, 'resolucoes');
+    if (fs.existsSync(resDir)) {
+      for (const f of fs.readdirSync(resDir)) {
+        if (!f.endsWith('.md')) continue;
+        try {
+          const mdContent = fs.readFileSync(path.join(resDir, f), 'utf-8');
+          const numMatch = f.match(/^(?:q|d)(\d+)\.md$/);
+          const num = numMatch ? parseInt(numMatch[1], 10) : 0;
+          const letraGabarito = gabaritoData?.objetivas?.[String(num)] || '';
+          const resMd = validarResolucaoMarkdown(
+            mdContent,
+            letraGabarito,
+            { provaId: p, numero: num, arquivoNome: f },
+            { release: opts.release }
+          );
+          if (!resMd.valido) todosErros.push(...resMd.erros.map((e) => `[${p}/resolucoes/${f}] ${e}`));
+        } catch (err: any) {
+          todosErros.push(`[${p}/resolucoes/${f}] Erro: ${err?.message}`);
+        }
+      }
     }
   }
 
@@ -269,7 +336,7 @@ export function executarValidacaoCompleta(opts: {
 }
 
 // Execução CLI
-if (import.meta.url === `file://${process.argv[1]}`) {
+if (process.argv[1] && (process.argv[1].endsWith('validate.ts') || process.argv[1].endsWith('validate.js'))) {
   const args = process.argv.slice(2);
   let provaId: string | undefined;
   let arquivo: string | undefined;

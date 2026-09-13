@@ -1,0 +1,28 @@
+{
+  "id": "tb-50-51",
+  "provaId": "2025-prova1",
+  "titulo": "Texto para questões 50 e 51",
+  "questoes": [
+    50,
+    51
+  ],
+  "blocos": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Considerando as dificuldades dos estudantes no processo de aprendizagem da resolução de equações do segundo grau, uma professora de Matemática resolveu utilizar-se da História da Matemática. Para isso, ela apresentou o trecho, a seguir, de um livro que indicava como Al-Khwarizmi resolvia esse tipo de equação."
+    },
+    {
+      "tipo": "quadro",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Um quadrado mais dez raízes do mesmo é igual a trinta e nove. Qual é o quadrado?\nA solução é a seguinte:\n• Tome metade do número de raízes, obtendo cinco.\n• Isto é multiplicado por si mesmo. O produto será vinte e cinco.\n• Adicione isto a trinta e nove. A soma é sessenta e quatro.\n• Tome então a raiz quadrada disso, que é igual a oito.\n• Subtraia disto a metade do número de raízes que é cinco. A diferença é três.\n• Esta é a raiz do quadrado procurado e o próprio quadrado é nove."
+        }
+      ]
+    },
+    {
+      "tipo": "fonte",
+      "texto": "BEKKEN, O. *Equações de Ahmes até Abel*. Rio de Janeiro: Universidade Santa Úrsula, 1994."
+    }
+  ]
+}

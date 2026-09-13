@@ -1,0 +1,57 @@
+{
+  "id": "2025-prova1-q057",
+  "provaId": "2025-prova1",
+  "numero": 57,
+  "tipo": "objetiva",
+  "parte": "componente-especifico",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Uma professora de Matemática propôs aos estudantes o estudo do Teorema do Resto Chinês. Os estudantes então pesquisaram e encontraram a seguinte informação:\n\n“Se alguém conhece os restos da divisão euclidiana de um inteiro $n$ por vários inteiros, então pode determinar o resto da divisão de $n$ pelo produto desses inteiros, sob a condição de que sejam primos entre si, dois a dois. Por exemplo, se soubermos que o resto de $n$ dividido por 3 é 2, o resto de $n$ dividido por 5 é 3 e o resto de $n$ dividido por 7 é 2, então, sem saber o valor de $n$, podemos determinar que o resto de $n$ dividido por 105 (o produto de 3, 5 e 7) é 23”.\n\nNa aula, os estudantes mencionaram que não haviam entendido como o número 23 foi obtido. A professora, então, respondeu à dúvida. Enunciou o Teorema e, em seguida, apresentou o procedimento convencional para determinar o valor de $n$ que, resumidamente, consiste em:\n1. calcular o produto $m = 3 \\cdot 5 \\cdot 7 = 105$;\n2. obter $M_1 = \\frac{105}{3} = 35$, $M_2 = \\frac{105}{5} = 21$ e $M_3 = \\frac{105}{7} = 15$;\n3. calcular os inversos de $M_1\\pmod 3$, $M_2\\pmod 5$ e $M_3\\pmod 7$, respectivamente denotados por $N_1$, $N_2$ e $N_3$;\n4. calcular o resto da divisão de $2 \\cdot M_1 \\cdot N_1 + 3 \\cdot M_2 \\cdot N_2 + 2 \\cdot M_3 \\cdot N_3$ por 105.\n\nPara o item 3, ela apresentou o seguinte detalhamento: “Para calcular o inverso de um número inteiro $M\\pmod L$, em que $L$ é um inteiro positivo com $\\operatorname{mdc}(M, L) = 1$:\nI. Calcule o resto da divisão de $M$ por $L$, chame-o de $R$.\nII. Encontre, entre todos os possíveis restos não nulos de uma divisão por $L$, o único que, multiplicado por $R$, resulte num número da forma $k \\cdot L + 1$, para algum inteiro $k$.\nO número encontrado no item II é o inverso de $M\\pmod L$”.\n\nOs estudantes calcularam os inversos, obtiveram $N_1 = 2$, $N_2 = 1$, $N_3 = 1$ e conferiram as outras contas.\n\nCom base no procedimento apresentado pela professora, os estudantes analisaram a informação que encontraram, de que o resto da divisão de $n$ por 105 é 23, e concluíram que está"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "errada, pois esse procedimento resulta em 233, não em 23."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "errada, pois houve um erro no cálculo de $N_2$: o valor correto do inverso de $21\\pmod 5$ é 4, assim, o resto da divisão de $n$ por 105 é 2."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "correta, pois todas as contas indicadas estão certas."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "correta, mas não é a única resposta: como $M_1$ e $N_1$ são inversos, então $M_1 \\cdot N_1 = 1$, e $M_2 \\cdot N_2 = M_3 \\cdot N_3 = 1$; logo, o resto também seria $2 + 3 + 2 = 7$."
+        }
+      ]
+    }
+  ],
+  "gabaritoOficial": "C",
+  "rotulo": "Questão 57",
+  "ordemCaderno": 58,
+  "paginas": [
+    33
+  ]
+}

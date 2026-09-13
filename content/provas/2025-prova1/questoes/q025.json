@@ -1,0 +1,60 @@
+{
+  "id": "2025-prova1-q025",
+  "provaId": "2025-prova1",
+  "tipo": "objetiva",
+  "numero": 25,
+  "rotulo": "Questão 25",
+  "parte": "formacao-geral",
+  "ordemCaderno": 25,
+  "paginas": [
+    14
+  ],
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "As avaliações externas em larga escala, como o Sistema Nacional de Avaliação da Educação Básica (Saeb), são utilizadas como instrumentos de aferição da qualidade da Educação Básica no Brasil. Seu resultado é utilizado no cálculo do Índice de Desenvolvimento da Educação Básica (Ideb) das escolas. Uma determinada escola recebeu sua nota do Ideb, e o resultado ficou abaixo da média prevista. Diante disso, a direção fez uma reunião com o corpo docente para traçar metas para a melhoria do desempenho da escola."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "A análise dos resultados do Ideb deve orientar as ações pedagógicas para"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "direcionar o planejamento de forma estratégica."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "reduzir o espaço de determinadas áreas do currículo."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "dedicar maior atenção a conteúdos extracurriculares."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "focalizar o desenvolvimento de habilidades socioemocionais."
+        }
+      ]
+    }
+  ]
+}

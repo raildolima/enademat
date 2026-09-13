@@ -1,0 +1,70 @@
+{
+  "id": "2025-prova1-q037",
+  "provaId": "2025-prova1",
+  "tipo": "objetiva",
+  "numero": 37,
+  "rotulo": "Questão 37",
+  "parte": "componente-especifico",
+  "ordemCaderno": 38,
+  "paginas": [
+    22
+  ],
+  "textoBaseId": "tb-35-37",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Uma professora propôs a estudantes do Ensino Médio que decifrassem uma mensagem criptografada usando matrizes.\nEla apresentou o seguinte processo de codificação:"
+    },
+    {
+      "tipo": "lista",
+      "ordenada": true,
+      "itens": [
+        "Transformar as letras em números, com base na ordem inversa do alfabeto: $a = 26$, $b = 25$, $c = 24$, $d = 23$, $e = 22$, ..., $v = 5$, $w = 4$, $x = 3$, $y = 2$, $z = 1$, $\\text{espaço} = 0$.",
+        "Organizar os números da mensagem numa matriz $M$, de ordem $3 \\times 6$.",
+        "Para codificar a mensagem, foi escolhida uma matriz-chave $K = \\begin{pmatrix} 1 & 1 & 0 \\\\ 1 & 0 & 1 \\\\ 0 & 1 & 1 \\end{pmatrix}$ que, em sequência, foi multiplicada pela matriz original $M$, obtendo-se a matriz codificada $C = \\begin{pmatrix} 49 & 37 & 35 & 25 & 25 & 11 \\\\ 31 & 50 & 26 & 38 & 15 & 1 \\\\ 36 & 41 & 29 & 25 & 36 & 10 \\end{pmatrix}$."
+      ]
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Qual processo os estudantes devem seguir para decifrar a mensagem?"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Multiplicar a matriz $C$ pela matriz $K$ e transformar os números em letras."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Multiplicar a matriz $K$ pela matriz $C$ e transformar os números em letras."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Multiplicar a matriz $C$ pela matriz inversa de $K$ e transformar os números em letras."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Multiplicar a matriz inversa de $K$ pela matriz $C$ e transformar os números em letras."
+        }
+      ]
+    }
+  ]
+}

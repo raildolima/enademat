@@ -1,0 +1,79 @@
+{
+  "id": "2025-prova1-q047",
+  "provaId": "2025-prova1",
+  "tipo": "objetiva",
+  "numero": 47,
+  "rotulo": "Questão 47",
+  "parte": "componente-especifico",
+  "ordemCaderno": 48,
+  "paginas": [
+    27
+  ],
+  "textoBaseId": "tb-46-47",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Um estudante não soube modelar a questão dos carros e motos, Figura 3(a), e a professora pediu para a turma que criasse enunciados para o modelo equivocado. Com base em um dos enunciados criados, Figura 3(b), a turma representou geometricamente a solução, Figura 3(c)."
+    },
+    {
+      "tipo": "quadro",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "**(a) modelo equivocado:** $\\begin{cases} C_1 + C_2 + M = 41\\,000 \\\\ C_1 + 2M = 28\\,000 \\end{cases}$\n\n**(b) enunciado criado:** “Um fusca ($C_1$), uma kombi ($C_2$) e uma moto ($M$) custam juntos R\\$ 41 000,00. Já duas motos e um fusca custam R\\$ 28 000,00. É possível determinar o preço dos automóveis?”\n\n**(c) representação geométrica:**"
+        },
+        {
+          "tipo": "imagem",
+          "src": "figuras/2025-prova1/q047-f1.webp",
+          "alt": "Representação gráfica tridimensional de dois planos secantes no espaço cuja interseção é uma reta comum."
+        }
+      ]
+    },
+    {
+      "tipo": "fonte",
+      "texto": "CURY, H. N.; BISOGNIN, E. Análise de soluções de um problema representado por um sistema de equações. *Boletim de Educação Matemática (BOLEMA)*, n. 33, 2009 (adaptado)."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Diante da representação, qual justificativa adequada a professora e os estudantes podem dar ao responder se é possível determinar os preços únicos para cada um dos veículos?"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Não é possível, pois geometricamente existe a reta de interseção dos dois planos indicando que o sistema de equações é possível, porém indeterminado."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "É possível, pois geometricamente existe a reta de interseção dos dois planos indicando que o sistema de equações é possível e determinado."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "É possível, pois geometricamente existe a reta de interseção dos dois planos indicando que o sistema de equações é possível, porém indeterminado."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Não é possível, pois geometricamente existe a reta de interseção dos dois planos indicando que o sistema de equações é possível e determinado."
+        }
+      ]
+    }
+  ]
+}

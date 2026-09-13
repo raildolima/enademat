@@ -1,0 +1,60 @@
+{
+  "id": "2025-prova1-q079",
+  "provaId": "2025-prova1",
+  "tipo": "objetiva",
+  "numero": 79,
+  "rotulo": "Questão 79",
+  "parte": "componente-especifico",
+  "ordemCaderno": 80,
+  "paginas": [46],
+  "textoBaseId": "tb-79-80",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Um professor dividiu a turma em grupos e apresentou-lhes quatro pantógrafos diferentes para que eles aplicassem uma planta baixa que estava muito pequena. Um dos grupos queria fazer uma ampliação na razão de $4 : 1$. Qual alternativa indica o instrumento que esse grupo deveria escolher?"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "imagem",
+          "src": "figuras/2025-prova1/q079-alt-a.webp",
+          "alt": "Pantógrafo articulado com configuração geométrica e relação 4BF = AB para a alternativa A."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "imagem",
+          "src": "figuras/2025-prova1/q079-alt-b.webp",
+          "alt": "Pantógrafo articulado com configuração geométrica e relação 3BF = AB para a alternativa B."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "imagem",
+          "src": "figuras/2025-prova1/q079-alt-c.webp",
+          "alt": "Pantógrafo articulado com configuração geométrica e relação 2BF = AB para a alternativa C."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "imagem",
+          "src": "figuras/2025-prova1/q079-alt-d.webp",
+          "alt": "Pantógrafo articulado com configuração geométrica e relação BF = AB para a alternativa D."
+        }
+      ]
+    }
+  ],
+  "gabaritoOficial": "B"
+}

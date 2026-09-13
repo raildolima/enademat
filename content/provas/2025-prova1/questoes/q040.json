@@ -1,0 +1,65 @@
+{
+  "id": "2025-prova1-q040",
+  "provaId": "2025-prova1",
+  "tipo": "objetiva",
+  "numero": 40,
+  "rotulo": "Questão 40",
+  "parte": "componente-especifico",
+  "ordemCaderno": 41,
+  "paginas": [
+    24
+  ],
+  "textoBaseId": "tb-40-41",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Durante uma aula de geometria analítica, um professor propôs a dois estudantes do Ensino Médio com altas habilidades a construção, no GeoGebra, de dois vetores: $\\vec{u} = (2, 1, 0)$ e $\\vec{v} = (-1, 3, 0)$, com origem no ponto $(0, 0, 0)$."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "A atividade tinha como objetivo explorar visualmente a área do paralelogramo formado pelos vetores e verificar a coerência do valor obtido graficamente com o módulo do produto vetorial entre $\\vec{u}$ e $\\vec{v}$."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Assinale a alternativa correta com respeito à área do paralelogramo."
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "É 7, pois o módulo do produto vetorial entre $\\vec{u}$ e $\\vec{v}$ é igual a 7, e o GeoGebra permite visualizar essa área graficamente."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "É 5, pois o módulo do produto vetorial entre $\\vec{u}$ e $\\vec{v}$ é igual a 5, e o GeoGebra permite visualizar essa área graficamente."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "É $5\\sqrt{2}$, pois $\\vec{u}$ e $\\vec{v}$ são ortogonais, portanto, o paralelogramo é um retângulo e sua área é o produto dos módulos de $\\vec{u}$ e $\\vec{v}$."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "É 0, pois $\\vec{u}$ e $\\vec{v}$ são paralelos e, nesse caso, o produto vetorial entre eles é nulo."
+        }
+      ]
+    }
+  ]
+}

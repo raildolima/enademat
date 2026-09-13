@@ -1,0 +1,64 @@
+{
+  "id": "2025-prova1-q078",
+  "provaId": "2025-prova1",
+  "tipo": "objetiva",
+  "numero": 78,
+  "rotulo": "Questão 78",
+  "parte": "componente-especifico",
+  "ordemCaderno": 79,
+  "paginas": [45],
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Diante do crescente acúmulo de resíduos sólidos urbanos, gestores municipais passaram a utilizar modelos matemáticos para planejar ações de descarte. Em uma cidade, a quantidade de lixo acumulado $L(t)$, em tonelada, ao longo do tempo $t$, em mês, a partir de janeiro de 2025, está representada no gráfico."
+    },
+    {
+      "tipo": "imagem",
+      "src": "figuras/2025-prova1/q078-f1.webp",
+      "alt": "Gráfico da função L(t) representando a quantidade de lixo acumulado em toneladas ao longo dos meses de 2025 e 2026."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Uma indústria alimentícia, em parceria com os gestores municipais, planeja reaproveitar cerca de $1\\%$ do lixo acumulado na cidade, ao longo do tempo, para a geração de energia elétrica. A estimativa é que cada tonelada desse lixo possa gerar $600\\text{ kWh}$ por dia, o que contribuiria para suprir parte dos $3\\,000\\text{ kWh}$ consumidos diariamente pela empresa, fator que fundamenta a decisão da indústria em adotar essa fonte como alternativa sustentável. Sendo assim, em agosto de 2026, qual será o percentual máximo do consumo energético diário que poderá ser suprido pela energia gerada a partir do lixo reaproveitado?"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Aproximadamente $60\\%$ do consumo diário."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Aproximadamente $40\\%$ do consumo diário."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "No máximo $25\\%$ do consumo diário."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "No máximo $20\\%$ do consumo diário."
+        }
+      ]
+    }
+  ],
+  "gabaritoOficial": "B"
+}
