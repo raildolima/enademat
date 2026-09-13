@@ -26,7 +26,7 @@ Registrado em: 2026-09-13
 | **Fase 0** | Fundação | ✅ Concluída | Git, venv Python, scaffold Vite, dependências, agentes, regras e hooks validados |
 | **Fase 1** | Inventário | ✅ Concluída | 136 páginas renderizadas com grade, 3 gabaritos conferidos 100%, 202 questões mapeadas |
 | **Fase 2** | Dados e Validador (TDD) | ✅ Concluída | TDD completo: 13 testes verdes, `schema.ts`, `validate.ts`, `build.ts`, `conferencia.ts` |
-| **Fase 3** | Figuras | ⏳ Não iniciada | Manifesto de figuras e recortes WebP aprovados |
+| **Fase 3** | Figuras | ✅ Concluída | 72 figuras recortadas em WebP (35 em 2025-P1, 23 em 2025-P5, 14 em 2021), manifestos e folhas de contato aprovados |
 | **Fase 4** | Transcrição | ⏳ Não iniciada | 202 questões transcritas e auditadas |
 | **Fase 5** | Aplicação Web | ⏳ Não iniciada | Interface, componentes, pop-up Floating UI, testes E2E |
 | **Fase 6** | Resoluções Comentadas | ⏳ Não iniciada | 202 resoluções com resolução cega, verificador independente e SymPy |
@@ -35,6 +35,13 @@ Registrado em: 2026-09-13
 ---
 
 ## 3. Log de Atualizações e Checkpoints
+- **2026-09-13**: Conclusão da Fase 3 (Recorte de Figuras das 3 Provas).
+  - Script `scripts/pdf/recortar.py` implementado com suporte a aparar margens brancas (`aparar`), extração em 220 DPI e geração automática de folha de contato HTML com grade e metadados.
+  - Lote Piloto de `2025-prova1` (páginas 20, 24, 29, 46) recortado, inspecionado e aprovado.
+  - Trilha 1 (`2025-prova1`): 35 figuras recortadas em `public/figuras/2025-prova1/`, manifesto `figuras.manifest.json` e folha de contato `work/conferencia/figuras-2025-prova1.html`.
+  - Trilha 2 (`2025-prova5`): 23 figuras recortadas em `public/figuras/2025-prova5/`, manifesto `figuras.manifest.json` e folha de contato `work/conferencia/figuras-2025-prova5.html`.
+  - Trilha 3 (`2021-licenciatura`): 14 figuras recortadas em `public/figuras/2021-licenciatura/` (incluindo figuras vetoriais e alternativas ilustradas), manifesto `figuras.manifest.json` e folha de contato `work/conferencia/figuras-2021-licenciatura.html`.
+  - Idempotência testada com sucesso; `npm run content:validate` e `npm run test` validados com 100% de aprovação.
 - **2026-09-13**: Conclusão da Fase 2 (Esquema, Validador e Build via TDD).
   - Fixtures `q032` criadas em `scripts/content/__fixtures__/`.
   - Ciclo TDD executado: suíte de testes `fase2-tdd.test.ts` implementada, saída vermelha inicial capturada.
