@@ -28,13 +28,24 @@ Registrado em: 2026-09-13
 | **Fase 2** | Dados e Validador (TDD) | ✅ Concluída | TDD completo: 13 testes verdes, `schema.ts`, `validate.ts`, `build.ts`, `conferencia.ts` |
 | **Fase 3** | Figuras | ✅ Concluída | 72 figuras recortadas em WebP (35 em 2025-P1, 23 em 2025-P5, 14 em 2021), manifestos e folhas de contato aprovados |
 | **Fase 4** | Transcrição | ✅ Concluída | 202 questões transcritas com fidelidade (81 em 2025-P1, 81 em 2025-P5, 40 em 2021), 38 textos-base, validação release 100% verde |
-| **Fase 5** | Aplicação Web | ⏳ Não iniciada | Interface, componentes, pop-up Floating UI, testes E2E |
+| **Fase 5** | Aplicação Web | ✅ Concluída | Interface SPA estática (Vite+React 19+TS), design acadêmico WCAG AA, Pop-up acessível com Floating UI, 28 testes unitários e 47 testes E2E Playwright aprovados |
 | **Fase 6** | Resoluções Comentadas | ⏳ Não iniciada | 202 CONFERÊNCIA e resoluções comentadas |
 | **Fase 7** | QA Final e Publicação | ⏳ Não iniciada | Definition of Done, Lighthouse, revisão humana amostral e deploy |
 
 ---
 
 ## 3. Log de Atualizações e Checkpoints
+- **2026-09-13**: Conclusão da Fase 5 (Aplicação Web).
+  - Tokens CSS com paleta WCAG 2.2 AA (tema claro e escuro automático via `prefers-color-scheme`), tipografia `system-ui` 17px e largura de leitura otimizada ~72ch.
+  - Carregamento assíncrono sob demanda (`import()` dinâmico) com lazy loading para os chunks JSON de cada prova.
+  - Funções puras de filtragem (`filtrarQuestoes` e `vizinhas`) com 100% de cobertura de testes.
+  - Componentes de renderização robustos (`TextoRico`, `Blocos`, `Markdown`, `Badge`, `ConteudoQuestao`) com KaTeX estrito, tabelas com scroll e WebPs responsivos.
+  - `PopupQuestao` implementado com `@floating-ui/react`: hover com `safePolygon` e delays (120ms/200ms), foco via teclado (Tab), clique/toque em mobile com botão "Fechar", e fechamento via `Esc`.
+  - Telas completas: `PaginaBanco` (filtros dinâmicos sincronizados na URL hash), `PaginaQuestao` (breadcrumb, alternativas interativas com marcação em memória sem localStorage) e `PaginaResolucao` (cartão de gabarito com apenas a alternativa correta e feedback de acerto/erro).
+  - 28 testes unitários no Vitest aprovados (`npm test`).
+  - 47 testes E2E no Playwright aprovados (`npm run test:e2e`) em Chromium desktop e mobile com toque (Pixel 7), incluindo auditoria de acessibilidade Axe (zero violações sérias).
+  - 7 capturas de evidência visual salvas em `work/conferencia/ui/` via skill `conferir-ui`.
+  - Build estático de produção (`npm run build`) validado com chunks otimizados.
 - **2026-09-13**: Conclusão da Fase 4 (Transcrição das 202 Questões).
   - Trilha 1 (`2025-prova1` — 81 questões: 80 objetivas + 1 discursiva + 15 textos-base) transcrita, auditada e validada.
   - Trilha 2 (`2025-prova5` — 81 questões: 80 objetivas + 1 discursiva + 16 textos-base) transcrita, auditada e validada.
