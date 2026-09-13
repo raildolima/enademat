@@ -145,7 +145,11 @@ export function validarResolucaoMarkdown(
 
   // 4. Checagem de seções obrigatórias
   const corpo = parsedMatter.content;
-  const isDiscursiva = gabaritoOficial === 'discursiva' || String(info.numero).startsWith('d');
+  const isDiscursiva =
+    gabaritoOficial === 'discursiva' ||
+    String(info.numero).startsWith('d') ||
+    (info.arquivoNome && info.arquivoNome.startsWith('d')) ||
+    (data?.questaoId && data.questaoId.includes('-d'));
 
   if (!isDiscursiva) {
     const secoesObrigatorias = [
@@ -232,10 +236,25 @@ export function executarValidacaoCompleta(opts: {
       }
     } else if (opts.arquivo.endsWith('.md')) {
       const mdContent = fs.readFileSync(filePath, 'utf-8');
+      const parts = opts.arquivo.split(/[\\/]/);
+      const provaIdx = parts.indexOf('provas');
+      const pId = provaIdx !== -1 && parts[provaIdx + 1] ? parts[provaIdx + 1] : '2025-prova1';
+      const fName = path.basename(filePath);
+      const numMatch = fName.match(/^(?:q|d)(\d+)\.md$/);
+      const num = numMatch ? parseInt(numMatch[1], 10) : 0;
+      const isDisc = fName.startsWith('d');
+      let letraGabarito = '';
+      if (!isDisc && pId) {
+        const gabPath = path.resolve(RAIZ, 'content/provas', pId, 'gabarito.json');
+        if (fs.existsSync(gabPath)) {
+          const gData = JSON.parse(fs.readFileSync(gabPath, 'utf-8'));
+          letraGabarito = gData?.objetivas?.[String(num)] || '';
+        }
+      }
       const res = validarResolucaoMarkdown(
         mdContent,
-        '',
-        { provaId: '2025-prova1', numero: 0, arquivoNome: path.basename(filePath) },
+        letraGabarito,
+        { provaId: pId, numero: num, arquivoNome: fName },
         { release: opts.release }
       );
       if (!res.valido) todosErros.push(...res.erros);
@@ -318,7 +337,8 @@ export function executarValidacaoCompleta(opts: {
           const mdContent = fs.readFileSync(path.join(resDir, f), 'utf-8');
           const numMatch = f.match(/^(?:q|d)(\d+)\.md$/);
           const num = numMatch ? parseInt(numMatch[1], 10) : 0;
-          const letraGabarito = gabaritoData?.objetivas?.[String(num)] || '';
+          const isDisc = f.startsWith('d');
+          const letraGabarito = isDisc ? '' : (gabaritoData?.objetivas?.[String(num)] || '');
           const resMd = validarResolucaoMarkdown(
             mdContent,
             letraGabarito,
