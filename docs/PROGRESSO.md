@@ -29,12 +29,40 @@ Registrado em: 2026-09-13
 | **Fase 3** | Figuras | ✅ Concluída | 72 figuras recortadas em WebP (35 em 2025-P1, 23 em 2025-P5, 14 em 2021), manifestos e folhas de contato aprovados |
 | **Fase 4** | Transcrição | ✅ Concluída | 202 questões transcritas com fidelidade (81 em 2025-P1, 81 em 2025-P5, 40 em 2021), 38 textos-base, validação release 100% verde |
 | **Fase 5** | Aplicação Web | ✅ Concluída | Interface SPA estática (Vite+React 19+TS), design acadêmico WCAG AA, Pop-up acessível com Floating UI, 28 testes unitários e 47 testes E2E Playwright aprovados |
-| **Fase 6** | Resoluções Comentadas | ⏳ Não iniciada | 202 CONFERÊNCIA e resoluções comentadas |
+| **Fase 6** | Resoluções Comentadas | 🔄 Em andamento | 50/202 resoluções comentadas (Trilha 1: 2025-prova1 Q31 a Q80 100% concluída, validada e auditada) |
 | **Fase 7** | QA Final e Publicação | ⏳ Não iniciada | Definition of Done, Lighthouse, revisão humana amostral e deploy |
 
 ---
 
 ## 3. Log de Atualizações e Checkpoints
+- **2026-09-13**: Fase 6 (Resoluções Comentadas) — **Trilha 1 (`2025-prova1` Componente Específico Q31 a Q80: 50 questões) 100% CONCLUÍDA E APROVADA**.
+  - Todos os 17 lotes de questões (Q31 a Q80) executados rigorosamente pelo protocolo anti-erro em 5 etapas: bloqueio cego -> resposta independente -> desbloqueio -> comparação cega -> scripts numéricos SymPy/Python -> resolução detalhada com todas as alternativas dissecadas -> validação Zod/KaTeX -> auditoria adversarial.
+  - Lotes 8 a 17 concluídos nesta etapa:
+    - Lote 8 (Q53 a Q55): tendências metodológicas/Hotel Luxor, maquete piramidal 1:500 com script `q054.py`, limite da sequência harmônica $1/n$ convergindo a zero.
+    - Lote 9 (Q56 a Q58): DUA e inclusão de deficiência visual no ensino de geometria, Teorema do Resto Chinês com script `q057.py` via SymPy ($n \equiv 23 \pmod{105}$), PEI para altas habilidades em frações com portfólio investigativo.
+    - Lote 10 (Q59 a Q61): sistema $x+y=xy=x/y$ com unicidade da solução real $(1/2, -1)$ provada por SymPy em `q059.py`, modelo MKT/KCT de Ball et al. (2008) com balança e gráficos computacionais, avaliação formativa e análise de erros como regulação didática.
+    - Lote 11 (Q62 a Q64): trilateração no plano cartesiano por 3 circunferências com cálculo exato do ponto do celular $(100, 100)$ por SymPy em `q062.py`, Algoritmo A* em geolocalização, Teorema de Bolzano / TVI sobre a garantia de ao menos uma raiz real para $f(a)f(b) < 0$.
+    - Lote 12 (Q65 a Q67): Etnomatemática Sona do povo Quioco (Paulus Gerdes) com linhas fechadas dadas por $\operatorname{mdc}(6, 9) = 3$ com script `q065.py`, Circuncentro como ponto equidistante dos 3 vértices com script `q066.py`, distâncias euclidianas no plano provando que a rota da Vovó totaliza $4{,}4\text{ km} > 3\text{ km}$ com script `q067.py`.
+    - Lote 13 (Q68 a Q70): probabilidade com dados viciados ($P(5) = 3/8$) resultando em $\frac{26}{64}$ com script `q068.py`, Tangram tradicional e suas 3 classes de polígonos equivalentes (áreas 1, 2 e 4) com script `q069.py`, coordenadas cartesianas 3D no primeiro octante ($x>0, y>0, z>0$) identificando os pontos C e D.
+    - Lote 14 (Q71 a Q73): interpretação topográfica de curvas de nível (planícies, montanhas e vales em V), definição de escala linear $E = d/D$, Etnomatemática e Teorema de Pitágoras no diálogo com estudante pedreiro na EJA (regra 60-80-100 para hipotenusa 200 m) com script `q073.py`.
+    - Lote 15 (Q74 a Q76): jogo de subtração dos 27 palitos (Nim misère) com posições perdedoras $5k+1$ comprovadas em `q074.py`, escalas nos mapas Belém-SP ($2\,470\text{ km}$ e escala $1 : 82\,300\,000$) comprovadas em `q075.py`, conceito cartográfico de escala $1/M$ e redução do detalhe dos rios.
+    - Lote 16 (Q77 a Q79): dias da semana como congruência cíclica módulo 7 (resto de $(x+k)$ por 7) comprovada em `q077.py`, modelagem de lixo acumulado ($L = 200\text{ t}$ gerando $1\,200\text{ kWh/dia}$ e suprindo $40\%$ do consumo industrial) com script `q078.py`, pantógrafo articulado com razão de homotetia $k = (AB/BF) + 1 = 4$ exigindo $3BF = AB$ com script `q079.py`.
+    - Lote 17 (Q80): planta baixa original $9\times 10\text{ cm}$ em escala $1:150$ com dimensões reais $13{,}5\times 15{,}0\text{ m}$ ($202{,}5\text{ m}^2$) e custo total de R\$ 364.500,00 diretamente proporcional à área, com script `q080.py`.
+  - Validação estrita de toda a prova `2025-prova1` aprovada com zero erros (`npm run content:validate -- --prova 2025-prova1`).
+  - Suíte de 29 testes unitários Vitest 100% verde (`npm test`).
+  - Build estático de produção compilado com sucesso (`npm run build`).
+- **2026-09-13**: Fase 6 (Resoluções Comentadas) — Trilha 1 (`2025-prova1`) Lotes 5 a 7 (Q44 a Q52).
+  - Lote 5 (Q44 a Q46): Q44 (Estatística e Helena Cury: média de pontos no futebol e absurdo de 5,2 com script `q044.py`), Q45 (obstáculo do zero estatístico na média de gols 29/9 vs 29/10 e script `q045.py`), Q46 (pesquisa de Cury & Bisognin, sistema linear de carros/motos e enquadramento na Categoria B com script `q046.py` via SymPy). 100% coincidentes no cego e aprovadas.
+  - Lote 6 (Q47 a Q49): Q47 (sistema 3x2, planos secantes no R^3 cuja interseção é uma reta com script `q047.py`), Q48 (gráfico de função trigonométrica no GeoGebra passando por (0,1), (pi/2, 1) e (pi, -1) identificando sen(x) + cos(x) com script `q048.py`), Q49 (contraexemplo da união de eventos não disjuntos em dados com script `q049.py`). 100% coincidentes e aprovadas.
+  - Lote 7 (Q50 a Q52): Q50 (técnica de completar quadrados de Al-Khwarizmi com 4 retângulos de largura 5/2 e script `q050.py`), Q51 (tradução algébrica do algoritmo retórico de Al-Khwarizmi com script `q051.py`), Q52 (Educação Matemática Crítica de Skovsmose: cenário para investigação e overround de 105,28% das odds com script `q052.py`). 100% coincidentes e aprovadas.
+  - Validação de conteúdo (`npm run content:validate -- --prova 2025-prova1`), testes unitários (`npm test`) e compilação (`npm run build`) 100% verdes.
+- **2026-09-13**: Fase 6 (Resoluções Comentadas) — Trilha 1 (`2025-prova1`) Lotes 1 a 4 (Q31 a Q43).
+  - Setup e infraestrutura da Fase 6 implementados: script `scripts/content/comparar-cego.ts`, teste unitário `tests/unit/comparar-cego.test.ts` e aprimoramento do validador de KaTeX.
+  - Lote 1 (Piloto: Q31 a Q34): resolução gold `q032.md` e script `q032.py`, mais `q031.md`, `q033.md`, `q034.md` com scripts `q032.py` e `q034.py` (SymPy). 100% de coincidência cega e aprovados na auditoria adversarial.
+  - Lote 2 (Q35 a Q37): Q35 (probabilidade e árvore de possibilidades), Q36 (critérios de divisibilidade por 3 e 9 com contraexemplos e script `q036.py`), Q37 (álgebra matricial, decodificação de cifra de Hill $M = K^{-1} C$ e script `q037.py` com SymPy). 100% de coincidência cega e auditoria adversarial aprovada.
+  - Lote 3 (Q38 a Q40): Q38 (teodolito, distinção entre Tales e trigonometria $h = d \tan\theta$ e script `q038.py`), Q39 (interdisciplinaridade curricular em Matemática e Biologia), Q40 (geometria analítica, produto vetorial $(0,0,7)$, área do paralelogramo $= 7$ e script `q040.py` com SymPy). 100% de coincidência cega e auditoria adversarial aprovada.
+  - Lote 4 (Q41 a Q43): Q41 (dependência escalar e paralelismo no $\mathbb{R}^2$ e $\mathbb{R}^3$, contraexemplo de coplanaridade), Q42 (modelagem de resíduos por crescimento exponencial $y = ae^{bt}$ com $a > 0, b > 0$), Q43 (método da exaustão de Weierstrass, somas de Riemann de $\frac{\operatorname{sen} x}{x}$ e script `q043.py`). Identificada e documentada divergência sutil em Q43 (alternativa B oficial vs D formal com truncamento $1{,}6054$) com `revisaoHumana: true` em `work/relatorios/divergencias.md`.
+  - Todas as 13 resoluções passam com zero erros no validador (`npm run content:validate -- --prova 2025-prova1`). Relatórios `work/relatorios/cego-2025-prova1.md` e `work/relatorios/verificacao-2025-prova1.md` atualizados.
 - **2026-09-13**: Conclusão da Fase 5 (Aplicação Web).
   - Tokens CSS com paleta WCAG 2.2 AA (tema claro e escuro automático via `prefers-color-scheme`), tipografia `system-ui` 17px e largura de leitura otimizada ~72ch.
   - Carregamento assíncrono sob demanda (`import()` dinâmico) com lazy loading para os chunks JSON de cada prova.

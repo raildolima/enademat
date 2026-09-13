@@ -17,7 +17,7 @@
     {
       "tipo": "imagem",
       "src": "figuras/2025-prova1/q048-f1.webp",
-      "alt": "Gráfico de uma função trigonométrica periódica no GeoGebra com amplitude raiz de 2 passando pelo ponto (0, 1) e decrescendo inicialmente."
+      "alt": "Gráfico de uma função trigonométrica periódica no GeoGebra passando pelos pontos destacados (0, 1), (pi/2, 1) e (pi, -1), com ponto de máximo entre 0 e pi/2."
     },
     {
       "tipo": "paragrafo",
