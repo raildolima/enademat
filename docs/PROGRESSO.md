@@ -29,12 +29,38 @@ Registrado em: 2026-09-13
 | **Fase 3** | Figuras | ✅ Concluída | 72 figuras recortadas em WebP (35 em 2025-P1, 23 em 2025-P5, 14 em 2021), manifestos e folhas de contato aprovados |
 | **Fase 4** | Transcrição | ✅ Concluída | 202 questões transcritas com fidelidade (81 em 2025-P1, 81 em 2025-P5, 40 em 2021), 38 textos-base, validação release 100% verde |
 | **Fase 5** | Aplicação Web | ✅ Concluída | Interface SPA estática (Vite+React 19+TS), design acadêmico WCAG AA, Pop-up acessível com Floating UI, 28 testes unitários e 47 testes E2E Playwright aprovados |
-| **Fase 6** | Resoluções Comentadas | 🔄 Em andamento | 50/202 resoluções comentadas (Trilha 1: 2025-prova1 Q31 a Q80 100% concluída, validada e auditada) |
+| **Fase 6** | Resoluções Comentadas | 🔄 Em andamento | 100/202 resoluções comentadas (Trilhas 1 e 2 concluídas: 2025-P1 Q31-Q80 e 2025-P5 Q31-Q80 100% concluídas, validadas e auditadas) |
 | **Fase 7** | QA Final e Publicação | ⏳ Não iniciada | Definition of Done, Lighthouse, revisão humana amostral e deploy |
 
 ---
 
 ## 3. Log de Atualizações e Checkpoints
+- **2026-09-13**: Fase 6 (Resoluções Comentadas) — **Trilha 2 (`2025-prova5` Componente Específico Q31 a Q80: 50 questões) 100% CONCLUÍDA E APROVADA**.
+  - Todos os 17 lotes de questões (Q31 a Q80) executados rigorosamente pelo protocolo anti-erro em 5 etapas: bloqueio cego -> resposta independente -> desbloqueio -> comparação cega -> scripts numéricos SymPy/Python -> resolução detalhada com todas as alternativas dissecadas -> validação Zod/KaTeX -> auditoria adversarial.
+  - Taxa de concordância na etapa cega: 48 de 50 acertos (96,0%). As divergências identificadas (Q50 em regime semanal de infecção e Q73 em teste NIPT/fração fetal) foram mantidas estritamente fiéis ao gabarito oficial do INEP, fundamentadas na seção `## Observação`, com `revisaoHumana: true` e registradas em `work/relatorios/divergencias.md`.
+  - Resoluções comentadas estruturadas nos 17 lotes:
+    - Lote 1 (Q31 a Q33): sistema hexadecimal $(B7+A)_{16} = (C1)_{16}$ (`q031.py`), enigma quadriláteros e Etnomatemática/EJA pescador.
+    - Lote 2 (Q34 a Q36): simetria ornamento caminhoneiro com grupo V4 (`q034.py`), metodologia Onuchic & Allevato 4 etapas, avaliação formativa contínua.
+    - Lote 3 (Q37 a Q39): cálculo exato com tecla quebrada via distributiva (`q037.py`), dízima 73/99 e arredondamento digital (`q038.py`), diferença de conjuntos $A - B$ com blocos lógicos (`q039.py`).
+    - Lote 4 (Q40 a Q42): lugar geométrico da parábola (`q040.py`), intencionalidade pedagógica de jogos, recorrência da Torre de Hanói $f_{n+1} = 2f_n + 1$ (`q042.py`).
+    - Lote 5 (Q43 a Q45): modelagem Biembengut Torre de Hanói (percepção e compreensão), média de horas em jogos com script `q044.py`, investigação estatística da realidade escolar.
+    - Lote 6 (Q46 a Q48): sistemas posicionais babilônico e decimal, multiplicação em tablete cuneiforme com fator $k = 9$ (`q047.py`), quadrado mágico 3x3 e o número 1 não primo (`q048.py`).
+    - Lote 7 (Q49 a Q51): quadrado mágico com incógnitas de 1º grau (`q049.py`), COVID-19 modelo exponencial semanal (`q050.py`), variação percentual do tempo de tela em 52% (`q051.py`).
+    - Lote 8 (Q52 a Q54): sequências de perímetros em PA e áreas não PA/PG (`q052.py`), investigações matemáticas (Ponte et al.), PFC de livros em estante $3! \times 10! \times 12! \times 9!$ (`q054.py`).
+    - Lote 9 (Q55 a Q57): estantes retangulares de 24 livros com $d(24) = 8$ pares ordenados (`q055.py`), axiomas de corpo em $ax+b=c$ (`q056.py`), níveis de pensamento algébrico incipiente e sincopado (`q057.py`).
+    - Lote 10 (Q58 a Q60): irracionalidade e fechamento de $\mathbb{Q}$ (`q058.py`), Radford e Libras denotação do segredo, paridade da função modular $f(x) = |x|+1$ com script `q060.py`.
+    - Lote 11 (Q61 a Q63): viabilidade econômica solar vs eólica com payback em 2 anos (`q061.py`), DUA e baixa visão em geometria (geoplano e alto contraste), síndrome de Down e memória viso-espacial com ábaco/material dourado.
+    - Lote 12 (Q64 a Q66): discalculia e divisão por partição com cédulas concretas, jogo Um quarto com cilindro reto e geratrizes perpendiculares às bases, modelagem de tráfego por matriz de adjacência (`q066.py`).
+    - Lote 13 (Q67 a Q69): topologia da reta e ínfimo em $(3, 6]$ (`q067.py`), Teorema do Valor Intermediário e inexistência de tangente horizontal para funções monótonas (`q067.py`), atitude investigativa e científica em Análise Real.
+    - Lote 14 (Q70 a Q72): curral retangular de área $f(x) = 40x - x^2$ e derivada $df/dx = 40 - 2x$ (`q070.py`), otimização no GeoGebra gerando quadrado $20\times 20\text{ m}$, probabilidades genéticas do sistema ABO (25% O e 75% A).
+    - Lote 15 (Q73 a Q75): letramento probabilístico e teste NIPT baixo risco 0,001% (`q074.py`), volume do paralelepípedo por módulo do produto misto 15 (`q074.py`), Algeplan e diferença de dois quadrados $a^2 - b^2$ (`q074.py`).
+    - Lote 16 (Q76 a Q78): trajetória do pássaro via reta perpendicular e mediatriz (`q076.py`), acústica ondulatória com amplitude fraca e frequência aguda (`q076.py`), habilidades da BNCC (EM13MAT306) e (EM13MAT404).
+    - Lote 17 (Q79 e Q80): cifra de César e aritmética modular com restos da divisão por 26 (`q079.py`), diagnóstico de erro geométrico por ausência de colinearidade no pentágono (`q079.py`).
+  - Validação estrita da prova `2025-prova5` aprovada com zero erros (`npm run content:validate -- --prova 2025-prova5`).
+  - Build estático de dados gerado com sucesso (`npm run content:build`).
+  - Todos os 29 testes unitários Vitest 100% verdes (`npm test`).
+  - Build estático Vite de produção compilado com sucesso (`npm run build`).
+
 - **2026-09-13**: Fase 6 (Resoluções Comentadas) — **Trilha 1 (`2025-prova1` Componente Específico Q31 a Q80: 50 questões) 100% CONCLUÍDA E APROVADA**.
   - Todos os 17 lotes de questões (Q31 a Q80) executados rigorosamente pelo protocolo anti-erro em 5 etapas: bloqueio cego -> resposta independente -> desbloqueio -> comparação cega -> scripts numéricos SymPy/Python -> resolução detalhada com todas as alternativas dissecadas -> validação Zod/KaTeX -> auditoria adversarial.
   - Lotes 8 a 17 concluídos nesta etapa:
