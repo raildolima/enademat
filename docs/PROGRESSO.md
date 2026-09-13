@@ -27,7 +27,7 @@ Registrado em: 2026-09-13
 | **Fase 1** | Inventário | ✅ Concluída | 136 páginas renderizadas com grade, 3 gabaritos conferidos 100%, 202 questões mapeadas |
 | **Fase 2** | Dados e Validador (TDD) | ✅ Concluída | TDD completo: 13 testes verdes, `schema.ts`, `validate.ts`, `build.ts`, `conferencia.ts` |
 | **Fase 3** | Figuras | ✅ Concluída | 72 figuras recortadas em WebP (35 em 2025-P1, 23 em 2025-P5, 14 em 2021), manifestos e folhas de contato aprovados |
-| **Fase 4** | Transcrição | 🔄 Em andamento | 2025-P1 concluída (81 questões); 2025-P5 e 2021 pendentes |
+| **Fase 4** | Transcrição | ✅ Concluída | 202 questões transcritas com fidelidade (81 em 2025-P1, 81 em 2025-P5, 40 em 2021), 38 textos-base, validação release 100% verde |
 | **Fase 5** | Aplicação Web | ⏳ Não iniciada | Interface, componentes, pop-up Floating UI, testes E2E |
 | **Fase 6** | Resoluções Comentadas | ⏳ Não iniciada | 202 CONFERÊNCIA e resoluções comentadas |
 | **Fase 7** | QA Final e Publicação | ⏳ Não iniciada | Definition of Done, Lighthouse, revisão humana amostral e deploy |
@@ -35,6 +35,15 @@ Registrado em: 2026-09-13
 ---
 
 ## 3. Log de Atualizações e Checkpoints
+- **2026-09-13**: Conclusão da Fase 4 (Transcrição das 202 Questões).
+  - Trilha 1 (`2025-prova1` — 81 questões: 80 objetivas + 1 discursiva + 15 textos-base) transcrita, auditada e validada.
+  - Trilha 2 (`2025-prova5` — 81 questões: 80 objetivas + 1 discursiva + 16 textos-base) transcrita, auditada e validada.
+  - Trilha 3 (`2021-licenciatura` — 40 questões: 35 objetivas de 5 alternativas + 5 discursivas + 7 textos-base) transcrita, auditada e validada.
+  - Todas as 202 questões e 38 textos-base rigorosamente em conformidade com schema Zod, KaTeX, decimais com vírgula `{,}`, moeda brasileira `R\$` e sem nenhum placeholder.
+  - Folhas de conferência HTML geradas para as 3 provas em `work/conferencia/*.html`.
+  - Validação release completa (`npm run content:validate -- --release`) aprovada com zero erros.
+  - Build estático de dados (`npm run content:build`) compilado com sucesso em `src/data/generated/`.
+  - Suíte de testes Vitest (`npm test`) 100% verde.
 - **2026-09-13**: Transcrição da Trilha 1 (`2025-prova1` — 81 questões) concluída.
   - Formação Geral Docente (Q01 a Q30 + Discursiva D01) transcrita fielmente com 7 textos-base e figuras.
   - Componente Específico (Q31 a Q80) transcrito com 8 textos-base e todas as figuras recortadas.
