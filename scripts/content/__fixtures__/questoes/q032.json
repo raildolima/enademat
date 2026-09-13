@@ -1,0 +1,68 @@
+{
+  "id": "2025-prova1-q032",
+  "provaId": "2025-prova1",
+  "tipo": "objetiva",
+  "numero": 32,
+  "rotulo": "Questão 32",
+  "parte": "componente-especifico",
+  "ordemCaderno": 33,
+  "paginas": [20],
+  "textoBaseId": "tb-31-32",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "De acordo com os dados laboratoriais, com o tempo e o uso de agentes descontaminantes, a concentração de chumbo no solo decaía de forma proporcional à quantidade ainda presente, comportamento típico de processos de decaimento exponencial, dado pelo modelo $C(t) = C_0 \\cdot e^{-kt}$, em que:"
+    },
+    {
+      "tipo": "lista",
+      "ordenada": false,
+      "itens": [
+        "$C(t)$ representa a quantidade total de chumbo (mg) no tempo $t$ (ano);",
+        "$C_0$ é a concentração inicial total de chumbo (mg);",
+        "$k = 0{,}1$ é a taxa de decaimento."
+      ]
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Qual função $C(t)$ expressa corretamente a concentração de chumbo ao longo do tempo?"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "$C(t) = (1{,}44 \\times 10^{7}) \\cdot e^{-0{,}1t}$"
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "$C(t) = (7{,}2 \\times 10^{5}) \\cdot e^{-0{,}1t}$"
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "$C(t) = (1{,}44 \\times 10^{6}) \\cdot e^{-0{,}1t}$"
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "$C(t) = (7{,}2 \\times 10^{6}) \\cdot e^{-0{,}1t}$"
+        }
+      ]
+    }
+  ]
+}

@@ -25,7 +25,7 @@ Registrado em: 2026-09-13
 |---|---|---|---|
 | **Fase 0** | Fundação | ✅ Concluída | Git, venv Python, scaffold Vite, dependências, agentes, regras e hooks validados |
 | **Fase 1** | Inventário | ✅ Concluída | 136 páginas renderizadas com grade, 3 gabaritos conferidos 100%, 202 questões mapeadas |
-| **Fase 2** | Dados e Validador (TDD) | ⏳ Não iniciada | `schema.ts`, `validate.ts`, `build.ts`, fixtures q032, testes unitários |
+| **Fase 2** | Dados e Validador (TDD) | ✅ Concluída | TDD completo: 13 testes verdes, `schema.ts`, `validate.ts`, `build.ts`, `conferencia.ts` |
 | **Fase 3** | Figuras | ⏳ Não iniciada | Manifesto de figuras e recortes WebP aprovados |
 | **Fase 4** | Transcrição | ⏳ Não iniciada | 202 questões transcritas e auditadas |
 | **Fase 5** | Aplicação Web | ⏳ Não iniciada | Interface, componentes, pop-up Floating UI, testes E2E |
@@ -35,6 +35,11 @@ Registrado em: 2026-09-13
 ---
 
 ## 3. Log de Atualizações e Checkpoints
+- **2026-09-13**: Conclusão da Fase 2 (Esquema, Validador e Build via TDD).
+  - Fixtures `q032` criadas em `scripts/content/__fixtures__/`.
+  - Ciclo TDD executado: suíte de testes `fase2-tdd.test.ts` implementada, saída vermelha inicial capturada.
+  - Módulos implementados: `gabaritos-referencia.ts`, `schema.ts` (Zod + KaTeX), `validate.ts` (flags `--prova`, `--arquivo`, `--release`), `build.ts` (gerador estático), `conferencia.ts` (HTML visual) e `src/data/tipos.ts`.
+  - Saída verde comprovada: 13 testes unitários passando em 100%, `npm run content:validate` e `npm run build` aprovados.
 - **2026-09-13**: Conclusão da Fase 1 (Inventário das Provas e Gabaritos).
   - Scripts `inventario.py`, `renderizar_paginas.py`, `candidatos_figuras.py` e `extrair_gabaritos.py` implementados e executados.
   - 136 páginas das 3 provas renderizadas limpas (`work/paginas/`) e com grade de coordenadas em pt (`work/paginas-grade/`).
