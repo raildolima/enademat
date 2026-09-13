@@ -1,0 +1,56 @@
+{
+  "id": "2025-prova5-q012",
+  "provaId": "2025-prova5",
+  "tipo": "objetiva",
+  "numero": 12,
+  "rotulo": "Questão 12",
+  "parte": "formacao-geral",
+  "ordemCaderno": 12,
+  "paginas": [
+    8
+  ],
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Em uma escola pública de Ensino Médio, uma professora de Ciências propõe aos estudantes, no laboratório de informática, uma atividade em que utilizem inteligência artificial (IA) para gerar textos explicativos sobre os efeitos de mutações genéticas no DNA e suas possíveis consequências no organismo. Na sequência, os estudantes devem analisar se as respostas da IA estão cientificamente corretas e justificar seus julgamentos com base em fontes científicas, como livros disponíveis na biblioteca da instituição e em sites acadêmicos.\n\nConsiderando essa proposta, a habilidade que favorece a promoção do letramento científico é a de"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "analisar conceitos científicos gerados por IAs, sobrepondo-os aos conteúdos curriculares."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "ratificar informações geradas por IAs, atestando a legitimidade científica dessas informações."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "avaliar informações geradas por IAs, analisando a validade científica e a consistência dessas ferramentas."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "comparar produções científicas geradas por IAs com outras produções, comprovando a irrefutabilidade dos métodos científicos."
+        }
+      ]
+    }
+  ]
+}

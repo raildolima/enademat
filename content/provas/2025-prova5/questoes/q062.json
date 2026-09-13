@@ -1,0 +1,57 @@
+{
+  "id": "2025-prova5-q062",
+  "provaId": "2025-prova5",
+  "tipo": "objetiva",
+  "numero": 62,
+  "rotulo": "Questão 62",
+  "parte": "componente-especifico",
+  "ordemCaderno": 63,
+  "paginas": [
+    35
+  ],
+  "textoBaseId": "tb-62-64",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Um estudante com deficiência visual, baixa visão, está em uma turma do 8º ano do Ensino Fundamental e, buscando incluí-lo nas atividades de geometria, um professor de Matemática elabora uma proposta de intervenção que adota princípios do DUA em sua aula. Para isso, o professor deve utilizar recursos que"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "tenham contraste de cores (azul e amarelo ou preto e branco, por exemplo); relevos e texturas; ampliação de fonte e braille; marcação no canto superior direito para indicar sentido do material; durabilidade e segurança, além de recursos táteis como geoplano."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "mantenham a mesma cor (ou azul ou amarelo ou preto ou branco, por exemplo); relevos e texturas; ampliação de fonte e Libras; marcação no canto superior direito para indicar sentido do material; durabilidade e segurança, além de recursos visuais como o quadro."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "tenham contraste de cores (azul e amarelo ou preto e branco, por exemplo); relevos e texturas; redução de fonte e braille; marcação no canto inferior direito para indicar sentido do material; durabilidade e segurança, além de recursos visuais como o quadro."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "mantenham cores variadas (azul, amarelo, preto ou branco, por exemplo); relevos e texturas; redução de fonte e Libras; marcação no canto inferior direito para indicar sentido do material; durabilidade e segurança, além de recursos táteis como geoplano."
+        }
+      ]
+    }
+  ]
+}

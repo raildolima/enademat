@@ -1,0 +1,66 @@
+{
+  "id": "2025-prova5-d01",
+  "provaId": "2025-prova5",
+  "tipo": "discursiva",
+  "numero": 1,
+  "rotulo": "Questão Discursiva 1",
+  "parte": "formacao-geral",
+  "ordemCaderno": 31,
+  "paginas": [
+    18
+  ],
+  "enunciado": [
+    {
+      "tipo": "titulo",
+      "texto": "TEXTO 1\nJustiça socioambiental"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "No artigo *O clamor por justiça ambiental e contra o racismo ambiental*, Herculano (2008, p. 2) evidencia que justiça socioambiental abarca “o conjunto de princípios que asseguram que nenhum grupo de pessoas (étnico, racial, social) suporte uma parcela desproporcional das consequências ambientais negativas”. Por sua vez, Ribeiro (2017) observa, no artigo *Justiça espacial e justiça socioambiental: uma primeira aproximação*, que ela decorre da desigualdade social na apropriação do ambiente e de seus recursos naturais, servindo para conhecer o acesso desigual às vantagens e às desvantagens estabelecidas socialmente."
+    },
+    {
+      "tipo": "titulo",
+      "texto": "TEXTO 2\nRacismo ambiental"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "O racismo ambiental pode operar por meio de ações que promovem o entendimento sobre o impacto das consequências ambientais negativas, a partir do recorte racial entre quem se beneficia e quem sofre com tais consequências. O recorte racial serve para identificar como o racismo ambiental afeta áreas como educação, saúde, saneamento básico e mercado de trabalho."
+    },
+    {
+      "tipo": "fonte",
+      "texto": "Disponível em: arvoreagua.org (adaptado). Acesso em: 17 jul. 2025."
+    },
+    {
+      "tipo": "titulo",
+      "texto": "TEXTO 3\nInjustiça socioambiental"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "A injustiça socioambiental ocorre quando as comunidades marginalizadas, em sua maioria compostas por grupos étnicos minoritários, sofrem de forma desproporcional com a exposição a poluentes, a degradação ambiental e a falta de acesso a recursos naturais saudáveis."
+    },
+    {
+      "tipo": "imagem",
+      "src": "figuras/2025-prova5/d01-f1.webp",
+      "alt": "Esquema visual integrando os conceitos de Justiça socioambiental, Racismo ambiental e Injustiça socioambiental.",
+      "legenda": "MONTEIRO, R. R. et al. Racismo ambiental, justiça ambiental e mudanças climáticas no Brasil. Em favor de igualdade racial, v. 6, n. 3, 2023."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Diante do alto índice de evasão de estudantes da Educação Básica da Escola Municipal Anísio Teixeira, essa instituição solicitou que as famílias respondessem a um questionário para diagnosticar as razões que justificariam esse cenário. Nessa pesquisa, evidenciou-se a relação direta entre evasão escolar e as condições de vulnerabilidade social que afetam tais pessoas. A partir desse dado, a escola propõe a criação de um projeto que, ao envolver toda a comunidade escolar, minimize os impactos do racismo ambiental na vida dos membros dessa comunidade, buscando formas de colaborar com a justiça socioambiental.\n\nCom base na situação-problema e na leitura dos textos motivadores, produza um texto dissertativo-argumentativo que, respeitando os Direitos Humanos:"
+    }
+  ],
+  "itens": [
+    {
+      "rotulo": "1",
+      "texto": "explique de que modo a relação entre justiça socioambiental e desigualdades sociais no Brasil pode ser abordada no contexto escolar;"
+    },
+    {
+      "rotulo": "2",
+      "texto": "disserte sobre o papel da escola para minimizar os impactos do racismo ambiental na promoção de justiça socioambiental;"
+    },
+    {
+      "rotulo": "3",
+      "texto": "apresente, ao menos, uma ação concreta a ser contemplada no projeto proposto, visando mitigar os impactos do racismo ambiental e contribuir com a justiça socioambiental."
+    }
+  ]
+}

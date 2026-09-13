@@ -1,0 +1,57 @@
+{
+  "id": "2025-prova5-q068",
+  "provaId": "2025-prova5",
+  "tipo": "objetiva",
+  "numero": 68,
+  "rotulo": "Questão 68",
+  "parte": "componente-especifico",
+  "ordemCaderno": 69,
+  "paginas": [
+    38
+  ],
+  "textoBaseId": "tb-68-69",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Entre as possíveis conjecturas apresentadas pelos estudantes, qual a alternativa indica uma conjectura que não é verdadeira para qualquer função contínua?"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Existe um valor qualquer entre $b$ e $d$ que é imagem de um valor em $]a, c[$."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Qualquer reta horizontal passando por valores entre $b$ e $d$ corta o gráfico pelo menos uma vez."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Existe um valor entre $b$ e $d$ tal que a reta horizontal que passa por ele será tangente ao gráfico."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Qualquer valor entre $b$ e $d$ pode ser imagem de três valores distintos em $]a, c[$."
+        }
+      ]
+    }
+  ]
+}

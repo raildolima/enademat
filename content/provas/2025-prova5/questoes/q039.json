@@ -1,0 +1,57 @@
+{
+  "id": "2025-prova5-q039",
+  "provaId": "2025-prova5",
+  "tipo": "objetiva",
+  "numero": 39,
+  "rotulo": "Questão 39",
+  "parte": "componente-especifico",
+  "ordemCaderno": 40,
+  "paginas": [
+    24
+  ],
+  "textoBaseId": "tb-39-41",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Na situação apresentada com a turma do 9º ano, qual operação entre conjuntos corresponde ao procedimento da dupla de estudantes?"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "$A \\cap B$"
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "$A - B$"
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "$(A \\cap B) - A$"
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "$(A \\cap B) \\cap A$"
+        }
+      ]
+    }
+  ]
+}

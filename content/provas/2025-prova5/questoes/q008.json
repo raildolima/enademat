@@ -1,0 +1,57 @@
+{
+  "id": "2025-prova5-q008",
+  "provaId": "2025-prova5",
+  "tipo": "objetiva",
+  "numero": 8,
+  "rotulo": "Questão 8",
+  "parte": "formacao-geral",
+  "ordemCaderno": 8,
+  "paginas": [
+    6
+  ],
+  "textoBaseId": "tb-08-09",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Enfatizando a escolha de Tiana como protagonista do curta-metragem, o professor propôs um debate com o propósito de refletir sobre gênero, sexualidade e garantia dos direitos humanos, conforme a legislação brasileira. A alternativa que apresenta uma ação em consonância com o objetivo traçado é"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "solicitar que os estudantes realizem uma entrevista com pessoas transexuais no entorno escolar, identificando a faixa etária e a escolha religiosa delas."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "analisar dados estatísticos sobre a expectativa de vida de pessoas transexuais, visando uma reflexão sobre a vulnerabilidade social desse grupo."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "apresentar uma pesquisa sobre os papéis das pessoas transexuais nas religiões cristãs no Brasil, visando a manutenção dos valores morais."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "solicitar que os estudantes elaborem um quadro comparativo das características biológicas de pessoas cisgêneros e transgêneros, identificando as diferenças dos papéis sociais desses grupos."
+        }
+      ]
+    }
+  ]
+}

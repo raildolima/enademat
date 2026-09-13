@@ -1,0 +1,68 @@
+{
+  "id": "2025-prova5-q076",
+  "provaId": "2025-prova5",
+  "tipo": "objetiva",
+  "numero": 76,
+  "rotulo": "Questão 76",
+  "parte": "componente-especifico",
+  "ordemCaderno": 77,
+  "paginas": [
+    42
+  ],
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Professores de Matemática e Biologia organizaram uma aula de campo para uma reserva natural. Lá, dois pesquisadores relataram que estão estudando a trajetória de uma espécie de pássaro raro. Eles notam, inicialmente, que o pássaro pousa em pontos específicos ao longo de uma linha reta, criando um padrão que pode ser descrito matematicamente. Durante a aula de campo, os pesquisadores relataram diversas características da espécie, incluindo observações quanto à rota que costumava seguir."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Durante a observação, um dos pesquisadores se posiciona no ponto $A(2, 3)$ e outro pesquisador no ponto $B(5, -1)$. O pássaro é observado em um ponto $C\\left(\\frac{17}{4}, 0\\right)$ que está na reta que passa por $A$ e $B$. Posteriormente, os pesquisadores registram que o pássaro fez um pouso em um ponto $D$. O ponto $D$ tem abcissa igual a 6 e se encontra na reta que é perpendicular à reta $AB$, a qual passa pelo ponto médio do segmento $AB$."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Ao retornar à escola, o professor de Matemática trabalhou com os estudantes a determinação da trajetória do pássaro com base nos dados fornecidos pelos pesquisadores na aula de campo. Como desafio, solicitou aos estudantes que determinassem essa trajetória utilizando equações de reta."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Nesse contexto, o estudante que atendeu à solicitação do professor realizou os seguintes passos:"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Determinar a equação da reta que passa por $A$ e $B$ e obter o seu coeficiente angular $m$; obter o ponto médio $M$ do segmento $AB$; determinar a equação da reta que passa por $M$ e $D$ utilizando o coeficiente angular $n = \\frac{1}{m}$; encontrar a ordenada do ponto $D$; encontrar a equação da reta que passa pelos pontos $C$ e $D$."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Determinar a equação da reta que passa por $A$ e $B$ e obter o seu coeficiente angular $m$; obter o ponto médio $M$ do segmento $AB$; determinar a equação da reta que passa por $M$ e $D$ utilizando o coeficiente angular $n = -\\frac{1}{m}$; encontrar a ordenada do ponto $D$; encontrar a equação da reta que passa pelos pontos $C$ e $D$."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Determinar a equação da reta que passa por $A$ e $B$ e obter o seu coeficiente angular $m$; determinar a equação da reta que passa por $C$ e $D$ utilizando o coeficiente angular $n = \\frac{1}{m}$; encontrar a ordenada do ponto $D$; encontrar a equação da reta que passa pelos pontos $C$ e $D$."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Determinar a equação da reta que passa por $A$ e $B$ e obter o seu coeficiente angular $m$; determinar a equação da reta que passa por $C$ e $D$ utilizando o coeficiente angular $n = -\\frac{1}{m}$; encontrar a ordenada do ponto $D$; encontrar a equação da reta que passa pelos pontos $C$ e $D$."
+        }
+      ]
+    }
+  ]
+}

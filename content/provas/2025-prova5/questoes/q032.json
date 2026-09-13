@@ -1,0 +1,74 @@
+{
+  "id": "2025-prova5-q032",
+  "provaId": "2025-prova5",
+  "tipo": "objetiva",
+  "numero": 32,
+  "rotulo": "Questão 32",
+  "parte": "componente-especifico",
+  "ordemCaderno": 33,
+  "paginas": [
+    20
+  ],
+  "textoBaseId": "tb-31-32",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Um professor propôs o seguinte desafio para seus estudantes resolverem em casa:"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "O que é? o que é? tem quatro lados e duas diagonais?"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Um dos estudantes voltou com duas respostas: uma inicialmente elaborada por ele e outra gerada por uma inteligência artificial (IA), conforme ilustrado."
+    },
+    {
+      "tipo": "imagem",
+      "src": "/figuras/2025-prova5/q032-f1.webp",
+      "alt": "Respostas do estudante e da inteligência artificial para o desafio de quatro lados e duas diagonais."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Com o intuito de explorar erros relacionados ao conhecimento pedagógico do conteúdo de quadriláteros, o professor deve discutir com os estudantes a(s) resposta(s)"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "de ambos, estudante e IA, porque, embora válidas para o desafio, nem a resposta do estudante nem a da IA consideraram a possibilidade de outras figuras planas serem soluções para o enigma."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "de ambos, estudante e IA, uma vez que, embora válidas para o desafio, a resposta do estudante e a da IA são complementares e, se analisadas em conjunto, todas as soluções possíveis terão sido consideradas."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "do estudante, pois, mesmo que válida para o desafio, deixou de contemplar a possibilidade de outras figuras planas serem soluções para o enigma, ao passo que, na resposta da IA, também válida, todas as soluções possíveis foram consideradas."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "da IA, pois, mesmo que válida para o desafio, deixou de contemplar a possibilidade de outras figuras planas serem soluções para o enigma, ao passo que, na resposta do estudante, também válida, todas as soluções possíveis foram consideradas."
+        }
+      ]
+    }
+  ]
+}

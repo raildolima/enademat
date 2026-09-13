@@ -1,0 +1,57 @@
+{
+  "id": "2025-prova5-q017",
+  "provaId": "2025-prova5",
+  "tipo": "objetiva",
+  "numero": 17,
+  "rotulo": "Questão 17",
+  "parte": "formacao-geral",
+  "ordemCaderno": 17,
+  "paginas": [
+    10
+  ],
+  "textoBaseId": "tb-17-18",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Durante uma formação continuada sobre inclusão, o corpo docente da escola, partindo da situação apresentada na charge, foi convidado a refletir sobre as práticas discursivas que permeiam o cotidiano escolar e sobre o papel pedagógico do professor diante de manifestações capacitistas.\n\nProblematizando as falas da charge e considerando as Diretrizes Nacionais para a Educação Especial na Perspectiva da Educação Inclusiva (2008), a ação docente a ser desenvolvida com os estudantes, coerente com uma postura crítica frente ao capacitismo, é promover uma roda de conversa para"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "reforçar o discurso de superação da pessoa com deficiência, como forma de estimular os demais estudantes a valorizarem o esforço individual."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "compreender a diferença entre reconhecer a autonomia da pessoa com deficiência e reduzi-la a estereótipos de excepcionalidade, acolhendo as especificidades de cada um."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "destacar as diferenças e os limites dos estudantes de programas de inclusão em relação àqueles inseridos no ensino regular, tendo em vista que cada pessoa tem um desafio a ser superado."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "hierarquizar as diferenças entre a pessoa com deficiência e as demais, como modo de minimizar a excepcionalidade desses estudantes."
+        }
+      ]
+    }
+  ]
+}

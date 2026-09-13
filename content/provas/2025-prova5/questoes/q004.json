@@ -1,0 +1,57 @@
+{
+  "id": "2025-prova5-q004",
+  "provaId": "2025-prova5",
+  "tipo": "objetiva",
+  "numero": 4,
+  "rotulo": "Questão 4",
+  "parte": "formacao-geral",
+  "ordemCaderno": 4,
+  "paginas": [
+    4
+  ],
+  "textoBaseId": "tb-04-07",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Com base na análise dos Textos 1 e 2 e na implementação efetiva da Lei n. 10 639/03, que inclui no currículo oficial da Rede de Ensino a obrigatoriedade do ensino da História e da Cultura Afro-Brasileira, a alternativa que apresenta uma ação pedagógica orientada nos princípios da educação para as relações étnico-raciais deve"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "focalizar a biografia de Abdias do Nascimento, articulando-a à imagem cívica da Bandeira Nacional, de modo a evitar tensionamentos políticos."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "promover a leitura da obra, articulando arte, história e identidade, de modo a evitar uma leitura hegemônica da cultura brasileira."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "priorizar a análise da pintura, evitando discussões sobre religiosidade afro-brasileira, a fim de manter a neutralidade pedagógica."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "utilizar a figura como ilustração, articulando-a com conteúdos históricos, a fim de evitar desconfortos entre estudantes de diferentes origens religiosas."
+        }
+      ]
+    }
+  ]
+}

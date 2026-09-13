@@ -1,0 +1,90 @@
+{
+  "id": "tb-48-49",
+  "provaId": "2025-prova5",
+  "titulo": "Texto para questões 48 e 49",
+  "questoes": [
+    48,
+    49
+  ],
+  "blocos": [
+    {
+      "tipo": "paragrafo",
+      "texto": "O Quadrado Mágico é uma tabela em que as somas de cada linha, de cada coluna e de cada diagonal são iguais. Com intenção de elaborar um plano de aula que favoreça a produção de conhecimentos e a autonomia de seus estudantes, um professor de Matemática planejou um conjunto de atividades para retomar o conteúdo de números primos e atender à habilidade da Base Nacional Comum curricular “(EF07MA14): resolver e elaborar problemas que possam ser representados por equações polinomiais de 1º grau, redutíveis à forma $ax + b = c$, fazendo uso das propriedades da igualdade”. Assim, solicitou aos seus estudantes que criassem um Quadrado Mágico $3 \\times 3$ somente com números primos distintos e menores que 120. Dois padrões de resposta da turma chamaram atenção do professor, conforme apresentado."
+    },
+    {
+      "tipo": "tabela",
+      "linhas": [
+        [
+          "67",
+          "1",
+          "43"
+        ],
+        [
+          "13",
+          "37",
+          "61"
+        ],
+        [
+          "31",
+          "73",
+          "7"
+        ]
+      ],
+      "legenda": "Padrão 1"
+    },
+    {
+      "tipo": "tabela",
+      "linhas": [
+        [
+          "71",
+          "5",
+          "101"
+        ],
+        [
+          "89",
+          "59",
+          "29"
+        ],
+        [
+          "17",
+          "113",
+          "47"
+        ]
+      ],
+      "legenda": "Padrão 2"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Figura 1 – Quadrados Mágicos de padrão 1 e 2"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Com base na situação proposta pelo professor, na aula seguinte, foi solicitado aos estudantes que elaborassem um problema que envolvesse a definição de Quadrado Mágico e o conteúdo de equações polinomiais do 1º grau. Um grupo de estudantes propôs o seguinte problema: “Considerando que a figura é um Quadrado Mágico cuja soma de cada linha e de cada coluna é a mesma, e sabendo que a soma das três linhas ou das três colunas é igual a 90, preencha o Quadrado Mágico em branco com os valores numéricos encontrados”."
+    },
+    {
+      "tipo": "tabela",
+      "linhas": [
+        [
+          "$2y$",
+          "$2$",
+          "$2y+4$"
+        ],
+        [
+          "$7x$",
+          "$5x$",
+          "$6$"
+        ],
+        [
+          "$z$",
+          "$18$",
+          "$2z$"
+        ]
+      ],
+      "legenda": "Quadrado Mágico com incógnitas"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Figura 2 – Quadrado Mágico com incógnitas e Quadrado Mágico em branco"
+    }
+  ]
+}

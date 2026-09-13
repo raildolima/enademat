@@ -1,0 +1,57 @@
+{
+  "id": "2025-prova5-q021",
+  "provaId": "2025-prova5",
+  "tipo": "objetiva",
+  "numero": 21,
+  "rotulo": "Questão 21",
+  "parte": "formacao-geral",
+  "ordemCaderno": 21,
+  "paginas": [
+    11
+  ],
+  "textoBaseId": "tb-20-21",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Com base no poema Pankararu, um professor propôs o estudo de autoras indígenas brasileiras, com o objetivo de ampliar as discussões sobre mulheres, território e resistência. Após a leitura do poema, os estudantes analisaram como a autora constrói uma voz coletiva e feminina que denuncia processos históricos de exclusão, bem como questiona as fronteiras impostas entre “nós” e “eles”. Ao final, o professor pediu à turma que refletisse sobre como as vozes de mulheres indígenas contribuem para novas formas de pensar o mundo, o corpo e a história.\n\nA leitura do poema de Eliana Potiguara e a proposta pedagógica descrita evidenciam uma perspectiva de decolonialidade associada ao protagonismo feminino porque valorizam"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "o espírito maternal da mulher indígena que luta pelos próprios filhos, transformando a dor da família em narrativa política e epistemológica."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "as vozes de mulheres indígenas que produzem saberes próprios, rompendo com hierarquias que historicamente ignoraram a legitimidade desses saberes."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "o empoderamento feminino indígena, construído a partir de modelos universais de emancipação da figura da mulher."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "as produções literárias de mulheres indígenas, comparando-as às de representantes femininas do cânone ocidental."
+        }
+      ]
+    }
+  ]
+}

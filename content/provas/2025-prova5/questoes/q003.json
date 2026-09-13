@@ -1,0 +1,57 @@
+{
+  "id": "2025-prova5-q003",
+  "provaId": "2025-prova5",
+  "tipo": "objetiva",
+  "numero": 3,
+  "rotulo": "Questão 3",
+  "parte": "formacao-geral",
+  "ordemCaderno": 3,
+  "paginas": [
+    3
+  ],
+  "textoBaseId": "tb-01-03",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Na letra da canção, o caderno pode também simbolizar a participação do professor no percurso de aprendizagem dos estudantes. Nessa perspectiva, a postura docente que propõe compreender a realidade social e respeitar a diversidade na avaliação dos processos educativos deve"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "utilizar instrumentos avaliativos não formais e valorizar as conquistas meritocráticas, levando em conta o contexto sociocultural dos estudantes."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "privilegiar resultados objetivos padronizados e comparar o desempenho entre os estudantes, com base em critérios universais de excelência."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "mensurar o rendimento individual por meio de indicadores quantitativos e considerar o êxito dos estudantes como fatores que aferem o sucesso pedagógico."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "entender o erro como parte do processo de aprendizagem e considerar as diferenças individuais dos estudantes como fatores que orientam intervenções pedagógicas contínuas."
+        }
+      ]
+    }
+  ]
+}

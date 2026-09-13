@@ -1,0 +1,36 @@
+{
+  "id": "tb-77-78",
+  "provaId": "2025-prova5",
+  "titulo": "Texto para questões 77 e 78",
+  "questoes": [
+    77,
+    78
+  ],
+  "blocos": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Em teoria musical, duas propriedades importantes de um som são intensidade e altura. A intensidade permite dizer se ele é forte ou fraco, enquanto a altura o identifica como agudo ou grave. As ondas sonoras podem ser representadas por formas senoidais, relacionando sua amplitude com a intensidade do som, e a sua frequência com a altura do som. Assim, ondas sonoras com grandes ou pequenas amplitudes produzem, respectivamente, sons mais fortes ou mais fracos. Além disso, quanto maior a frequência das ondas sonoras mais agudo será o som produzido, e quanto menor a frequência das ondas sonoras mais grave será o som."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Os professores de Matemática e Música desenvolveram uma atividade com o objetivo de associar conceitos e propriedades de funções trigonométricas com altura e intensidade de sons."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Após a explanação realizada pelo professor de Música, o professor de Matemática mostrou a seus estudantes gráficos de ondas sonoras obtidas a partir de dois sons."
+    },
+    {
+      "tipo": "imagem",
+      "src": "/figuras/2025-prova5/tb-77-78-f1.webp",
+      "alt": "Gráficos de ondas sonoras obtidas a partir de dois sons comparando amplitudes e frequências."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Em seguida, apresentou também as seguintes funções: $f(t) = 0{,}5\\operatorname{sen}(440\\pi t)$ e $g(t) = \\operatorname{sen}(220\\pi t)$."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Na sequência, solicitou aos estudantes que comparassem a intensidade e a altura dos sons, associando cada uma das funções apresentadas a um dos gráficos."
+    }
+  ]
+}

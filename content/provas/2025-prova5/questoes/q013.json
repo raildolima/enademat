@@ -1,0 +1,56 @@
+{
+  "id": "2025-prova5-q013",
+  "provaId": "2025-prova5",
+  "tipo": "objetiva",
+  "numero": 13,
+  "rotulo": "Questão 13",
+  "parte": "formacao-geral",
+  "ordemCaderno": 13,
+  "paginas": [
+    8
+  ],
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "O avanço tecnológico promovido pelas IAs provoca necessidades de se repensar o processo de ensino e de aprendizagem à luz do acesso a tecnologias digitais. Diante desse cenário, a mudança pedagógica necessária a esse novo contexto envolve"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "propor atividades que utilizem IAs e aplicativos de celulares como ferramentas pedagógicas para estimular a aprendizagem, a autoria e a reflexão dos estudantes."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "estruturar sequências didáticas em que a IA e os aplicativos de celulares atuem na organização das etapas de ensino, definindo conteúdos e modos de aprendizagem dos estudantes."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "priorizar modelos de ensino e de aprendizagem pautados em roteiros produzidos por algoritmos das IAs e dos aplicativos de celulares, dando protagonismo aos estudantes no planejamento conceitual das atividades."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "reorientar o processo avaliativo para análises automatizadas de desempenho, para que relatórios gerados por IA ou aplicativos de celulares sirvam de referência para mensurar o progresso da aprendizagem dos estudantes."
+        }
+      ]
+    }
+  ]
+}

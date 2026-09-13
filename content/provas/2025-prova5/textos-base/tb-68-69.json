@@ -1,0 +1,15 @@
+{
+  "id": "tb-68-69",
+  "provaId": "2025-prova5",
+  "titulo": "Texto para questões 68 e 69",
+  "questoes": [
+    68,
+    69
+  ],
+  "blocos": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Em um curso de Licenciatura em Matemática, uma professora de Fundamentos de Análise, com intuito de trabalhar continuidade de funções reais, pediu aos estudantes que marcassem num plano cartesiano dois pontos $(a, b)$ e $(c, d)$, sendo $a < c$ e $b \\ne d$. Em seguida, solicitou que eles desenhassem, sem tirar a ponta do lápis do papel, uma linha ligando esses dois pontos representando o gráfico de uma função real. Depois explicou que isso seria uma ideia intuitiva de função contínua definida no intervalo $[a, c]$. A etapa seguinte foi pedir aos estudantes que traçassem retas horizontais, passando por pontos cuja ordenada estivesse entre os valores de $b$ e $d$, e, a partir daí, fizessem conjecturas a respeito desses valores e da função contínua."
+    }
+  ]
+}

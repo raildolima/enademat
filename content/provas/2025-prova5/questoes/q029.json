@@ -1,0 +1,70 @@
+{
+  "id": "2025-prova5-q029",
+  "provaId": "2025-prova5",
+  "tipo": "objetiva",
+  "numero": 29,
+  "rotulo": "Questão 29",
+  "parte": "formacao-geral",
+  "ordemCaderno": 29,
+  "paginas": [
+    16
+  ],
+  "enunciado": [
+    {
+      "tipo": "titulo",
+      "texto": "TEXTO 1\nAspectos da violência nas escolas analisados a partir do mundo digital"
+    },
+    {
+      "tipo": "imagem",
+      "src": "figuras/2025-prova5/q029-f1.webp",
+      "alt": "Infográfico com dados da pesquisa Timelens sobre violência escolar e manifestações no ambiente digital.",
+      "legenda": "Fonte: Timelens, 2025. Publicado junto ao Fórum Nacional de Segurança Pública."
+    },
+    {
+      "tipo": "titulo",
+      "texto": "TEXTO 2"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Durante um evento sobre violência escolar, foram discutidos os dados levantados pela Timelens e publicados pelo Fórum Brasileiro de Segurança Pública. Na análise dos dados, os participantes do evento constataram que situações de violência escolar, incluindo agressões físicas, intimidações, violência simbólica e ataques à integridade psíquica, apresentam correlação significativa com fatores institucionais, como ausência de mapeamentos de processos de gestão de conflitos, sobrecarga docente e fragilidade dos canais de participação estudantil. Diante disso, o grupo discutiu sobre as divergências no processo de enfrentamento da violência escolar.\n• Parte da equipe pedagógica defende que a escola deve atuar estritamente na esfera disciplinar, aplicando sanções imediatas, conforme o regimento.\n• Outra parte argumenta que a legislação educacional e as pesquisas científicas exigem estratégias integradas, envolvendo mediação de conflitos, articulação com a rede intersetorial (saúde, assistência, conselho tutelar) e participação da comunidade.\n• A direção questiona se há base legal que responsabilize a instituição nos casos de omissão ou de ausência de medidas preventivas.\n\nApós as discussões, foram propostas soluções para o enfrentamento da situação descrita com base no que estabelecem o Estatuto da Criança e do Adolescente (ECA) e a Lei de Diretrizes e Bases (LDB). Qual alternativa apresenta a decisão coerente para a prevenção da violência escolar?"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Delegar a responsabilidade para as famílias, uma vez que, segundo a legislação vigente, cabe a elas zelarem pela integridade física e moral das crianças e dos adolescentes."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Adotar ações de formação docente para lidar com a indisciplina, já que as pesquisas indicam que a violência escolar decorre principalmente da falta de preparo dos professores."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Instituir comissões escolares participativas articuladas com as redes de proteção para a revisão e a aplicação de protocolos internos, uma vez que a legislação prevê corresponsabilidade."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Priorizar medidas disciplinadoras e punitivas, tendo em vista que os estudantes são os responsáveis e que a escola deve encaminhar os casos às autoridades competentes."
+        }
+      ]
+    }
+  ]
+}

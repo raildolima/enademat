@@ -1,0 +1,57 @@
+{
+  "id": "2025-prova5-q031",
+  "provaId": "2025-prova5",
+  "tipo": "objetiva",
+  "numero": 31,
+  "rotulo": "Questão 31",
+  "parte": "componente-especifico",
+  "ordemCaderno": 32,
+  "paginas": [
+    20
+  ],
+  "textoBaseId": "tb-31-32",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Uma inteligência artificial, ao ser questionada se $1 + 1$ pode ser diferente de $2$, respondeu que, em contextos semelhantes ao do sistema de numeração decimal, o resultado dessa operação pode assumir outros valores. Ela então justificou que o conjunto, dado por $B_{10} = \\{0, 1, 2, 3, 4, 5, 6, 7, 8, 9\\}$, representa uma base que serve para formar os demais elementos do sistema de numeração decimal, a partir das combinações desses elementos. No caso do sistema de numeração hexadecimal, que pode ser descrito por $H_{16} = \\{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, \\text{A}, \\text{B}, \\text{C}, \\text{D}, \\text{E}, \\text{F}\\}$, as combinações obedecem ao mesmo princípio. Assim, ao operar $(\\text{E} + \\text{C}4)_{16}$, obtemos $(\\text{D}2)_{16}$. Ou ainda, ao operar $(\\text{D} - 7)_{16}$, encontramos $(6)_{16}$. Considerando esse cenário, o funcionamento do sistema hexadecimal e que $\\text{B}7$ é uma combinação dos elementos dessa base, o resultado da operação $(\\text{B}7 + \\text{A})_{16}$ é igual a"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "$(117)_{16}$"
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "$(\\text{C}7)_{16}$"
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "$(111)_{16}$"
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "$(\\text{C}1)_{16}$"
+        }
+      ]
+    }
+  ]
+}

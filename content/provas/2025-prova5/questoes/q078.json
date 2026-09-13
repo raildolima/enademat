@@ -1,0 +1,61 @@
+{
+  "id": "2025-prova5-q078",
+  "provaId": "2025-prova5",
+  "tipo": "objetiva",
+  "numero": 78,
+  "rotulo": "Questão 78",
+  "parte": "componente-especifico",
+  "ordemCaderno": 79,
+  "paginas": [
+    43
+  ],
+  "textoBaseId": "tb-77-78",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Considere as seguintes habilidades descritas na BNCC:\n• (EM13MAT201) Propor ou participar de ações adequadas às demandas da região, preferencialmente para sua comunidade, envolvendo medições e cálculos de perímetro, de área, de volume, de capacidade ou de massa.\n• (EM13MAT301) Resolver e elaborar problemas do cotidiano, da Matemática e de outras áreas do conhecimento, que envolvem equações lineares simultâneas, usando técnicas algébricas e gráficas, com ou sem apoio de tecnologias digitais.\n• (EM13MAT306) Resolver e elaborar problemas em contextos que envolvem fenômenos periódicos reais (ondas sonoras, fases da lua, movimentos cíclicos, entre outros) e comparar suas representações com as funções seno e cosseno, no plano cartesiano, com ou sem apoio de aplicativos de álgebra e geometria.\n• (EM13MAT404) Analisar funções definidas por uma ou mais sentenças (tabela do Imposto de Renda, contas de luz, água, gás etc.), em suas representações algébrica e gráfica, identificando domínios de validade, imagem, crescimento e decrescimento, e convertendo essas representações de uma para outra, com ou sem apoio de tecnologias digitais."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Qual alternativa indica duas habilidades que foram utilizadas pelo professor de Matemática na atividade mencionada no texto?"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "(EM13MAT201) e (EM13MAT301)."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "(EM13MAT201) e (EM13MAT306)."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "(EM13MAT301) e (EM13MAT404)."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "(EM13MAT306) e (EM13MAT404)."
+        }
+      ]
+    }
+  ]
+}

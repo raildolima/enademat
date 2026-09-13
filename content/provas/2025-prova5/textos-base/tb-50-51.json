@@ -1,0 +1,23 @@
+{
+  "id": "tb-50-51",
+  "provaId": "2025-prova5",
+  "titulo": "Texto para questões 50 e 51",
+  "questoes": [
+    50,
+    51
+  ],
+  "blocos": [
+    {
+      "tipo": "paragrafo",
+      "texto": "A aplicação de conhecimentos matemáticos às situações reais do cotidiano, como no aumento do número de casos da covid-19, requer a percepção das variáveis que estão relacionadas e análises críticas das soluções e dos resultados obtidos. Um modelo matemático que previa o aumento do número de casos da doença deveria associar parâmetros de tempo com a evolução da contaminação e, posteriormente, os resultados obtidos deveriam refletir a realidade observada."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Outra aplicação trata da comparação entre o perfil de aumento médio de miopia dos 4 anos anteriores à pandemia de covid-19 com o perfil desse aumento no período do isolamento social de um grupo de estudantes já diagnosticados com miopia e com acompanhamento oftalmológico. Alguns pesquisadores trabalharam com uma amostra de cerca de 30 mil crianças e jovens durante o período de isolamento social e os resultados indicaram que o tempo médio de uso de tela dessa população aumentou de 162 minutos/dia para 246 minutos/dia nesse período."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "ASLAN F.; SAHINOGLU-KESKEK. N. The Effect of Home Education on Myopia Progression in Children During the Covid-19 Pandemic, v. 36, jul. 2022."
+    }
+  ]
+}

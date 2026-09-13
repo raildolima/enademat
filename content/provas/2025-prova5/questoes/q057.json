@@ -1,0 +1,85 @@
+{
+  "id": "2025-prova5-q057",
+  "provaId": "2025-prova5",
+  "tipo": "objetiva",
+  "numero": 57,
+  "rotulo": "Questão 57",
+  "parte": "componente-especifico",
+  "ordemCaderno": 58,
+  "paginas": [
+    32
+  ],
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Um professor identificou quatro níveis de Pensamento Algébrico (PA) dos estudantes de sua turma quando eles estão diante de situações de partilha."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "• Nível 0: Ausência do PA: prevalecem as operações com quantidades conhecidas, porém não há a capacidade de estabelecer relações entre as incógnitas e não há a apropriação do significado do problema.\n• Nível 1: PA incipiente: capacidade de estabelecer relações, modelar, construir significado para os objetos e para a linguagem algébrica com base na substituição ou contagem de quantidades conhecidas.\n• Nível 2: PA intermediário: capacidade de estabelecer relações, modelar, construir significado para os objetos e para a linguagem algébrica, e de generalizar com base em uma linguagem sincopada.\n• Nível 3: PA consolidado: capacidade de operar com o desconhecido como se fosse conhecido e de utilizar o registro algébrico formal por meio da linguagem algébrica."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Disponível em: www.sbembrasil.org.br. Acesso em: 7 ago. 2025 (adaptado)."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Um professor do Ensino Médio, ao realizar uma atividade sobre sistema de equações, percebeu que as respostas de dois estudantes apresentavam níveis distintos de PA, conforme o quadro."
+    },
+    {
+      "tipo": "tabela",
+      "cabecalho": [
+        "Atividade",
+        "Resoluções"
+      ],
+      "linhas": [
+        [
+          "$A + B = 80$\n$A - B = 60$\n$\\frac{A}{B}$",
+          "Resolução – Estudante 1:\n$40 + 40 = 80$; $40 - 40 = 0$ (NÃO)\n$60 + 20 = 80$; $60 - 20 = 40$ (NÃO)\n$70 + 10 = 80$; $70 - 10 = 60$\n$\\frac{70}{10} = 7$\n\nResolução – Estudante 2:\n$A + B = 80 \\implies A = 80 - B$\nTrocando: $80 - B - B = 60$\nSomando $-80$ dos dois lados: $-2B = -20$\nMultiplicando $-1$ dos dois lados: $2B = 20 \\implies B = 10$\n$A + 10 = 80 \\implies A = 70$\n$\\frac{A}{B} = 7$"
+        ]
+      ]
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Considerando a atividade realizada, qual é o nível de PA de cada estudante com base em suas respectivas resoluções?"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "O estudante 1 apresentou uma solução de Nível 0 de PA; enquanto o estudante 2 exibiu uma solução de Nível 3 de PA."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "O estudante 1 apresentou uma solução de Nível 3 de PA; ao passo que o estudante 2 exibiu uma solução de Nível 0 de PA."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "O estudante 2 apresentou uma solução de Nível 1 de PA; enquanto o estudante 1 exibiu uma solução de Nível 2 de PA."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "O estudante 2 apresentou uma solução de Nível 2 de PA; ao passo que o estudante 1 exibiu uma solução de Nível 1 de PA."
+        }
+      ]
+    }
+  ]
+}

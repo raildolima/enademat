@@ -1,0 +1,20 @@
+{
+  "id": "tb-01-03",
+  "provaId": "2025-prova5",
+  "titulo": "Texto para questões de 01 a 03",
+  "questoes": [
+    1,
+    2,
+    3
+  ],
+  "blocos": [
+    {
+      "tipo": "titulo",
+      "texto": "O caderno"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "*Toquinho*\n\nSou eu que vou seguir você\nDo primeiro rabisco até o bê-a-bá\nEm todos os desenhos\nColoridos vou estar\nA casa, a montanha\nDuas nuvens no céu\nE um Sol a sorrir no papel\n\nSou eu que vou ser seu colega\nSeus problemas ajudar a resolver\nSofrer também nas provas bimestrais\nJunto a você\nSerei sempre seu confidente fiel\nSe seu pranto molhar meu papel\n\nSou eu que vou ser seu amigo\nVou lhe dar abrigo\nSe você quiser\nQuando surgirem seus primeiros raios de mulher\nA vida se abrirá num feroz carrossel\nE você vai rasgar meu papel\n\nO que está escrito em mim\nComigo ficará guardado\nSe lhe dá prazer\nA vida segue sempre em frente\nO que se há de fazer?\nSó peço a você um favor, se puder\nNão me esqueça num canto qualquer"
+    }
+  ]
+}

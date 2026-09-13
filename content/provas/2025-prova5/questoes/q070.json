@@ -1,0 +1,57 @@
+{
+  "id": "2025-prova5-q070",
+  "provaId": "2025-prova5",
+  "tipo": "objetiva",
+  "numero": 70,
+  "rotulo": "Questão 70",
+  "parte": "componente-especifico",
+  "ordemCaderno": 71,
+  "paginas": [
+    39
+  ],
+  "textoBaseId": "tb-70-71",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Após a realização da tarefa, a professora discute com os participantes os resultados obtidos e a relação com os conceitos de diferenciabilidade e de otimização. Qual função representa a área mencionada e qual modelo diferencial pode ser usado para a obter as dimensões do curral de área máxima?"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "$f(x) = 80x - x^2$; $\\frac{df}{dx} = 80 - 2x$"
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "$f(x) = 40x - x^2$; $\\frac{df}{dx} = 40 - 2x$"
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "$f(x) = 23x - x^2$; $\\frac{df}{dx} = 23 - 2x$"
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "$f(x) = 17x - x^2$; $\\frac{df}{dx} = 17 - 2x$"
+        }
+      ]
+    }
+  ]
+}

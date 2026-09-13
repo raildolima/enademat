@@ -1,0 +1,41 @@
+{
+  "id": "tb-46-47",
+  "provaId": "2025-prova5",
+  "titulo": "Texto para questões 46 e 47",
+  "questoes": [
+    46,
+    47
+  ],
+  "blocos": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Os sistemas de numeração foram criados ao longo da história para atender às necessidades e aos desafios de cada época e de cada cultura. O sistema de numeração babilônico era constituído por símbolos que representavam números com base em combinações, como as apresentadas na figura. O registro era feito em tabletes de argila com marcas cuneiformes nas quais também se registravam problemas de diversas naturezas."
+    },
+    {
+      "tipo": "imagem",
+      "src": "/figuras/2025-prova5/tb-46-47-f1.webp",
+      "alt": "Figura 1 – Símbolos e exemplos de registros de números babilônicos."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Figura 1 – Símbolos e exemplos de registros de números babilônicos"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Ao elaborar um plano de aula para uma turma do 6º ano do Ensino Fundamental, uma professora organizou uma primeira atividade que permite ao estudante estabelecer comparações entre o sistema babilônico e o sistema de numeração decimal que utilizamos. Além disso, ao pesquisar sobre os problemas dessa civilização, a professora encontrou a informação de que os tabletes poderiam conter registros variados, a exemplo de escriturações contabilísticas ou listas de relações numéricas, como o caso de tabelas de multiplicações que ajudaram cientistas a desvendar o sistema cuneiforme. A fim de estimular uma postura investigativa e a apropriação de conhecimento dos estudantes sobre sistema de numeração, a professora propôs um problema com base na Figura 2."
+    },
+    {
+      "tipo": "imagem",
+      "src": "/figuras/2025-prova5/tb-46-47-f2.webp",
+      "alt": "Figura 2 – Parte de tablete de argila com registro de multiplicação na escrita babilônica."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Figura 2 – Parte de tablete de argila com registro de multiplicação na escrita babilônica"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "AABOE, A. Episódios de uma história antiga da Matemática, 2013 (adaptado)."
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "2025-prova5-q014",
+  "provaId": "2025-prova5",
+  "tipo": "objetiva",
+  "numero": 14,
+  "rotulo": "Questão 14",
+  "parte": "formacao-geral",
+  "ordemCaderno": 14,
+  "paginas": [
+    8
+  ],
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Ao conhecer a História da Educação brasileira, observamos que ela se organiza em quatro períodos que caracterizam a concepção de educação de acordo com o contexto histórico. Na organização de Saviani (2007), esses períodos são definidos como:\n• Monopólio da vertente religiosa da pedagogia tradicional – entre 1549 e 1759.\n• Coexistência entre as vertentes religiosa e leiga da pedagogia tradicional – entre 1759 e 1932.\n• Predomínio da pedagogia nova – entre 1932 e 1969.\n• Configuração da concepção pedagógica produtivista – entre 1969 e 2001.\n\nALVES, G. L. Histórias das ideias pedagógicas no Brasil. *Rev. Bras. de Educação*, n. 13, 2008 (adaptado).\n\nConsiderando os paradigmas educacionais de Saviani, a alternativa que apresenta a definição de uma educação tecnicista é aquela que está ancorada no(a)"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "equilíbrio entre a pedagogia tradicional e a pedagogia nova, iniciando o processo de renovação da educação a partir de correntes pedagógicas não hegemônicas."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "reforma pombalina da instrução pública, após o Iluminismo luso-brasileiro, por meio dos métodos de instrução (método mútuo e método intuitivo) e da criação dos grupos escolares."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "estreita associação entre os processos de colonização, educação e catequese, com a institucionalização do *Ratio Studiorum*, que consagrou nos colégios um plano de estudo universal, elitista e humanístico."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "pressuposto da neutralidade científica e inspirada nos princípios de racionalidade, eficiência e produtividade, com o estabelecimento de uma reordenação do processo educativo, tornando-o objetivo e operacional."
+        }
+      ]
+    }
+  ]
+}

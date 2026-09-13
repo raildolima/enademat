@@ -1,0 +1,57 @@
+{
+  "id": "2025-prova5-q042",
+  "provaId": "2025-prova5",
+  "tipo": "objetiva",
+  "numero": 42,
+  "rotulo": "Questão 42",
+  "parte": "componente-especifico",
+  "ordemCaderno": 43,
+  "paginas": [
+    25
+  ],
+  "textoBaseId": "tb-42-43",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Com base nas informações apresentadas no texto, qual modelo de recorrência define a quantidade mínima de movimentos $f_n$ em relação à quantidade $n$ de discos, com $f_1 = 1$?"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "$f_{n+1} = 2f_n - 1$"
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "$f_{n+1} = f_n + 2^n$"
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "$f_{n+1} = 2f_n + 1$"
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "$f_{n+1} = f_n + n + 1$"
+        }
+      ]
+    }
+  ]
+}

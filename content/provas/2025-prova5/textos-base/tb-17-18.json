@@ -1,0 +1,17 @@
+{
+  "id": "tb-17-18",
+  "provaId": "2025-prova5",
+  "titulo": "Texto para questões 17 e 18",
+  "questoes": [
+    17,
+    18
+  ],
+  "blocos": [
+    {
+      "tipo": "imagem",
+      "src": "figuras/2025-prova5/tb-17-18-f1.webp",
+      "alt": "Tirinha cômica de Ferraz abordando falas capacitistas e preconceitos no cotidiano escolar.",
+      "legenda": "FERRAZ, R. Disponível em: www.gruposelpe.com.br. Acesso em: 10 nov. 2025."
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "id": "2025-prova5-q065",
+  "provaId": "2025-prova5",
+  "tipo": "objetiva",
+  "numero": 65,
+  "rotulo": "Questão 65",
+  "parte": "componente-especifico",
+  "ordemCaderno": 66,
+  "paginas": [
+    36
+  ],
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Uma professora de Matemática apresenta à sua turma o jogo Um quarto (Figura 1a). Ele é composto por 16 peças que possuem quatro atributos: cor, formato, altura e marca ou não na face superior. É jogado por duas pessoas que se alternam entre as jogadas e o objetivo é ser o primeiro a colocar quatro peças em linha e que tenham um mesmo atributo (Figura 1b). Solicita aos estudantes da turma que se organizem em dupla para jogar."
+    },
+    {
+      "tipo": "imagem",
+      "src": "/figuras/2025-prova5/q065-f1.webp",
+      "alt": "Tabuleiro do jogo Um quarto com 16 casas e peças com diferentes formatos, alturas e atributos."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Figura 1a – tabuleiro e as peças\nFigura 1b – atributo compartilhado: altura"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Disponível em: https://jogadamais.blogspot.com. Acesso em: 11 nov. 2025 (adptado)."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Em uma partida, um estudante escolhe, para um outro, dispor uma peça com o formato de cilindro circular reto, grande, laranja e sem marca (peça 1). Antes de colocar a próxima peça (peça 2), seguindo a regra original do jogo apresentada (regra 1), a professora sugere uma nova regra (regra 2): “Para colocar a peça, é preciso dizer um atributo definidor da figura espacial representada pela peça que será disposta”. Para Proença e Pirola (2009), atributos definidores são as características que definem um conceito e permitem relacioná-lo com outros ou diferenciá-lo."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "PROENÇA, M. C.; PIROLA, N. A. Um estudo sobre o desempenho e as dificuldades apresentadas por alunos do ensino médio na identificação de atributos definidores de polígono. Zetetiké, n. 31, jan./jun. 2009."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Com base na situação apresentada no texto, a professora avalia que os estudantes compreenderam as regras do jogo, ao associarem corretamente o atributo definidor à peça disposta e indicarem a próxima peça. Qual alternativa expressa o atributo definidor (regra 2) da peça que foi disposta e, seguindo a regra 1, qual seria uma possível próxima peça?"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Geratrizes paralelas às bases; bloco retangular reto, pequeno, azul e com marca."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Geratrizes perpendiculares às bases; cilindro circular reto, pequeno, laranja e sem marca."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Bases circulares perpendiculares congruentes; bloco retangular reto, pequeno, azul e com marca."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Bases circulares paralelas incongruentes; cilindro circular reto, pequeno, laranja e sem marca."
+        }
+      ]
+    }
+  ]
+}

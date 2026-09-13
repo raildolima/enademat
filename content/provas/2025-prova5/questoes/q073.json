@@ -1,0 +1,61 @@
+{
+  "id": "2025-prova5-q073",
+  "provaId": "2025-prova5",
+  "tipo": "objetiva",
+  "numero": 73,
+  "rotulo": "Questão 73",
+  "parte": "componente-especifico",
+  "ordemCaderno": 74,
+  "paginas": [
+    40
+  ],
+  "textoBaseId": "tb-72-73",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Após a análise dos dados do exame da segunda situação, um dos estudantes apresentou a seguinte interpretação: “Os resultados do NIPT mostram uma alta taxa de risco em 100 000, e adequada presença de DNA na amostra, cerca de 9%”. E concluiu: “O exame aponta alto risco para síndrome de Down”."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Nesse caso, o uso do conceito de probabilidade para interpretar situações do cotidiano permite ao professor afirmar que a análise do estudante está"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "incorreta, pois a taxa de risco indicada no NIPT é baixa, já que 1 em 100 000 equivale a 0,001% e não a 100 000, e que uma fração fetal de 9% na amostra sugere que o teste é confiável."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "incorreta, pois a taxa de risco indicada no NIPT é baixa, já que 1 em 100 000 equivale a 0,001% e não a 100 000, e sugere uma probabilidade baixa de o feto ter uma anomalia no Cromossomo 21."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "correta, pois a alta taxa de risco indicada no NIPT, cerca de 100 000, apresenta uma probabilidade elevada de o feto ter uma anomalia no Cromossomo 21, e a quantidade de 9% de DNA na amostra sugere que o teste é inconclusivo."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "correta, pois a alta taxa de risco indicada no NIPT, cerca de 100 000, apresenta uma probabilidade elevada de o feto ter uma anomalia no Cromossomo 21, e a quantidade de 9% de DNA na amostra sugere que o teste é confiável."
+        }
+      ]
+    }
+  ]
+}

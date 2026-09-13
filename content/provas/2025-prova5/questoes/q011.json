@@ -1,0 +1,57 @@
+{
+  "id": "2025-prova5-q011",
+  "provaId": "2025-prova5",
+  "tipo": "objetiva",
+  "numero": 11,
+  "rotulo": "Questão 11",
+  "parte": "formacao-geral",
+  "ordemCaderno": 11,
+  "paginas": [
+    7
+  ],
+  "textoBaseId": "tb-10-11",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Considerando os Textos 1 e 2, uma professora do Ensino Fundamental planejou uma estratégia didática com base na BNCC, a qual orienta que os estudantes devem ser capazes de “agir pessoal e coletivamente com autonomia, responsabilidade, flexibilidade, resiliência e determinação, tomando decisões com base em princípios éticos, democráticos, inclusivos, sustentáveis e solidários”.\n\nA estratégia pedagógica que melhor atende à orientação da BNCC e à temática dos textos é"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "disponibilizar materiais didáticos para abordar temáticas sobre ética e cidadania, a fim de prevenir desastres ambientais."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "propor discussões sobre mudanças climáticas, com o intuito de promover a resiliência dos estudantes para o enfrentamento de desastres ambientais."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "ministrar aulas sobre os eventos climáticos atuais para ilustrar conceitos geográficos onde eles acontecem, a fim de encontrar soluções para reduzir esses eventos."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "implementar projetos para investigar desastres ambientais potenciais na comunidade, com o intuito de propor ações para mitigar os impactos desses eventos."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "2025-prova5-q033",
+  "provaId": "2025-prova5",
+  "tipo": "objetiva",
+  "numero": 33,
+  "rotulo": "Questão 33",
+  "parte": "componente-especifico",
+  "ordemCaderno": 34,
+  "paginas": [
+    21
+  ],
+  "textoBaseId": "tb-33-34",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Diante da situação 1, ao observar uma prática de contagem que faz parte do contexto de vida do estudante pescador, qual alternativa expressa uma postura do professor que valoriza esse relato de prática no contexto escolar?"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Acolher o relato do estudante pescador como princípio educativo e, posteriormente, solicitar aos outros estudantes que se concentrem nos cálculos desenvolvidos anteriormente."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Explicar para o estudante pescador e para os demais estudantes que as práticas matemáticas desenvolvidas nos contextos sociais e culturais se sobrepõem à matemática escolar."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Acolher o relato do estudante pescador como princípio educativo e, posteriormente, solicitar aos demais estudantes que também compartilhem práticas de seus contextos de vida."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Explicar para o estudante pescador e para os demais estudantes que a prática matemática que ele descreveu é válida em contextos isolados, e que a matemática escolar se sobrepõe às demais práticas."
+        }
+      ]
+    }
+  ]
+}

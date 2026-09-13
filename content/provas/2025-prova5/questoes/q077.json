@@ -1,0 +1,57 @@
+{
+  "id": "2025-prova5-q077",
+  "provaId": "2025-prova5",
+  "tipo": "objetiva",
+  "numero": 77,
+  "rotulo": "Questão 77",
+  "parte": "componente-especifico",
+  "ordemCaderno": 78,
+  "paginas": [
+    43
+  ],
+  "textoBaseId": "tb-77-78",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Considerando a situação, os estudantes apresentaram várias comparações e associações. Após discussão, concluíram que apenas uma delas atende à solicitação do professor. Essa conclusão está em qual alternativa?"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "O som 1 é mais fraco e mais agudo do que o som 2. A função $f$ representa o som 1, e a função $g$ representa o som 2."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "O som 1 é mais fraco e mais agudo do que o som 2. A função $g$ representa o som 1, e a função $f$ representa o som 2."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "O som 1 é mais forte e mais grave do que o som 2. A função $f$ representa o som 1, e a função $g$ representa o som 2."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "O som 1 é mais fraco e mais grave do que o som 2. A função $g$ representa o som 1, e a função $f$ representa o som 2."
+        }
+      ]
+    }
+  ]
+}

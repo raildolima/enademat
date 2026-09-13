@@ -1,0 +1,25 @@
+{
+  "id": "tb-08-09",
+  "provaId": "2025-prova5",
+  "titulo": "Texto para questões 08 e 09",
+  "questoes": [
+    8,
+    9
+  ],
+  "blocos": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Um professor da 3º série do Ensino Médio, com o objetivo de promover reflexões sobre as relações de gênero e sexualidade, apresentou em sala de aula o curta-metragem documental *Meu nome é Tiana*, da cineasta Dafny Bastet, que retrata a história da travesti negra mais idosa do Brasil. O filme, que estreou em novembro de 2025, apresenta a história de Tiana, travesti e mulher negra de 92 anos, moradora de Governador Valadares (MG). Devota do catolicismo, Tiana divide seu tempo entre as orações em sua paróquia e a convivência com a comunidade LGBTQIAPN+."
+    },
+    {
+      "tipo": "imagem",
+      "src": "figuras/2025-prova5/tb-08-09-f1.webp",
+      "alt": "Cartaz de divulgação do curta-metragem Meu nome é Tiana com retrato de Tiana, travesti negra idosa.",
+      "legenda": "Cartaz do documentário Meu nome é Tiana."
+    },
+    {
+      "tipo": "fonte",
+      "texto": "Disponível em: https://cinemateca.org.br. Acesso em: 9 nov. 2025."
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "2025-prova5-q067",
+  "provaId": "2025-prova5",
+  "tipo": "objetiva",
+  "numero": 67,
+  "rotulo": "Questão 67",
+  "parte": "componente-especifico",
+  "ordemCaderno": 68,
+  "paginas": [
+    38
+  ],
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Durante uma aula para uma turma do Ensino Médio, uma professora de Matemática solicitou aos estudantes que analisassem o conjunto-solução de uma inequação. Uma estudante apresentou a seguinte argumentação: “O conjunto solução $S = \\{x \\in \\mathbb{R} \\mid 3 < x \\le 6\\}$ é finito porque está entre 3 e 6, mas não é limitado porque é aberto em 3, portanto, a aproximação para a soma do menor e maior elementos de $S$ é igual a 9”."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Com base na formação da professora em Fundamentos de Análise, ela decide avaliar o domínio cognitivo da estudante diante da argumentação apresentada. Assinale a opção que representa uma avaliação correta."
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "A estudante desenvolveu a compreensão de que intervalos de números reais podem ser conjuntos infinitos limitados ou ilimitados, além de ter percebido que se deve utilizar o mínimo de $S$ para obter a aproximação solicitada, que é igual a 9."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "A estudante deixou de desenvolver a compreensão de que intervalos de números reais são conjuntos infinitos que podem ser limitados ou ilimitados, entretanto percebeu que deve utilizar o ínfimo de $S$ para obter a aproximação solicitada, que é igual a 9."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "A estudante desenvolveu a compreensão de que intervalos de números reais podem ser conjuntos infinitos limitados ou ilimitados, além de ter percebido que deve utilizar a maior cota inferior de $S$ para obter a aproximação solicitada, que é igual a 9."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "A estudante deixou de desenvolver a compreensão de que intervalos de números reais são conjuntos infinitos que podem ser limitados ou ilimitados, entretanto, percebeu que se deve utilizar a menor cota inferior de $S$ para obter a aproximação solicitada, que é igual a 9."
+        }
+      ]
+    }
+  ]
+}

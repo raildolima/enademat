@@ -1,0 +1,57 @@
+{
+  "id": "2025-prova5-q020",
+  "provaId": "2025-prova5",
+  "tipo": "objetiva",
+  "numero": 20,
+  "rotulo": "Questão 20",
+  "parte": "formacao-geral",
+  "ordemCaderno": 20,
+  "paginas": [
+    11
+  ],
+  "textoBaseId": "tb-20-21",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Durante uma reunião de planejamento escolar no início do ano letivo, uma coordenadora pedagógica apresentou o poema Pankararu para discutir o tema da identidade e da exclusão histórica dos povos originários. Durante a conversa, os professores observaram que o texto expressa uma condição de entre-lugar dos povos indígenas, não mais pertencentes aos territórios ancestrais de outrora, nem totalmente integrados ao mundo urbano. Analisaram também que essa sensação de “estar entre” é muitas vezes reproduzida pela escola, que reconhece a presença indígena, mas a trata como algo exótico, periférico ou residual no currículo. Constataram que, em muitos materiais didáticos utilizados nas diversas disciplinas, os povos indígenas aparecem apenas em capítulos introdutórios e em datas comemorativas, ou como elementos do passado, raramente vinculados a saberes científicos, filosóficos ou artísticos contemporâneos.\n\nDiante dessa análise, a coordenadora propôs aos professores a construção de materiais didáticos sob uma perspectiva decolonial e com base no poema Pankararu. Esses materiais devem contemplar o(a)"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "ampliação da abordagem da cultura indígena, garantindo uma pluralidade epistemológica."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "diversidade de ilustrações e de vocabulário indígena, garantindo uma imagem positiva desses povos."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "preservação das tradições indígenas, reconhecendo a riqueza cultural desses povos e o seu vínculo com a natureza."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "reconhecimento da diversidade estética dos povos indígenas, valorizando a pluralidade humana."
+        }
+      ]
+    }
+  ]
+}

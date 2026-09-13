@@ -1,0 +1,85 @@
+{
+  "id": "2025-prova5-q075",
+  "provaId": "2025-prova5",
+  "tipo": "objetiva",
+  "numero": 75,
+  "rotulo": "Questão 75",
+  "parte": "componente-especifico",
+  "ordemCaderno": 76,
+  "paginas": [
+    41
+  ],
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Em uma sala de aula de Matemática do Ensino Fundamental, ocorreu o seguinte diálogo:"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "• Professor: Bom dia. Hoje iremos trabalhar com um material chamado Algeplan. Alguém conhece esse material, já viu em algum lugar?"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "O professor mostra as caixas contendo os materiais e antes de começar a distribuí-los para cada estudante, explica:\n• Professor: Algeplan são materiais didáticos manipuláveis usados para ensinar Matemática a exemplos de significado de expressões algébricas, consistindo em peças geométricas de formato retangular com área variando de acordo com o padrão adotado para a medida de seus lados. Por exemplo, o menor quadrado pode ter lado 1 e área também igual a 1, um outro retângulo tem um dos lados medindo 1 e o outro medindo $b$, assim sua área vale $1 \\cdot b = b$ e assim por diante."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Alguns estudantes curiosos espalham o conteúdo das caixas em suas mesas e começaram a manipular as peças.\n• Estudante A: Profe! Vi que tem um outro retângulo diferente do que você mostrou que tem área $b$. Ele tem um lado valendo 1 e o outro lado não tem a mesma medida do que você disse que era $b$. Se eu disser que essa medida vale $a$, a área desse retângulo também seria $a$, correto?\n• Professor: Correto! Note ainda que, com essas observações, temos mais três outras peças diferentes das que já padronizamos os lados. Elas teriam área valendo $a \\cdot b$, $a^2$ e $b^2$."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Os estudantes confirmam a conjectura e fazem anotações.\n• Professor: Atenção! A tarefa é a seguinte: cada um de vocês combinará essas peças de modo a montar uma espécie de quebra-cabeça que associa os lados e as áreas de algumas dessas peças."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "O professor entrega uma folha em branco para cada estudante e solicita que registrem suas observações, associando a combinação das peças à expressões algébricas.\nBoa parte dos estudantes tenta fazer o que o professor pediu. Depois de certo tempo...\n• Estudante B: Professor! Eu desenhei a seguinte figura e a expressão é....\n• Professor: Muito bem! Você associou corretamente a representação geométrica com a expressão algébrica!"
+    },
+    {
+      "tipo": "imagem",
+      "src": "/figuras/2025-prova5/q075-f1.webp",
+      "alt": "Desenho das peças do Algeplan combinadas em formato geométrico pelo estudante."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Com base no diálogo apresentado, indique a expressão algébrica que está relacionada à área das peças coloridas postas no desenho feito pelo estudante."
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "$(a + b)^2$"
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "$a^2 + b^2$"
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "$(a - b)^2$"
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "$a^2 - b^2$"
+        }
+      ]
+    }
+  ]
+}

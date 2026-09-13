@@ -1,0 +1,15 @@
+{
+  "id": "tb-23-24",
+  "provaId": "2025-prova5",
+  "titulo": "Texto para questões 23 e 24",
+  "questoes": [
+    23,
+    24
+  ],
+  "blocos": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Uma escola de Ensino Fundamental recebeu, pela primeira vez, a matrícula de um estudante surdo. A direção buscou se informar sobre as orientações normativas para o acolhimento desse estudante. Nesse sentido, recorreu à Lei n. 10 436/02 e ao Decreto n. 5 626/05, que asseguram a Libras como meio legal de comunicação e expressão, determinando sua difusão e o ensino nos espaços educacionais. De acordo com a legislação, a escola contratou um intérprete de Libras para acompanhar o processo de escolarização desse estudante. A coordenação pedagógica, em uma atividade de planejamento junto aos professores da turma e ao intérprete de Libras, discutiu as estratégias pedagógicas e o papel que cada um teria no processo de ensino e de aprendizagem."
+    }
+  ]
+}

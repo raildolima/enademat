@@ -1,0 +1,57 @@
+{
+  "id": "2025-prova5-q009",
+  "provaId": "2025-prova5",
+  "tipo": "objetiva",
+  "numero": 9,
+  "rotulo": "Questão 9",
+  "parte": "formacao-geral",
+  "ordemCaderno": 9,
+  "paginas": [
+    6
+  ],
+  "textoBaseId": "tb-08-09",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Após realizar um debate sobre o documentário Meu nome é Tiana, uma turma identificou que, na escola, havia casos de violência simbólica contra estudantes transexuais. Diante desse diagnóstico, a equipe gestora, junto ao corpo docente, resolveu tomar medidas de combate a todos os tipos de violência, especialmente a intimidação sistemática, também denominada bullying.\n\nQual alternativa exemplifica uma ação de prevenção dessa violência na escola?"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Estabelecer medidas disciplinares aos estudantes transfóbicos, como a suspensão temporária das aulas, a fim de retirá-los do convívio escolar."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Elaborar um projeto institucional sobre convivência escolar, incluindo atividades formativas, a fim de sensibilizar os estudantes para questões de gênero."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Encaminhar os estudantes envolvidos para acompanhamento psicológico, a fim de receberem orientações sobre identidade de gênero."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Solicitar às famílias dos estudantes envolvidos a transferência para outra instituição, a fim de minimizar a discriminação de gênero na escola."
+        }
+      ]
+    }
+  ]
+}

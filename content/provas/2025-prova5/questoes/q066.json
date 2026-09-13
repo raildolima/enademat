@@ -1,0 +1,82 @@
+{
+  "id": "2025-prova5-q066",
+  "provaId": "2025-prova5",
+  "tipo": "objetiva",
+  "numero": 66,
+  "rotulo": "Questão 66",
+  "parte": "componente-especifico",
+  "ordemCaderno": 67,
+  "paginas": [
+    37
+  ],
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Uma professora do Ensino Médio, com o objetivo de explorar o conceito de matrizes, apresentou aos estudantes esta figura que ilustra um cruzamento de duas ruas de mão dupla, cujo fluxo de automóveis nos pontos A, B e C é definido por três conjuntos de semáforos."
+    },
+    {
+      "tipo": "imagem",
+      "src": "/figuras/2025-prova5/q066-f1.webp",
+      "alt": "Diagrama esquemático de cruzamento de trânsito em T com pontos A, B e C e semáforos."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Disponível em: http://obaricentrodamente.blogspot.com. Acesso em: 11 nov. 2025 (adaptado)."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Se consideramos, por exemplo, que ficam verdes, simultaneamente, os semáforos de B para A, de B para C e de C para B, a matriz que representa essa situação é dada por:"
+    },
+    {
+      "tipo": "imagem",
+      "src": "/figuras/2025-prova5/q066-f2.webp",
+      "alt": "Matriz 3x3 de adjacência do tráfego indicando semáforos abertos."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Em que, se nomearmos a matriz dada por $P$, a entrada $p_{21}$ indica que está verde o semáforo de B para A. Na sequência, a professora solicitou aos estudantes que construíssem outras matrizes que representam condições para que três semáforos fiquem verdes, simultaneamente, de modo que o trânsito flua conforme indica a figura."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Considerando a solicitação da professora, é correto afirmar que"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "a matriz $M = \\begin{pmatrix} 0 & 1 & 1 \\\\ 1 & 0 & 0 \\\\ 0 & 0 & 0 \\end{pmatrix}$ representa a situação em que ficam verdes, simultaneamente, os semáforos de A para B, de A para C e de B para A."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "a matriz $M = \\begin{pmatrix} 0 & 1 & 1 \\\\ 0 & 0 & 1 \\\\ 0 & 0 & 0 \\end{pmatrix}$ representa a situação em que ficam verdes, simultaneamente, os semáforos de A para B, de A para C e de B para A."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "a matriz $M = \\begin{pmatrix} 0 & 1 & 1 \\\\ 1 & 0 & 0 \\\\ 0 & 0 & 0 \\end{pmatrix}$ representa a situação em que ficam verdes, simultaneamente, os semáforos de A para B, de A para C e de C para A."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "a matriz $M = \\begin{pmatrix} 0 & 1 & 1 \\\\ 0 & 0 & 1 \\\\ 0 & 0 & 0 \\end{pmatrix}$ representa a situação que ficam verdes, simultaneamente, os semáforos de A para B, de A para C e de C para B."
+        }
+      ]
+    }
+  ]
+}

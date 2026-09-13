@@ -1,0 +1,57 @@
+{
+  "id": "2025-prova5-q049",
+  "provaId": "2025-prova5",
+  "tipo": "objetiva",
+  "numero": 49,
+  "rotulo": "Questão 49",
+  "parte": "componente-especifico",
+  "ordemCaderno": 50,
+  "paginas": [
+    28
+  ],
+  "textoBaseId": "tb-48-49",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Com base no problema proposto pelo estudante, o professor planejou uma roda de conversa para discutir com a turma resolução do problema. Após a discussão, a turma conseguiu resolver o problema e preencheu corretamente o Quadrado Mágico em branco com os seguintes valores, respectivamente, da 1ª linha, 2ª linha e 3ª linha (de cima para baixo)."
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "1ª linha (12, 2, 16); 2ª linha (14, 10, 6); 3ª linha (4, 18, 8)."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "1ª linha (4, 2, 8); 2ª linha (42, 30, 6); 3ª linha (4, 18, 8)."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "1ª linha (12, 2, 16); 2ª linha (28, 20, 6); 3ª linha (2, 18, 4)."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "1ª linha (8, 2, 12); 2ª linha (14, 10, 6); 3ª linha (6, 18, 12)."
+        }
+      ]
+    }
+  ]
+}

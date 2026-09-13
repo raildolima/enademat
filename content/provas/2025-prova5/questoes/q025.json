@@ -1,0 +1,57 @@
+{
+  "id": "2025-prova5-q025",
+  "provaId": "2025-prova5",
+  "tipo": "objetiva",
+  "numero": 25,
+  "rotulo": "Questão 25",
+  "parte": "formacao-geral",
+  "ordemCaderno": 25,
+  "paginas": [
+    14
+  ],
+  "textoBaseId": "tb-25-26",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "O depoimento de Rita revela a complexa relação entre condições sociais, econômicas e familiares que levam milhares de brasileiros a abandonar a Educação Básica. Diante desse contexto, conforme previsto pela Lei de Diretrizes e Bases (LDB) e pelas Diretrizes Curriculares vigentes para essa modalidade, a Educação de Jovens e Adultos"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "assume a função principal de oferecer certificação àqueles que voluntariamente decidem retornar à escola, considerando que a maior parte dos abandonos escolares decorrem de escolhas pessoais."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "considera o retorno de adultos à escolarização como ação diretamente ligada a políticas educacionais que promovam empregabilidade e requalificação, priorizando conteúdos técnico-práticos para a inserção no mercado de trabalho."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "configura uma política educacional de caráter reparador, destinada a reconstituir o direito à educação de sujeitos excluídos, contribuindo para sua participação plena na vida social e cidadã."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "busca prioritariamente corrigir distorções idade-série, alinhando o percurso de jovens e adultos ao padrão formal do ensino regular."
+        }
+      ]
+    }
+  ]
+}

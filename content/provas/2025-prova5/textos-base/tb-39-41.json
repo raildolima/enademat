@@ -1,0 +1,32 @@
+{
+  "id": "tb-39-41",
+  "provaId": "2025-prova5",
+  "titulo": "Texto para questões de 39 a 41",
+  "questoes": [
+    39,
+    40,
+    41
+  ],
+  "blocos": [
+    {
+      "tipo": "paragrafo",
+      "texto": "O Laboratório de Ensino (Educação) de Matemática (LEM) concebe que materiais didáticos, como jogos e materiais manipuláveis, analógicos ou digitais, oferecem possibilidades de exploração de conceitos matemáticos num ambiente de experiência matemática. Exemplos desses recursos são os blocos lógicos, o bingo da multiplicação, além de softwares e simuladores."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Um professor de Matemática adota a concepção de realização de experimentos em suas aulas, utilizando recursos do LEM."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Em sua aula do 9º ano utilizou os blocos lógicos para ensinar operações entre conjuntos. Ao entregar um pedaço de barbante para cada dupla de estudantes, pediu que formassem com ele um círculo e, então, colocassem algumas peças dentro dele, sem impor limites na quantidade. Na sequência, solicitou a duas duplas que comparassem os dois conjuntos que formaram, observando a quantidade de figuras e suas semelhanças, para então criarem um novo conjunto, com base nas observações feitas. Uma das duplas descreveu seu raciocínio: “Professor, primeiro observamos quais peças eram iguais nos dois conjuntos iniciais, que chamamos de $A$ e $B$. Depois, separamos as peças exclusivas do nosso conjunto $A$, removendo as peças repetidas. Com as peças separadas, formamos nosso novo conjunto. Isso tem algum significado?”."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Na sua turma do 6º ano, após aplicar uma avaliação diagnóstica, o professor constatou que parte significativa dos estudantes apresentava dificuldades em operações envolvendo multiplicação de números. Buscou, então, fazer uma intervenção pedagógica por meio de um jogo matemático, o bingo da multiplicação, que possibilitava a tratativa do problema diagnosticado."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Na aula de sua turma do Ensino Médio, o professor construiu um objeto de aprendizagem em um software de matemática dinâmica para explorar o conceito de parábola. Em seguida, solicitou aos estudantes que manipulassem esse objeto e elaborassem conjecturas que os levassem a redigir a definição de parábola (em um plano)."
+    }
+  ]
+}

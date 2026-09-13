@@ -1,0 +1,47 @@
+{
+  "id": "tb-37-38",
+  "provaId": "2025-prova5",
+  "titulo": "Texto para questões 37 e 38",
+  "questoes": [
+    37,
+    38
+  ],
+  "blocos": [
+    {
+      "tipo": "paragrafo",
+      "texto": "A calculadora é um dos recursos que pode ser explorado em diversas situações pedagógicas nas aulas de Matemática, visando estimular o pensamento matemático. Em uma sequência de aulas, uma professora propôs duas atividades de uso da calculadora para seus estudantes com essa finalidade."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Na primeira atividade, ela propôs a seguinte situação: “Você precisou realizar, com a calculadora, a operação $740 \\times 27$ e percebeu que a tecla 7 estava quebrada. Nessa situação, descreva um raciocínio que faria para chegar ao resultado desejado”."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Um estudante descreveu o raciocínio:\n$740 \\times 27 = ?$\n$740 = 640 + 100$\n$27 = 26 + 1$\n$640 \\times 26 = 16\\,640$\n$640$\n$16\\,640 + 640 = 17\\,280$\n$100 \\times 26 = 2\\,600$\n$100$\n$2\\,600 + 100 = 2\\,700$\n$16\\,280 + 1\\,000 + 2\\,600 + 100 = 19\\,980$"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "A professora, com base na análise do raciocínio apresentado pelo estudante, perguntou o que ele fez quando apareceu o algarismo 7 durante o processo de resolução e concluiu a aula explorando a resposta que ele deu."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Na aula seguinte, a segunda atividade foi sobre dízima periódica. Nesse caso, a professora realizou uma atividade investigativa-exploratória, na qual solicitou aos estudantes que realizassem a divisão entre 73 e 99. Após os estudantes desenvolverem seus cálculos com papel e lápis, a professora pediu a um estudante que escrevesse a resposta no quadro, como apresentado."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Resposta 1: $0{,}73737373737373\\ldots$"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Em seguida, repetiu o pedido a outro estudante, que deveria, desta vez, escrever o resultado obtido na calculadora, assim reproduzido:"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Resposta 2: $0{,}73737373737374$."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "“A calculadora errou?”, “A primeira resposta está errada?”, perguntaram alguns estudantes. Um debate se sucedeu, culminando com a explicação sobre o motivo da diferença dos dois resultados."
+    }
+  ]
+}

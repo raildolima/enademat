@@ -1,0 +1,66 @@
+{
+  "id": "2025-prova5-q022",
+  "provaId": "2025-prova5",
+  "tipo": "objetiva",
+  "numero": 22,
+  "rotulo": "Questão 22",
+  "parte": "formacao-geral",
+  "ordemCaderno": 22,
+  "paginas": [
+    12
+  ],
+  "enunciado": [
+    {
+      "tipo": "titulo",
+      "texto": "Evolução do número de matrículas no Ensino Superior brasileiro (em milhão)"
+    },
+    {
+      "tipo": "imagem",
+      "src": "figuras/2025-prova5/q022-f1.webp",
+      "alt": "Gráfico de colunas exibindo a evolução das matrículas no Ensino Superior brasileiro de 2012 a 2022.",
+      "legenda": "Fonte: Mapa do Ensino Superior no Brasil, 2024. Instituto Semesp."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Uma professora do Ensino Médio levou esse gráfico para ser analisado em sala de aula. Todos constataram o aumento do número de matrículas no Ensino Superior, muitas vezes em decorrência de diversos programas, como o Prouni, o Fies, o Reuni. Com base nesses dados, a professora fez um debate sobre a democratização do Ensino Superior brasileiro, historicamente marcado pelo elitismo.\n\nUm dos impactos do aumento de matrículas no Ensino Superior, em sintonia com os objetivos das políticas de acesso e de permanência, é a"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "diversificação de temas dissociados do escopo do corpo docente, ocasionando currículos menos especializados."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "massificação do Ensino Superior, acarretando a diminuição da qualidade em razão da lotação de salas de aula e do esgotamento de recursos."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "ampliação de recursos destinados ao ingresso e à permanência dos estudantes, diminuindo investimentos na infraestrutura das instituições de ensino."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "representação das diferentes realidades sociais, implicando a adaptação dos currículos nas instituições de Ensino Superior."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "2025-prova5-q058",
+  "provaId": "2025-prova5",
+  "tipo": "objetiva",
+  "numero": 58,
+  "rotulo": "Questão 58",
+  "parte": "componente-especifico",
+  "ordemCaderno": 59,
+  "paginas": [
+    33
+  ],
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Uma turma de estudantes do Ensino Médio realiza testes e conclui que números na forma $\\frac{a}{b} + \\frac{c}{\\sqrt{2}}$, com $a \\in \\mathbb{Z}$ e $b, c \\in \\mathbb{Z}^*$, resultam em números irracionais. Um dos estudantes questiona como garantir que essas adições resultarão sempre em números irracionais."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Ao se considerar a situação apresentada, uma ação investigativa a ser introduzida pelo professor para esclarecer o questionamento mencionado promove a"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "apresentação aos estudantes de um exemplo particular, esclarecendo-se que adições da forma indicada são válidas de uma forma geral."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "exploração pelos estudantes de propriedades dos números reais, destacando-se a existência de inverso aditivo para todo número irracional e o fechamento da operação da adição para números reais."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "percepção nos estudantes de que a adição é uma operação fechada para os números racionais, inferindo-se que, ao somar o inverso aditivo do número fracionário à sentença, o resultado é um número irracional."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "memorização pelos estudantes de uma regra que estabeleça que a adição de números racionais é racional, diferenciando-se da adição de números racionais e irracionais, que resulta em números irracionais."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "2025-prova5-q001",
+  "provaId": "2025-prova5",
+  "tipo": "objetiva",
+  "numero": 1,
+  "rotulo": "Questão 1",
+  "parte": "formacao-geral",
+  "ordemCaderno": 1,
+  "paginas": [
+    2
+  ],
+  "textoBaseId": "tb-01-03",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "A letra da canção O caderno pode representar, metaforicamente, o percurso do desenvolvimento humano e o papel do professor na construção do conhecimento. Considerando as principais teorias do desenvolvimento cognitivo e o processo de escolarização, o texto poético dessa canção"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "ilustra a concepção de Wallon, para quem o desenvolvimento humano se efetiva na integração entre emoção, cognição e motricidade, sendo o caderno o mediador simbólico desse processo."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "expressa a concepção de Ausubel, ao considerar o princípio da aprendizagem significativa, uma vez que o caderno representa um instrumento de memorização de conteúdos ao longo do processo escolar."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "reflete a concepção de Piaget, ao considerar o desenvolvimento cognitivo como resultado da maturação biológica, uma vez que o caderno é um instrumento de registro que acompanha o progresso natural do sujeito."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "associa-se à concepção de Skinner, para quem a aprendizagem se dá pela repetição e pelo condicionamento por meio dos registros no caderno durante as diferentes fases do desenvolvimento."
+        }
+      ]
+    }
+  ]
+}

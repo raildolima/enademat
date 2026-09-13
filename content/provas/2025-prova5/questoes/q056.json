@@ -1,0 +1,64 @@
+{
+  "id": "2025-prova5-q056",
+  "provaId": "2025-prova5",
+  "tipo": "objetiva",
+  "numero": 56,
+  "rotulo": "Questão 56",
+  "parte": "componente-especifico",
+  "ordemCaderno": 57,
+  "paginas": [
+    32
+  ],
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Um corpo é um conjunto não vazio $C$, munido de duas operações, chamadas adição e multiplicação, em que cada uma delas faz corresponder a cada par de elementos de $C$ um elemento ainda em $C$, sendo que as duas operações satisfazem certos axiomas. O conjunto dos números reais com as operações usuais soma e multiplicação de números é um exemplo de corpo."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Um professor da licenciatura, em uma aula de Análise Matemática, explica que, no ensino de equações da forma $ax + b = c$, com $a, b \\in C^*$ e $c \\in C$, usualmente, ao operar termos do lado esquerdo para o lado direito da equação, considera-se o princípio aditivo do termo $b$ e o princípio multiplicativo para o termo $a$."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Os axiomas do corpo dos números reais pertinentes e que garantem a validade dos princípios citados são a existência dos elementos inverso aditivo e inverso multiplicativo, respectivamente, dos termos"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "$b$ e $a$, em particular; a existência do elemento neutro da multiplicação e a distributividade da multiplicação em relação à adição."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "$a$ e $b$, em particular; a existência do elemento neutro da adição, e a comutatividade e associatividade da adição e da multiplicação."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "$b$ e $a$, em particular; a existência do elemento neutro da adição e do elemento neutro da multiplicação, e a associatividade da adição e da multiplicação."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "$a$ e $b$, em particular; a existência do elemento neutro da adição e do elemento neutro da multiplicação, e a distributividade da multiplicação em relação à adição."
+        }
+      ]
+    }
+  ]
+}

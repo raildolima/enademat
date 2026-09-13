@@ -1,0 +1,57 @@
+{
+  "id": "2025-prova5-q047",
+  "provaId": "2025-prova5",
+  "tipo": "objetiva",
+  "numero": 47,
+  "rotulo": "Questão 47",
+  "parte": "componente-especifico",
+  "ordemCaderno": 48,
+  "paginas": [
+    27
+  ],
+  "textoBaseId": "tb-46-47",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "O problema proposto pela professora, com base na Figura 2 apresentada aos estudantes, consiste em: “Considerando que os valores da coluna II representam o resultado da multiplicação dos valores da coluna I por um número e que parte da coluna II foi apagada, restando apenas a linha 8 da tabela, avaliem a representação feita na imagem e indiquem qual seria o número (em notação decimal) que, multiplicado pelo valor da primeira coluna (em notação babilônica), resulta no valor representado na segunda coluna (em notação babilônica)?”. Após fazerem vários testes, levantarem conjecturas e discutirem, os estudantes concluíram que seria o valor"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "9."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "13."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "8."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "4."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "2025-prova5-q037",
+  "provaId": "2025-prova5",
+  "tipo": "objetiva",
+  "numero": 37,
+  "rotulo": "Questão 37",
+  "parte": "componente-especifico",
+  "ordemCaderno": 38,
+  "paginas": [
+    23
+  ],
+  "textoBaseId": "tb-37-38",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Com base na primeira atividade proposta pela professora, é correto afirmar que o estudante fez o cálculo mental"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "exato, para decompor os numerais 740, 27, 17 280 e 2 700; posteriormente, utilizou a propriedade distributiva da multiplicação e finalizou somando os valores encontrados."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "aproximado, para decompor os numerais 740, 27, 17 280 e 2 700; posteriormente, utilizou a propriedade comutativa da operação de multiplicação e finalizou somando os valores encontrados."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "aproximado, para decompor os numerais 740, 27, 17 280 e 2 700; posteriormente, utilizou a propriedade distributiva da multiplicação e finalizou somando os valores encontrados."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "exato, para decompor os numerais 740, 27, 17 280 e 2 700; posteriormente, utilizou a propriedade comutativa da operação de multiplicação e finalizou somando os valores encontrados."
+        }
+      ]
+    }
+  ]
+}

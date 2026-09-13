@@ -1,0 +1,61 @@
+{
+  "id": "2025-prova5-q045",
+  "provaId": "2025-prova5",
+  "tipo": "objetiva",
+  "numero": 45,
+  "rotulo": "Questão 45",
+  "parte": "componente-especifico",
+  "ordemCaderno": 46,
+  "paginas": [
+    26
+  ],
+  "textoBaseId": "tb-44-45",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "No contexto escolar, estudar e aplicar os conceitos de posição central e de dispersão pode auxiliar os estudantes a compreenderem a relevância desses conceitos na vida cotidiana."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Considerando essas informações, qual atividade investigativa é adequada para que estudantes do Ensino Médio apliquem medidas de posição central e de dispersão no contexto da própria realidade?"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Orientar os estudantes a analisarem um conjunto fictício de dados de transações financeiras e, em seguida, investigarem padrões suspeitos que se desviem das medidas de dispersão para identificar fraudes."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Pedir aos estudantes que coletem dados sobre as notas de sua turma em uma série de provas, calculando medidas de posição e dispersão; e que, em seguida, discutam o que essas medidas revelam sobre o desempenho da turma."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Pedir aos estudantes que analisem dados sobre a média da temperatura da Terra nos últimos cinco anos e, com base no observado, concluam que essa média continuaria a mesma, caso a temperatura fosse elevada em 1 grau Celsius em cada ano."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Orientar os estudantes a analisarem dados estatísticos de pesquisas nacionais sobre a produção de automotivos, calculando medidas de posição central e dispersão, para que, com base nessas análises descritivas, tirem conclusões sobre a oferta desses serviços em outros países."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "tb-35-36",
+  "provaId": "2025-prova5",
+  "titulo": "Texto para questões 35 e 36",
+  "questoes": [
+    35,
+    36
+  ],
+  "blocos": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Na metodologia de Resolução de Problemas, utilizada no ensino e aprendizagem da Matemática, os problemas são propostos aos estudantes antes de lhes ter sido apresentado formalmente o conteúdo matemático necessário ou mais apropriado à sua resolução, que, de acordo com o programa da disciplina para o respectivo ciclo, é pretendido pelo professor. Dessa forma, o processo de ensino e aprendizagem de um tópico matemático começa com um problema [o problema gerador] que expressa aspectos-chave desse tópico, e técnicas matemáticas devem ser desenvolvidas na busca de respostas razoáveis para o problema apresentado."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "ONUCHIC, L. R.; ALLEVATO, N. S. G. Pesquisa em Resolução de Problemas: caminhos, avanços e novas perspectivas. BOLEMA – Boletim de Educação Matemática, v. 25, 2011 (adaptado)."
+    }
+  ]
+}

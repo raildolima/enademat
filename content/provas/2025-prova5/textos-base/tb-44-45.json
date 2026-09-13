@@ -1,0 +1,19 @@
+{
+  "id": "tb-44-45",
+  "provaId": "2025-prova5",
+  "titulo": "Texto para questões 44 e 45",
+  "questoes": [
+    44,
+    45
+  ],
+  "blocos": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Muitas vezes, quer-se resumir um conjunto de dados apresentando valores que sejam representativos de toda a série de dados. Usualmente, emprega-se uma das seguintes medidas de posição (ou localização) central: média, mediana ou moda. Além do resumo de um conjunto de dados por meio de uma única medida representativa e de posição central, é necessário indicar medidas que sumarizem a variabilidade desse conjunto de observações."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "MORETTIN, P. A.; BUSSAB, W. O. Estatística básica. São Paulo: Saraiva Educação, 2017 (adaptado)."
+    }
+  ]
+}

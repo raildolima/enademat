@@ -1,0 +1,64 @@
+{
+  "id": "2025-prova5-q061",
+  "provaId": "2025-prova5",
+  "tipo": "objetiva",
+  "numero": 61,
+  "rotulo": "Questão 61",
+  "parte": "componente-especifico",
+  "ordemCaderno": 62,
+  "paginas": [
+    34
+  ],
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "O equilíbrio entre o desenvolvimento humano e a preservação do meio ambiente é uma demanda da sustentabilidade. Um dos desafios atuais consiste na implementação de fontes de energia sustentáveis que contribuem para a redução da poluição."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Para abordar o tema das fontes de energia sustentáveis em uma aula de Matemática, um professor propõe a seguinte situação: uma empresa que consome $12\\,000\\text{ kWh}$ de energia elétrica por mês, ao custo de R\\$ 0,50/kWh, analisa duas opções de uso de fonte de energias renováveis, energia solar e energia eólica. Para o uso da energia solar, é preciso instalar painéis fotovoltaicos com capacidade de geração de $10\\,000\\text{ kWh}$ ao mês e custo de instalação de R\\$ 120 000,00. Para uso de energia eólica, há necessidade de contratação de serviço de uma cooperativa a um valor de R\\$ 0,30/kWh e um reajuste anual de 5% ao ano. Diante dessa situação, o professor questiona os estudantes qual das duas opções seria mais viável economicamente para a empresa? (Dados: $(1{,}05)^4 \\approx 1{,}22$ e $(1{,}05)^5 \\approx 1{,}28$)."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "A respeito do questionamento do professor, com base na situação apresentada, a energia"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "eólica é a mais viável, pois a economia é de mais de R\\$ 20 000,00 ao ano nos primeiros cinco anos."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "eólica é a mais viável, pois, desconsiderando os gastos de implantação, gera maior economia mensalmente."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "solar é a mais viável, pois, quitado o custo inicial de instalação, a economia estimada é de 75%."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "solar é a mais viável, pois o custo inicial é quitado com a economia gerada em dois anos de uso."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "2025-prova5-q019",
+  "provaId": "2025-prova5",
+  "tipo": "objetiva",
+  "numero": 19,
+  "rotulo": "Questão 19",
+  "parte": "formacao-geral",
+  "ordemCaderno": 19,
+  "paginas": [
+    10
+  ],
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Em uma reunião com os professores do Ensino Fundamental, a coordenadora pedagógica destacou a importância de se compreenderem a Base Nacional Comum Curricular (BNCC) e o currículo proposto pelo estado para a elaboração do Projeto Político-Pedagógico (PPP) da unidade. Durante o encontro, os professores indagaram: a BNCC é um currículo?\n\nDiante do questionamento dos professores, a resposta adequada da coordenadora é que a BNCC consiste em um"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "documento normativo que define o conjunto orgânico e progressivo de aprendizagens essenciais, funcionando como referência nacional para a formulação dos currículos dos sistemas e das redes escolares do país."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "referencial obrigatório direcionado a toda a rede pública e privada de ensino do país, definindo as expectativas para o desenvolvimento das aprendizagens essenciais do Ensino Fundamental e do Ensino Médio."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "currículo em que se definem as competências como mobilização de conhecimentos, as habilidades, as atitudes e os valores para resolver demandas complexas da vida cotidiana."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "balizador da qualidade da educação por meio do qual se fortalece o regime de colaboração entre as esferas federais e estaduais do governo para a formulação dos currículos das redes escolares do país."
+        }
+      ]
+    }
+  ]
+}

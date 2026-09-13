@@ -1,0 +1,146 @@
+{
+  "id": "2025-prova5-q079",
+  "provaId": "2025-prova5",
+  "tipo": "objetiva",
+  "numero": 79,
+  "rotulo": "Questão 79",
+  "parte": "componente-especifico",
+  "ordemCaderno": 80,
+  "paginas": [
+    44
+  ],
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Com o objetivo de trabalhar a divisão de euclidiana de números inteiros, um professor do Ensino Fundamental Anos Finais, utilizou criptografia, que é uma técnica de modificação de senhas e códigos para proteger informações."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Inicialmente, ele questionou os estudantes se eles sabiam como funciona essa técnica. Um deles mencionou que é necessário usar algum código para escrever a mensagem, e quem recebe precisa ter uma “chave” para decifrá-la."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Em seguida, o professor propôs aos estudantes que escrevessem uma mensagem usando números, conforme associação, indicada no quadro, e utilizassem uma chave do tipo “pula um número de letras” para decifrá-la."
+    },
+    {
+      "tipo": "tabela",
+      "cabecalho": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g",
+        "h",
+        "i",
+        "j",
+        "k",
+        "l",
+        "m"
+      ],
+      "linhas": [
+        [
+          "00",
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12"
+        ]
+      ]
+    },
+    {
+      "tipo": "tabela",
+      "cabecalho": [
+        "n",
+        "o",
+        "p",
+        "q",
+        "r",
+        "s",
+        "t",
+        "u",
+        "v",
+        "w",
+        "x",
+        "y",
+        "z"
+      ],
+      "linhas": [
+        [
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25"
+        ]
+      ]
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Um dos estudantes escolheu uma pré-codificação para uma palavra, dada por, 04 – 13 – 18 – 08 – 13 – 14, em que pretende utilizar a “chave 14” para codificá-la. Na sequência, apresentou os seguintes cálculos:\n$04 + 14 = 18$\n$13 + 14 = 27$\n$18 + 14 = 32$\n$08 + 14 = 22$\n$13 + 14 = 27$\n$14 + 14 = 28$"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Depois, ele questionou o professor sobre quais símbolos numéricos deveria utilizar no lugar dos números maiores do que 25, a fim de codificar a palavra. Por fim, o professor apresentou esse questionamento à turma, solicitando que indicassem um procedimento para obter esses números."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Diante da situação apresentada, qual alternativa responde ao questionamento do professor e indica a codificação correta da palavra escolhida pelo estudante?"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Dividir 27, 32 e 28 por 26 e utilizar os respectivos restos dessas divisões. A codificação é 18 – 01 – 06 – 22 – 01 – 02."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Dividir 27, 32 e 28 por 25 e utilizar os respectivos restos dessas divisões. A codificação é 18 – 02 – 07 – 22 – 02 – 03."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Dividir 27, 32 e 28 por 26, utilizar os respectivos restos dessas divisões e somar 14 a esses restos. A codificação é 18 – 15 – 20 – 22 – 15 – 16."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Dividir 27, 32 e 28 por 25, utilizar os respectivos restos dessas divisões e somar 14 a esses restos. A codificação é 18 – 16 – 21 – 22 – 16 – 17."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "2025-prova5-q016",
+  "provaId": "2025-prova5",
+  "tipo": "objetiva",
+  "numero": 16,
+  "rotulo": "Questão 16",
+  "parte": "formacao-geral",
+  "ordemCaderno": 16,
+  "paginas": [
+    9
+  ],
+  "textoBaseId": "tb-15-16",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Na mesma escola, um professor de outra turma, também inspirado pelo site Nomes do Brasil, criou uma sequência didática intitulada Quem e quantos somos nós. A ideia do projeto era verificar a diversidade de nomes na escola. Os estudantes, divididos em grupos, compilaram os nomes e os sobrenomes dos colegas da escola, a fim de expor as informações em tabelas e gráficos, bem como apresentar os nomes mais recorrentes. Foram determinadas a média aritmética, a moda e a mediana dos dados coletados, discutindo-se, posteriormente, os resultados obtidos. Na fase seguinte, o professor solicitou a cada grupo que descrevesse, em um relatório, todas as etapas seguidas no processo de construção e de análise dos dados.\n\nAo revisar os relatórios entregues pelos estudantes, o professor observou que algumas equipes descreveram corretamente as etapas da investigação, enquanto outras confundiram a sequência do processo.\n\nA alternativa que apresenta a sequência metodológica adequada a uma pesquisa escolar, como a desenvolvida no projeto, é"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Organização dos dados $\\rightarrow$ Coleta dos dados $\\rightarrow$ Definição do problema $\\rightarrow$ Interpretação final."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Formulação de hipóteses $\\rightarrow$ Interpretação dos dados $\\rightarrow$ Coleta dos dados $\\rightarrow$ Divulgação dos resultados."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Coleta dos dados $\\rightarrow$ Definição do problema $\\rightarrow$ Organização e análise dos dados $\\rightarrow$ Interpretação e comunicação dos resultados."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Definição do problema $\\rightarrow$ Coleta dos dados $\\rightarrow$ Organização e representação dos dados $\\rightarrow$ Análise e comunicação dos resultados."
+        }
+      ]
+    }
+  ]
+}

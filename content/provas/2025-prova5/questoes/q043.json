@@ -1,0 +1,65 @@
+{
+  "id": "2025-prova5-q043",
+  "provaId": "2025-prova5",
+  "tipo": "objetiva",
+  "numero": 43,
+  "rotulo": "Questão 43",
+  "parte": "componente-especifico",
+  "ordemCaderno": 44,
+  "paginas": [
+    25
+  ],
+  "textoBaseId": "tb-42-43",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Conforme Biembengut (2009), o processo de elaboração de um modelo matemático pode ser dividido em três etapas e, subdivididas em sete, a saber: 1ª) Percepção: requer da pessoa que vai fazer um modelo matemático — representação externa — que reconheça a situação-problema (delimitação do problema) e familiarize-se com o assunto a ser modelado (referencial teórico); 2ª) Compreensão: etapa que exige a compreensão suficiente para poder levantar hipóteses, formular um modelo matemático (desenvolvimento) e resolver o problema com base no modelo (aplicação); 3ª) Significação-modelo: momento final em que se faz interpretação da solução e validação do modelo (avaliação)."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "BIEMBENGUT, M. S. 30 Anos de Modelagem Matemática na educação brasileira: das propostas primeiras às propostas atuais. Alexandria Revista de Educação em Ciência e Tecnologia, n. 2, jul. 2009 (adaptado)."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Considerando Biembengut (2009) e o processo de elaboração do modelo matemático que os estudantes desenvolveram na atividade descrita sobre Torre de Hanói, assinale a alternativa que apresenta a(s) etapa(s) para esse processo."
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Percepção, pois eles fazem a delimitação do problema e familiarizam-se com o referencial teórico."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Percepção e compreensão, pois eles fazem a delimitação do problema, formulam um modelo matemático e resolvem o problema com base nesse modelo."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Significação-modelo, pois eles, no momento final, fazem a interpretação da solução, validam e avaliam o modelo."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Compreensão e significação-modelo, pois eles desenvolvem o modelo matemático, interpretam a solução e validam esse modelo."
+        }
+      ]
+    }
+  ]
+}

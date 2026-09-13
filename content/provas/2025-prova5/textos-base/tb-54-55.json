@@ -1,0 +1,32 @@
+{
+  "id": "tb-54-55",
+  "provaId": "2025-prova5",
+  "titulo": "Texto para questões 54 e 55",
+  "questoes": [
+    54,
+    55
+  ],
+  "blocos": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Uma professora levou os estudantes de uma turma do 8º ano do Ensino Fundamental para visitar a biblioteca da escola. Eles perceberam que, em uma estante, havia três coleções, Matemática com 10 livros, Português com 12 livros e Inglês com 9 livros, e que todos os livros eram diferentes."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "A professora aproveitou essa situação para explorar princípios de contagem. Em um primeiro momento, ela questionou os estudantes sobre os diferentes modos de disposição dos livros de Matemática, Português e Inglês, de forma que os livros ficassem juntos na mesma coleção, na estante."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Os estudantes também observaram que havia uma outra estante com nichos contendo livros iguais, como ilustra a figura, sendo que alguns compartimentos estavam vazios, e que um mesmo compartimento podia conter um único livro."
+    },
+    {
+      "tipo": "imagem",
+      "src": "/figuras/2025-prova5/tb-54-55-f1.webp",
+      "alt": "Estante com nichos contendo livros iguais em alguns compartimentos."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Com base na situação visualizada pelos estudantes, a professora propôs a eles que desenhassem todos os tipos de estantes retangulares, diferentes, que poderiam conter exatamente 24 livros."
+    }
+  ]
+}

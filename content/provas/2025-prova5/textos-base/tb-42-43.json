@@ -1,0 +1,24 @@
+{
+  "id": "tb-42-43",
+  "provaId": "2025-prova5",
+  "titulo": "Texto para questões 42 e 43",
+  "questoes": [
+    42,
+    43
+  ],
+  "blocos": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Um professor utilizou uma Torre de Hanói digital como material didático em uma atividade de modelagem para discutir conceitos matemáticos. Para isso, explicou o funcionamento do material à turma: transferir a torre inteira para uma das outras hastes, movendo apenas um disco de cada vez e colocando o disco menor sobre o maior, como se observa na figura."
+    },
+    {
+      "tipo": "imagem",
+      "src": "/figuras/2025-prova5/tb-42-43-f1.webp",
+      "alt": "Ilustração de Torre de Hanói com hastes e discos ordenados por tamanho."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Na sequência, o professor solicitou aos estudantes que manipulassem diferentes quantidades de discos observando o número mínimo de movimentos necessários para a transferência completa da torre, conforme a regra apresentada. Após um momento de discussão em relação a essa proposta, eles observaram que, no caso de 1 disco, seria necessário 1 movimento mínimo; para mover 2 discos, seriam necessários 3 movimentos mínimos; para mover 3 discos, seriam necessários 7 movimentos mínimos; para mover 4 discos, seriam necessários 15 movimentos mínimos, e assim por diante. Em seguida, o professor pediu aos estudantes que usassem linguagem matemática para descrever o modelo matemático, dado por uma recorrência, que representa a relação entre a quantidade de discos e o número mínimo de movimentos."
+    }
+  ]
+}

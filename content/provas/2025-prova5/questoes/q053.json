@@ -1,0 +1,57 @@
+{
+  "id": "2025-prova5-q053",
+  "provaId": "2025-prova5",
+  "tipo": "objetiva",
+  "numero": 53,
+  "rotulo": "Questão 53",
+  "parte": "componente-especifico",
+  "ordemCaderno": 54,
+  "paginas": [
+    30
+  ],
+  "textoBaseId": "tb-52-53",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Com base nessa situação, a proposta adotada pelo professor insere-se na metodologia"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "de projetos como atividade educativa, numa perspectiva de inovação tecnológica, desenvolvendo a criticidade para a melhoria da aprendizagem."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "de jogos na qual a construção dos quadrados com material manipulável apresenta caráter lúdico, motivando a produção de conhecimento."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "da sala de aula invertida, uma vez que demanda aos estudantes protagonismo e engajamento, colocando-os como centro do processo para construção do conhecimento."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "de investigação em Matemática, pois explora uma situação-problema, possibilitando que os estudantes criem conjecturas ou hipóteses testando-as para a validação destas."
+        }
+      ]
+    }
+  ]
+}

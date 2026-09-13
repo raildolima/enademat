@@ -1,0 +1,71 @@
+{
+  "id": "tb-72-73",
+  "provaId": "2025-prova5",
+  "titulo": "Texto para questões 72 e 73",
+  "questoes": [
+    72,
+    73
+  ],
+  "blocos": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Para explorar conceitos de probabilidade, um professor do Ensino Médio propôs a sua turma duas atividades envolvendo aplicações da Matemática a outras áreas do conhecimento."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "A primeira está relacionada aos princípios da combinação gênica de um indivíduo, uma vez que o material genético herdado é 50% do pai e 50% da mãe. Como exemplo, o professor usou a tipagem sanguínea e explicou que uma pessoa de sangue tipo O possui a carga genética $ii$, sendo um gene $i$ do pai e um gene $i$ da mãe, e que um indivíduo com sangue tipo A pode ser $I^AI^A$ ou $I^Ai$, já que o gene $I^A$ é dominante em relação ao gene $i$."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "A segunda aplicação envolve o resultado de um teste denominado Non-invasive Prenatal Testing (NIPT), um exame que avalia o risco de doenças cromossômicas como a síndrome de Down, tendo por base os quadros de referência."
+    },
+    {
+      "tipo": "tabela",
+      "linhas": [
+        [
+          "Idade gestacional",
+          "13 semanas"
+        ],
+        [
+          "Tipo de gestação",
+          "Única"
+        ],
+        [
+          "Fração fetal",
+          "0,09"
+        ],
+        [
+          "Taxa de risco",
+          "1 em 100 000"
+        ]
+      ],
+      "legenda": "Quadro 1: Resultado de um teste NIPT"
+    },
+    {
+      "tipo": "tabela",
+      "cabecalho": [
+        "Probabilidade (Taxa de risco)",
+        "Risco de Síndrome de Down"
+      ],
+      "linhas": [
+        [
+          "< 0,01%",
+          "Baixo risco"
+        ],
+        [
+          "0,01% a 1%",
+          "Moderado risco"
+        ],
+        [
+          "> 1%",
+          "Alto risco"
+        ]
+      ],
+      "legenda": "Quadro 2: Quadro de referência de análise do NIPT. Obs: NIPT inconclusivo para fração fetal menor que 4%"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "A Taxa de risco indica a probabilidade de anomalias do Cromossomo 21, e a Fração fetal mostra a proporção de DNA fetal na amostra de sangue."
+    }
+  ]
+}

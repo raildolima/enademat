@@ -1,0 +1,57 @@
+{
+  "id": "2025-prova5-q026",
+  "provaId": "2025-prova5",
+  "tipo": "objetiva",
+  "numero": 26,
+  "rotulo": "Questão 26",
+  "parte": "formacao-geral",
+  "ordemCaderno": 26,
+  "paginas": [
+    14
+  ],
+  "textoBaseId": "tb-25-26",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Considerando o relato de Rita e a legislação educacional vigente, a proposta pedagógica da EJA deve ser orientada pelo princípio de"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "seguir a mesma organização curricular e metodológica do ensino regular, constituindo-se como uma modalidade supletiva de ensino voltada à aceleração de estudos."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "priorizar estudantes com comprovada carência socioeconômica, seguindo critérios definidos pelos sistemas estaduais e municipais de ensino."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "considerar as características, os interesses e as condições de vida dos estudantes em seus currículos e em suas metodologias, assegurando-lhes igualdade de oportunidades educacionais."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "manter a mesma estrutura curricular e avaliativa do ensino regular, garantindo tanto a equidade no processo de ensino e de aprendizagem quanto a equivalência formal dos certificados emitidos."
+        }
+      ]
+    }
+  ]
+}

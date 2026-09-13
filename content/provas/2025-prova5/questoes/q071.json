@@ -1,0 +1,57 @@
+{
+  "id": "2025-prova5-q071",
+  "provaId": "2025-prova5",
+  "tipo": "objetiva",
+  "numero": 71,
+  "rotulo": "Questão 71",
+  "parte": "componente-especifico",
+  "ordemCaderno": 72,
+  "paginas": [
+    39
+  ],
+  "textoBaseId": "tb-70-71",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "A professora solicita aos participantes que socializem os resultados obtidos para as dimensões $x$ e $y$, que determinam o curral de área máxima. Por fim, questiona: “qual Tendência em Educação Matemática fundamentou a tarefa?”. Diante do exposto, assinale a alternativa que representa corretamete os resultados obtidos para $x$ e $y$ e a resposta ao questionamento."
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Os valores de $x$ e $y$ são 10 m e 30 m e a Tendência usada foi Gamificação."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Os valores de $x$ e $y$ são 15 m e 25 m e a Tendência usada foi Sala de Aula Invertida."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Os valores de $x$ e $y$ são 23 m e 17 m e a Tendência usada foi História da Matemática."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Os valores de $x$ e $y$ são 20 m e 20 m e a Tendência usada foi Investigação Matemática."
+        }
+      ]
+    }
+  ]
+}

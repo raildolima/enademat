@@ -1,0 +1,57 @@
+{
+  "id": "2025-prova5-q048",
+  "provaId": "2025-prova5",
+  "tipo": "objetiva",
+  "numero": 48,
+  "rotulo": "Questão 48",
+  "parte": "componente-especifico",
+  "ordemCaderno": 49,
+  "paginas": [
+    28
+  ],
+  "textoBaseId": "tb-48-49",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Com base nas resoluções apresentadas pelos estudantes, as respostas apresentadas no padrão"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "1 demonstraram que houve compreensão do conceito de número primo, porém não indicaram entendimento do que é um Quadrado Mágico."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "2 indicaram que um número não primo foi considerado primo, porém se demonstrou compreensão do que é um Quadrado Mágico."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "1 indicaram que um número não primo foi considerado como primo, porém se demonstrou compreensão do que é um Quadrado Mágico."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "2 demonstraram que houve compreensão do conceito de número primo, porém não indicaram entendimento do que é um Quadrado Mágico."
+        }
+      ]
+    }
+  ]
+}

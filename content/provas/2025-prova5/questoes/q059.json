@@ -1,0 +1,81 @@
+{
+  "id": "2025-prova5-q059",
+  "provaId": "2025-prova5",
+  "tipo": "objetiva",
+  "numero": 59,
+  "rotulo": "Questão 59",
+  "parte": "componente-especifico",
+  "ordemCaderno": 60,
+  "paginas": [
+    33
+  ],
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Radford (2014) sugere três condições que caracterizam o pensamento algébrico:\n(i) Indeterminação: tratamento de problemas com números não conhecidos (desconhecidos, variáveis, parâmetros etc.);\n(ii) Denotação: associa-se à necessidade de nomear ou simbolizar um número indeterminado, podendo essa simbolização ser feita de várias maneiras como pelo uso de sinais alfanuméricos, pela linguagem natural, por gestos, sinais não convencionais ou a mistura entre eles;\n(iii) Analiticidade: relaciona-se ao tratamento das quantidades indeterminadas como se fossem números conhecidos, operando com elas."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "RADFORD, L. The Progressive Development of Early-Embodied Algebraic Thinking. Mathematics Education Research Journal, n. 2, 2014 (adaptado)."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Uma estudante surda, pensando algebricamente sobre a resolução de um problema colocado por uma professora para toda a turma, expressa-se em Libras ao fazer o sinal de “segredo” para designar um número qualquer $n$."
+    },
+    {
+      "tipo": "imagem",
+      "src": "/figuras/2025-prova5/q059-f1.webp",
+      "alt": "Sinal de segredo feito em Libras pela estudante para designar um número qualquer."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Sinal de segredo feito pela estudante."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "FERNANDES, S. H. A. A.; HEALY, L. A emergência do pensamento algébrico nas atividades de aprendizes surdos. Ciênc. Educ., n. 1, 2016 (adaptado)."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Qual alternativa apresenta uma análise correta do Pensamento Algébrico da estudante?"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "A analiticidade do sinal que ela apresentou indica que desenvolveu um sentido pessoal de denotação e a possibilidade de operar matematicamente sem conhecer o valor dos números."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "A denotação do sinal que ela apresentou indica que desenvolveu um sentido pessoal de indeterminação e a possibilidade de operar matematicamente conhecendo o valor dos números."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "A analiticidade do sinal que ela apresentou indica que desenvolveu um sentido pessoal de denotação e a possibilidade de operar matematicamente conhecendo o valor dos números."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "A denotação do sinal que ela apresentou indica que desenvolveu um sentido pessoal de indeterminação e a possibilidade de operar matematicamente sem conhecer o valor dos números."
+        }
+      ]
+    }
+  ]
+}

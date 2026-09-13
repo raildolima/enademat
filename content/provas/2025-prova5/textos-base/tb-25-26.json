@@ -1,0 +1,23 @@
+{
+  "id": "tb-25-26",
+  "provaId": "2025-prova5",
+  "titulo": "Texto para questões 25 e 26",
+  "questoes": [
+    25,
+    26
+  ],
+  "blocos": [
+    {
+      "tipo": "titulo",
+      "texto": "Rita terminou os estudos depois de 35 anos fora da escola. Agora, ela quer mais"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Voltar para a sala de aula pode ter muitos significados. Para uns, é a chance de retomar os estudos e conquistar chances melhores de vida. Para outros, é a motivação que faltava. Mas para Rita, voltar para a escola pela Educação de Jovens e Adultos (EJA) foi cumprir uma promessa feita há 35 anos.\n\n“Eu amava estudar. O último dia me deixou muito triste, porque eu sabia que não tinha condições de continuar. Tinha 15 anos, tinha que trabalhar e ajudar a criar meus irmãos. Mesmo assim, prometi pra mim mesma que iria terminar meus estudos”, explica hoje a formada na Educação Básica.\n\nDepois, veio o casamento e o filho, que ocupou Rita. “Quando meu filho entrou no primeiro ano, pensei: essa é a hora. Voltei e o que mais mudou pra minha época foi Matemática. Antes era simples, agora tem umas fórmulas complexas. Mas adorei estudar”, explica Rita."
+    },
+    {
+      "tipo": "fonte",
+      "texto": "Disponível em: www.educacao.sp.gov.br. Acesso em: 13 nov. 2025 (adaptado)."
+    }
+  ]
+}

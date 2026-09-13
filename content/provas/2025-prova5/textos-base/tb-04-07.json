@@ -1,0 +1,39 @@
+{
+  "id": "tb-04-07",
+  "provaId": "2025-prova5",
+  "titulo": "Texto para questões de 04 a 07",
+  "questoes": [
+    4,
+    5,
+    6,
+    7
+  ],
+  "blocos": [
+    {
+      "tipo": "titulo",
+      "texto": "TEXTO 1"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "De acordo com Abdias do Nascimento, artista, político e militante do Movimento Negro brasileiro, a história do Brasil é uma versão concebida pelos brancos e para os brancos, exatamente como toda a estrutura econômica, sociocultural, política e militar do país. É preciso refletir, criticar, ampliar, renovar e atualizar o nosso conhecimento para construir novos marcadores sociais."
+    },
+    {
+      "tipo": "titulo",
+      "texto": "TEXTO 2"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "A obra intitulada Asé Abdias, releitura de Conceição Aparecida da Silva (Con Silva), homenageia as obras de Abdias do Nascimento. Nela as cores, as formas e os elementos gráficos remetem à Bandeira Nacional e à espiritualidade afro-brasileira."
+    },
+    {
+      "tipo": "imagem",
+      "src": "figuras/2025-prova5/tb-04-07-f1.webp",
+      "alt": "Pintura acrílica Asé Abdias de Con Silva homenageando Abdias do Nascimento com elementos da Bandeira Nacional.",
+      "legenda": "CON SILVA. Asé Abdias, técnica acrílica sobre tela, 30 x 40 cm. Batatais, 2018."
+    },
+    {
+      "tipo": "fonte",
+      "texto": "Disponível em: www.galeriaandrecunha.com.br. Acesso em: 5 nov. 2025."
+    }
+  ]
+}

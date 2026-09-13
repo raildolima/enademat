@@ -1,0 +1,57 @@
+{
+  "id": "2025-prova5-q002",
+  "provaId": "2025-prova5",
+  "tipo": "objetiva",
+  "numero": 2,
+  "rotulo": "Questão 2",
+  "parte": "formacao-geral",
+  "ordemCaderno": 2,
+  "paginas": [
+    3
+  ],
+  "textoBaseId": "tb-01-03",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Na letra da canção, o caderno também pode representar a figura do professor, que acompanha o processo de ensino e de aprendizagem dos estudantes. Considerando as teorias do desenvolvimento cognitivo e socioemocional, a alternativa que melhor representa a postura pedagógica do professor, em analogia à canção, é"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "atuar como observador, a fim de não interferir no processo natural de desenvolvimento dos estudantes, tal qual o caderno, que reúne anotações objetivas."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "atuar como mediador ativo, a fim de planejar situações de aprendizagem que valorizam a história e o ritmo de cada estudante, tal qual o caderno, que acompanha e guarda as experiências."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "priorizar que todos os estudantes alcancem o mesmo nível de desempenho, aplicando métodos padronizados que conduzam a resultados uniformes, tal qual as páginas idênticas do caderno."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "priorizar que os conteúdos sejam fixados, considerando que o desenvolvimento cognitivo depende de estímulos externos e de memorização de respostas, tal qual os registros do caderno."
+        }
+      ]
+    }
+  ]
+}

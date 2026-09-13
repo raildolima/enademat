@@ -1,0 +1,74 @@
+{
+  "id": "2025-prova5-q080",
+  "provaId": "2025-prova5",
+  "tipo": "objetiva",
+  "numero": 80,
+  "rotulo": "Questão 80",
+  "parte": "componente-especifico",
+  "ordemCaderno": 81,
+  "paginas": [
+    45
+  ],
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Em uma aula de Matemática, um estudante informou que seu pai comprou um terreno com o formato do pentágono ABCDE, representado a seguir, e que precisa cercá-lo. Dessa forma questionou: “uso o perímetro para saber?” A professora respondeu que sim e decidiu realizar uma atividade avaliativa solicitando aos estudantes da turma que calculassem o perímetro desse pentágono."
+    },
+    {
+      "tipo": "imagem",
+      "src": "/figuras/2025-prova5/q080-f1.webp",
+      "alt": "Pentágono ABCDE com lados e vértices indicados para cálculo de perímetro."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Um dos estudantes apresentou a seguinte resolução."
+    },
+    {
+      "tipo": "imagem",
+      "src": "/figuras/2025-prova5/q080-f2.webp",
+      "alt": "Resolução manuscrita do estudante aplicando Teorema de Pitágoras e cálculo de perímetro."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Com base nessa situação, assinale a opção que apresenta a conclusão correta da professora ao analisar e avaliar a resolução desse estudante."
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "A resolução está correta; o estudante mostra ter aprendido o Teorema de Pitágoras e o cálculo de perímetros, considerando que além disso, a subtração das medidas $y$ e $x$ corresponde à medida do lado do pentágono, pois esses segmentos são colineares."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "A resolução está parcialmente correta; o estudante mostra ter aprendido o Teorema de Pitágoras, mas erra ao realizar a simplificação de radicais no cálculo do perímetro, mesmo tendo determinado corretamente o lado $y - x$ e a expressão do perímetro."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "A resolução está correta; o estudante mostra ter aprendido o Teorema de Pitágoras, resolvendo todas as etapas corretamente ao realizar o cálculo do perímetro, incluindo o lado $y - x$ e à simplificação de radicais."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "A resolução está parcialmente correta; o estudante mostra ter aprendido o Teorema de Pitágoras, mas comete um erro no desenvolvimento da atividade ao realizar a subtração das medidas $y$ e $x$ que não corresponde à medida do lado do pentágono, pois estes segmentos não são colineares."
+        }
+      ]
+    }
+  ]
+}

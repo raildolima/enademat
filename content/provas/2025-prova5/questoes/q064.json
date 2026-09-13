@@ -1,0 +1,65 @@
+{
+  "id": "2025-prova5-q064",
+  "provaId": "2025-prova5",
+  "tipo": "objetiva",
+  "numero": 64,
+  "rotulo": "Questão 64",
+  "parte": "componente-especifico",
+  "ordemCaderno": 65,
+  "paginas": [
+    36
+  ],
+  "textoBaseId": "tb-62-64",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Uma professora de Matemática recebeu a informação de que, na sua turma do 7º ano do Ensino Fundamental, haveria uma estudante com discalculia. Nas primeiras aulas, a professora observou que a estudante apresentava dificuldades com operações, por isso, planejou uma proposta de trabalho relacionada especificamente com a operação de divisão. Após um período de tempo de atividades, ela realizou uma avaliação, propondo a essa estudante o seguinte problema: para organizar uma festa, com os 25 estudantes da sala, haveria um gasto de R\\$ 250,00 e seriam utilizadas cédulas fictícias de R\\$ 5,00 e R\\$ 10,00. Sendo esse valor dividido igualmente entre todos os estudantes, qual seria o valor pago individualmente?"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Após fazer o cálculo, a estudante respondeu que o valor seria de R\\$ 10,00 por estudante."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Pelo desenvolvimento da aprendizagem da estudante, é possível concluir, em relação ao contexto apresentado, que a proposta desenvolvida pela professora foi a de trabalhar as operações matemáticas"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "de forma abstrata no processo de ensino e aprendizagem e de aplicar os conhecimentos sobre História da Matemática."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "com materiais concretos no processo de ensino e aprendizagem e de aplicar os conhecimentos sobre História da Matemática."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "de forma abstrata no processo de ensino e aprendizagem e de aplicar os conhecimentos sobre Educação Matemática Inclusiva."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "com materiais concretos no processo de ensino e aprendizagem e de aplicar os conhecimentos sobre Educação Matemática Inclusiva."
+        }
+      ]
+    }
+  ]
+}

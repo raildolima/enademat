@@ -1,0 +1,19 @@
+{
+  "id": "tb-15-16",
+  "provaId": "2025-prova5",
+  "titulo": "Texto para questões 15 e 16",
+  "questoes": [
+    15,
+    16
+  ],
+  "blocos": [
+    {
+      "tipo": "paragrafo",
+      "texto": "O site Nomes no Brasil disponibiliza os nomes e os sobrenomes organizados por gênero, período de nascimento da pessoa e letra inicial. O Instituto Brasileiro de Geografia e Estatística (IBGE) publicou, no dia 4 de novembro de 2025, a segunda edição do levantamento de nomes mais frequentes no Brasil, atualizados pelo Censo Demográfico 2022. A novidade desse site é a inclusão dos sobrenomes. Entre os mais de 140 mil nomes próprios contabilizados, Maria e José mantiveram a hegemonia no topo do ranking, já apontada pelo Nomes no Brasil do Censo Demográfico 2010.\n\nO novo site também conta com uma aba dedicada a fatos e curiosidades sobre o estudo dos nomes próprios, a Onomástica, em que o usuário pode explorar diversos aspectos que ressaltam a dinâmica cultural refletida em nomes e em sobrenomes, assim como compreender melhor o que o sistema de nomeação e os nomes utilizados podem revelar sobre dada sociedade, especialmente quando analisados ou comparados ao longo do tempo e dos espaços territoriais."
+    },
+    {
+      "tipo": "fonte",
+      "texto": "MOURA, B. F. Confira nomes e sobrenomes mais comuns no país, segundo o IBGE. Disponível em: https://agenciabrasil.ebc.com.br. Acesso em: 10 nov. 2025 (adaptado)."
+    }
+  ]
+}

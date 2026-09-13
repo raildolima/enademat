@@ -1,0 +1,57 @@
+{
+  "id": "2025-prova5-q018",
+  "provaId": "2025-prova5",
+  "tipo": "objetiva",
+  "numero": 18,
+  "rotulo": "Questão 18",
+  "parte": "formacao-geral",
+  "ordemCaderno": 18,
+  "paginas": [
+    10
+  ],
+  "textoBaseId": "tb-17-18",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Após o debate sobre capacitismo em uma reunião de formação continuada, a coordenadora pedagógica solicita ao grupo a elaboração de uma proposta de ação concreta para tornar a escola um espaço mais inclusivo.\n\nConsiderando essa situação e os princípios da educação inclusiva previstos na legislação brasileira, a ação pedagógica coerente é"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "desenvolver um projeto coletivo sobre acessibilidade, envolvendo a comunidade escolar, para identificar e minimizar barreiras físicas, atitudinais e comunicacionais."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "organizar uma palestra sobre superação pessoal, destacando exemplos de pessoas com deficiência que conseguiram vencer dificuldades de forma independente."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "estimular que os estudantes espalhem cartazes para tratar da necessidade de acolhimento das pessoas com deficiência, reconhecendo a importância da escola para a integração social."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "solicitar que os estudantes com deficiência relatem as próprias experiências no mural da escola, sensibilizando os colegas, o corpo docente e a gestão sobre os desafios enfrentados diariamente."
+        }
+      ]
+    }
+  ]
+}

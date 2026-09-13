@@ -1,0 +1,57 @@
+{
+  "id": "2025-prova5-q007",
+  "provaId": "2025-prova5",
+  "tipo": "objetiva",
+  "numero": 7,
+  "rotulo": "Questão 7",
+  "parte": "formacao-geral",
+  "ordemCaderno": 7,
+  "paginas": [
+    5
+  ],
+  "textoBaseId": "tb-04-07",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Para Abdias do Nascimento, personagem representado na obra Asé Abdias, “Quilombo não significa escravo fugido. Quilombo quer dizer reunião fraterna e livre, solidariedade, convivência, comunhão existencial”. Com base nessa concepção, o quilombismo propõe um projeto político e educacional voltado à construção de uma sociedade democrática, plural e multirracial, na qual a cidadania plena seja efetivamente exercida.\n\nA alternativa que expressa uma abordagem pedagógica coerente com a elaboração de um currículo escolar quilombola é a que"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "valoriza saberes universais e legitimados, propondo que os conteúdos do currículo quilombola assegurem uma formação comum aos estudantes."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "adota metas e indicadores de desempenho, propondo que o currículo quilombola siga uma padronização nacional de eficiência e de controle de resultados."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "prioriza o conhecimento científico, defendendo que os conteúdos do currículo quilombola tenham equivalência com aqueles ministrados em escolas urbanas."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "compreende a educação como prática social e política, defendendo que o currículo quilombola integre experiências, saberes coletivos e conhecimentos científicos."
+        }
+      ]
+    }
+  ]
+}

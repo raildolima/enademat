@@ -1,0 +1,66 @@
+{
+  "id": "2025-prova5-q055",
+  "provaId": "2025-prova5",
+  "tipo": "objetiva",
+  "numero": 55,
+  "rotulo": "Questão 55",
+  "parte": "componente-especifico",
+  "ordemCaderno": 56,
+  "paginas": [
+    31
+  ],
+  "textoBaseId": "tb-54-55",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Considere que um dos estudante desenhou somente duas estantes para representar sua resposta, como se observa na figura."
+    },
+    {
+      "tipo": "imagem",
+      "src": "/figuras/2025-prova5/q055-f1.webp",
+      "alt": "Desenho de duas estantes retangulares feito por um estudante."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Tendo em vista o objetivo da atividade, a professora avaliou o desenho do estudante e concluiu que a solução está parcialmente correta, pois o estudante representou"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "duas das oito estantes retangulares possíveis."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "duas das quatro estantes retangulares possíveis."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "duas das seis estantes retangulares possíveis."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "duas das três estantes retangulares possíveis."
+        }
+      ]
+    }
+  ]
+}

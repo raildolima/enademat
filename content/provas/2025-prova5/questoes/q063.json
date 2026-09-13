@@ -1,0 +1,61 @@
+{
+  "id": "2025-prova5-q063",
+  "provaId": "2025-prova5",
+  "tipo": "objetiva",
+  "numero": 63,
+  "rotulo": "Questão 63",
+  "parte": "componente-especifico",
+  "ordemCaderno": 64,
+  "paginas": [
+    35
+  ],
+  "textoBaseId": "tb-62-64",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Em uma turma do 6º ano do Ensino Fundamental, um estudante com síndrome de Down tem mostrado dificuldades na aprendizagem das quatro operações fundamentais."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Considerando as informações do texto e a situação-problema apresentada, uma ação pedagógica que o professor deve adotar no ensino para esse estudante, usando as potencialidades dele como apoio na aprendizagem, é a de"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "desenvolver aulas expositivas para aumentar a velocidade de aprendizagem dos conteúdos matemáticos."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "propor, constantemente, exercícios de revisão sobre cálculos básicos já apreendidos, para que sejam memorizados."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "utilizar materiais lúdicos, como ábaco e material dourado, para estimular um ensino da aritmética mais visual e manipulativo."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "realizar atividades que incentivem a memorização de objetos, nomes, lugares, e da tabuada, para melhorar o êxito nos cálculos básicos."
+        }
+      ]
+    }
+  ]
+}

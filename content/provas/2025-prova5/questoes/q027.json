@@ -1,0 +1,56 @@
+{
+  "id": "2025-prova5-q027",
+  "provaId": "2025-prova5",
+  "tipo": "objetiva",
+  "numero": 27,
+  "rotulo": "Questão 27",
+  "parte": "formacao-geral",
+  "ordemCaderno": 27,
+  "paginas": [
+    15
+  ],
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Em uma escola pública de Educação de Jovens e Adultos (EJA), os professores perceberam que vários estudantes faltavam às aulas em determinados períodos do mês. Ao se debruçar sobre cada caso, a coordenação pedagógica descobriu que muitos deles trabalhavam em uma cooperativa local. Durante a colheita, os horários se tornavam incompatíveis com as aulas.\n\nPara enfrentar o problema, a coordenação e o corpo docente decidiram promover uma série de encontros entre escola, representantes da cooperativa, lideranças comunitárias e famílias.\n\nCom base nessa situação e nas diretrizes legais da Educação Básica, a ação da escola expressa a"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "delegação da função educativa às famílias dos estudantes e às organizações comunitárias, a fim de compensar a evasão escolar durante o período de colheita."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "responsabilização da comunidade pela condução de ações pedagógicas, com vistas a mitigar os problemas de frequência dos estudantes durante o período de colheita."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "implementação de um modelo de gestão, buscando soluções para o ajuste de calendário em razão das demandas de trabalho dos estudantes."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "priorização do processo de ensino e de aprendizagem dos estudantes, solicitando às organizações sociais o respeito ao calendário escolar e a redução das demandas de trabalho."
+        }
+      ]
+    }
+  ]
+}

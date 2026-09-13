@@ -1,0 +1,57 @@
+{
+  "id": "2025-prova5-q006",
+  "provaId": "2025-prova5",
+  "tipo": "objetiva",
+  "numero": 6,
+  "rotulo": "Questão 6",
+  "parte": "formacao-geral",
+  "ordemCaderno": 6,
+  "paginas": [
+    5
+  ],
+  "textoBaseId": "tb-04-07",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Durante uma sequência didática sobre arte e identidade afro-brasileira, uma professora do Ensino Médio utiliza a obra Asé Abdias como ponto de partida para discutir o legado de Abdias do Nascimento. Após a leitura da obra e o debate em grupo, a docente propõe que cada estudante elabore uma produção artística autoral, como poema, colagem, pintura ou performance. Na etapa final, ela propõe uma ação pedagógica, considerando os princípios da avaliação formativa.\n\nA alternativa que representa o objetivo dessa proposta de avaliação é a que"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "identifica erros conceituais nas produções artísticas dos estudantes para corrigi-los, buscando a uniformização dos conhecimentos da turma."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "propicia o desenvolvimento da autorreflexão e da consciência crítica, integrando dimensões cognitivas e socioculturais no processo de criação artística."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "afere a capacidade técnica dos estudantes para reproduzir estilos artísticos consagrados, objetivando a comparabilidade dos resultados."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "verifica aspectos teóricos da produção artística e da biografia de Abdias do Nascimento, mensurando a assimilação dos conteúdos ministrados."
+        }
+      ]
+    }
+  ]
+}

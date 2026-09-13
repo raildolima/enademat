@@ -1,0 +1,57 @@
+{
+  "id": "2025-prova5-q036",
+  "provaId": "2025-prova5",
+  "tipo": "objetiva",
+  "numero": 36,
+  "rotulo": "Questão 36",
+  "parte": "componente-especifico",
+  "ordemCaderno": 37,
+  "paginas": [
+    22
+  ],
+  "textoBaseId": "tb-35-36",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Com base na disposição das ações e nas fases da metodologia apresentada no texto, a abordagem proposta pressupõe que o"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "estudante tenha como tarefa transformar a linguagem usual em linguagem matemática, com o objetivo de recordar e fixar os conceitos básicos por meio de algoritmos."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "ato avaliativo esteja presente em todo o processo de ensino e aprendizagem, com o intuito de o estudante construir o próprio conhecimento e perceber suas reais condições de aprendizagem."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "professor estimule seus estudantes a desenvolverem a habilidade de executar algoritmos, com o objetivo de reforçar conhecimentos anteriores."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "livro didático seja o recurso utilizado pelo estudante para reconhecer ou revisar conceitos, propriedades e algoritmos associados ao problema proposto, com o intuito de resolvê-lo."
+        }
+      ]
+    }
+  ]
+}

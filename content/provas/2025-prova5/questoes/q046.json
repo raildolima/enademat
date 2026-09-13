@@ -1,0 +1,57 @@
+{
+  "id": "2025-prova5-q046",
+  "provaId": "2025-prova5",
+  "tipo": "objetiva",
+  "numero": 46,
+  "rotulo": "Questão 46",
+  "parte": "componente-especifico",
+  "ordemCaderno": 47,
+  "paginas": [
+    27
+  ],
+  "textoBaseId": "tb-46-47",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Com base na primeira atividade da professora sobre sistemas de numeração, é correto afirmar que o sistema de numeração babilônico se assemelha ao nosso sistema de numeração decimal, pois ambos"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "apresentam o mesmo símbolo para representar o zero."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "possuem apenas dez símbolos distintos."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "utilizam a mesma base."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "representam sistemas posicionais."
+        }
+      ]
+    }
+  ]
+}

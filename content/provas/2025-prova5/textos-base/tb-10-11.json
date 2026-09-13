@@ -1,0 +1,35 @@
+{
+  "id": "tb-10-11",
+  "provaId": "2025-prova5",
+  "titulo": "Texto para questões 10 e 11",
+  "questoes": [
+    10,
+    11
+  ],
+  "blocos": [
+    {
+      "tipo": "titulo",
+      "texto": "TEXTO 1"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Uma pesquisa revelou que oito a cada dez brasileiros maiores de 16 anos já apoiaram ações de ajuda para vítimas de desastres naturais. O estudo alerta, ainda, que um quarto dos entrevistados vivenciaram ou conhecem alguém que vivenciou eventos climáticos extremos. Os eventos que causaram impacto na vida dos brasileiros, com maior frequência, foram enchentes e alagamentos (68% dos entrevistados), tempestade ou chuva forte (7%), deslizamento de terra (6%), queimadas ou incêndios (5%), queda de barragem e seca (ambos com 2%), ou outros (9%).\n\nOs dados mostram uma parcela muito expressiva da população afetada por desastres naturais, que têm se tornado cada vez mais intensos e preocupantes. Por outro lado, a pesquisa mostra não só um elevado grau de solidariedade na população brasileira, mas também uma disposição para ampliar essas ações."
+    },
+    {
+      "tipo": "fonte",
+      "texto": "Disponível em: https://agenciabrasil.ebc.com.br. Acesso em: 1 nov. 2025 (adaptado)."
+    },
+    {
+      "tipo": "titulo",
+      "texto": "TEXTO 2"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Este trabalho é maior do que nós. Este trabalho é maior do que o agora. Mais importante do que o que fazemos e como fazemos é termos clareza sobre por que o fazemos. Ou decidimos mudar por escolha, juntos, ou seremos forçados a mudar pela tragédia. Temos uma escolha. Podemos mudar. Mas precisamos fazê-lo juntos. A COP 30 pode marcar o momento em que a humanidade recomeça — restaurando nossa aliança com o planeta e entre gerações. Somos privilegiados por ter sido destinado a nós o dever de fazer história como aqueles que escolheram a coragem, em vez da omissão, para virar o jogo na luta climática. Devemos abraçar esse privilégio como responsabilidade — pelas pessoas que amamos, pelas gerações que vieram antes e pelas que ainda virão. Mudando por escolha, juntos."
+    },
+    {
+      "tipo": "fonte",
+      "texto": "Disponível em: https://cop30.br. Acesso em: 1 nov. 2025 (adaptado)."
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "2025-prova5-q024",
+  "provaId": "2025-prova5",
+  "tipo": "objetiva",
+  "numero": 24,
+  "rotulo": "Questão 24",
+  "parte": "formacao-geral",
+  "ordemCaderno": 24,
+  "paginas": [
+    13
+  ],
+  "textoBaseId": "tb-23-24",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "No contexto da inclusão escolar, o papel do intérprete de Libras consiste em"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "auxiliar o professor na adaptação de conteúdos, facilitando a integração do estudante surdo à cultura ouvinte."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "mediar a comunicação do estudante surdo em sala de aula, contribuindo para o acesso equitativo ao conhecimento."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "explicar os conceitos técnicos apresentados pelo professor, garantindo a compreensão do conteúdo curricular pelo estudante surdo."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "atuar como responsável pela aprendizagem do estudante surdo, acompanhando individualmente suas necessidades linguísticas."
+        }
+      ]
+    }
+  ]
+}

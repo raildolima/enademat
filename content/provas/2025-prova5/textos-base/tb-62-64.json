@@ -1,0 +1,28 @@
+{
+  "id": "tb-62-64",
+  "provaId": "2025-prova5",
+  "titulo": "Texto para questões de 62 a 64",
+  "questoes": [
+    62,
+    63,
+    64
+  ],
+  "blocos": [
+    {
+      "tipo": "paragrafo",
+      "texto": "O Desenho Universal da Aprendizagem (DUA) emerge da ideia de Universal Design (DU) que é empregada, por exemplo, na Arquitetura, com intenção de acesso a ambientes de modo universal, ou seja, um mundo projetado para as diferenças constitutivas da humanidade. Dessa concepção, advém a premissa de que ensino e aprendizagem devem ter amplo alcance, respeitando as individualidades de todos os estudantes, ou seja, que todos possam participar das atividades em iguais condições a fim de que o conhecimento de cada um e de todos possa avançar, ser ressignificado e ampliado. Para isso, algumas ações devem ser adotadas em sala de aula de forma que materiais e recursos sejam utilizados por todos, na maior extensão possível."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Por exemplo, as crianças com desenvolvimento típico passam pelas mesmas etapas cognitivas que as crianças com síndrome de Down. A diferença está na “velocidade” de aprendizagem. O principal equívoco cometido pelos indivíduos com síndrome de Down, no procedimento da contagem, é errar a sequência padrão de palavras-número, seja esquecendo, pulando, repetindo ou pronunciando-as em uma ordem aleatória. Uma possível razão para esse fato é a deficiência na memória de curto prazo verbal desses indivíduos, que influencia a aquisição de novas palavras. É preciso diferenciar a memória de curto prazo verbal da memória de curto prazo viso-espacial. As pessoas com síndrome de Down têm um déficit na memória de curto prazo verbal, em contraste com a memória viso-espacial."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "YOKOYAMA, L. A. Primeiras noções numéricas de uma adolescente com síndrome de Down através de materiais multissensoriais. Educação Matemática em Revista, n. 18, 2017 (adaptado)."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Outro exemplo, é o caso de estudantes com discalculia que apresentam sintomas como erro na formação dos números, invertendo-os; dificuldades em operar com somas simples, reconhecer sinais das operações, leitura correta de números com diversos dígitos, aprender a dizer a hora, ordenar números, entre outras. A fim de serem estimulados para a construção de seu conhecimento matemático, o professor deve ter apoio de recursos e estratégias particulares que compõem metodologias que beneficiam não somente estudantes discalcúlicos, mas também os demais estudantes."
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "2025-prova5-q028",
+  "provaId": "2025-prova5",
+  "tipo": "objetiva",
+  "numero": 28,
+  "rotulo": "Questão 28",
+  "parte": "formacao-geral",
+  "ordemCaderno": 28,
+  "paginas": [
+    15
+  ],
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Durante o período de Estágio Supervisionado em uma escola pública, um licenciando percebeu que o diálogo constante com a professora orientadora da universidade e com o professor supervisor da escola foi fundamental para compreender os desafios da prática docente. A troca de experiências, a análise dos planejamentos e o acompanhamento das aulas possibilitaram ao licenciando construir um olhar mais sensível tanto sobre o processo de ensino e de aprendizagem quanto sobre a realidade escolar.\n\nNo contexto apresentado, os papéis dos dois professores caracterizam-se por"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "proporcionar discussões e reflexões sobre os saberes construídos na escola, favorecendo o desenvolvimento profissional do licenciando."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "auxiliar o licenciando a reproduzir os métodos de ensino e de avaliação observados na escola onde realiza o estágio, ampliando seu repertório docente."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "definir as estratégias e os conteúdos que o licenciando deverá aplicar em sala de aula, possibilitando a padronização das práticas pedagógicas."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "planejar um roteiro de observação com rotinas e normas institucionais escolares, visando a adaptação à vida profissional do licenciando."
+        }
+      ]
+    }
+  ]
+}

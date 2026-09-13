@@ -1,0 +1,57 @@
+{
+  "id": "2025-prova5-q034",
+  "provaId": "2025-prova5",
+  "tipo": "objetiva",
+  "numero": 34,
+  "rotulo": "Questão 34",
+  "parte": "componente-especifico",
+  "ordemCaderno": 35,
+  "paginas": [
+    21
+  ],
+  "textoBaseId": "tb-33-34",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Na situação 2, o professor decidiu solicitar aos estudantes que identificassem os eixos de simetria do ornamento. Com base na figura apresentada pelo estudante caminhoneiro, qual opção atende à solicitação do professor?"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Há um eixo de simetria horizontal e um eixo de simetria vertical."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Há dois eixos de simetria horizontal."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Há dois eixos de simetria vertical."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Há um único eixo de simetria."
+        }
+      ]
+    }
+  ]
+}

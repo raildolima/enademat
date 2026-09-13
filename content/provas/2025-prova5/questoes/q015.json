@@ -1,0 +1,57 @@
+{
+  "id": "2025-prova5-q015",
+  "provaId": "2025-prova5",
+  "tipo": "objetiva",
+  "numero": 15,
+  "rotulo": "Questão 15",
+  "parte": "formacao-geral",
+  "ordemCaderno": 15,
+  "paginas": [
+    9
+  ],
+  "textoBaseId": "tb-15-16",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Uma professora do Ensino Médio utilizou os dados do site Nomes do Brasil, do IBGE, para relacionar a pluralidade da população brasileira às influências da colonização portuguesa, ao processo de escravização, ao fluxo migratório de povos de diferentes países e ao multiculturalismo.\n\nApós o estudo, a professora propôs a cada grupo que investigasse a origem dos próprios nomes e sobrenomes, produzindo um mural que revelasse determinadas características da turma.\n\nOs objetivos dessa atividade pedagógica expressam uma ação educativa fundamentada na"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "utilização de dados estatísticos como ponto de partida para despertar a curiosidade dos estudantes sobre a origem do próprio nome."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "valorização das identidades e das origens culturais dos estudantes para estimular a compreensão sobre a formação histórico-social."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "valorização de padrões culturais majoritários como referência para que os estudantes compreendam os processos de formação histórica da identidade nacional."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "utilização de dados quantitativos para que os estudantes desenvolvam competências relativas à interpretação de resultados para mapear elementos de coesão social."
+        }
+      ]
+    }
+  ]
+}

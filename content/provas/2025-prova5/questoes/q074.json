@@ -1,0 +1,64 @@
+{
+  "id": "2025-prova5-q074",
+  "provaId": "2025-prova5",
+  "tipo": "objetiva",
+  "numero": 74,
+  "rotulo": "Questão 74",
+  "parte": "componente-especifico",
+  "ordemCaderno": 75,
+  "paginas": [
+    41
+  ],
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Em um curso de Licenciatura em Matemática, na disciplina de Geometria Analítica, uma professora propôs uma atividade no GeoGebra 3D com o objetivo de explorar vetores no espaço."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Ela solicitou aos licenciandos que construíssem, no software, os vetores $u = (1, 2, -1)$, $v = (2, -1, 3)$ e $w = (0, 1, 2)$, com origem no ponto $(0, 0, 0)$, e indicassem o volume do paralelepípedo obtido, utilizando ferramentas do GeoGebra. Em seguida, orientou os estudantes que, no papel, calculassem o volume usando os vetores $u$, $v$ e $w$, e comparassem o resultado encontrado com o que foi obtido a partir do software."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Diante do exposto, o valor correto do volume e o procedimento adotado para o cálculo efetuado é"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "25 e pode ser obtido pela soma dos quadrados dos módulos dos três vetores."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "15 e pode ser obtido pelo módulo do produto misto dos três vetores."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "7 e pode ser obtido pelo módulo do produto misto dos três vetores."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "29 e pode ser obtido pela soma dos quadrados dos módulos dos três vetores."
+        }
+      ]
+    }
+  ]
+}

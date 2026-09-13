@@ -1,0 +1,57 @@
+{
+  "id": "2025-prova5-q069",
+  "provaId": "2025-prova5",
+  "tipo": "objetiva",
+  "numero": 69,
+  "rotulo": "Questão 69",
+  "parte": "componente-especifico",
+  "ordemCaderno": 70,
+  "paginas": [
+    38
+  ],
+  "textoBaseId": "tb-68-69",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "É correto afirmar que a atividade proposta pela professora de Fundamentos da Análise"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "utiliza a História da Matemática como metodologia de ensino."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "utiliza a Etnomatemática como metodologia de ensino."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "estimula nos estudantes dependência, uma vez que a professora indica as etapas a serem seguidas."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "estimula nos estudantes uma postura investigativa e científica, uma vez que eles precisam fazer conjecturas."
+        }
+      ]
+    }
+  ]
+}

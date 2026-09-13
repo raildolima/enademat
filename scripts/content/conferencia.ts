@@ -21,6 +21,20 @@ export function gerarConferenciaHtml(provaId: string, opts: { dryRun?: boolean }
     }
   }
 
+  const discursivasDir = path.join(provaDir, 'questoes-discursivas');
+  if (fs.existsSync(discursivasDir)) {
+    for (const f of fs.readdirSync(discursivasDir)) {
+      if (f.endsWith('.json')) {
+        try {
+          const q = JSON.parse(fs.readFileSync(path.join(discursivasDir, f), 'utf-8'));
+          questoes.push(q);
+        } catch {
+          // ignora em caso de arquivo temporário
+        }
+      }
+    }
+  }
+
   const linhasQuestoes = questoes.map((q) => {
     const pags = (q.paginas || []).map((p: number) => `p${String(p).padStart(3, '0')}.png`).join(', ');
     return `

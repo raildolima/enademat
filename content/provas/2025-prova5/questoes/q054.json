@@ -1,0 +1,57 @@
+{
+  "id": "2025-prova5-q054",
+  "provaId": "2025-prova5",
+  "tipo": "objetiva",
+  "numero": 54,
+  "rotulo": "Questão 54",
+  "parte": "componente-especifico",
+  "ordemCaderno": 55,
+  "paginas": [
+    31
+  ],
+  "textoBaseId": "tb-54-55",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Qual alternativa indica a proposta de intervenção pedagógica adequada para abordar a resolução do problema da disposição das coleções de Matemática, Português e Inglês na estante? Propor aos estudantes que utilizem o Princípio"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Aditivo da Contagem para indicar as possibilidades de organização dos livros em cada coleção que são dadas, respectivamente, por 10!, 12! e 9! e, em seguida, apresentar o número de modos de dispor as coleções, dado por 3."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Multiplicativo da Contagem para indicar as possibilidades de organização dos livros em cada coleção que são dadas, respectivamente, por 10!, 12! e 9! e, em seguida, apresentar o número de modos de dispor as coleções, dado por 3!."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Aditivo da Contagem para indicar as possibilidades de organização dos livros em cada coleção que são dadas, respectivamente, por 10!, 12! e 9! e, em seguida, apresentar o número de maneiras de dispor as coleções, dado por 3!."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Multiplicativo da Contagem para indicar as possibilidades de organização dos livros em cada coleção que são dadas, respectivamente, por 10!, 12! e 9! e, em seguida, apresentar o número de maneiras de dispor as coleções, dado por 3."
+        }
+      ]
+    }
+  ]
+}

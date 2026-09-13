@@ -1,0 +1,57 @@
+{
+  "id": "2025-prova5-q040",
+  "provaId": "2025-prova5",
+  "tipo": "objetiva",
+  "numero": 40,
+  "rotulo": "Questão 40",
+  "parte": "componente-especifico",
+  "ordemCaderno": 41,
+  "paginas": [
+    24
+  ],
+  "textoBaseId": "tb-39-41",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Qual alternativa representa a definição de parábola que os estudantes do Ensino Médio, mencionados no texto, deveriam apresentar?"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "O lugar geométrico de todos os pontos $P$ equidistantes a uma reta $r$ dada e a um ponto $F$."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "O lugar geométrico de todos os pontos $P$, tais que a soma das distâncias de $P$ aos pontos $F_1$ e $F_2$ dados seja sempre igual a $2a$, sendo $a > 0$."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "O lugar geométrico de todos os pontos $P$, tais que o valor absoluto da diferença entre distâncias de $P$ aos pontos $F_1$ e $F_2$ dados seja sempre igual a $2a$, sendo $a > 0$."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "O lugar geométrico de todos os pontos $P$ equidistantes de um ponto $O$ dado."
+        }
+      ]
+    }
+  ]
+}

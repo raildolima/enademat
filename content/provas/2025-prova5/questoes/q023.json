@@ -1,0 +1,57 @@
+{
+  "id": "2025-prova5-q023",
+  "provaId": "2025-prova5",
+  "tipo": "objetiva",
+  "numero": 23,
+  "rotulo": "Questão 23",
+  "parte": "formacao-geral",
+  "ordemCaderno": 23,
+  "paginas": [
+    13
+  ],
+  "textoBaseId": "tb-23-24",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Nesse contexto, o papel do professor ouvinte no processo educativo do estudante surdo é"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "respeitar as diferenças culturais do estudante surdo nas práticas pedagógicas, reconhecendo a Libras como língua legítima."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "desenvolver estratégias de ensino que aproximem o estudante surdo das práticas comunicativas predominantes, favorecendo sua integração social."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "valorizar a convivência entre o estudante surdo e os ouvintes, incentivando o uso da Libras quando a atividade pedagógica permitir."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "planejar práticas pedagógicas para o estudante surdo que conciliem a Libras e o Português, priorizando o domínio da modalidade escrita como instrumento de acesso."
+        }
+      ]
+    }
+  ]
+}

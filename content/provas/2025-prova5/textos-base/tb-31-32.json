@@ -1,0 +1,15 @@
+{
+  "id": "tb-31-32",
+  "provaId": "2025-prova5",
+  "titulo": "Texto para questões 31 e 32",
+  "questoes": [
+    31,
+    32
+  ],
+  "blocos": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Nos últimos anos, a inteligência artificial (IA) tem transformado a vida cotidiana. Desde assistentes virtuais que respondem a perguntas até sistemas que utilizam informações para “aprender”, tomar decisões e compreender o mundo por meio de números e formas. Isso não significa dizer que a IA pensa como os humanos. Por exemplo, enquanto usamos o sistema decimal, com dez algarismos (0 a 9), os algoritmos operam em outro sistema, o binário, que é formado apenas pelos dígitos 0 e 1, no qual cada comando, imagem ou som é traduzido em sequências que combinam esses números. Assim, a IA interpreta dados complexos por meio de operações matemáticas em um sistema de numeração diferente do sistema decimal. Além disso, a IA também pode aprender sobre formas geométricas com algoritmos que analisam e identificam padrões como o de figuras planas de quatro lados. Compreender como a IA usa números e formas nos ajuda a perceber a importância da Matemática em diferentes contextos."
+    }
+  ]
+}

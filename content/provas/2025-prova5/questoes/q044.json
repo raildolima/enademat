@@ -1,0 +1,94 @@
+{
+  "id": "2025-prova5-q044",
+  "provaId": "2025-prova5",
+  "tipo": "objetiva",
+  "numero": 44,
+  "rotulo": "Questão 44",
+  "parte": "componente-especifico",
+  "ordemCaderno": 45,
+  "paginas": [
+    26
+  ],
+  "textoBaseId": "tb-44-45",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Um professor de Matemática de uma turma do Ensino Médio, ao planejar uma aula sobre conhecimentos básicos de Estatística, buscou envolver os estudantes em uma atividade sobre o uso diário de tempo em jogos on-line. Solicitou, então, aos estudantes da turma que indicassem esse tempo, aproximadamente. Após a coleta de dados, foram registrados os seguintes valores:"
+    },
+    {
+      "tipo": "tabela",
+      "cabecalho": [
+        "Estudante",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "linhas": [
+        [
+          "Tempo",
+          "4h",
+          "4h30min",
+          "3h15min",
+          "5h",
+          "3h15min",
+          "6h15min",
+          "4h15min",
+          "3h",
+          "2h",
+          "5h",
+          "3h30min"
+        ]
+      ]
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Com base nesses dados, o professor obteve a média e a mediana iguais a 4 horas. A fim de estimular a produção de conhecimento dos estudantes, ele propôs algumas hipóteses para investigação. Considerando as hipóteses propostas pelo professor, assinale a afirmação correta."
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Se o estudante 8 não tivesse informado o tempo de uso diário, o valor da mediana diminuiria."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Se cada tempo indicado tiver um aumento de 1 hora, o valor da média continuará o mesmo."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Se cada tempo indicado tiver um aumento de 2 horas, o valor da mediana continuará o mesmo."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Se mais um estudante tivesse participado da investigação, com uso de 3 horas, o valor da média diminuiria."
+        }
+      ]
+    }
+  ]
+}

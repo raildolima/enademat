@@ -1,0 +1,28 @@
+{
+  "id": "tb-33-34",
+  "provaId": "2025-prova5",
+  "titulo": "Texto para questões 33 e 34",
+  "questoes": [
+    33,
+    34
+  ],
+  "blocos": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Um professor de Matemática, durante suas aulas numa turma da Educação de Jovens e Adultos (EJA), vivencia diversas situações em sala como as descritas:"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "• Situação 1: Ao explicar conceitos sobre Números Inteiros, o professor discutiu com os estudantes os motivos da expressão $-8 + 5$ dar como resultado $-3$, que é uma quantia negativa. Um estudante da turma, pescador conhecido na comunidade, fez a seguinte observação:\n“Professor, para organizar os pacotes de camarão que mantenho no freezer da minha peixaria, cada vez que vendo um, marco um X no meu caderninho e, cada vez que reponho um pacote, marco um O”. Para esclarecer, ele deu um exemplo: “No último sábado, eu tinha 60 pacotes de camarão no freezer. Durante a semana, marquei no caderninho as retiradas e reposições. Na sexta à noite, contei 28 X e 11 O, ou seja, vendi 17 pacotes a mais do que os que repus. Se eu tinha 60 pacotes e vendi 17, sobraram 43”."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "• Situação 2: Na mesma turma, em uma outra aula sobre Simetria, um outro estudante, caminhoneiro, comentou que a carroceria de seu caminhão era decorada com ornamentos e apresentou uma foto como a da imagem."
+    },
+    {
+      "tipo": "imagem",
+      "src": "/figuras/2025-prova5/tb-33-34-f1.webp",
+      "alt": "Ornamento decorativo de pintura em carroceria de caminhão apresentando padrão simétrico."
+    }
+  ]
+}

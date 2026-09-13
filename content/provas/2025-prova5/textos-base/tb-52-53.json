@@ -1,0 +1,24 @@
+{
+  "id": "tb-52-53",
+  "provaId": "2025-prova5",
+  "titulo": "Texto para questões 52 e 53",
+  "questoes": [
+    52,
+    53
+  ],
+  "blocos": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Ao notar que os estudantes de uma turma da 1ª série do Ensino Médio estavam com dificuldades nos conceitos de Progressões Aritméticas (PA) e Progressões Geométricas (PG), um professor elaborou uma proposta de intervenção com base em atividades investigativas. Para isso, levou para a sala de aula tampinhas de garrafa dispostas em uma malha quadriculada composta por quadradinhos de lado igual a 1 cm, conforme a figura."
+    },
+    {
+      "tipo": "imagem",
+      "src": "/figuras/2025-prova5/tb-52-53-f1.webp",
+      "alt": "Tampinhas de garrafa organizadas formando quadrados de tamanhos crescentes em malha quadriculada."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Em seguida, solicitou aos estudantes que, após a observação, escrevessem duas sequências numéricas: a primeira, referente ao perímetro, e a segunda, relacionada à área de cada quadrado, e identificassem padrões de repetição, relacionando-os aos conceitos de PA e PG."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "tb-20-21",
+  "provaId": "2025-prova5",
+  "titulo": "Texto para questões 20 e 21",
+  "questoes": [
+    20,
+    21
+  ],
+  "blocos": [
+    {
+      "tipo": "titulo",
+      "texto": "Pankararu"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Sabem, meus filhos...\nNós somos marginais das famílias\nSomos marginais das cidades\nMarginais das palhoças...\nE da história?\nNão somos daqui\nNem de acolá...\nEstamos sempre ENTRE\nEntre este ou aquele\nEntre isto ou aquilo!\nAté onde aguentaremos, meus filhos?..."
+    },
+    {
+      "tipo": "fonte",
+      "texto": "POTIGUARA, E. *A terra é a mãe do índio*. Rio de Janeiro: Gruning, 1985."
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "2025-prova5-q010",
+  "provaId": "2025-prova5",
+  "tipo": "objetiva",
+  "numero": 10,
+  "rotulo": "Questão 10",
+  "parte": "formacao-geral",
+  "ordemCaderno": 10,
+  "paginas": [
+    7
+  ],
+  "textoBaseId": "tb-10-11",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Uma professora de Ensino Médio desenvolveu com os estudantes uma atividade de análise dos Textos 1 e 2. Durante a aula, focalizou aspectos relativos à solidariedade e às mudanças climáticas, tendo como objetivo promover a conscientização da turma sobre questões políticas ambientais locais e globais. A proposta de intervenção que atende a esse objetivo consiste em"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "solicitar aos estudantes que elaborem cartazes sobre as ações solidárias direcionadas às pessoas atingidas pelas catástrofes climáticas discutidas na COP30 para sensibilizar a comunidade local."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "solicitar aos estudantes que elaborem um artigo de opinião sobre as principais decisões acordadas na COP 30 para socializar essas informações com a comunidade escolar."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "promover um ciclo de palestras acerca dos compromissos assumidos na COP 30 para que os estudantes se conscientizem sobre a importância de ações solidárias perante populações atingidas por tragédias ambientais."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "promover uma jornada de estudos sobre mudanças climáticas para que os estudantes proponham, com base das decisões tomadas na COP30, ações pertinentes ao enfrentamento desse problema social na comunidade local."
+        }
+      ]
+    }
+  ]
+}

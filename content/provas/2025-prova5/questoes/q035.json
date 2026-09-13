@@ -1,0 +1,57 @@
+{
+  "id": "2025-prova5-q035",
+  "provaId": "2025-prova5",
+  "tipo": "objetiva",
+  "numero": 35,
+  "rotulo": "Questão 35",
+  "parte": "componente-especifico",
+  "ordemCaderno": 36,
+  "paginas": [
+    22
+  ],
+  "textoBaseId": "tb-35-36",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Com base na concepção apresentada, as quatro etapas sequenciais do desenvolvimento da referida metodologia são:"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "proposição do problema gerador; exploração e formulação de questões; professor incentiva e observa; teste e reformulação."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "proposição do problema gerador; pesquisa exploratória; levantamento dos problemas decorrentes de pesquisa; teste e reformulação."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "proposição do problema gerador; professor incentiva e observa; em plenária, professor e estudantes discutem ideias e concepções; professor formaliza o conteúdo matemático."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "proposição do problema gerador; conjectura de proposições sobre os dados levantados; teste e reformulação; professor formaliza o conteúdo matemático."
+        }
+      ]
+    }
+  ]
+}

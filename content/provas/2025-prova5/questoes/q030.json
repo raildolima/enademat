@@ -1,0 +1,56 @@
+{
+  "id": "2025-prova5-q030",
+  "provaId": "2025-prova5",
+  "tipo": "objetiva",
+  "numero": 30,
+  "rotulo": "Questão 30",
+  "parte": "formacao-geral",
+  "ordemCaderno": 30,
+  "paginas": [
+    17
+  ],
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Em setembro de 2025, a Comissão de Educação da Câmara dos Deputados aprovou um Projeto de Lei que amplia o acesso à Educação Básica pública e as vagas ociosas em universidades federais para pessoas que estão no Brasil à espera do reconhecimento da situação de migração por causa humanitária ou por situação de refúgio.\n\nDiante desse fato e com a previsão de aumento de estudantes imigrantes e em situação de refúgio na escola, a coordenação pedagógica promoveu uma reunião para discutir sobre o rendimento acadêmico dessas pessoas que já frequentam as aulas em turmas regulares. Os professores relataram que esses estudantes têm participado pouco das atividades e têm apresentado desinteresse. Nesse contexto, a alternativa que apresenta uma estratégia metodológica adequada para ampliar a participação desses estudantes é"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "adaptar a complexidade dos conteúdos curriculares, limitando o uso de vocabulário técnico até que todos os estudantes imigrantes e em situação de refúgio atinjam o domínio mínimo da língua portuguesa."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "propor projetos de pesquisa que convidem os estudantes a compreender fenômenos socioculturais que integrem repertórios multiculturais, valorizando diferentes perspectivas epistêmicas."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "organizar grupos fixos de estudo nos quais os estudantes imigrantes e em situação de refúgio sejam acompanhados por colegas da mesma nacionalidade, proporcionando maior previsibilidade sociocultural durante as atividades curriculares."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "implementar oficinas de tradução dos conteúdos curriculares, com foco na equivalência terminológica entre o português e as línguas de origem, evitando interpretações subjetivas que possam interferir na aprendizagem."
+        }
+      ]
+    }
+  ]
+}

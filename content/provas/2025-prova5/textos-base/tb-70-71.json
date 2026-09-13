@@ -1,0 +1,35 @@
+{
+  "id": "tb-70-71",
+  "provaId": "2025-prova5",
+  "titulo": "Texto para questões 70 e 71",
+  "questoes": [
+    70,
+    71
+  ],
+  "blocos": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Uma professora do Ensino Superior do curso de Matemática ministrou uma oficina para licenciandos sobre aplicações dos conceitos introdutórios de diferenciabilidade e dos problemas de otimização no Ensino Médio articuladas ao uso de Tendências em Educação Matemática. Citou como exemplos dessas aplicações o estudo da velocidade instantânea de um carro a partir da velocidade média ou, ainda, o cálculo da aceleração instantânea de um objeto, que pode ser determinada pela taxa de variação de sua velocidade com relação ao tempo. Nessas situações, as variações envolvidas podem ser determinadas por funções, e as taxas respectivas podem ser denotadas por operadores diferenciais como $\\frac{d}{dx}$. Além disso, pode-se recorrer aos respectivos gráficos para estudar os valores ótimos procurados. Nesse sentido, diversas atividades que envolvem as Tendências em Educação Matemática podem ser acionadas. Como prática da oficina, a professora propôs aos participantes a realização da seguinte tarefa:"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "1. Considere que um fazendeiro dispõe de 80 m de cerca pré-fabricada e pretende utilizar esse material para cercar um terreno retangular, de dimensões $x$ e $y$, destinado a servir de curral para seu gado."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "2. Para realizar essa tarefa, abra o aplicativo “Cerca”, em que você encontrará a simulação de um curral construído no GeoGebra. Considere que é possível obter diferentes currais ao variar as medidas da largura $x$ e do comprimento $y$, considerando-se um exemplo com $x = 23\\text{ m}$ e $y = 17\\text{ m}$."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "3. Utilize esse aplicativo do GeoGebra ajustando manualmente os seletores $x$ e $y$ e observe as mudanças nas dimensões e na área do retângulo ABCD, que representa a região do curral."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "4. A partir da exploração realizada nas etapas anteriores, procure encontrar a lei de formação da função que relaciona a área do curral com suas dimensões e plote o gráfico no GeoGebra."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "5. De posse do gráfico e da lei de formação encontrada, determine os valores de $x$ e $y$ que correspondem ao curral de maior área."
+    }
+  ]
+}

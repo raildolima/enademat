@@ -1,0 +1,57 @@
+{
+  "id": "2025-prova5-q041",
+  "provaId": "2025-prova5",
+  "tipo": "objetiva",
+  "numero": 41,
+  "rotulo": "Questão 41",
+  "parte": "componente-especifico",
+  "ordemCaderno": 42,
+  "paginas": [
+    24
+  ],
+  "textoBaseId": "tb-39-41",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Considerando o exemplo apresentado para a turma do 6º ano, o uso do bingo da multiplicação como recurso pedagógico contribui para a tratativa do problema diagnosticado, quando o(s)"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "estudantes jogam individualmente, pois a falta de maturidade deles atrapalha o desenvolvimento de atividades em grupos."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "professor planeja e alinha o uso do jogo aos objetivos pedagógicos, pois atividades lúdicas precisam estar pautadas em um planejamento estruturado."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "professor também joga com os estudantes, pois o ato de imersão do docente na atividade é o que faz com que os estudantes participem mais ativamente dela."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "estudantes estão no Ensino Fundamental e não no Ensino Médio, pois estudantes do Fundamental são mais engajados em atividades com jogos."
+        }
+      ]
+    }
+  ]
+}
