@@ -1,5 +1,4 @@
 import { describe, it, expect, vi } from 'vitest';
-import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
 import { TextoRico } from '../../src/components/TextoRico';
 import { Blocos } from '../../src/components/Blocos';

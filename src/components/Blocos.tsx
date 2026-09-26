@@ -76,7 +76,7 @@ export const Blocos: React.FC<BlocosProps> = ({ blocos, className = '' }) => {
 
           case 'conectivo':
             return (
-              <div key={idx} className={styles.blocoConectivo} aria-hidden="true">
+              <div key={idx} className={styles.blocoConectivo}>
                 {bloco.texto}
               </div>
             );
@@ -123,6 +123,8 @@ export const Blocos: React.FC<BlocosProps> = ({ blocos, className = '' }) => {
                 <img
                   src={imgSrc}
                   alt={bloco.alt}
+                  width={bloco.largura}
+                  height={bloco.altura}
                   loading="lazy"
                   style={bloco.larguraMaxPx ? { maxWidth: `${bloco.larguraMaxPx}px` } : undefined}
                   className={styles.blocoImagem}

@@ -18,7 +18,7 @@ export const CartaoGabarito: React.FC<CartaoGabaritoProps> = ({
   if (questao.tipo === 'discursiva') {
     return (
       <section className={styles.cartaoGabarito} aria-label="Resposta esperada">
-        <h2 className={styles.discursivaTitulo}>Padrão de Resposta Esperado</h2>
+        <h2 className={styles.discursivaTitulo}>Resposta esperada</h2>
       </section>
     );
   }
@@ -36,7 +36,7 @@ export const CartaoGabarito: React.FC<CartaoGabaritoProps> = ({
       <div className={styles.cabecalhoGabarito}>
         <div>
           <span className={styles.letraGabaritoTexto}>
-            Gabarito oficial: <strong>{letraGabarito || '—'}</strong>
+            Gabarito: <strong>{letraGabarito || '—'}</strong>
           </span>
         </div>
 

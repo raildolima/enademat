@@ -22,7 +22,8 @@ test.describe('Questões Discursivas', () => {
     await btnEsperada.click();
     await expect(page).toHaveURL(/.*#\/questao\/2021-licenciatura-d04\/resolucao/);
 
-    // Na resolução: "Padrão de Resposta Esperado"
-    await expect(page.locator('text=Padrão de Resposta Esperado')).toBeVisible();
+    // Na resolução: cartão "Resposta esperada" (a resolução comentada tem uma seção de mesmo nome)
+    const cartao = page.locator('section[aria-label="Resposta esperada"]');
+    await expect(cartao.getByRole('heading', { name: 'Resposta esperada' })).toBeVisible();
   });
 });

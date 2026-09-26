@@ -6,14 +6,20 @@
 }
 
 .barraFixaSuperior {
-  position: sticky;
-  top: 0;
   background-color: var(--cor-fundo);
   z-index: 100;
   border-bottom: 1px solid var(--cor-borda-suave);
   padding: var(--espaco-3) 0;
   margin-bottom: var(--espaco-6);
   backdrop-filter: blur(8px);
+}
+
+/* Barra fixa só em telas ≥ 768 px (especificação 0.9); no celular ela rola junto com o conteúdo */
+@media (min-width: 768px) {
+  .barraFixaSuperior {
+    position: sticky;
+    top: 0;
+  }
 }
 
 .barraFixaConteudo {
@@ -46,7 +52,8 @@
   color: var(--cor-texto-secundario);
 }
 
-.avisoResolucaoPendente h3 {
+.avisoResolucaoPendente h2 {
+  font-size: 1.1rem;
   color: var(--cor-aviso);
   margin-bottom: var(--espaco-2);
 }

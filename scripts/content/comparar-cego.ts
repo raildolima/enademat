@@ -19,9 +19,9 @@ export interface ComparacaoCegaResultado {
   }[];
 }
 
-export function executarComparacaoCega(provaId: ProvaId): ComparacaoCegaResultado {
-  const cegoDir = path.resolve(RAIZ, 'work/cego', provaId);
-  const gabaritoPath = path.resolve(RAIZ, 'content/provas', provaId, 'gabarito.json');
+export function executarComparacaoCega(provaId: ProvaId, raiz: string = RAIZ): ComparacaoCegaResultado {
+  const cegoDir = path.resolve(raiz, 'work/cego', provaId);
+  const gabaritoPath = path.resolve(raiz, 'content/provas', provaId, 'gabarito.json');
 
   if (!fs.existsSync(gabaritoPath)) {
     throw new Error(`Gabarito não encontrado para a prova ${provaId}: ${gabaritoPath}`);
@@ -86,8 +86,8 @@ export function executarComparacaoCega(provaId: ProvaId): ComparacaoCegaResultad
   return resultado;
 }
 
-export function salvarRelatorioCego(resultado: ComparacaoCegaResultado): string {
-  const relatoriosDir = path.resolve(RAIZ, 'work/relatorios');
+export function salvarRelatorioCego(resultado: ComparacaoCegaResultado, raiz: string = RAIZ): string {
+  const relatoriosDir = path.resolve(raiz, 'work/relatorios');
   if (!fs.existsSync(relatoriosDir)) {
     fs.mkdirSync(relatoriosDir, { recursive: true });
   }

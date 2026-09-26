@@ -3,10 +3,17 @@ import { Outlet, Link } from 'react-router';
 import styles from './Layout.module.css';
 
 export const Layout: React.FC = () => {
+  // Com createHashRouter, seguir "#conteudo-principal" viraria navegação de rota (404).
+  // O skip-link apenas move o foco para o <main>.
+  const pularParaConteudo = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    e.preventDefault();
+    document.getElementById('conteudo-principal')?.focus();
+  };
+
   return (
     <div className={styles.layoutContainer}>
       {/* Acessibilidade: Skip link para teclado */}
-      <a href="#conteudo-principal" className="skip-link">
+      <a href="#conteudo-principal" className="skip-link" onClick={pularParaConteudo}>
         Pular para o conteúdo principal
       </a>
 
@@ -24,7 +31,7 @@ export const Layout: React.FC = () => {
       </header>
 
       {/* Conteúdo Principal */}
-      <main id="conteudo-principal" className={styles.conteudoPrincipal} role="main">
+      <main id="conteudo-principal" className={styles.conteudoPrincipal} role="main" tabIndex={-1}>
         <Outlet />
       </main>
 

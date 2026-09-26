@@ -25,7 +25,7 @@ export const TextoRico: React.FC<TextoRicoProps> = ({ texto, className = '' }) =
     .replace(/\\\$/g, MARCADO_DOLAR);
 
   // Divide por fórmulas KaTeX ($$...$$ e $...$)
-  const regex = /(\$\$[\s\S]+?\$\$|\$[^\$]+?\$)/g;
+  const regex = /(\$\$[\s\S]+?\$\$|\$[^$]+?\$)/g;
   const partes = protegido.split(regex);
 
   const elementos = partes.map((parte, index) => {

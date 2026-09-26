@@ -1,5 +1,9 @@
 import { defineConfig, devices } from '@playwright/test';
 
+// Porta própria (não a 4173 padrão do `vite preview`, usada por outras cópias do projeto).
+// Sem reaproveitar servidor e com --strictPort: porta ocupada falha em vez de testar outro build.
+const PORTA_E2E = 4290;
+
 export default defineConfig({
   testDir: './tests/e2e',
   timeout: 60 * 1000,
@@ -12,7 +16,7 @@ export default defineConfig({
   workers: process.env.CI ? 1 : undefined,
   reporter: 'list',
   use: {
-    baseURL: 'http://localhost:4173',
+    baseURL: `http://localhost:${PORTA_E2E}`,
     trace: 'on-first-retry',
   },
   projects: [
@@ -32,9 +36,10 @@ export default defineConfig({
     },
   ],
   webServer: {
-    command: 'npm run preview -- --port 4173',
-    port: 4173,
-    reuseExistingServer: !process.env.CI,
-    timeout: 120 * 1000,
+    // Rebuild a cada execução: os E2E sempre testam o src/ e o content/ atuais (CR-28).
+    command: `npm run build && npm run preview -- --port ${PORTA_E2E} --strictPort`,
+    port: PORTA_E2E,
+    reuseExistingServer: false,
+    timeout: 180 * 1000,
   },
 });

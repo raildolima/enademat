@@ -54,6 +54,11 @@
   flex-direction: column;
 }
 
+/* Alvo do skip-link (tabIndex=-1): recebe foco só por script, sem contorno em volta da página toda */
+.conteudoPrincipal:focus {
+  outline: none;
+}
+
 .rodapeApp {
   background-color: var(--cor-superficie);
   border-top: 1px solid var(--cor-borda-suave);

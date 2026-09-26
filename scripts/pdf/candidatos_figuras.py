@@ -1,5 +1,6 @@
 import argparse
 import json
+import sys
 from pathlib import Path
 import fitz  # PyMuPDF
 from PIL import Image, ImageDraw, ImageFont
@@ -101,8 +102,9 @@ def detectar_candidatos_pagina(page, calib) -> list:
                     "area": round(area, 2),
                     "xref": img.get("xref"),
                 })
-    except Exception:
-        pass
+    except Exception as erro:
+        # Não interrompe a varredura, mas deixa claro que esta página pode ter figuras não detectadas.
+        print(f"[AVISO] p.{page.number + 1}: falha ao ler imagens raster: {erro}", file=sys.stderr)
 
     # 2. Desenhos Vetoriais
     try:
@@ -126,14 +128,15 @@ def detectar_candidatos_pagina(page, calib) -> list:
         for g in grupos_vetor:
             area = (g[2] - g[0]) * (g[3] - g[1])
             if area >= area_min_vetor and bbox_valida(g, calib):
-                # Expande com textos de rótulos próximos se houver
+                # A caixa cobre só os traços: rótulos de texto próximos (eixos, legendas) não são incluídos
+                # e devem ser ajustados manualmente na bbox do manifesto.
                 candidatos.append({
                     "tipo": "vetorial",
                     "bbox": g,
                     "area": round(area, 2),
                 })
-    except Exception:
-        pass
+    except Exception as erro:
+        print(f"[AVISO] p.{page.number + 1}: falha ao ler desenhos vetoriais: {erro}", file=sys.stderr)
 
     return candidatos
 

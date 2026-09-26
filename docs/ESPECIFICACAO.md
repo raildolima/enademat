@@ -25,7 +25,7 @@
 
 ## 0.2 Requisitos funcionais
 
-- **RF01** Banco de questões com filtros **Ano** (Todos, 2021, 2025) e **Prova** (dependente do ano: "2021 · Licenciatura", "2025 · Prova 1 (1ª aplicação)", "2025 · Prova 5 (2ª aplicação)"). Filtros refletidos na URL.
+- **RF01** Banco de questões com filtros **Ano** (Todos, 2021, 2025) e **Prova** (dependente do ano: "2021 · Licenciatura", "2025 · Prova 1 (1ª aplicação)", "2025 · Prova 5 (2ª aplicação)"). Filtros refletidos na URL. Incluídos por decisão do usuário em 2026-09-26 (CR-35 de `docs/CODE-REVIEW.md`): filtro **Componente** (Formação Geral/Componente Específico), filtro **Tipo de Questão** (Objetiva/Discursiva) e **busca por termo** (rótulo, prévia ou número da questão), também refletidos na URL (`parte`, `tipo`, `termo`).
 - **RF02** Lista das questões filtradas: rótulo, badge Parte (Formação Geral/Componente Específico), badge Tipo (Objetiva/Discursiva), prévia de 1 linha.
 - **RF03** Tela da questão: texto-base (se houver), enunciado com fórmulas e figuras, alternativas; "Anterior"/"Próxima" dentro do filtro; "Voltar ao banco".
 - **RF04** Marcação opcional de uma alternativa (clicar de novo desmarca). Sem persistência (sem localStorage).

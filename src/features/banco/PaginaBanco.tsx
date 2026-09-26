@@ -1,7 +1,8 @@
 import React, { useEffect, useState, useMemo } from 'react';
 import { useSearchParams } from 'react-router';
-import type { IndiceProvas, FiltrosQuestoes, ProvaId, Parte } from '../../data/tipos';
+import type { IndiceProvas, FiltrosQuestoes } from '../../data/tipos';
 import { carregarIndice } from '../../data/carregar';
+import { lerFiltrosDaUrl } from '../../data/url';
 import { filtrarQuestoes } from '../../data/filtrar';
 import { Filtros } from './Filtros';
 import { ListaQuestoes } from './ListaQuestoes';
@@ -26,21 +27,7 @@ export const PaginaBanco: React.FC = () => {
   }, []);
 
   // Extrai filtros dos query params da URL
-  const filtros: FiltrosQuestoes = useMemo(() => {
-    const anoParam = searchParams.get('ano');
-    const provaParam = searchParams.get('prova') || searchParams.get('provaId');
-    const parteParam = searchParams.get('parte');
-    const tipoParam = searchParams.get('tipo');
-    const termoParam = searchParams.get('termo') || searchParams.get('busca');
-
-    return {
-      ano: anoParam ? (anoParam === 'todos' ? 'todos' : Number(anoParam)) : 'todos',
-      provaId: (provaParam as ProvaId) || 'todas',
-      parte: (parteParam as Parte) || 'todas',
-      tipo: (tipoParam as 'objetiva' | 'discursiva') || 'todas',
-      termo: termoParam || '',
-    };
-  }, [searchParams]);
+  const filtros: FiltrosQuestoes = useMemo(() => lerFiltrosDaUrl(searchParams), [searchParams]);
 
   // Atualiza query params na URL ao mudar filtros
   const handleFiltrosChange = (novos: FiltrosQuestoes) => {
@@ -49,7 +36,9 @@ export const PaginaBanco: React.FC = () => {
     if (novos.provaId && novos.provaId !== 'todas') params.set('prova', novos.provaId);
     if (novos.parte && novos.parte !== 'todas') params.set('parte', novos.parte);
     if (novos.tipo && novos.tipo !== 'todas') params.set('tipo', novos.tipo);
-    if (novos.termo && novos.termo.trim() !== '') params.set('termo', novos.termo.trim());
+    // O campo de busca é controlado pela URL: o termo vai como digitado (com espaços) e
+    // filtrarQuestoes aplica o trim só na comparação.
+    if (novos.termo && novos.termo.trim() !== '') params.set('termo', novos.termo);
 
     setSearchParams(params, { replace: true });
   };

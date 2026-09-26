@@ -13,7 +13,16 @@ export type Bloco =
   | { tipo: 'afirmativas'; itens: { rotulo: 'I' | 'II' | 'III' | 'IV' | 'V'; texto: TextoRico }[] }
   | { tipo: 'conectivo'; texto: 'PORQUE' }
   | { tipo: 'tabela'; cabecalho?: TextoRico[]; linhas: TextoRico[][]; legenda?: TextoRico }
-  | { tipo: 'imagem'; src: string; alt: string; legenda?: TextoRico; larguraMaxPx?: number }
+  | {
+      tipo: 'imagem';
+      src: string;
+      alt: string;
+      legenda?: TextoRico;
+      larguraMaxPx?: number;
+      /** Dimensões em px do arquivo, preenchidas pelo content:build */
+      largura?: number;
+      altura?: number;
+    }
   | { tipo: 'quadro'; blocos: Bloco[] }
   | { tipo: 'fonte'; texto: TextoRico };
 

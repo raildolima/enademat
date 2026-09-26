@@ -1,7 +1,63 @@
-import { test, expect } from '@playwright/test';
+import { test, expect, type Page } from '@playwright/test';
+import * as fs from 'node:fs';
+import * as path from 'node:path';
+
+interface ItemIndice {
+  id: string;
+  provaId: string;
+  rotulo: string;
+}
+
+const indice: { questoes: ItemIndice[] } = JSON.parse(
+  fs.readFileSync(path.resolve(process.cwd(), 'src/data/generated/indice.json'), 'utf-8')
+);
+const rotuloPorId = new Map(indice.questoes.map((q) => [q.id, q.rotulo]));
+
+// Navegar só trocando o hash mantém o documento: esperar o h1 com o texto da tela nova garante
+// que as checagens seguintes olham o DOM desta questão, e não o da anterior (CR-27).
+async function abrirTela(page: Page, url: string, tituloEsperado: string): Promise<void> {
+  await page.goto(url);
+  await expect(page.locator('h1')).toHaveText(tituloEsperado);
+}
+
+// Imagens usam loading="lazy": cada uma é trazida à viewport antes de conferir naturalWidth.
+async function conferirImagens(page: Page, contexto: string): Promise<void> {
+  const imagens = page.locator('main img');
+  const total = await imagens.count();
+  for (let i = 0; i < total; i++) {
+    const img = imagens.nth(i);
+    await img.scrollIntoViewIfNeeded();
+    await expect
+      .poll(() => img.evaluate((el: HTMLImageElement) => el.complete && el.naturalWidth), {
+        message: `${contexto}: imagem ${i + 1} (${await img.getAttribute('src')}) sem carregar`,
+      })
+      .toBeGreaterThan(0);
+  }
+}
+
+async function conferirQuestaoEResolucao(page: Page, id: string): Promise<void> {
+  const rotulo = rotuloPorId.get(id);
+  expect(rotulo, `questão ${id} ausente do índice`).toBeDefined();
+
+  await abrirTela(page, `/#/questao/${id}`, rotulo!);
+  await expect(page.locator('.katex-error')).toHaveCount(0);
+  await conferirImagens(page, id);
+
+  await abrirTela(page, `/#/questao/${id}/resolucao`, `Resolução · ${rotulo}`);
+  await expect(page.locator('.katex-error')).toHaveCount(0);
+  await conferirImagens(page, `${id}/resolucao`);
+}
+
+function coletarErrosConsole(page: Page, prefixo: string): string[] {
+  const erros: string[] = [];
+  page.on('console', (msg) => {
+    if (msg.type() === 'error') erros.push(`${prefixo} ${msg.text()}`);
+  });
+  return erros;
+}
 
 test.describe('Smoke Tests de Integridade', () => {
-  // Amostra representativa das 3 provas cobrindo discursivas, matrizes, figuras e fórmulas
+  // Amostra representativa detalhada das 3 provas cobrindo discursivas, matrizes, figuras e fórmulas
   const questoesAmostra = [
     // 2021-licenciatura
     '2021-licenciatura-d01',
@@ -25,36 +81,28 @@ test.describe('Smoke Tests de Integridade', () => {
 
   for (const qId of questoesAmostra) {
     test(`renderiza questão e resolução sem erros: ${qId}`, async ({ page }) => {
-      const errosConsole: string[] = [];
-      page.on('console', (msg) => {
-        if (msg.type() === 'error') {
-          errosConsole.push(msg.text());
-        }
-      });
+      const errosConsole = coletarErrosConsole(page, `[${qId}]`);
+      await conferirQuestaoEResolucao(page, qId);
+      expect(errosConsole.filter((e) => !e.includes('favicon'))).toEqual([]);
+    });
+  }
 
-      // 1. Tela da questão
-      await page.goto(`/#/questao/${qId}`);
-      await expect(page.locator('h1')).toBeVisible();
+  // Validação consolidada de cobertura de 100% das 202 questões do simulador por prova
+  const provas = ['2021-licenciatura', '2025-prova1', '2025-prova5'];
 
-      // Sem erros do KaTeX
-      const katexErrors = page.locator('.katex-error');
-      await expect(katexErrors).toHaveCount(0);
+  for (const pId of provas) {
+    const questoesDaProva = indice.questoes.filter((q) => q.provaId === pId);
 
-      // Imagens com carregamento válido se houver
-      const imagens = page.locator('img');
-      const countImg = await imagens.count();
-      for (let i = 0; i < countImg; i++) {
-        const img = imagens.nth(i);
-        const naturalWidth = await img.evaluate((el: HTMLImageElement) => el.naturalWidth);
-        expect(naturalWidth).toBeGreaterThan(0);
+    test(`varredura completa sem erro em todas as ${questoesDaProva.length} questões da prova ${pId}`, async ({
+      page,
+    }) => {
+      test.setTimeout(300 * 1000); // tempo suficiente para varredura com imagens
+      const errosConsole = coletarErrosConsole(page, `[${pId}]`);
+
+      for (const item of questoesDaProva) {
+        await conferirQuestaoEResolucao(page, item.id);
       }
 
-      // 2. Tela da resolução
-      await page.goto(`/#/questao/${qId}/resolucao`);
-      await expect(page.locator('h1')).toBeVisible();
-      await expect(page.locator('.katex-error')).toHaveCount(0);
-
-      // Verifica que não houve erro fatal no console
       expect(errosConsole.filter((e) => !e.includes('favicon'))).toEqual([]);
     });
   }

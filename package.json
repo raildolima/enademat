@@ -9,6 +9,7 @@
     "preview": "vite preview",
     "test": "vitest run",
     "test:e2e": "playwright test",
+    "lint": "oxlint",
     "content:build": "tsx scripts/content/build.ts",
     "content:validate": "tsx scripts/content/validate.ts"
   },

@@ -1,5 +1,6 @@
 import json
 import re
+import sys
 from pathlib import Path
 import fitz  # PyMuPDF
 
@@ -84,71 +85,99 @@ def extrair_2025_p1() -> dict:
     texto = doc[0].get_text("text")
     doc.close()
 
-    # O PDF da Prova 1 possui tabela sem camada de texto confiável (leitura visual no planejamento).
+    # A camada de texto deste PDF traz só a marca d'água; a tabela não é legível por extração.
+    # Questões não lidas ficam vazias: nunca são preenchidas com a referência (isso anularia a dupla leitura).
     padrao = re.compile(r"\b([1-7]?[0-9]|80)\s*[:\-\s]\s*([A-D])\b")
-    matches = padrao.findall(texto)
     objetivas = {}
-    for q_num, letra in matches:
+    for q_num, letra in padrao.findall(texto):
         if 1 <= int(q_num) <= 80:
             objetivas[q_num] = letra
-
-    gabarito_p1 = {}
-    for i in range(1, 81):
-        gabarito_p1[str(i)] = objetivas.get(str(i), REFERENCIA_2025_P1[i - 1])
 
     return {
         "provaId": "2025-prova1",
         "fonte": "2025 - Matemática - Gabarito 1.pdf",
-        "objetivas": gabarito_p1,
+        "objetivas": {str(i): objetivas.get(str(i), "") for i in range(1, 81)},
         "discursivas": ["D1"],
     }
 
 
-def conferir_e_salvar() -> None:
+def conferir(gabarito: dict, referencia: list, aceitar_nao_lidas: bool) -> bool:
+    """Compara a leitura do PDF com a referência da Seção 0.7. Retorna True se a prova pode ser gravada."""
+    prova_id = gabarito["provaId"]
+    nao_lidas = [i for i in range(1, len(referencia) + 1) if not gabarito["objetivas"].get(str(i))]
+    divergentes = [
+        i
+        for i in range(1, len(referencia) + 1)
+        if gabarito["objetivas"].get(str(i)) and gabarito["objetivas"][str(i)] != referencia[i - 1]
+    ]
+    print(
+        f"[{prova_id}] {len(referencia)} questoes: {len(referencia) - len(nao_lidas)} lidas do PDF, "
+        f"{len(nao_lidas)} nao lidas, {len(divergentes)} divergencias."
+    )
+    if divergentes:
+        print(f"[ERRO] Divergencias em {prova_id}: {divergentes}")
+        return False
+    if nao_lidas and not aceitar_nao_lidas:
+        print(f"[ERRO] Questoes nao lidas em {prova_id}: {nao_lidas}. Exigem conferencia visual do PDF.")
+        return False
+    if nao_lidas:
+        print(f"[AVISO] {prova_id}: {len(nao_lidas)} questoes aceitas por conferencia visual declarada: {nao_lidas}")
+        for i in nao_lidas:
+            gabarito["objetivas"][str(i)] = referencia[i - 1]
+    return True
+
+
+def destino_gabarito(gabarito: dict, raiz: Path) -> Path:
+    return raiz / "content" / "provas" / gabarito["provaId"] / "gabarito.json"
+
+
+def situacao_destino(gabarito: dict, raiz: Path) -> str:
+    """Regra 1: o gabarito oficial nunca muda. Retorna 'novo', 'identico' ou 'conflito'."""
+    destino = destino_gabarito(gabarito, raiz)
+    if not destino.exists():
+        return "novo"
+    try:
+        return "identico" if json.loads(destino.read_text(encoding="utf-8")) == gabarito else "conflito"
+    except json.JSONDecodeError:
+        return "conflito"
+
+
+def conferir_e_salvar(args: list, raiz: Path = RAIZ) -> int:
+    """Retorna o código de saída: 0 se as três provas conferem e estão gravadas; 1 caso contrário."""
     print("=== INICIANDO CONFERENCIA DOS GABARITOS ===")
+    # O PDF da Prova 1 não tem texto extraível: suas questões só são aceitas com conferência visual declarada.
+    visual_p1 = "--conferencia-visual-p1" in args
 
-    # 1. 2021
-    g2021 = extrair_2021()
-    div_2021 = [i for i in range(1, 36) if g2021["objetivas"].get(str(i)) != REFERENCIA_2021[i - 1]]
-    print(f"[2021-licenciatura] 35 questoes: {len(div_2021)} divergencias.")
-    if div_2021:
-        print(f"[ERRO] Divergencias em 2021: {div_2021}")
-        return
+    leituras = [
+        (extrair_2021(), REFERENCIA_2021, False),
+        (extrair_2025_p1(), REFERENCIA_2025_P1, visual_p1),
+        (extrair_2025_p5(), REFERENCIA_2025_P5, False),
+    ]
+    if not all([conferir(gab, ref, aceitar) for gab, ref, aceitar in leituras]):
+        print("Nenhum gabarito gravado.")
+        return 1
 
-    # 2. 2025-P1
-    g2025_p1 = extrair_2025_p1()
-    div_p1 = [i for i in range(1, 81) if g2025_p1["objetivas"].get(str(i)) != REFERENCIA_2025_P1[i - 1]]
-    print(f"[2025-prova1] 80 questoes: {len(div_p1)} divergencias.")
-    if div_p1:
-        print(f"[ERRO] Divergencias em 2025-P1: {div_p1}")
-        return
+    print("Conferencia concluida: 100% de coincidencia nas 3 provas.")
 
-    # 3. 2025-P5
-    g2025_p5 = extrair_2025_p5()
-    div_p5 = [i for i in range(1, 81) if g2025_p5["objetivas"].get(str(i)) != REFERENCIA_2025_P5[i - 1]]
-    print(f"[2025-prova5] 80 questoes: {len(div_p5)} divergencias.")
-    if div_p5:
-        print(f"[ERRO] Divergencias em 2025-P5: {div_p5}")
-        return
+    # Verifica todos os destinos antes de gravar qualquer um (sem gravação parcial).
+    situacoes = [(gab, situacao_destino(gab, raiz)) for gab, _, _ in leituras]
+    conflitos = [destino_gabarito(gab, raiz) for gab, sit in situacoes if sit == "conflito"]
+    if conflitos:
+        for destino in conflitos:
+            print(f"[ERRO] {destino} ja existe com conteudo diferente; o gabarito oficial nunca e sobrescrito.")
+        print("Nenhum gabarito gravado.")
+        return 1
 
-    print("Conferencia dupla concluida: 100% de coincidencia nas 3 provas!")
-
-    # Gravação dos arquivos oficiais
-    p2021_dest = RAIZ / "content" / "provas" / "2021-licenciatura" / "gabarito.json"
-    p2021_dest.parent.mkdir(parents=True, exist_ok=True)
-    p2021_dest.write_text(json.dumps(g2021, indent=2, ensure_ascii=False), encoding="utf-8")
-    print(f"Gravado: {p2021_dest}")
-
-    p1_dest = RAIZ / "content" / "provas" / "2025-prova1" / "gabarito.json"
-    p1_dest.parent.mkdir(parents=True, exist_ok=True)
-    p1_dest.write_text(json.dumps(g2025_p1, indent=2, ensure_ascii=False), encoding="utf-8")
-    print(f"Gravado: {p1_dest}")
-
-    p5_dest = RAIZ / "content" / "provas" / "2025-prova5" / "gabarito.json"
-    p5_dest.parent.mkdir(parents=True, exist_ok=True)
-    p5_dest.write_text(json.dumps(g2025_p5, indent=2, ensure_ascii=False), encoding="utf-8")
-    print(f"Gravado: {p5_dest}")
+    for gab, sit in situacoes:
+        destino = destino_gabarito(gab, raiz)
+        if sit == "identico":
+            print(f"Mantido (identico): {destino}")
+            continue
+        destino.parent.mkdir(parents=True, exist_ok=True)
+        destino.write_text(json.dumps(gab, indent=2, ensure_ascii=False), encoding="utf-8")
+        print(f"Gravado: {destino}")
+    return 0
 
 
 if __name__ == "__main__":
-    conferir_e_salvar()
+    sys.exit(conferir_e_salvar(sys.argv[1:]))

@@ -7,24 +7,48 @@ import {
   ProvaSchema,
   GabaritoSchema,
   FigurasManifestSchema,
-  ResolucaoFrontmatterSchema,
+  ResolucaoObjetivaFrontmatterSchema,
+  ResolucaoDiscursivaFrontmatterSchema,
+  ProvaIdSchema,
   validarTextoRico,
-  validarLatex,
 } from './schema';
 import { obterGabaritoReferencia } from './gabaritos-referencia';
 
 const RAIZ = process.cwd();
 
-export function validarImagemBloco(bloco: { src: string; alt: string }): { valido: boolean; erros: string[] } {
+// Especificação 0.13, item 2: contagem de questões por prova.
+const CONTAGENS_ESPERADAS: Record<string, { objetivas: number; discursivas: number }> = {
+  '2021-licenciatura': { objetivas: 35, discursivas: 5 },
+  '2025-prova1': { objetivas: 80, discursivas: 1 },
+  '2025-prova5': { objetivas: 80, discursivas: 1 },
+};
+
+function nomeBaseQuestao(tipo: string, numero: number): string {
+  return tipo === 'discursiva' ? `d${String(numero).padStart(2, '0')}` : `q${String(numero).padStart(3, '0')}`;
+}
+
+function normalizarSrc(src: string): string {
+  return src.startsWith('/') ? src.slice(1) : src;
+}
+
+function coletarSrcImagens(blocos: any, destino: Set<string>): void {
+  if (Array.isArray(blocos)) {
+    for (const b of blocos) coletarSrcImagens(b, destino);
+  } else if (blocos && typeof blocos === 'object') {
+    if (blocos.tipo === 'imagem' && typeof blocos.src === 'string') destino.add(normalizarSrc(blocos.src));
+    for (const v of Object.values(blocos)) coletarSrcImagens(v, destino);
+  }
+}
+
+export function validarImagemBloco(bloco: { src: string; alt: string }, raiz: string = RAIZ): { valido: boolean; erros: string[] } {
   const erros: string[] = [];
   if (!bloco.alt || bloco.alt.trim().length < 15) {
     erros.push(`alt da imagem "${bloco.src}" deve conter pelo menos 15 caracteres descritivos.`);
   }
 
-  // Remove barra inicial se houver
-  const caminhoRelativo = bloco.src.startsWith('/') ? bloco.src.slice(1) : bloco.src;
-  const caminhoPublico = path.resolve(RAIZ, 'public', caminhoRelativo);
-  const caminhoDireto = path.resolve(RAIZ, caminhoRelativo);
+  const caminhoRelativo = normalizarSrc(bloco.src);
+  const caminhoPublico = path.resolve(raiz, 'public', caminhoRelativo);
+  const caminhoDireto = path.resolve(raiz, caminhoRelativo);
 
   if (!fs.existsSync(caminhoPublico) && !fs.existsSync(caminhoDireto)) {
     erros.push(`Imagem inexistente: arquivo "${bloco.src}" não foi encontrado em public/.`);
@@ -33,20 +57,20 @@ export function validarImagemBloco(bloco: { src: string; alt: string }): { valid
   return { valido: erros.length === 0, erros };
 }
 
-export function validarBlocosRecursivo(blocos: any[]): string[] {
+export function validarBlocosRecursivo(blocos: any[], raiz: string = RAIZ): string[] {
   const erros: string[] = [];
   for (const b of blocos) {
     if (b.tipo === 'imagem') {
-      const resImg = validarImagemBloco(b);
+      const resImg = validarImagemBloco(b, raiz);
       if (!resImg.valido) erros.push(...resImg.erros);
     } else if (b.tipo === 'quadro' && Array.isArray(b.blocos)) {
-      erros.push(...validarBlocosRecursivo(b.blocos));
+      erros.push(...validarBlocosRecursivo(b.blocos, raiz));
     }
   }
   return erros;
 }
 
-export function validarQuestaoObj(obj: any): { valido: boolean; erros: string[] } {
+export function validarQuestaoObj(obj: any, raiz: string = RAIZ): { valido: boolean; erros: string[] } {
   const parsed = QuestaoSchema.safeParse(obj);
   const erros: string[] = [];
 
@@ -56,12 +80,12 @@ export function validarQuestaoObj(obj: any): { valido: boolean; erros: string[] 
 
   // Checagem de imagens em enunciado e alternativas
   if (obj.enunciado && Array.isArray(obj.enunciado)) {
-    erros.push(...validarBlocosRecursivo(obj.enunciado));
+    erros.push(...validarBlocosRecursivo(obj.enunciado, raiz));
   }
   if (obj.alternativas && Array.isArray(obj.alternativas)) {
     for (const alt of obj.alternativas) {
       if (alt.blocos && Array.isArray(alt.blocos)) {
-        erros.push(...validarBlocosRecursivo(alt.blocos));
+        erros.push(...validarBlocosRecursivo(alt.blocos, raiz));
       }
     }
   }
@@ -81,10 +105,17 @@ export function validarGabaritoComReferencia(gabarito: any): { valido: boolean; 
   if (Object.keys(ref).length > 0) {
     for (const [qNum, letraEsperada] of Object.entries(ref)) {
       const letraGabarito = gabarito.objetivas?.[qNum];
-      if (letraGabarito && letraGabarito !== letraEsperada) {
+      if (!letraGabarito) {
+        erros.push(`Gabarito sem a questão ${qNum} (referência "${letraEsperada}").`);
+      } else if (letraGabarito !== letraEsperada) {
         erros.push(
           `Gabarito com divergência oficial na questão ${qNum}: cadastrado "${letraGabarito}" vs referência "${letraEsperada}".`
         );
+      }
+    }
+    for (const qNum of Object.keys(gabarito.objetivas ?? {})) {
+      if (!(qNum in ref)) {
+        erros.push(`Gabarito contém a questão ${qNum} inexistente na referência.`);
       }
     }
   }
@@ -96,9 +127,10 @@ export function validarResolucaoMarkdown(
   mdRaw: string,
   gabaritoOficial: string,
   info: { provaId: string; numero: number; arquivoNome?: string },
-  opts: { release?: boolean } = {}
+  opts: { release?: boolean; raiz?: string } = {}
 ): { valido: boolean; erros: string[] } {
   const erros: string[] = [];
+  const raiz = opts.raiz ?? RAIZ;
 
   let parsedMatter: matter.GrayMatterFile<string>;
   try {
@@ -107,12 +139,26 @@ export function validarResolucaoMarkdown(
     return { valido: false, erros: [`Erro ao analisar frontmatter da resolução: ${err?.message || err}`] };
   }
 
-  const frontmatterParsed = ResolucaoFrontmatterSchema.safeParse(parsedMatter.data);
+  const data = parsedMatter.data;
+  const isDiscursiva =
+    gabaritoOficial === 'discursiva' ||
+    String(info.numero).startsWith('d') ||
+    (info.arquivoNome && info.arquivoNome.startsWith('d')) ||
+    (data?.questaoId && data.questaoId.includes('-d'));
+
+  const schemaFrontmatter = isDiscursiva ? ResolucaoDiscursivaFrontmatterSchema : ResolucaoObjetivaFrontmatterSchema;
+  const frontmatterParsed = schemaFrontmatter.safeParse(data);
   if (!frontmatterParsed.success) {
     erros.push(...frontmatterParsed.error.issues.map((i) => `frontmatter.${i.path.join('.')}: ${i.message}`));
   }
 
-  const data = parsedMatter.data;
+  // 0. questaoId coerente com o nome do arquivo
+  if (info.arquivoNome) {
+    const idEsperado = `${info.provaId}-${path.parse(info.arquivoNome).name}`;
+    if (data.questaoId && data.questaoId !== idEsperado) {
+      erros.push(`frontmatter.questaoId ("${data.questaoId}") incoerente com o arquivo (esperado "${idEsperado}").`);
+    }
+  }
 
   // 1. Checagem respostaFinal === gabaritoOficial
   if (data.respostaFinal && gabaritoOficial && data.respostaFinal !== gabaritoOficial) {
@@ -121,10 +167,11 @@ export function validarResolucaoMarkdown(
     );
   }
 
-  // 2. Checagem respostaIndependente contra work/cego se existir
-  const arquivoBase = info.arquivoNome || `q${String(info.numero).padStart(3, '0')}.json`;
-  const cegoFile = path.resolve(RAIZ, 'work/cego', info.provaId, arquivoBase);
-  if (fs.existsSync(cegoFile)) {
+  // 2. Checagem respostaIndependente contra work/cego/<provaId>/<qNNN>.json, se existir.
+  // Discursivas ficam de fora: a etapa cega registra texto livre, não comparável ao resumo do frontmatter.
+  const nomeBase = info.arquivoNome ? path.parse(info.arquivoNome).name : `q${String(info.numero).padStart(3, '0')}`;
+  const cegoFile = path.resolve(raiz, 'work/cego', info.provaId, `${nomeBase}.json`);
+  if (!isDiscursiva && fs.existsSync(cegoFile)) {
     try {
       const cegoData = JSON.parse(fs.readFileSync(cegoFile, 'utf-8'));
       const respCega = cegoData.resposta || cegoData.respostaCega || cegoData.respostaIndependente;
@@ -138,18 +185,15 @@ export function validarResolucaoMarkdown(
     }
   }
 
-  // 3. Checagem de verificação pendente no release
-  if (opts.release && data.verificacao === 'pendente') {
-    erros.push('Modo --release exige verificacao: aprovada em todas as resoluções (encontrada resolução pendente).');
+  // 3. No release, toda resolução precisa estar aprovada (pendente e reprovada falham)
+  if (opts.release && data.verificacao !== 'aprovada') {
+    erros.push(
+      `Modo --release exige verificacao: aprovada em todas as resoluções (encontrada "${data.verificacao}"; pendente ou reprovada não são aceitas).`
+    );
   }
 
   // 4. Checagem de seções obrigatórias
   const corpo = parsedMatter.content;
-  const isDiscursiva =
-    gabaritoOficial === 'discursiva' ||
-    String(info.numero).startsWith('d') ||
-    (info.arquivoNome && info.arquivoNome.startsWith('d')) ||
-    (data?.questaoId && data.questaoId.includes('-d'));
 
   if (!isDiscursiva) {
     const secoesObrigatorias = [
@@ -202,50 +246,62 @@ export function executarValidacaoCompleta(opts: {
   provaId?: string;
   arquivo?: string;
   release?: boolean;
+  raiz?: string;
 } = {}): { valido: boolean; erros: string[] } {
+  const raiz = opts.raiz ?? RAIZ;
   const todosErros: string[] = [];
+  const provasConhecidas: readonly string[] = ProvaIdSchema.options;
 
   // Se passou arquivo específico
   if (opts.arquivo) {
-    const filePath = path.resolve(RAIZ, opts.arquivo);
+    const filePath = path.resolve(raiz, opts.arquivo);
     if (!fs.existsSync(filePath)) {
       return { valido: false, erros: [`Arquivo não encontrado: ${opts.arquivo}`] };
     }
 
-    if (opts.arquivo.endsWith('.json')) {
+    const parts = path.relative(raiz, filePath).split(/[\\/]/);
+    const noConteudo = parts[0] === 'content' && parts[1] === 'provas' && provasConhecidas.includes(parts[2]);
+    const pId = noConteudo ? parts[2] : '';
+    const sub = noConteudo ? parts.slice(3, -1).join('/') : '';
+    const fName = path.basename(filePath);
+    const naoReconhecido = `Tipo de arquivo não reconhecido pelo validador: ${opts.arquivo} (esperado arquivo de content/provas/<provaId>/).`;
+
+    if (!noConteudo) {
+      return { valido: false, erros: [naoReconhecido] };
+    }
+
+    if (fName.endsWith('.json')) {
       try {
         const content = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
-        if (opts.arquivo.includes('gabarito.json')) {
+        if (sub === '' && fName === 'gabarito.json') {
           const res = validarGabaritoComReferencia(content);
           if (!res.valido) todosErros.push(...res.erros);
-        } else if (opts.arquivo.includes('prova.json')) {
+        } else if (sub === '' && fName === 'prova.json') {
           const res = ProvaSchema.safeParse(content);
           if (!res.success) todosErros.push(...res.error.issues.map((i) => i.message));
-        } else if (opts.arquivo.includes('figuras.manifest.json')) {
+        } else if (sub === '' && fName === 'figuras.manifest.json') {
           const res = FigurasManifestSchema.safeParse(content);
           if (!res.success) todosErros.push(...res.error.issues.map((i) => i.message));
-        } else if (opts.arquivo.includes('textos-base')) {
+        } else if (sub === 'textos-base') {
           const res = TextoBaseSchema.safeParse(content);
           if (!res.success) todosErros.push(...res.error.issues.map((i) => i.message));
-        } else if (opts.arquivo.includes('questoes')) {
-          const res = validarQuestaoObj(content);
+        } else if (sub === 'questoes') {
+          const res = validarQuestaoObj(content, raiz);
           if (!res.valido) todosErros.push(...res.erros);
+        } else {
+          todosErros.push(naoReconhecido);
         }
       } catch (err: any) {
         todosErros.push(`JSON inválido em ${opts.arquivo}: ${err?.message}`);
       }
-    } else if (opts.arquivo.endsWith('.md')) {
+    } else if (fName.endsWith('.md') && sub === 'resolucoes') {
       const mdContent = fs.readFileSync(filePath, 'utf-8');
-      const parts = opts.arquivo.split(/[\\/]/);
-      const provaIdx = parts.indexOf('provas');
-      const pId = provaIdx !== -1 && parts[provaIdx + 1] ? parts[provaIdx + 1] : '2025-prova1';
-      const fName = path.basename(filePath);
       const numMatch = fName.match(/^(?:q|d)(\d+)\.md$/);
       const num = numMatch ? parseInt(numMatch[1], 10) : 0;
       const isDisc = fName.startsWith('d');
       let letraGabarito = '';
-      if (!isDisc && pId) {
-        const gabPath = path.resolve(RAIZ, 'content/provas', pId, 'gabarito.json');
+      if (!isDisc) {
+        const gabPath = path.resolve(raiz, 'content/provas', pId, 'gabarito.json');
         if (fs.existsSync(gabPath)) {
           const gData = JSON.parse(fs.readFileSync(gabPath, 'utf-8'));
           letraGabarito = gData?.objetivas?.[String(num)] || '';
@@ -255,18 +311,29 @@ export function executarValidacaoCompleta(opts: {
         mdContent,
         letraGabarito,
         { provaId: pId, numero: num, arquivoNome: fName },
-        { release: opts.release }
+        { release: opts.release, raiz }
       );
       if (!res.valido) todosErros.push(...res.erros);
+    } else {
+      todosErros.push(naoReconhecido);
     }
     return { valido: todosErros.length === 0, erros: todosErros };
   }
 
   // Validação geral da pasta content/
-  const provas = opts.provaId ? [opts.provaId] : ['2021-licenciatura', '2025-prova1', '2025-prova5'];
+  if (opts.provaId && !provasConhecidas.includes(opts.provaId)) {
+    return {
+      valido: false,
+      erros: [`Prova inexistente: "${opts.provaId}". Valores aceitos: ${provasConhecidas.join(', ')}.`],
+    };
+  }
+  const provas = opts.provaId ? [opts.provaId] : [...provasConhecidas];
   for (const p of provas) {
-    const provaDir = path.resolve(RAIZ, 'content/provas', p);
-    if (!fs.existsSync(provaDir)) continue;
+    const provaDir = path.resolve(raiz, 'content/provas', p);
+    if (!fs.existsSync(provaDir)) {
+      todosErros.push(`[${p}] Prova inexistente: pasta content/provas/${p} não encontrada.`);
+      continue;
+    }
 
     // 1. prova.json
     const provaFile = path.join(provaDir, 'prova.json');
@@ -274,6 +341,8 @@ export function executarValidacaoCompleta(opts: {
       const provaData = JSON.parse(fs.readFileSync(provaFile, 'utf-8'));
       const resProva = ProvaSchema.safeParse(provaData);
       if (!resProva.success) todosErros.push(...resProva.error.issues.map((i) => `[${p}/prova.json] ${i.message}`));
+    } else {
+      todosErros.push(`[${p}] prova.json ausente.`);
     }
 
     // 2. gabarito.json
@@ -283,28 +352,28 @@ export function executarValidacaoCompleta(opts: {
       gabaritoData = JSON.parse(fs.readFileSync(gabaritoFile, 'utf-8'));
       const resGab = validarGabaritoComReferencia(gabaritoData);
       if (!resGab.valido) todosErros.push(...resGab.erros.map((e) => `[${p}/gabarito.json] ${e}`));
+    } else {
+      todosErros.push(`[${p}] gabarito.json ausente.`);
     }
 
-    // 3. figuras.manifest.json
-    const manifestFile = path.join(provaDir, 'figuras.manifest.json');
-    if (fs.existsSync(manifestFile)) {
-      const manifestData = JSON.parse(fs.readFileSync(manifestFile, 'utf-8'));
-      const resManifest = FigurasManifestSchema.safeParse(manifestData);
-      if (!resManifest.success) todosErros.push(...resManifest.error.issues.map((i) => `[${p}/figuras.manifest.json] ${i.message}`));
-    }
+    // Imagens referenciadas no conteúdo (questões e textos-base), para conferir o manifesto
+    const srcsUsados = new Set<string>();
 
-    // 4. textos-base/*.json
+    // 3. textos-base/*.json
+    const textosBase = new Map<string, any>();
     const tbDir = path.join(provaDir, 'textos-base');
     if (fs.existsSync(tbDir)) {
       for (const f of fs.readdirSync(tbDir)) {
         if (!f.endsWith('.json')) continue;
         try {
           const tbData = JSON.parse(fs.readFileSync(path.join(tbDir, f), 'utf-8'));
+          textosBase.set(tbData.id, tbData);
           const resTb = TextoBaseSchema.safeParse(tbData);
           if (!resTb.success) todosErros.push(...resTb.error.issues.map((i) => `[${p}/textos-base/${f}] ${i.message}`));
           if (tbData.blocos && Array.isArray(tbData.blocos)) {
-            const errsImg = validarBlocosRecursivo(tbData.blocos);
+            const errsImg = validarBlocosRecursivo(tbData.blocos, raiz);
             todosErros.push(...errsImg.map((e) => `[${p}/textos-base/${f}] ${e}`));
+            coletarSrcImagens(tbData.blocos, srcsUsados);
           }
         } catch (err: any) {
           todosErros.push(`[${p}/textos-base/${f}] JSON inválido: ${err?.message}`);
@@ -312,24 +381,92 @@ export function executarValidacaoCompleta(opts: {
       }
     }
 
-    // 5. questoes/*.json e questoes-discursivas/*.json
-    for (const sub of ['questoes', 'questoes-discursivas']) {
-      const qDir = path.join(provaDir, sub);
-      if (!fs.existsSync(qDir)) continue;
-      for (const f of fs.readdirSync(qDir)) {
-        if (!f.endsWith('.json')) continue;
-        try {
-          const qData = JSON.parse(fs.readFileSync(path.join(qDir, f), 'utf-8'));
-          const resQ = validarQuestaoObj(qData);
-          if (!resQ.valido) todosErros.push(...resQ.erros.map((e) => `[${p}/${sub}/${f}] ${e}`));
-        } catch (err: any) {
-          todosErros.push(`[${p}/${sub}/${f}] JSON inválido: ${err?.message}`);
+    // 4. questoes/*.json (objetivas e discursivas). A pasta legada questoes-discursivas/ é ignorada
+    // pelo content:build, então sua presença é erro: o conteúdo dela não chegaria ao app.
+    if (fs.existsSync(path.join(provaDir, 'questoes-discursivas'))) {
+      todosErros.push(`[${p}] Pasta legada questoes-discursivas/ não é lida pelo build: mova os arquivos para questoes/.`);
+    }
+    const nomesQuestoes: string[] = [];
+    let totalObjetivas = 0;
+    let totalDiscursivas = 0;
+    const sub = 'questoes';
+    const qDir = path.join(provaDir, sub);
+    const arquivosQuestoes = fs.existsSync(qDir) ? fs.readdirSync(qDir) : [];
+    for (const f of arquivosQuestoes) {
+      if (!f.endsWith('.json')) continue;
+      const rotulo = `[${p}/${sub}/${f}]`;
+      try {
+        const qData = JSON.parse(fs.readFileSync(path.join(qDir, f), 'utf-8'));
+        const resQ = validarQuestaoObj(qData, raiz);
+        if (!resQ.valido) todosErros.push(...resQ.erros.map((e) => `${rotulo} ${e}`));
+        coletarSrcImagens(qData, srcsUsados);
+
+        if (qData.tipo === 'objetiva') totalObjetivas++;
+        else if (qData.tipo === 'discursiva') totalDiscursivas++;
+
+        // Coerência entre nome do arquivo, id, provaId, tipo e numero
+        const base = nomeBaseQuestao(qData.tipo, qData.numero);
+        if (f !== `${base}.json` || qData.id !== `${p}-${base}` || qData.provaId !== p) {
+          todosErros.push(
+            `${rotulo} id "${qData.id}", provaId "${qData.provaId}", tipo "${qData.tipo}" e numero ${qData.numero} incoerente com o arquivo (esperado id "${p}-${path.parse(f).name}").`
+          );
         }
+        nomesQuestoes.push(path.parse(f).name);
+
+        // textoBaseId existe e o texto-base lista a questão
+        if (qData.textoBaseId) {
+          const tb = textosBase.get(qData.textoBaseId);
+          if (!tb) {
+            todosErros.push(`${rotulo} textoBaseId "${qData.textoBaseId}" não existe em textos-base/.`);
+          } else if (!Array.isArray(tb.questoes) || !tb.questoes.includes(qData.numero)) {
+            todosErros.push(`${rotulo} texto-base ${qData.textoBaseId} não lista a questão ${qData.numero}.`);
+          }
+        }
+      } catch (err: any) {
+        todosErros.push(`${rotulo} JSON inválido: ${err?.message}`);
       }
     }
 
-    // 6. resolucoes/*.md
+    const esperado = CONTAGENS_ESPERADAS[p];
+    if (esperado && (totalObjetivas !== esperado.objetivas || totalDiscursivas !== esperado.discursivas)) {
+      todosErros.push(
+        `[${p}] Contagem de questões: esperado ${esperado.objetivas} objetivas + ${esperado.discursivas} discursiva(s), encontrado ${totalObjetivas} + ${totalDiscursivas}.`
+      );
+    }
+
+    // 5. figuras.manifest.json: schema, status ≠ pendente, sem órfãs e sem imagens fora do manifesto
+    const manifestFile = path.join(provaDir, 'figuras.manifest.json');
+    const srcsManifesto = new Set<string>();
+    if (fs.existsSync(manifestFile)) {
+      const manifestData = JSON.parse(fs.readFileSync(manifestFile, 'utf-8'));
+      const resManifest = FigurasManifestSchema.safeParse(manifestData);
+      if (!resManifest.success) todosErros.push(...resManifest.error.issues.map((i) => `[${p}/figuras.manifest.json] ${i.message}`));
+      for (const fig of Array.isArray(manifestData.figuras) ? manifestData.figuras : []) {
+        const src = `figuras/${p}/${fig.arquivo}`;
+        srcsManifesto.add(src);
+        if (fig.status === 'pendente') {
+          todosErros.push(`[${p}/figuras.manifest.json] Figura ${fig.arquivo} com status "pendente".`);
+        }
+        if (!srcsUsados.has(src)) {
+          todosErros.push(
+            `[${p}/figuras.manifest.json] Figura órfã no manifesto: ${fig.arquivo} não é usada por nenhuma questão ou texto-base.`
+          );
+        }
+      }
+    }
+    for (const src of srcsUsados) {
+      if (src.startsWith(`figuras/${p}/`) && !srcsManifesto.has(src)) {
+        todosErros.push(`[${p}] Imagem "${src}" não registrada em figuras.manifest.json.`);
+      }
+    }
+
+    // 6. resolucoes/*.md: uma por questão, validadas individualmente
     const resDir = path.join(provaDir, 'resolucoes');
+    for (const nome of nomesQuestoes) {
+      if (!fs.existsSync(path.join(resDir, `${nome}.md`))) {
+        todosErros.push(`[${p}] Resolução ausente para a questão ${p}-${nome} (esperado resolucoes/${nome}.md).`);
+      }
+    }
     if (fs.existsSync(resDir)) {
       for (const f of fs.readdirSync(resDir)) {
         if (!f.endsWith('.md')) continue;
@@ -343,7 +480,7 @@ export function executarValidacaoCompleta(opts: {
             mdContent,
             letraGabarito,
             { provaId: p, numero: num, arquivoNome: f },
-            { release: opts.release }
+            { release: opts.release, raiz }
           );
           if (!resMd.valido) todosErros.push(...resMd.erros.map((e) => `[${p}/resolucoes/${f}] ${e}`));
         } catch (err: any) {

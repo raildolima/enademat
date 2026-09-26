@@ -1,7 +1,8 @@
-import React, { useEffect, useState, useMemo } from 'react';
+import React, { useState, useMemo } from 'react';
 import { useParams, useSearchParams, Link } from 'react-router';
-import type { Questao, TextoBase, ProvaCompleta, Letra, IndiceProvas } from '../../data/tipos';
-import { carregarQuestao, carregarIndice } from '../../data/carregar';
+import type { Letra } from '../../data/tipos';
+import { useQuestao } from '../../data/useQuestao';
+import { lerFiltrosDaUrl, lerLetraMarcada, queryStringSemMarcada } from '../../data/url';
 import { filtrarQuestoes, vizinhas } from '../../data/filtrar';
 import { ConteudoQuestao } from '../../components/ConteudoQuestao';
 import { Badge } from '../../components/Badge';
@@ -12,70 +13,34 @@ import styles from './PaginaQuestao.module.css';
 export const PaginaQuestao: React.FC = () => {
   const { questaoId } = useParams<{ questaoId: string }>();
   const [searchParams] = useSearchParams();
+  const { questao, textoBase, prova, indice, carregando, erro } = useQuestao(
+    questaoId,
+    'Questão não encontrada ou falha ao carregar.'
+  );
 
-  const [questao, setQuestao] = useState<Questao | null>(null);
-  const [textoBase, setTextoBase] = useState<TextoBase | undefined>(undefined);
-  const [prova, setProva] = useState<ProvaCompleta | null>(null);
-  const [indice, setIndice] = useState<IndiceProvas | null>(null);
-  const [carregando, setCarregando] = useState(true);
-  const [erro, setErro] = useState<string | null>(null);
-
-  // Marcação opcional da alternativa em memória (RF04)
-  const [alternativaMarcada, setAlternativaMarcada] = useState<Letra | null>(null);
-
-  // Ao trocar de questão, reseta a marcação
-  useEffect(() => {
-    setAlternativaMarcada(null);
-  }, [questaoId]);
-
-  // Carrega a questão e o índice de navegação
-  useEffect(() => {
-    if (!questaoId) return;
-    setCarregando(true);
-    setErro(null);
-
-    Promise.all([carregarQuestao(questaoId), carregarIndice()])
-      .then(([dadosQuestao, dadosIndice]) => {
-        setQuestao(dadosQuestao.questao);
-        setTextoBase(dadosQuestao.textoBase);
-        setProva(dadosQuestao.prova);
-        setIndice(dadosIndice);
-        setCarregando(false);
-      })
-      .catch((err) => {
-        console.error('Erro ao carregar questão:', err);
-        setErro('Questão não encontrada ou falha ao carregar.');
-        setCarregando(false);
-      });
-  }, [questaoId]);
+  // Marcação opcional da alternativa em memória (RF04), guardada junto com a questão a que pertence.
+  // Enquanto o usuário não marca nada nesta questão, vale ?marcada= ("Voltar à questão" da resolução).
+  const [selecao, setSelecao] = useState<{ questaoId: string; letra: Letra | null } | null>(null);
+  const alternativaMarcada =
+    questao && selecao?.questaoId === questao.id
+      ? selecao.letra
+      : questao
+        ? lerLetraMarcada(searchParams, questao)
+        : null;
+  const selecionarAlternativa = (letra: Letra | null) => {
+    if (questao) setSelecao({ questaoId: questao.id, letra });
+  };
 
   // Calcula questões vizinhas respeitando os filtros ativos
   const infoVizinhas = useMemo(() => {
     if (!indice || !questaoId) {
       return { anterior: null, proxima: null, posicaoAtual: 0, total: 0 };
     }
-
-    const anoParam = searchParams.get('ano');
-    const provaParam = searchParams.get('prova') || searchParams.get('provaId');
-    const parteParam = searchParams.get('parte');
-    const tipoParam = searchParams.get('tipo');
-    const termoParam = searchParams.get('termo');
-
-    const listaFiltrada = filtrarQuestoes(indice, {
-      ano: anoParam ? (anoParam === 'todos' ? 'todos' : Number(anoParam)) : 'todos',
-      provaId: (provaParam as any) || 'todas',
-      parte: (parteParam as any) || 'todas',
-      tipo: (tipoParam as any) || 'todas',
-      termo: termoParam || '',
-    });
-
-    return vizinhas(listaFiltrada, questaoId);
+    return vizinhas(filtrarQuestoes(indice, lerFiltrosDaUrl(searchParams)), questaoId);
   }, [indice, questaoId, searchParams]);
 
-  const queryStringAtual = useMemo(() => {
-    const str = searchParams.toString();
-    return str ? `?${str}` : '';
-  }, [searchParams]);
+  // Filtros ativos para os links de navegação; a marcação é própria desta questão e não é propagada.
+  const queryStringAtual = useMemo(() => queryStringSemMarcada(searchParams), [searchParams]);
 
   if (carregando) {
     return (
@@ -140,7 +105,7 @@ export const PaginaQuestao: React.FC = () => {
         questao={questao}
         textoBase={textoBase}
         alternativaMarcada={alternativaMarcada}
-        onSelecionarAlternativa={setAlternativaMarcada}
+        onSelecionarAlternativa={selecionarAlternativa}
       />
 
       {/* Rascunho para discursivas */}

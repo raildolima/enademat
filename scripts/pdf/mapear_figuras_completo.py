@@ -4,11 +4,25 @@ from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parents[2]
 
+# Páginas que contêm questões (conferido com as páginas registradas em content/provas/*/questoes).
+# Ficam de fora a capa/instruções (p.1) e o final do caderno: rascunho e Questionário de Percepção
+# (2021 p.36; 2025-prova1 p.48; 2025-prova5 p.47), conforme a especificação 0.1.
+ULTIMA_PAGINA_COM_QUESTOES = {
+    "2021-licenciatura": 35,
+    "2025-prova1": 47,
+    "2025-prova5": 45,
+}
+
+
+def paginas_com_questoes(prova_id: str) -> range:
+    return range(2, ULTIMA_PAGINA_COM_QUESTOES[prova_id] + 1)
+
+
 def extrair_figuras_reais(prova_id: str):
     prova_path = RAIZ / "content" / "provas" / prova_id / "prova.json"
     prova = json.loads(prova_path.read_text("utf-8"))
     doc = fitz.open(RAIZ / prova["arquivoProva"])
-    
+
     calib = json.loads((RAIZ / "scripts" / "pdf" / "calibracao.json").read_text("utf-8")).get(prova_id, {})
     cabecalho_y = calib.get("cabecalho_max_y", 75.0)
     rodape_y = calib.get("rodape_min_y", 740.0)
@@ -17,11 +31,8 @@ def extrair_figuras_reais(prova_id: str):
 
     figuras_encontradas = []
 
-    for idx, page in enumerate(doc):
-        num_pag = idx + 1
-        # Pula capa e instruções (página 1) e páginas de questionário/finais
-        if num_pag == 1 or num_pag >= len(doc) - 1:
-            continue
+    for num_pag in paginas_com_questoes(prova_id):
+        page = doc[num_pag - 1]
 
         # 1. Raster
         imgs = page.get_image_info(xrefs=True)
@@ -46,6 +57,8 @@ def extrair_figuras_reais(prova_id: str):
         print(f"  p.{f['pagina']:02d}: bbox={f['bbox']} area={f['area']} (xref {f.get('xref')})")
     return figuras_encontradas
 
-for p in ["2021-licenciatura", "2025-prova1", "2025-prova5"]:
-    print(f"\n==================== {p} ====================")
-    extrair_figuras_reais(p)
+
+if __name__ == "__main__":
+    for p in ["2021-licenciatura", "2025-prova1", "2025-prova5"]:
+        print(f"\n==================== {p} ====================")
+        extrair_figuras_reais(p)

@@ -1,10 +1,16 @@
 import argparse
+import html
 import json
 from pathlib import Path
 import fitz  # PyMuPDF
 from PIL import Image, ImageChops
 
 RAIZ = Path(__file__).resolve().parents[2]
+
+
+def esc(valor) -> str:
+    """Valores do manifesto são texto: escapados para não virarem tags na folha de contato."""
+    return html.escape(str(valor))
 
 
 def aparar(img: Image.Image, limiar: int = 245, margem: int = 6) -> Image.Image:
@@ -39,19 +45,19 @@ def gerar_folha_contato(prova_id: str, figuras: list, destino_dir: Path) -> Path
                 largura, altura = im.size
 
         uso = fig.get("uso", {})
-        letra_str = f" · Letra: <strong>{uso.get('letra')}</strong>" if uso.get("letra") else ""
+        letra_str = f" · Letra: <strong>{esc(uso.get('letra'))}</strong>" if uso.get("letra") else ""
         
         cards.append(f"""
         <div class="figura-card">
           <div class="img-wrap">
-            <img src="{rel_img}" alt="{arq_nome}" loading="lazy" />
+            <img src="{esc(rel_img)}" alt="{esc(arq_nome)}" loading="lazy" />
           </div>
           <div class="meta">
-            <h4>{arq_nome}</h4>
-            <p><strong>Página:</strong> {fig['pagina']} | <strong>Dimensões:</strong> {largura}×{altura} px</p>
-            <p><strong>Uso:</strong> {uso.get('questaoId', '-')} ({uso.get('papel', '-')}){letra_str}</p>
-            <p><strong>BBox:</strong> <code>{fig['bbox']}</code> | <strong>DPI:</strong> {fig.get('dpi', 220)}</p>
-            <p><strong>Status:</strong> <span class="badge {fig.get('status')}">{fig.get('status')}</span></p>
+            <h4>{esc(arq_nome)}</h4>
+            <p><strong>Página:</strong> {esc(fig['pagina'])} | <strong>Dimensões:</strong> {largura}×{altura} px</p>
+            <p><strong>Uso:</strong> {esc(uso.get('questaoId', '-'))} ({esc(uso.get('papel', '-'))}){letra_str}</p>
+            <p><strong>BBox:</strong> <code>{esc(fig['bbox'])}</code> | <strong>DPI:</strong> {esc(fig.get('dpi', 220))}</p>
+            <p><strong>Status:</strong> <span class="badge {esc(fig.get('status'))}">{esc(fig.get('status'))}</span></p>
           </div>
         </div>
         """)

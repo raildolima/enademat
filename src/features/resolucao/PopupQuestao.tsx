@@ -12,6 +12,7 @@ import {
   useClick,
   useInteractions,
   FloatingPortal,
+  FloatingFocusManager,
   safePolygon,
 } from '@floating-ui/react';
 import type { Questao, TextoBase } from '../../data/tipos';
@@ -76,33 +77,38 @@ export const PopupQuestao: React.FC<PopupQuestaoProps> = ({ questao, textoBase }
 
       {isOpen && (
         <FloatingPortal>
-          <div
-            ref={refs.setFloating}
-            style={floatingStyles}
-            {...getFloatingProps()}
-            className={styles.popupCaixa}
-            role="dialog"
-            aria-label={tituloDialogo}
-          >
-            <div className={styles.cabecalhoPopup}>
-              <span className={styles.tituloPopup}>{tituloDialogo}</span>
-              <button
-                type="button"
-                onClick={() => setIsOpen(false)}
-                className={styles.btnFechar}
-                aria-label="Fechar pop-up da questão"
-              >
-                ✕ Fechar
-              </button>
-            </div>
+          {/* Não modal: o pop-up entra na ordem de Tab logo após o gatilho, sem prender o foco
+              nem roubá-lo ao abrir por hover/foco (initialFocus -1). */}
+          <FloatingFocusManager context={context} modal={false} initialFocus={-1}>
+            <div
+              ref={refs.setFloating}
+              style={floatingStyles}
+              {...getFloatingProps()}
+              className={styles.popupCaixa}
+              role="dialog"
+              aria-label={tituloDialogo}
+            >
+              <div className={styles.cabecalhoPopup}>
+                <span className={styles.tituloPopup}>{tituloDialogo}</span>
+                <button
+                  type="button"
+                  // Fecha como o Esc: o foco devolvido ao gatilho não reabre o pop-up (useFocus).
+                  onClick={(e) => context.onOpenChange(false, e.nativeEvent, 'escape-key')}
+                  className={styles.btnFechar}
+                  aria-label="Fechar pop-up da questão"
+                >
+                  ✕ Fechar
+                </button>
+              </div>
 
-            {/* Conteúdo completo somente leitura da questão */}
-            <ConteudoQuestao
-              questao={questao}
-              textoBase={textoBase}
-              somenteLeitura={true}
-            />
-          </div>
+              {/* Conteúdo completo somente leitura da questão */}
+              <ConteudoQuestao
+                questao={questao}
+                textoBase={textoBase}
+                somenteLeitura={true}
+              />
+            </div>
+          </FloatingFocusManager>
         </FloatingPortal>
       )}
     </>

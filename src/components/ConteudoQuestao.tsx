@@ -31,12 +31,25 @@ export const ConteudoQuestao: React.FC<ConteudoQuestaoProps> = ({
     }
   };
 
-  const handleKeyDownAlternativa = (e: React.KeyboardEvent, letra: Letra) => {
+  const letras = questao.alternativas?.map((alt) => alt.letra) ?? [];
+  // Roving tabindex (padrão ARIA de radiogroup): só a marcada, ou a primeira, entra na ordem de Tab.
+  const letraFocavel = alternativaMarcada && letras.includes(alternativaMarcada) ? alternativaMarcada : letras[0];
+
+  const handleKeyDownAlternativa = (e: React.KeyboardEvent<HTMLDivElement>, letra: Letra) => {
     if (somenteLeitura || !onSelecionarAlternativa) return;
     if (e.key === 'Enter' || e.key === ' ') {
       e.preventDefault();
       handleClickAlternativa(letra);
+      return;
     }
+
+    const passo = e.key === 'ArrowDown' || e.key === 'ArrowRight' ? 1 : e.key === 'ArrowUp' || e.key === 'ArrowLeft' ? -1 : 0;
+    if (passo === 0) return;
+    e.preventDefault();
+    const destino = (letras.indexOf(letra) + passo + letras.length) % letras.length;
+    const itens = e.currentTarget.parentElement?.querySelectorAll<HTMLElement>('[role="radio"]');
+    itens?.[destino]?.focus();
+    onSelecionarAlternativa(letras[destino]);
   };
 
   return (
@@ -72,7 +85,7 @@ export const ConteudoQuestao: React.FC<ConteudoQuestaoProps> = ({
                   key={alt.letra}
                   role={somenteLeitura ? undefined : 'radio'}
                   aria-checked={somenteLeitura ? undefined : marcada}
-                  tabIndex={somenteLeitura ? undefined : 0}
+                  tabIndex={somenteLeitura ? undefined : alt.letra === letraFocavel ? 0 : -1}
                   className={`${styles.alternativaItem} ${marcada ? styles.marcada : ''} ${
                     somenteLeitura ? styles.somenteLeitura : ''
                   }`}

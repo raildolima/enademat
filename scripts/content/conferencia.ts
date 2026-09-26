@@ -21,19 +21,7 @@ export function gerarConferenciaHtml(provaId: string, opts: { dryRun?: boolean }
     }
   }
 
-  const discursivasDir = path.join(provaDir, 'questoes-discursivas');
-  if (fs.existsSync(discursivasDir)) {
-    for (const f of fs.readdirSync(discursivasDir)) {
-      if (f.endsWith('.json')) {
-        try {
-          const q = JSON.parse(fs.readFileSync(path.join(discursivasDir, f), 'utf-8'));
-          questoes.push(q);
-        } catch {
-          // ignora em caso de arquivo temporário
-        }
-      }
-    }
-  }
+  const escaparHtml = (texto: string) => texto.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
   const linhasQuestoes = questoes.map((q) => {
     const pags = (q.paginas || []).map((p: number) => `p${String(p).padStart(3, '0')}.png`).join(', ');
@@ -43,7 +31,7 @@ export function gerarConferenciaHtml(provaId: string, opts: { dryRun?: boolean }
         <div class="comparacao">
           <div class="renderizado">
             <h3>Transcrição JSON</h3>
-            <pre><code>${JSON.stringify(q, null, 2)}</code></pre>
+            <pre><code>${escaparHtml(JSON.stringify(q, null, 2))}</code></pre>
           </div>
           <div class="original">
             <h3>Página Original</h3>

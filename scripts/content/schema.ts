@@ -1,5 +1,6 @@
 import { z } from 'zod';
 import katex from 'katex';
+import type { Bloco } from '../../src/data/tipos';
 
 export const ProvaIdSchema = z.enum(['2021-licenciatura', '2025-prova1', '2025-prova5']);
 export const LetraSchema = z.enum(['A', 'B', 'C', 'D', 'E']);
@@ -84,8 +85,8 @@ export const TextoRicoSchema = z.string().superRefine((val, ctx) => {
   }
 });
 
-// Bloco com recursão via z.lazy
-export const BlocoSchema: z.ZodType<any> = z.lazy(() =>
+// Bloco com recursão via z.lazy; tipado pelo Bloco do app para os dois não divergirem (CR-32)
+export const BlocoSchema: z.ZodType<Bloco> = z.lazy(() =>
   z.discriminatedUnion('tipo', [
     z.object({
       tipo: z.literal('titulo'),
@@ -263,6 +264,17 @@ export const ResolucaoFrontmatterSchema = z.object({
   verificacao: z.enum(['pendente', 'aprovada', 'reprovada']),
   revisaoHumana: z.boolean(),
   checagemNumerica: z.string().optional(),
+});
+
+// Objetivas: letras. Discursivas: resumo da resposta em texto livre (não vazio).
+export const ResolucaoObjetivaFrontmatterSchema = ResolucaoFrontmatterSchema.extend({
+  respostaIndependente: LetraSchema,
+  respostaFinal: LetraSchema,
+});
+
+export const ResolucaoDiscursivaFrontmatterSchema = ResolucaoFrontmatterSchema.extend({
+  respostaIndependente: z.string().trim().min(1, 'resumo da resposta não pode ser vazio'),
+  respostaFinal: z.string().trim().min(1, 'resumo do padrão de resposta não pode ser vazio'),
 });
 
 export type Prova = z.infer<typeof ProvaSchema>;

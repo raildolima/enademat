@@ -1,5 +1,4 @@
 import { describe, it, expect } from 'vitest';
-import React from 'react';
 import { render, screen } from '@testing-library/react';
 import { CartaoGabarito } from '../../src/features/resolucao/CartaoGabarito';
 import type { Questao } from '../../src/data/tipos';
@@ -68,7 +67,7 @@ describe('CartaoGabarito', () => {
     };
 
     render(<CartaoGabarito questao={discursivaMock} gabaritoOficial="***" />);
-    expect(screen.getByText('Padrão de Resposta Esperado')).toBeDefined();
+    expect(screen.getByText('Resposta esperada')).toBeDefined();
     expect(screen.queryByText(/Gabarito oficial/i)).toBeNull();
   });
 });

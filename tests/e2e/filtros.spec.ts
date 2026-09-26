@@ -9,7 +9,7 @@ test.describe('Filtros do Banco de Questões', () => {
 
     // Opções de prova devem conter apenas P1 e P5 (além de todas)
     const opcoes = await page.$$eval('#filtro-prova option', (opts) =>
-      opts.map((o) => o.value)
+      opts.map((o) => (o as HTMLOptionElement).value)
     );
     expect(opcoes).toContain('todas');
     expect(opcoes).toContain('2025-prova1');

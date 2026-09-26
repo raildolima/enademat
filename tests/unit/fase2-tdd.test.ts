@@ -1,20 +1,13 @@
-import { describe, it, expect, beforeEach, afterEach } from 'vitest';
+import { describe, it, expect, beforeEach } from 'vitest';
 import * as fs from 'node:fs';
+import * as os from 'node:os';
 import * as path from 'node:path';
-import {
-  QuestaoSchema,
-  TextoBaseSchema,
-  GabaritoSchema,
-  validarTextoRico,
-  validarBloco,
-  validarLatex,
-} from '../../scripts/content/schema';
+import { QuestaoSchema, validarTextoRico, validarLatex } from '../../scripts/content/schema';
 import {
   validarQuestaoObj,
   validarResolucaoMarkdown,
   validarGabaritoComReferencia,
   validarImagemBloco,
-  executarValidacaoCompleta,
 } from '../../scripts/content/validate';
 import { compilarConteudo } from '../../scripts/content/build';
 import { gerarConferenciaHtml } from '../../scripts/content/conferencia';
@@ -126,29 +119,43 @@ describe('Fase 2 — TDD: Validador, Esquema, Build e Conferência', () => {
 
   // 9. Rejeita respostaIndependente diferente de work/cego quando o arquivo cego existir
   it('9. rejeita respostaIndependente divergente da resposta cega gravada em work/cego', () => {
-    const cegoDir = path.resolve(process.cwd(), 'work/cego/2025-prova1');
+    // Raiz temporária: o teste nunca toca o work/cego real do projeto.
+    const raiz = fs.mkdtempSync(path.join(os.tmpdir(), 'enade-cego-'));
+    const cegoDir = path.join(raiz, 'work/cego/2025-prova1');
     fs.mkdirSync(cegoDir, { recursive: true });
-    const cegoFile = path.join(cegoDir, 'q032.json');
     fs.writeFileSync(
-      cegoFile,
+      path.join(cegoDir, 'q032.json'),
       JSON.stringify({ questaoId: '2025-prova1-q032', resposta: 'C', confianca: 'alta' }),
       'utf-8'
     );
 
     try {
       // resolucaoValida tem respostaIndependente: D, mas no cego está C
-      const checagem = validarResolucaoMarkdown(resolucaoValida, 'D', {
-        provaId: '2025-prova1',
-        numero: 32,
-        arquivoNome: 'q032.json',
-      });
+      const checagem = validarResolucaoMarkdown(
+        resolucaoValida,
+        'D',
+        { provaId: '2025-prova1', numero: 32, arquivoNome: 'q032.md' },
+        { raiz }
+      );
       expect(checagem.valido).toBe(false);
       expect(checagem.erros.some((e: string) => e.includes('respostaIndependente') || e.includes('etapa cega'))).toBe(
         true
       );
     } finally {
-      if (fs.existsSync(cegoFile)) fs.unlinkSync(cegoFile);
+      fs.rmSync(raiz, { recursive: true, force: true });
     }
+  });
+
+  it('10b. flag --release rejeita resoluções com verificação reprovada', () => {
+    const resolucaoReprovada = resolucaoValida.replace('verificacao: aprovada', 'verificacao: reprovada');
+    const checagem = validarResolucaoMarkdown(
+      resolucaoReprovada,
+      'D',
+      { provaId: '2025-prova1', numero: 32 },
+      { release: true }
+    );
+    expect(checagem.valido).toBe(false);
+    expect(checagem.erros.some((e: string) => e.includes('verificacao: aprovada'))).toBe(true);
   });
 
   // 10. --release rejeita verificacao pendente

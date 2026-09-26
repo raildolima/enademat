@@ -1,7 +1,7 @@
-import React, { useEffect, useState, useMemo } from 'react';
+import React, { useMemo } from 'react';
 import { useParams, useSearchParams, Link } from 'react-router';
-import type { Questao, TextoBase, ProvaCompleta, Letra, IndiceProvas } from '../../data/tipos';
-import { carregarQuestao, carregarIndice } from '../../data/carregar';
+import { useQuestao } from '../../data/useQuestao';
+import { lerFiltrosDaUrl, lerLetraMarcada, queryStringSemMarcada } from '../../data/url';
 import { filtrarQuestoes, vizinhas } from '../../data/filtrar';
 import { CartaoGabarito } from './CartaoGabarito';
 import { PopupQuestao } from './PopupQuestao';
@@ -21,64 +21,26 @@ function extrairCorpoMarkdown(conteudo: string): string {
 export const PaginaResolucao: React.FC = () => {
   const { questaoId } = useParams<{ questaoId: string }>();
   const [searchParams] = useSearchParams();
+  const { questao, textoBase, prova, indice, carregando, erro } = useQuestao(questaoId, 'Resolução não encontrada.');
 
-  const [questao, setQuestao] = useState<Questao | null>(null);
-  const [textoBase, setTextoBase] = useState<TextoBase | undefined>(undefined);
-  const [prova, setProva] = useState<ProvaCompleta | null>(null);
-  const [indice, setIndice] = useState<IndiceProvas | null>(null);
-  const [carregando, setCarregando] = useState(true);
-  const [erro, setErro] = useState<string | null>(null);
-
-  // Alternativa marcada pelo usuário
-  const alternativaMarcada = (searchParams.get('marcada') as Letra) || null;
-
-  useEffect(() => {
-    if (!questaoId) return;
-    setCarregando(true);
-    setErro(null);
-
-    Promise.all([carregarQuestao(questaoId), carregarIndice()])
-      .then(([dadosQuestao, dadosIndice]) => {
-        setQuestao(dadosQuestao.questao);
-        setTextoBase(dadosQuestao.textoBase);
-        setProva(dadosQuestao.prova);
-        setIndice(dadosIndice);
-        setCarregando(false);
-      })
-      .catch((err) => {
-        console.error('Erro ao carregar resolução:', err);
-        setErro('Resolução não encontrada.');
-        setCarregando(false);
-      });
-  }, [questaoId]);
+  // Alternativa marcada pelo usuário (só letra existente na questão)
+  const alternativaMarcada = questao ? lerLetraMarcada(searchParams, questao) : null;
 
   // Vizinhas dentro do filtro atual
   const infoVizinhas = useMemo(() => {
     if (!indice || !questaoId) {
       return { anterior: null, proxima: null, posicaoAtual: 0, total: 0 };
     }
-
-    const anoParam = searchParams.get('ano');
-    const provaParam = searchParams.get('prova') || searchParams.get('provaId');
-    const parteParam = searchParams.get('parte');
-    const tipoParam = searchParams.get('tipo');
-    const termoParam = searchParams.get('termo');
-
-    const listaFiltrada = filtrarQuestoes(indice, {
-      ano: anoParam ? (anoParam === 'todos' ? 'todos' : Number(anoParam)) : 'todos',
-      provaId: (provaParam as any) || 'todas',
-      parte: (parteParam as any) || 'todas',
-      tipo: (tipoParam as any) || 'todas',
-      termo: termoParam || '',
-    });
-
-    return vizinhas(listaFiltrada, questaoId);
+    return vizinhas(filtrarQuestoes(indice, lerFiltrosDaUrl(searchParams)), questaoId);
   }, [indice, questaoId, searchParams]);
 
   const queryStringAtual = useMemo(() => {
     const str = searchParams.toString();
     return str ? `?${str}` : '';
   }, [searchParams]);
+
+  // "Voltar à questão" leva a marcação; a próxima questão começa sem marcação.
+  const queryProxima = useMemo(() => queryStringSemMarcada(searchParams), [searchParams]);
 
   if (carregando) {
     return (
@@ -139,17 +101,15 @@ export const PaginaResolucao: React.FC = () => {
           alternativaMarcada={alternativaMarcada}
         />
 
-        {/* Resolução comentada ou aviso da Fase 6 */}
+        {/* Resolução comentada (o validador exige uma por questão; o aviso cobre só falha de dados) */}
         {corpoMarkdown ? (
           <section aria-label="Passo a passo da resolução comentada">
             <Markdown conteudo={corpoMarkdown} />
           </section>
         ) : (
           <section className={styles.avisoResolucaoPendente} aria-label="Aviso de resolução">
-            <h3>Resolução Comentada em Elaboração</h3>
-            <p>
-              O gabarito oficial indicado acima é a referência definitiva do INEP. A resolução comentada detalhada, passo a passo com análise rigorosa de todas as alternativas e checagem numérica, será incluída na <strong>Fase 6</strong> do projeto.
-            </p>
+            <h2>Resolução indisponível</h2>
+            <p>Não foi possível carregar a resolução comentada desta questão. O gabarito acima continua válido.</p>
           </section>
         )}
 
@@ -165,7 +125,7 @@ export const PaginaResolucao: React.FC = () => {
           <Link
             to={
               infoVizinhas.proxima
-                ? `/questao/${infoVizinhas.proxima.id}${queryStringAtual}`
+                ? `/questao/${infoVizinhas.proxima.id}${queryProxima}`
                 : '#'
             }
             className={`${styles.btnAcao} ${

@@ -47,8 +47,8 @@ checagemNumerica: scripts/verificacao/<provaId>/qNNN.py
 ```md
 ---
 questaoId: <id>
-respostaIndependente: discursiva
-respostaFinal: discursiva
+respostaIndependente: <resumo, em texto livre e não vazio, da resposta elaborada sem consultar o padrão>
+respostaFinal: <resumo, em texto livre e não vazio, do padrão de resposta adotado>
 verificacao: pendente | aprovada | reprovada
 revisaoHumana: false | true
 ---

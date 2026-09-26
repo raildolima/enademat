@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import { filtrarQuestoes, vizinhas } from '../../src/data/filtrar';
-import { IndiceProvas, ResumoQuestao } from '../../src/data/tipos';
+import { IndiceProvas } from '../../src/data/tipos';
 import indiceReal from '../../src/data/generated/indice.json';
 
 describe('filtrarQuestoes e vizinhas', () => {

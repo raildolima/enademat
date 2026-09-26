@@ -190,7 +190,7 @@ export const Filtros: React.FC<FiltrosProps> = ({
       </div>
 
       <div className={styles.rodapeFiltros}>
-        <div>
+        <div role="status">
           <strong>{totalQuestoes}</strong> {totalQuestoes === 1 ? 'questão encontrada' : 'questões encontradas'}
         </div>
         <button type="button" onClick={handleLimpar} className={styles.btnLimpar}>
