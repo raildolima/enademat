@@ -17,6 +17,7 @@ import {
 } from '@floating-ui/react';
 import type { Questao, TextoBase } from '../../data/tipos';
 import { ConteudoQuestao } from '../../components/ConteudoQuestao';
+import { Eye, X } from 'lucide-react';
 import styles from './PopupQuestao.module.css';
 
 interface PopupQuestaoProps {
@@ -71,7 +72,7 @@ export const PopupQuestao: React.FC<PopupQuestaoProps> = ({ questao, textoBase }
         aria-haspopup="dialog"
         aria-expanded={isOpen}
       >
-        <span aria-hidden="true">👁️</span>
+        <Eye size={18} aria-hidden="true" />
         <span>Ver questão</span>
       </button>
 
@@ -97,7 +98,8 @@ export const PopupQuestao: React.FC<PopupQuestaoProps> = ({ questao, textoBase }
                   className={styles.btnFechar}
                   aria-label="Fechar pop-up da questão"
                 >
-                  ✕ Fechar
+                  <X size={16} aria-hidden="true" />
+                  Fechar
                 </button>
               </div>
 

@@ -35,6 +35,12 @@ Registrado em: 2026-09-13
 ---
 
 ## 3. Log de Atualizações e Checkpoints
+- **2026-09-26**: Layout do frontend no Design System da UFMS (branch `feat/design-ufms`).
+  - Tokens UFMS (`src/styles/tokens.css`) com contraste AA medido nos temas claro e escuro (`docs/DESIGN-UFMS.md`); fontes Poppins/Inter/JetBrains Mono empacotadas (`@fontsource`); ícones `lucide-react` no lugar de emojis e glifos.
+  - Assinatura UFMS em WebP (`public/marca/`, `scripts/marca/converter_logo.py`) no cabeçalho e no rodapé; aviso RF09 mantido.
+  - Banco com hero, filtros elevados, cards por prova e esqueleto de carregamento; Questão com alternativas em cartões e barra de progresso; Resolução com gabarito em destaque e feedback animado (desligado em reduced-motion).
+  - Skill `ui-ux-pro-max` instalada em `.claude/skills/`; `.oxlintrc.json` ignora as pastas de referência.
+  - Testes: axe nos temas claro e escuro, `design-ufms.spec.ts` (logo, fontes locais, sem emoji, 360 px), unitários de Layout, navegação e cartão do gabarito.
 - **2026-09-26**: Fase 7 (QA Final, Revisão Humana e Publicação) — **FASE CONCLUÍDA COM 100% DE APROVAÇÃO**.
   - **Regressão Completa e E2E Automatizado:**
     - `npm run content:validate -- --release`: Aprovado com 0 erros (202 questões, 202 resoluções, 38 textos-base, 72 figuras).

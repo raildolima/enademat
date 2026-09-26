@@ -42,7 +42,7 @@
 - **RNF03** Desempenho: JSON de cada prova carregado sob demanda (`import()` dinâmico); imagens WebP com `width`/`height` e `loading="lazy"`; LCP < 2,5 s (4G simulado).
 - **RNF04** Matemática em KaTeX; **zero** `.katex-error` em produção.
 - **RNF05** Conteúdo em pt-BR; decimal com vírgula em LaTeX (`1{,}44`).
-- **RNF06** Reprodutibilidade: recortes regeráveis por script a partir de manifesto; conteúdo validado por script; sem logotipos oficiais do INEP/ENADE (o site não se apresenta como oficial).
+- **RNF06** Reprodutibilidade: recortes regeráveis por script a partir de manifesto; conteúdo validado por script; sem logotipos oficiais do INEP/ENADE (o site não se apresenta como oficial). A assinatura da UFMS é permitida (identidade visual, ver `docs/DESIGN-UFMS.md`).
 
 ## 0.4 Stack (decidida)
 
@@ -52,7 +52,7 @@
 | Rotas | `react-router` com `createHashRouter` | hospedagem estática sem rewrite |
 | Matemática/Markdown | `katex`, `react-markdown` + `remark-math` + `rehype-katex` + `remark-gfm` | resoluções em Markdown com LaTeX |
 | Pop-up | `@floating-ui/react` (`useHover` + `safePolygon`, `useFocus`, `useClick`, `useDismiss`, `useRole`) | hover robusto e acessível |
-| Estilo | CSS Modules + variáveis CSS (tokens), sem framework | zero configuração |
+| Estilo | CSS Modules + variáveis CSS (tokens do Design System UFMS), sem framework; fontes `@fontsource`, ícones `lucide-react` | zero configuração |
 | Dados | `zod` (esquema), `gray-matter` (frontmatter), `image-size`, `tsx` (scripts TS) | esquema único para app e validador |
 | Testes | Vitest + Testing Library + jsdom; Playwright (Chromium desktop + perfil móvel com toque) | unitário + ponta a ponta |
 | Pipeline PDF | Python `.venv`: `pymupdf`, `pillow`, `numpy`, `sympy` (fallback de render: `pdftoppm`) | recorte por coordenadas, checagem numérica |
@@ -259,7 +259,7 @@ Marcação: contexto React em memória + `?marcada=` na URL da resolução (sobr
 
 **Resolução (`PaginaResolucao`)**
 - Título "Resolução · Questão 31" + botão **Ver questão** (fixo no topo ao rolar, em telas ≥ 768 px).
-- `CartaoGabarito`: "Gabarito: **D**" + conteúdo **somente** da alternativa D. Se `marcada`: "Você marcou **B** — incorreta ✗" ou "— correta ✓".
+- `CartaoGabarito`: "Gabarito: **D**" + conteúdo **somente** da alternativa D. Se `marcada`: "Você marcou **B** — incorreta" ou "— correta", com ícone SVG de erro/acerto (✗/✓).
 - Corpo: Markdown renderizado com as seções do padrão (0.12).
 - Rodapé: "Voltar à questão" (mantém a marcação) e "Próxima questão".
 - Discursiva: sem cartão de letra; título "Resposta esperada".
@@ -272,7 +272,7 @@ Marcação: contexto React em memória + `?marcada=` na URL da resolução (sobr
 - Caixa: largura `min(720px, 92vw)`, `max-height: 70vh`, `overflow: auto`; `offset(8)`, `flip()`, `shift({ padding: 8 })`; `role="dialog"`, `aria-label="Enunciado da Questão 31"`; não aprisiona o foco.
 - Transição de opacidade ~120 ms, desligada com `prefers-reduced-motion`.
 
-**Visual:** tokens CSS (contraste AA), `system-ui` 17 px, altura de linha 1,6, largura de leitura ~72ch, modo escuro por `prefers-color-scheme`. Título do site: "Simulador ENADE · Matemática (Licenciatura)". Sem logotipos oficiais.
+**Visual:** Design System da UFMS (`docs/DESIGN-UFMS.md`): tokens CSS com contraste AA medido, Inter 17 px no texto e Poppins nos títulos (empacotadas, sem CDN), altura de linha 1,6, largura de leitura ~72ch, modo escuro por `prefers-color-scheme`, microinterações desligadas com `prefers-reduced-motion`, ícones SVG (sem emoji). Título do site: "Simulador ENADE · Matemática (Licenciatura)". Assinatura da UFMS no cabeçalho e no rodapé; sem logotipos do INEP/ENADE.
 
 ## 0.10 Pipeline de figuras (recorte)
 

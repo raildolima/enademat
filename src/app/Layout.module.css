@@ -5,10 +5,20 @@
 }
 
 .cabecalhoApp {
+  position: relative;
+  z-index: var(--z-cabecalho);
   background-color: var(--cor-superficie);
-  border-bottom: 1px solid var(--cor-borda);
   padding: var(--espaco-3) var(--espaco-4);
   box-shadow: var(--sombra-sm);
+}
+
+/* Filete institucional: gradiente UFMS sob o cabeçalho */
+.cabecalhoApp::after {
+  content: "";
+  position: absolute;
+  inset: auto 0 0 0;
+  height: 4px;
+  background: var(--ufms-gradiente-institucional);
 }
 
 .cabecalhoConteudo {
@@ -16,36 +26,68 @@
   margin: 0 auto;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  gap: var(--espaco-4);
+  min-height: 56px;
+}
+
+/* Área de proteção do logo: margem mínima equivalente ao módulo X da marca */
+.logoUfms {
+  height: 44px;
+  width: auto;
+  flex-shrink: 0;
+}
+
+.divisor {
+  align-self: stretch;
+  width: 1px;
+  margin: var(--espaco-1) 0;
+  background-color: var(--cor-borda);
 }
 
 .logoLink {
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  gap: var(--espaco-2);
+  gap: var(--espaco-3);
+  min-height: var(--alvo-toque);
   text-decoration: none;
   color: var(--cor-texto-principal);
+  border-radius: var(--raio-md);
 }
 
 .logoLink:hover {
-  text-decoration: none;
+  color: var(--cor-texto-principal);
 }
 
 .logoIcone {
-  font-size: 1.4rem;
+  display: inline-grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: var(--raio-md);
+  background-color: var(--cor-destaque);
+  color: var(--ufms-azul-900);
+  transition: transform var(--transicao-media);
+}
+
+.logoLink:hover .logoIcone {
+  transform: rotate(-8deg) scale(1.06);
 }
 
 .logoTexto {
+  display: block;
+  font-family: var(--fonte-titulos);
   font-size: 1.15rem;
-  font-weight: 800;
+  font-weight: 700;
+  line-height: 1.2;
   letter-spacing: -0.01em;
 }
 
 .logoSubtexto {
-  font-size: 0.85rem;
-  color: var(--cor-texto-atenuado);
-  font-weight: 500;
   display: block;
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--cor-texto-secundario);
 }
 
 .conteudoPrincipal {
@@ -60,21 +102,49 @@
 }
 
 .rodapeApp {
-  background-color: var(--cor-superficie);
-  border-top: 1px solid var(--cor-borda-suave);
-  padding: var(--espaco-6) var(--espaco-4);
+  background-color: var(--cor-faixa);
+  color: var(--cor-faixa-texto-suave);
+  padding: var(--espaco-10) var(--espaco-4) var(--espaco-8);
   margin-top: auto;
 }
 
 .rodapeConteudo {
   max-width: var(--largura-maxima);
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--espaco-2);
   text-align: center;
-  font-size: 0.85rem;
-  color: var(--cor-texto-atenuado);
+  font-size: 0.88rem;
   line-height: 1.6;
 }
 
+.logoRodape {
+  height: 56px;
+  width: auto;
+  margin-bottom: var(--espaco-3);
+}
+
 .rodapeAviso {
-  margin-top: var(--espaco-1);
+  color: var(--cor-faixa-texto);
+  font-weight: 500;
+}
+
+@media (max-width: 480px) {
+  .cabecalhoConteudo {
+    gap: var(--espaco-3);
+  }
+
+  .logoUfms {
+    height: 36px;
+  }
+
+  .logoIcone {
+    display: none;
+  }
+
+  .logoTexto {
+    font-size: 1rem;
+  }
 }

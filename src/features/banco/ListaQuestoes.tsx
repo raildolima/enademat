@@ -3,6 +3,7 @@ import { Link } from 'react-router';
 import type { ResumoQuestao, Prova, ProvaId } from '../../data/tipos';
 import { Badge } from '../../components/Badge';
 import { TextoRico } from '../../components/TextoRico';
+import { ArrowRight } from 'lucide-react';
 import styles from './ListaQuestoes.module.css';
 
 interface ListaQuestoesProps {
@@ -55,13 +56,23 @@ export const ListaQuestoes: React.FC<ListaQuestoesProps> = ({
           : provaId;
 
         return (
-          <section key={provaId} className={styles.grupoProva} aria-label={tituloSecao}>
-            <h2 className={styles.tituloGrupo}>{tituloSecao}</h2>
+          <section key={provaId} className={styles.grupoProva} aria-label={tituloSecao} data-prova={provaId}>
+            <h2 className={styles.tituloGrupo}>
+              {tituloSecao}
+              <span className={styles.contagemGrupo}>
+                {itensDaProva.length} {itensDaProva.length === 1 ? 'questão' : 'questões'}
+              </span>
+            </h2>
             <div className={styles.gradeQuestoes}>
-              {itensDaProva.map((q) => {
+              {itensDaProva.map((q, idx) => {
                 const linkHref = `/questao/${q.id}${queryStringParams}`;
                 return (
-                  <Link key={q.id} to={linkHref} className={styles.cardQuestao}>
+                  <Link
+                    key={q.id}
+                    to={linkHref}
+                    className={styles.cardQuestao}
+                    style={{ '--ordem': Math.min(idx, 11) } as React.CSSProperties}
+                  >
                     <div className={styles.cabecalhoCard}>
                       <span className={styles.rotuloQuestao}>{q.rotulo}</span>
                       <div className={styles.badgesGrupo}>
@@ -88,6 +99,7 @@ export const ListaQuestoes: React.FC<ListaQuestoesProps> = ({
                     <div className={styles.previaQuestao}>
                       <TextoRico texto={q.previa} />
                     </div>
+                    <ArrowRight size={20} className={styles.setaCard} aria-hidden="true" />
                   </Link>
                 );
               })}

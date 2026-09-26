@@ -6,6 +6,7 @@ import { lerFiltrosDaUrl } from '../../data/url';
 import { filtrarQuestoes } from '../../data/filtrar';
 import { Filtros } from './Filtros';
 import { ListaQuestoes } from './ListaQuestoes';
+import { BookOpenCheck, Layers, Library } from 'lucide-react';
 import styles from './PaginaBanco.module.css';
 
 export const PaginaBanco: React.FC = () => {
@@ -56,8 +57,17 @@ export const PaginaBanco: React.FC = () => {
   if (carregando) {
     return (
       <div className={styles.paginaBanco}>
-        <div className={styles.carregandoContainer}>
-          <p>Carregando banco de questões do ENADE...</p>
+        <div className={styles.conteudo}>
+          <p className={styles.carregandoTexto}>Carregando banco de questões do ENADE...</p>
+          <div className={styles.esqueletoGrade} aria-hidden="true">
+            {Array.from({ length: 6 }, (_, i) => (
+              <div key={i} className={styles.esqueletoCard}>
+                <span className={styles.esqueletoLinha} />
+                <span className={styles.esqueletoLinha} />
+                <span className={styles.esqueletoLinhaCurta} />
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     );
@@ -66,8 +76,10 @@ export const PaginaBanco: React.FC = () => {
   if (erro || !indice) {
     return (
       <div className={styles.paginaBanco}>
-        <div className={styles.vazioMensagem}>
-          <p>{erro || 'Falha ao carregar os dados.'}</p>
+        <div className={styles.conteudo}>
+          <div className={styles.vazioMensagem}>
+            <p>{erro || 'Falha ao carregar os dados.'}</p>
+          </div>
         </div>
       </div>
     );
@@ -75,24 +87,45 @@ export const PaginaBanco: React.FC = () => {
 
   return (
     <div className={styles.paginaBanco}>
-      <header className={styles.cabecalhoPagina}>
-        <h1 className={styles.tituloPrincipal}>Banco de Questões</h1>
-        <p className={styles.subtituloPrincipal}>
-          202 questões do ENADE Matemática Licenciatura (2021, 2025 Prova 1 e 2025 Prova 5).
-        </p>
+      <header className={styles.hero}>
+        <div className={styles.heroConteudo}>
+          <p className={styles.sobretitulo}>ENADE · Matemática Licenciatura</p>
+          <h1 className={styles.tituloPrincipal}>Banco de Questões</h1>
+          <p className={styles.subtituloPrincipal}>
+            202 questões do ENADE Matemática Licenciatura (2021, 2025 Prova 1 e 2025 Prova 5).
+          </p>
+          <ul className={styles.pilulasResumo}>
+            <li>
+              <Library size={18} aria-hidden="true" />
+              {indice.questoes.length} questões
+            </li>
+            <li>
+              <Layers size={18} aria-hidden="true" />
+              {indice.provas.length} provas
+            </li>
+            <li>
+              <BookOpenCheck size={18} aria-hidden="true" />
+              Resoluções comentadas
+            </li>
+          </ul>
+        </div>
       </header>
 
-      <Filtros
-        filtros={filtros}
-        onChangeFiltros={handleFiltrosChange}
-        totalQuestoes={questoesFiltradas.length}
-      />
+      <div className={styles.conteudo}>
+        <div className={styles.filtrosSobreHero}>
+          <Filtros
+            filtros={filtros}
+            onChangeFiltros={handleFiltrosChange}
+            totalQuestoes={questoesFiltradas.length}
+          />
+        </div>
 
-      <ListaQuestoes
-        questoes={questoesFiltradas}
-        provas={indice.provas}
-        queryStringParams={queryStringAtual}
-      />
+        <ListaQuestoes
+          questoes={questoesFiltradas}
+          provas={indice.provas}
+          queryStringParams={queryStringAtual}
+        />
+      </div>
     </div>
   );
 };

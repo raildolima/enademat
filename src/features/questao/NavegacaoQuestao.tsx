@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router';
 import type { ResumoQuestao, Letra } from '../../data/tipos';
+import { ArrowLeft, ChevronLeft, ChevronRight, ListChecks } from 'lucide-react';
 import styles from './NavegacaoQuestao.module.css';
 
 interface NavegacaoQuestaoProps {
@@ -40,6 +41,7 @@ export const NavegacaoQuestao: React.FC<NavegacaoQuestaoProps> = ({
       {/* Botão Primário: Ver Gabarito */}
       <div className={styles.barraAcoesPrimarias}>
         <Link to={linkResolucao} className={styles.btnGabarito}>
+          <ListChecks size={22} aria-hidden="true" />
           {textoBotaoPrincipal}
         </Link>
       </div>
@@ -48,24 +50,34 @@ export const NavegacaoQuestao: React.FC<NavegacaoQuestaoProps> = ({
       <div className={styles.barraNavegacaoSecundaria}>
         <div>
           <Link to={`/${queryStringParams}`} className={styles.btnNav}>
-            ← Voltar ao banco
+            <ArrowLeft size={18} aria-hidden="true" />
+            Voltar ao banco
           </Link>
         </div>
 
         {posicaoAtual > 0 && totalFiltrado > 0 && (
-          <div className={styles.posicaoIndicador}>
-            Questão <strong>{posicaoAtual}</strong> de <strong>{totalFiltrado}</strong>
+          <div className={styles.progresso}>
+            <div className={styles.posicaoIndicador}>
+              Questão <strong>{posicaoAtual}</strong> de <strong>{totalFiltrado}</strong>
+            </div>
+            <div className={styles.barraProgresso} data-testid="barra-progresso" aria-hidden="true">
+              <div
+                className={styles.barraProgressoPreenchimento}
+                style={{ width: `${(posicaoAtual / totalFiltrado) * 100}%` }}
+              />
+            </div>
           </div>
         )}
 
-        <div style={{ display: 'flex', gap: 'var(--espaco-2)' }}>
+        <div className={styles.grupoAnteriorProxima}>
           <Link
             to={anterior ? `/questao/${anterior.id}${queryStringParams}` : '#'}
             className={`${styles.btnNav} ${!anterior ? styles.desabilitado : ''}`}
             aria-disabled={!anterior}
             tabIndex={!anterior ? -1 : 0}
           >
-            ‹ Anterior
+            <ChevronLeft size={18} aria-hidden="true" />
+            Anterior
           </Link>
           <Link
             to={proxima ? `/questao/${proxima.id}${queryStringParams}` : '#'}
@@ -73,7 +85,8 @@ export const NavegacaoQuestao: React.FC<NavegacaoQuestaoProps> = ({
             aria-disabled={!proxima}
             tabIndex={!proxima ? -1 : 0}
           >
-            Próxima ›
+            Próxima
+            <ChevronRight size={18} aria-hidden="true" />
           </Link>
         </div>
       </div>

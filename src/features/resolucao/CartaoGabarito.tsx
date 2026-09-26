@@ -1,6 +1,7 @@
 import React from 'react';
 import type { Questao, Letra } from '../../data/tipos';
 import { Blocos } from '../../components/Blocos';
+import { CircleCheck, CircleX, FileText } from 'lucide-react';
 import styles from './CartaoGabarito.module.css';
 
 interface CartaoGabaritoProps {
@@ -18,7 +19,10 @@ export const CartaoGabarito: React.FC<CartaoGabaritoProps> = ({
   if (questao.tipo === 'discursiva') {
     return (
       <section className={styles.cartaoGabarito} aria-label="Resposta esperada">
-        <h2 className={styles.discursivaTitulo}>Resposta esperada</h2>
+        <h2 className={styles.discursivaTitulo}>
+          <FileText size={22} aria-hidden="true" />
+          Resposta esperada
+        </h2>
       </section>
     );
   }
@@ -51,12 +55,12 @@ export const CartaoGabarito: React.FC<CartaoGabaritoProps> = ({
           >
             {acertou ? (
               <>
-                <span className={styles.iconeStatus} aria-hidden="true">✓</span>
+                <CircleCheck size={22} className={styles.iconeStatus} aria-hidden="true" />
                 <span>Você marcou <strong>{alternativaMarcada}</strong> — correta</span>
               </>
             ) : (
               <>
-                <span className={styles.iconeStatus} aria-hidden="true">✗</span>
+                <CircleX size={22} className={styles.iconeStatus} aria-hidden="true" />
                 <span>Você marcou <strong>{alternativaMarcada}</strong> — incorreta</span>
               </>
             )}

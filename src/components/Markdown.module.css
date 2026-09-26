@@ -10,19 +10,22 @@
 .markdownContainer h4 {
   color: var(--cor-texto-principal);
   font-weight: 700;
-  margin-top: var(--espaco-6);
+  margin-top: var(--espaco-8);
   margin-bottom: var(--espaco-3);
   line-height: 1.3;
 }
 
+/* Título de seção UFMS: sublinhado azul de 4 px só sob o texto */
 .markdownContainer h2 {
-  font-size: 1.3rem;
-  border-bottom: 2px solid var(--cor-borda-suave);
-  padding-bottom: var(--espaco-1);
+  width: fit-content;
+  font-size: 1.35rem;
+  padding-bottom: var(--espaco-2);
+  border-bottom: 4px solid var(--cor-primaria-decorativa);
 }
 
 .markdownContainer h3 {
-  font-size: 1.1rem;
+  font-size: 1.12rem;
+  color: var(--cor-primaria);
 }
 
 .markdownContainer p {
@@ -38,13 +41,23 @@
   gap: var(--espaco-2);
 }
 
+.markdownContainer li::marker {
+  color: var(--cor-primaria);
+  font-weight: 700;
+}
+
+.markdownContainer strong {
+  color: var(--cor-texto-principal);
+  font-weight: 700;
+}
+
 .markdownContainer blockquote {
-  border-left: 4px solid var(--cor-primaria);
-  padding: var(--espaco-2) var(--espaco-4);
+  padding: var(--espaco-3) var(--espaco-5);
   margin: var(--espaco-4) 0;
-  background-color: var(--cor-superficie-hover);
-  border-radius: 0 var(--raio-md) var(--raio-md) 0;
-  font-style: italic;
+  background-color: var(--cor-destaque-fundo);
+  border: 1px solid var(--cor-borda-suave);
+  border-top: 4px solid var(--cor-destaque);
+  border-radius: var(--raio-lg);
 }
 
 .markdownContainer code {
@@ -52,7 +65,7 @@
   background-color: var(--cor-superficie-hover);
   padding: 0.15rem 0.35rem;
   border-radius: var(--raio-sm);
-  font-size: 0.9em;
+  font-size: 0.88em;
 }
 
 .markdownContainer pre {

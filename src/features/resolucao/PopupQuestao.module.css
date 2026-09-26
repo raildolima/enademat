@@ -1,38 +1,47 @@
+/* Gatilho: botão outline UFMS */
 .btnGatilho {
   display: inline-flex;
   align-items: center;
   gap: var(--espaco-2);
-  padding: var(--espaco-2) var(--espaco-4);
+  min-height: var(--alvo-toque);
+  padding: var(--espaco-2) var(--espaco-5);
   background-color: var(--cor-superficie);
   color: var(--cor-primaria);
-  border: 1px solid var(--cor-primaria);
+  border: 2px solid var(--cor-primaria);
   border-radius: var(--raio-md);
+  font-family: var(--fonte-titulos);
   font-weight: 600;
   font-size: 0.95rem;
+  white-space: nowrap;
   cursor: pointer;
-  transition: all var(--transicao-rapida);
+  transition: background-color var(--transicao-rapida), color var(--transicao-rapida), transform var(--transicao-rapida);
 }
 
 .btnGatilho:hover,
 .btnGatilho[aria-expanded="true"] {
-  background-color: var(--cor-primaria-fundo);
-  border-color: var(--cor-primaria-hover);
+  background-color: var(--cor-primaria);
+  color: var(--cor-texto-inverso);
 }
 
+.btnGatilho:active {
+  transform: scale(0.97);
+}
+
+/* Caixa: modal UFMS (raio 16, sombra xl). Largura/altura e fade ~120 ms conforme a especificação */
 .popupCaixa {
   width: min(720px, 92vw);
   max-height: 70vh;
   overflow-y: auto;
-  background-color: var(--cor-superficie);
+  background-color: var(--cor-fundo);
   border: 1px solid var(--cor-borda);
   border-radius: var(--raio-lg);
   box-shadow: var(--sombra-popup);
-  padding: var(--espaco-5);
-  z-index: 1000;
-  animation: fadeIn var(--transicao-rapida);
+  padding: 0 var(--espaco-5) var(--espaco-5);
+  z-index: var(--z-popup);
+  animation: surgir 120ms ease-out;
 }
 
-@keyframes fadeIn {
+@keyframes surgir {
   from {
     opacity: 0;
     transform: translateY(4px);
@@ -43,37 +52,54 @@
   }
 }
 
+@media (prefers-reduced-motion: reduce) {
+  .popupCaixa {
+    animation: none;
+  }
+}
+
 .cabecalhoPopup {
+  position: sticky;
+  top: 0;
+  z-index: 1;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: var(--espaco-4);
-  padding-bottom: var(--espaco-2);
-  border-bottom: 1px solid var(--cor-borda-suave);
+  gap: var(--espaco-3);
+  margin: 0 calc(-1 * var(--espaco-5)) var(--espaco-4);
+  padding: var(--espaco-3) var(--espaco-5);
+  background-color: var(--cor-faixa);
+  border-radius: var(--raio-lg) var(--raio-lg) 0 0;
 }
 
 .tituloPopup {
-  font-size: 1.1rem;
+  font-family: var(--fonte-titulos);
+  font-size: 1.05rem;
   font-weight: 700;
-  color: var(--cor-texto-principal);
+  color: var(--cor-faixa-texto);
 }
 
 .btnFechar {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  gap: var(--espaco-1);
+  min-height: 36px;
   padding: var(--espaco-1) var(--espaco-3);
+  font-family: var(--fonte-titulos);
   font-size: 0.85rem;
   font-weight: 600;
-  color: var(--cor-texto-secundario);
-  background-color: var(--cor-superficie-hover);
-  border: 1px solid var(--cor-borda);
-  border-radius: var(--raio-sm);
+  color: var(--cor-texto-sobre-destaque);
+  background-color: var(--cor-destaque);
+  border-radius: var(--raio-md);
   cursor: pointer;
-  transition: background-color var(--transicao-rapida);
+  transition: background-color var(--transicao-rapida), transform var(--transicao-rapida);
 }
 
 .btnFechar:hover {
-  background-color: var(--cor-superficie-ativa);
-  color: var(--cor-texto-principal);
+  background-color: var(--cor-destaque-hover);
+}
+
+.btnFechar:active {
+  transform: scale(0.96);
 }

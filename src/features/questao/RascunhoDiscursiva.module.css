@@ -1,9 +1,9 @@
 .rascunhoContainer {
   margin-top: var(--espaco-6);
   background-color: var(--cor-superficie);
-  border: 1px dashed var(--cor-borda);
-  border-radius: var(--raio-md);
-  padding: var(--espaco-4);
+  border: 2px dashed var(--cor-borda);
+  border-radius: var(--raio-lg);
+  padding: var(--espaco-5);
 }
 
 .rascunhoCabecalho {
@@ -14,32 +14,34 @@
 }
 
 .rascunhoTitulo {
-  font-size: 0.95rem;
+  font-family: var(--fonte-titulos);
+  font-size: 1rem;
   font-weight: 600;
-  color: var(--cor-texto-secundario);
+  color: var(--cor-primaria);
 }
 
 .rascunhoAviso {
   font-size: 0.8rem;
-  color: var(--cor-texto-atenuado);
+  color: var(--cor-texto-secundario);
 }
 
 .textareaRascunho {
   width: 100%;
   min-height: 180px;
   padding: var(--espaco-3);
-  font-family: var(--fonte-mono);
-  font-size: 0.9rem;
-  line-height: 1.5;
+  font-family: var(--fonte-padrao);
+  font-size: 0.95rem;
+  line-height: 1.6;
   color: var(--cor-texto-principal);
   background-color: var(--cor-fundo);
-  border: 1px solid var(--cor-borda-suave);
+  border: 1px solid var(--cor-borda-forte);
   border-radius: var(--raio-md);
   resize: vertical;
+  transition: border-color var(--transicao-rapida), box-shadow var(--transicao-rapida);
 }
 
-.textareaRascunho:focus {
+.textareaRascunho:focus-visible {
   outline: none;
   border-color: var(--cor-foco);
-  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--cor-foco) 30%, transparent);
 }

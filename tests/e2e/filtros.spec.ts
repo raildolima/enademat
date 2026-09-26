@@ -7,14 +7,15 @@ test.describe('Filtros do Banco de Questões', () => {
     // Seleciona ano 2025
     await page.selectOption('#filtro-ano', '2025');
 
-    // Opções de prova devem conter apenas P1 e P5 (além de todas)
-    const opcoes = await page.$$eval('#filtro-prova option', (opts) =>
-      opts.map((o) => (o as HTMLOptionElement).value)
-    );
-    expect(opcoes).toContain('todas');
-    expect(opcoes).toContain('2025-prova1');
-    expect(opcoes).toContain('2025-prova5');
-    expect(opcoes).not.toContain('2021-licenciatura');
+    // Opções de prova devem conter apenas P1 e P5 (além de todas). O filtro passa pela URL
+    // (setSearchParams) e re-renderiza de forma assíncrona: usar asserção com nova tentativa.
+    const valoresOpcoes = page.locator('#filtro-prova option');
+    await expect(valoresOpcoes).toHaveCount(3);
+    expect(await valoresOpcoes.evaluateAll((opts) => opts.map((o) => (o as HTMLOptionElement).value))).toEqual([
+      'todas',
+      '2025-prova1',
+      '2025-prova5',
+    ]);
 
     // Total de questões exibido
     await expect(page.locator('text=162 questões encontradas')).toBeVisible();

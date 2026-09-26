@@ -2,12 +2,12 @@
   width: 100%;
   max-width: var(--largura-maxima);
   margin: 0 auto;
-  padding: var(--espaco-6) var(--espaco-4);
+  padding: var(--espaco-6) var(--espaco-4) var(--espaco-12);
 }
 
 .barraFixaSuperior {
-  background-color: var(--cor-fundo);
-  z-index: 100;
+  background-color: color-mix(in srgb, var(--cor-fundo) 92%, transparent);
+  z-index: var(--z-sticky);
   border-bottom: 1px solid var(--cor-borda-suave);
   padding: var(--espaco-3) 0;
   margin-bottom: var(--espaco-6);
@@ -26,13 +26,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   max-width: var(--largura-leitura);
   margin: 0 auto;
-  gap: var(--espaco-4);
+  gap: var(--espaco-3) var(--espaco-4);
 }
 
 .tituloResolucao {
-  font-size: 1.4rem;
+  font-size: clamp(1.35rem, 3.5vw, 1.75rem);
   font-weight: 800;
   color: var(--cor-texto-principal);
 }
@@ -43,18 +44,17 @@
 }
 
 .avisoResolucaoPendente {
-  background-color: var(--cor-superficie);
-  border: 1px dashed var(--cor-aviso-borda);
-  border-left: 4px solid var(--cor-aviso);
+  background-color: var(--cor-aviso-fundo);
+  border: 2px dashed var(--cor-aviso-borda);
   padding: var(--espaco-6);
   border-radius: var(--raio-lg);
   margin: var(--espaco-6) 0;
-  color: var(--cor-texto-secundario);
+  color: var(--cor-aviso-texto);
 }
 
 .avisoResolucaoPendente h2 {
   font-size: 1.1rem;
-  color: var(--cor-aviso);
+  color: var(--cor-aviso-texto);
   margin-bottom: var(--espaco-2);
 }
 
@@ -63,9 +63,12 @@
   justify-content: space-between;
   align-items: center;
   max-width: var(--largura-leitura);
-  margin: var(--espaco-8) auto 0 auto;
-  padding-top: var(--espaco-4);
-  border-top: 1px solid var(--cor-borda-suave);
+  margin: var(--espaco-10) auto 0 auto;
+  padding: var(--espaco-4);
+  background-color: var(--cor-superficie);
+  border: 1px solid var(--cor-borda-suave);
+  border-radius: var(--raio-lg);
+  box-shadow: var(--sombra-sm);
   flex-wrap: wrap;
   gap: var(--espaco-3);
 }
@@ -74,24 +77,51 @@
   display: inline-flex;
   align-items: center;
   gap: var(--espaco-2);
+  min-height: var(--alvo-toque);
   padding: var(--espaco-2) var(--espaco-4);
   background-color: var(--cor-superficie);
-  border: 1px solid var(--cor-borda);
+  border: 2px solid var(--cor-borda);
   border-radius: var(--raio-md);
   color: var(--cor-texto-principal);
+  font-family: var(--fonte-titulos);
   font-weight: 600;
   text-decoration: none;
-  transition: all var(--transicao-rapida);
+  transition: background-color var(--transicao-rapida), border-color var(--transicao-rapida), color var(--transicao-rapida), transform var(--transicao-rapida);
 }
 
 .btnAcao:hover {
-  background-color: var(--cor-superficie-hover);
+  background-color: var(--cor-destaque-fundo);
   border-color: var(--cor-primaria);
-  text-decoration: none;
+  color: var(--cor-primaria-hover);
+}
+
+.btnAcao:active {
+  transform: scale(0.97);
+}
+
+/* "Próxima questão" é a ação principal do rodapé */
+.btnAcao:last-child:not(.desabilitado) {
+  background-color: var(--cor-primaria);
+  border-color: var(--cor-primaria);
+  color: var(--cor-texto-inverso);
+}
+
+.btnAcao:last-child:not(.desabilitado):hover {
+  background-color: var(--cor-primaria-hover);
+  border-color: var(--cor-primaria-hover);
+  color: var(--cor-texto-inverso);
+}
+
+.btnAcao:last-child svg {
+  transition: transform var(--transicao-media);
+}
+
+.btnAcao:last-child:hover svg {
+  transform: translateX(4px);
 }
 
 .btnAcao.desabilitado {
-  opacity: 0.4;
+  opacity: 0.45;
   cursor: not-allowed;
   pointer-events: none;
 }

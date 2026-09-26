@@ -2,7 +2,7 @@
   width: 100%;
   max-width: var(--largura-maxima);
   margin: 0 auto;
-  padding: var(--espaco-6) var(--espaco-4);
+  padding: var(--espaco-8) var(--espaco-4) var(--espaco-12);
 }
 
 .cabecalhoQuestao {
@@ -14,19 +14,25 @@
   display: flex;
   align-items: center;
   gap: var(--espaco-2);
-  font-size: 0.9rem;
-  color: var(--cor-texto-atenuado);
-  margin-bottom: var(--espaco-3);
+  font-size: 0.88rem;
+  color: var(--cor-texto-secundario);
+  margin-bottom: var(--espaco-4);
   flex-wrap: wrap;
 }
 
 .separadorBreadcrumb {
-  color: var(--cor-borda);
+  color: var(--cor-texto-atenuado);
+  flex-shrink: 0;
 }
 
 .linkBreadcrumb {
   color: var(--cor-texto-secundario);
   text-decoration: none;
+}
+
+a.linkBreadcrumb {
+  color: var(--cor-primaria);
+  font-weight: 600;
 }
 
 .linkBreadcrumb:hover {
@@ -42,8 +48,9 @@
 }
 
 .tituloQuestao {
-  font-size: 1.6rem;
+  font-size: clamp(1.6rem, 4vw, 2.1rem);
   font-weight: 800;
+  line-height: 1.15;
   color: var(--cor-texto-principal);
 }
 
@@ -61,4 +68,10 @@
   justify-content: center;
   padding: var(--espaco-12);
   gap: var(--espaco-4);
+}
+
+@media (max-width: 480px) {
+  .paginaQuestao {
+    padding: var(--espaco-6) var(--espaco-3) var(--espaco-10);
+  }
 }

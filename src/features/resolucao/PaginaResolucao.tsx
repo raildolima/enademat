@@ -6,6 +6,7 @@ import { filtrarQuestoes, vizinhas } from '../../data/filtrar';
 import { CartaoGabarito } from './CartaoGabarito';
 import { PopupQuestao } from './PopupQuestao';
 import { Markdown } from '../../components/Markdown';
+import { ArrowLeft, ArrowRight } from 'lucide-react';
 import styles from './PaginaResolucao.module.css';
 
 function extrairCorpoMarkdown(conteudo: string): string {
@@ -119,7 +120,8 @@ export const PaginaResolucao: React.FC = () => {
             to={`/questao/${questao.id}${queryStringAtual}`}
             className={styles.btnAcao}
           >
-            ← Voltar à questão
+            <ArrowLeft size={18} aria-hidden="true" />
+            Voltar à questão
           </Link>
 
           <Link
@@ -134,7 +136,8 @@ export const PaginaResolucao: React.FC = () => {
             aria-disabled={!infoVizinhas.proxima}
             tabIndex={!infoVizinhas.proxima ? -1 : 0}
           >
-            Próxima questão →
+            Próxima questão
+            <ArrowRight size={18} aria-hidden="true" />
           </Link>
         </footer>
       </div>

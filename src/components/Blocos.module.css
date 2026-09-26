@@ -7,9 +7,9 @@
 .blocoTitulo {
   font-size: 1.15rem;
   font-weight: 700;
+  color: var(--cor-primaria);
   margin-top: var(--espaco-4);
   margin-bottom: var(--espaco-2);
-  color: var(--cor-texto-principal);
 }
 
 .blocoFormula {
@@ -42,30 +42,35 @@
   display: flex;
   align-items: flex-start;
   gap: var(--espaco-3);
-  background-color: var(--cor-superficie);
-  padding: var(--espaco-3);
+  background-color: var(--cor-fundo);
+  padding: var(--espaco-3) var(--espaco-4);
   border-radius: var(--raio-md);
   border: 1px solid var(--cor-borda-suave);
 }
 
 .afirmativaRotulo {
+  font-family: var(--fonte-titulos);
   font-weight: 700;
-  color: var(--cor-primaria);
-  min-width: 1.8rem;
+  color: var(--cor-primaria-hover);
+  min-width: 2.2rem;
   text-align: center;
   background-color: var(--cor-primaria-fundo);
-  padding: 0.1rem 0.4rem;
-  border-radius: var(--raio-sm);
-  font-size: 0.9rem;
+  padding: 0.15rem 0.5rem;
+  border-radius: var(--raio-full);
+  font-size: 0.88rem;
 }
 
 .blocoConectivo {
-  text-align: center;
+  width: fit-content;
+  margin: var(--espaco-4) auto;
+  padding: var(--espaco-1) var(--espaco-5);
+  border-radius: var(--raio-full);
+  background-color: var(--cor-destaque);
+  color: var(--cor-texto-sobre-destaque);
+  font-family: var(--fonte-titulos);
   font-weight: 800;
-  letter-spacing: 0.1em;
-  color: var(--cor-texto-secundario);
-  margin: var(--espaco-4) 0;
-  font-size: 0.95rem;
+  letter-spacing: 0.12em;
+  font-size: 0.9rem;
 }
 
 .blocoImagemContainer {
@@ -76,32 +81,33 @@
 }
 
 .blocoImagem {
-  border-radius: var(--raio-md);
+  border-radius: var(--raio-lg);
   border: 1px solid var(--cor-borda-suave);
+  padding: var(--espaco-2);
   background-color: #ffffff; /* fundo branco para imagens científicas transparentes */
   box-shadow: var(--sombra-sm);
 }
 
 .blocoLegenda {
   font-size: 0.85rem;
-  color: var(--cor-texto-atenuado);
+  color: var(--cor-texto-secundario);
   margin-top: var(--espaco-2);
   text-align: center;
   font-style: italic;
 }
 
 .blocoQuadro {
-  background-color: var(--cor-superficie);
-  border: 1px solid var(--cor-borda);
-  border-left: 4px solid var(--cor-primaria);
-  padding: var(--espaco-4);
-  border-radius: var(--raio-md);
+  background-color: var(--cor-destaque-fundo);
+  border: 1px solid var(--cor-borda-suave);
+  border-top: 4px solid var(--cor-primaria-decorativa);
+  padding: var(--espaco-4) var(--espaco-5);
+  border-radius: var(--raio-lg);
   margin: var(--espaco-4) 0;
 }
 
 .blocoFonte {
   font-size: 0.82rem;
-  color: var(--cor-texto-atenuado);
+  color: var(--cor-texto-secundario);
   margin-top: var(--espaco-2);
   margin-bottom: var(--espaco-3);
   line-height: 1.4;

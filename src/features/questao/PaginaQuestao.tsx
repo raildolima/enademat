@@ -8,6 +8,7 @@ import { ConteudoQuestao } from '../../components/ConteudoQuestao';
 import { Badge } from '../../components/Badge';
 import { NavegacaoQuestao } from './NavegacaoQuestao';
 import { RascunhoDiscursiva } from './RascunhoDiscursiva';
+import { ChevronRight } from 'lucide-react';
 import styles from './PaginaQuestao.module.css';
 
 export const PaginaQuestao: React.FC = () => {
@@ -73,11 +74,11 @@ export const PaginaQuestao: React.FC = () => {
           <Link to={`/${queryStringAtual}`} className={styles.linkBreadcrumb}>
             Banco de Questões
           </Link>
-          <span className={styles.separadorBreadcrumb}>›</span>
+          <ChevronRight size={14} className={styles.separadorBreadcrumb} aria-hidden="true" />
           <span className={styles.linkBreadcrumb}>ENADE {prova.prova.ano}</span>
-          <span className={styles.separadorBreadcrumb}>›</span>
+          <ChevronRight size={14} className={styles.separadorBreadcrumb} aria-hidden="true" />
           <span className={styles.linkBreadcrumb}>{nomeProva}</span>
-          <span className={styles.separadorBreadcrumb}>›</span>
+          <ChevronRight size={14} className={styles.separadorBreadcrumb} aria-hidden="true" />
           <span aria-current="page">{questao.rotulo}</span>
         </nav>
 

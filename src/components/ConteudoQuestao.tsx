@@ -2,6 +2,7 @@ import React from 'react';
 import type { Questao, TextoBase, Letra } from '../data/tipos';
 import { Blocos } from './Blocos';
 import { TextoRico } from './TextoRico';
+import { BookOpen, Check } from 'lucide-react';
 import styles from './ConteudoQuestao.module.css';
 
 interface ConteudoQuestaoProps {
@@ -61,6 +62,7 @@ export const ConteudoQuestao: React.FC<ConteudoQuestaoProps> = ({
           aria-label={textoBase.titulo || 'Texto-base da questão'}
         >
           <header className={styles.tituloTextoBase}>
+            <BookOpen size={18} aria-hidden="true" />
             <span>{textoBase.titulo}</span>
           </header>
           <Blocos blocos={textoBase.blocos} />
@@ -98,6 +100,9 @@ export const ConteudoQuestao: React.FC<ConteudoQuestaoProps> = ({
                   <div className={styles.alternativaConteudo}>
                     <Blocos blocos={alt.blocos} />
                   </div>
+                  {marcada && !somenteLeitura && (
+                    <Check size={22} strokeWidth={2.75} className={styles.iconeMarcada} aria-hidden="true" />
+                  )}
                 </div>
               );
             })}

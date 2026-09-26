@@ -1,5 +1,6 @@
 import React from 'react';
 import type { FiltrosQuestoes, ProvaId, Parte } from '../../data/tipos';
+import { RotateCcw, Search } from 'lucide-react';
 import styles from './Filtros.module.css';
 
 interface FiltrosProps {
@@ -178,22 +179,26 @@ export const Filtros: React.FC<FiltrosProps> = ({
           <label htmlFor="filtro-busca" className={styles.rotuloCampo}>
             Buscar por termo, fórmula ou número
           </label>
-          <input
-            id="filtro-busca"
-            type="search"
-            placeholder="Ex: chumbo, matriz, 32, derivada..."
-            value={termoAtual}
-            onChange={handleTermoChange}
-            className={styles.inputCampo}
-          />
+          <span className={styles.buscaCampo}>
+            <Search size={18} className={styles.buscaIcone} aria-hidden="true" />
+            <input
+              id="filtro-busca"
+              type="search"
+              placeholder="Ex: chumbo, matriz, 32, derivada..."
+              value={termoAtual}
+              onChange={handleTermoChange}
+              className={styles.inputCampo}
+            />
+          </span>
         </div>
       </div>
 
       <div className={styles.rodapeFiltros}>
-        <div role="status">
+        <div role="status" className={styles.contador}>
           <strong>{totalQuestoes}</strong> {totalQuestoes === 1 ? 'questão encontrada' : 'questões encontradas'}
         </div>
         <button type="button" onClick={handleLimpar} className={styles.btnLimpar}>
+          <RotateCcw size={16} aria-hidden="true" />
           Limpar filtros
         </button>
       </div>

@@ -1,110 +1,177 @@
+/*
+ * Tokens do app sobre o Design System da UFMS (UFMS - Design/colors_and_type.css).
+ * Os primitivos --ufms-* são a paleta oficial; os tokens semânticos --cor-* são o que os módulos usam.
+ * Contrastes medidos em docs/DESIGN-UFMS.md. #0088B7 (azul UFMS puro) dá 4,0:1 com branco:
+ * só para elementos grandes/decorativos; texto e botões usam --ufms-azul-600 (#006A8F, 6,1:1).
+ */
 :root {
-  /* Tipografia */
-  --fonte-padrao: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-  --fonte-mono: ui-monospace, "SF Mono", "Cascadia Code", "Roboto Mono", Consolas, "Liberation Mono", Menlo, monospace;
+  /* Paleta oficial UFMS */
+  --ufms-azul-50: #e6f4f9;
+  --ufms-azul-100: #cce9f3;
+  --ufms-azul-200: #99d3e7;
+  --ufms-azul-300: #66bddb;
+  --ufms-azul-400: #33a3c8;
+  --ufms-azul-500: #0088b7;
+  --ufms-azul-600: #006a8f;
+  --ufms-azul-700: #005273;
+  --ufms-azul-800: #003a52;
+  --ufms-azul-900: #002233;
+  --ufms-amarelo: #ffcd00;
+  --ufms-amarelo-hover: #f0bd00;
+  --ufms-verde: #00a859;
+  --ufms-cinza-50: #f5f7f9;
+  --ufms-cinza-100: #e0e5ea;
+  --ufms-cinza-200: #c4cdd5;
+  --ufms-cinza-300: #9aa5b1;
+  --ufms-cinza-400: #7b8794;
+  --ufms-cinza-500: #616e7c;
+  --ufms-cinza-600: #4a5568;
+  --ufms-cinza-900: #1a1a1a;
+  --ufms-gradiente-profundo: linear-gradient(135deg, #002233 0%, #005273 55%, #0088b7 100%);
+  --ufms-gradiente-institucional: linear-gradient(135deg, #0088b7 0%, #2ba89d 50%, #6bc9a8 100%);
+
+  /* Tipografia (fontes empacotadas via @fontsource em src/styles/fontes.ts) */
+  --fonte-titulos: "Poppins", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --fonte-padrao: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+  --fonte-mono: "JetBrains Mono", ui-monospace, "SF Mono", "Cascadia Code", Consolas, monospace;
   --tamanho-base: 17px;
   --altura-linha: 1.6;
   --largura-leitura: 72ch;
-  --largura-maxima: 1100px;
+  --largura-maxima: 1180px;
 
-  /* Espaçamentos */
-  --espaco-1: 0.25rem;  /* 4px */
-  --espaco-2: 0.5rem;   /* 8px */
-  --espaco-3: 0.75rem;  /* 12px */
-  --espaco-4: 1rem;     /* 16px */
-  --espaco-5: 1.25rem;  /* 20px */
-  --espaco-6: 1.5rem;   /* 24px */
-  --espaco-8: 2rem;     /* 32px */
-  --espaco-10: 2.5rem;  /* 40px */
-  --espaco-12: 3rem;    /* 48px */
+  /* Espaçamentos (base 4 px) */
+  --espaco-1: 0.25rem;
+  --espaco-2: 0.5rem;
+  --espaco-3: 0.75rem;
+  --espaco-4: 1rem;
+  --espaco-5: 1.25rem;
+  --espaco-6: 1.5rem;
+  --espaco-8: 2rem;
+  --espaco-10: 2.5rem;
+  --espaco-12: 3rem;
+  --espaco-16: 4rem;
 
-  /* Raios de borda */
+  /* Raios UFMS: inputs/badges 4, botões 8, cards/modais 16, destaques 24 */
   --raio-sm: 4px;
   --raio-md: 8px;
-  --raio-lg: 12px;
+  --raio-lg: 16px;
+  --raio-xl: 24px;
   --raio-full: 9999px;
 
-  /* Transições */
-  --transicao-rapida: 120ms ease;
-  --transicao-media: 200ms ease;
+  /* Movimento UFMS: 150/250/400 ms, sem bounce */
+  --transicao-rapida: 150ms ease;
+  --transicao-media: 250ms ease;
+  --transicao-lenta: 400ms ease;
+  --duracao-animacao: 250ms;
 
-  /* Cores - Tema Claro (WCAG 2.2 AA Contrast) */
-  --cor-fundo: #f8fafc;           /* slate-50 */
-  --cor-superficie: #ffffff;      /* white */
-  --cor-superficie-hover: #f1f5f9;/* slate-100 */
-  --cor-superficie-ativa: #e2e8f0;/* slate-200 */
-  --cor-destaque-fundo: #eff6ff;  /* blue-50 */
-  
-  --cor-texto-principal: #0f172a; /* slate-900 */
-  --cor-texto-secundario: #475569;/* slate-600 */
-  --cor-texto-atenuado: #64748b;  /* slate-500 */
+  /* Camadas */
+  --z-cabecalho: 20;
+  --z-sticky: 30;
+  --z-popup: 50;
+  --z-skip-link: 100;
+
+  /* Alvo de toque mínimo (WCAG 2.5.8 / ui-ux-pro-max: 44 px) */
+  --alvo-toque: 44px;
+
+  /* Cores semânticas — tema claro */
+  --cor-fundo: var(--ufms-cinza-50);
+  --cor-superficie: #ffffff;
+  --cor-superficie-hover: var(--ufms-azul-50);
+  --cor-superficie-ativa: var(--ufms-azul-100);
+  --cor-destaque-fundo: var(--ufms-azul-50);
+
+  --cor-texto-principal: var(--ufms-cinza-900);
+  --cor-texto-secundario: var(--ufms-cinza-600);
+  --cor-texto-atenuado: var(--ufms-cinza-500);
   --cor-texto-inverso: #ffffff;
 
-  --cor-borda: #cbd5e1;           /* slate-300 */
-  --cor-borda-suave: #e2e8f0;     /* slate-200 */
-  --cor-borda-forte: #94a3b8;     /* slate-400 */
+  --cor-borda: var(--ufms-cinza-200);
+  --cor-borda-suave: var(--ufms-cinza-100);
+  --cor-borda-forte: var(--ufms-cinza-400);
 
-  --cor-primaria: #1e40af;        /* blue-800 - institucional */
-  --cor-primaria-hover: #1d4ed8;  /* blue-700 */
-  --cor-primaria-fundo: #dbeafe;  /* blue-100 */
+  --cor-primaria: var(--ufms-azul-600);
+  --cor-primaria-hover: var(--ufms-azul-700);
+  --cor-primaria-fundo: var(--ufms-azul-100);
+  --cor-primaria-decorativa: var(--ufms-azul-500);
 
-  --cor-sucesso: #15803d;         /* green-700 */
-  --cor-sucesso-fundo: #dcfce7;   /* green-100 */
-  --cor-sucesso-borda: #86efac;   /* green-300 */
+  --cor-destaque: var(--ufms-amarelo);
+  --cor-destaque-hover: var(--ufms-amarelo-hover);
+  --cor-texto-sobre-destaque: var(--ufms-cinza-900);
 
-  --cor-erro: #b91c1c;            /* red-700 */
-  --cor-erro-fundo: #fee2e2;      /* red-100 */
-  --cor-erro-borda: #fca5a5;      /* red-300 */
+  --cor-sucesso: #0a7038;
+  --cor-sucesso-fundo: #d1f1e0;
+  --cor-sucesso-borda: #7fd3a8;
+  --cor-sucesso-texto: #0f5230;
 
-  --cor-aviso: #b45309;           /* amber-700 */
-  --cor-aviso-fundo: #fef3c7;     /* amber-100 */
-  --cor-aviso-borda: #fde68a;     /* amber-200 */
+  --cor-erro: #b3261e;
+  --cor-erro-fundo: #fbd9d9;
+  --cor-erro-borda: #eea3a3;
+  --cor-erro-texto: #811919;
 
-  --cor-foco: #2563eb;            /* blue-600 */
-  --sombra-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-  --sombra-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
-  --sombra-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
-  --sombra-popup: 0 20px 25px -5px rgba(0, 0, 0, 0.15), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+  --cor-aviso: #9a4d00;
+  --cor-aviso-fundo: #ffe6cc;
+  --cor-aviso-borda: #ffc285;
+  --cor-aviso-texto: #7a3d00;
+
+  --cor-foco: var(--ufms-azul-500);
+
+  /* Faixas institucionais (cabeçalho superior, hero, rodapé): escuras nos dois temas */
+  --cor-faixa: var(--ufms-azul-900);
+  --cor-faixa-texto: #ffffff;
+  --cor-faixa-texto-suave: var(--ufms-cinza-200);
+
+  /* Sombras UFMS, tingidas de azul */
+  --sombra-sm: 0 1px 2px rgba(0, 136, 183, 0.06), 0 1px 3px rgba(0, 34, 51, 0.06);
+  --sombra-md: 0 4px 12px rgba(0, 136, 183, 0.1), 0 2px 4px rgba(0, 34, 51, 0.05);
+  --sombra-lg: 0 12px 32px rgba(0, 136, 183, 0.16), 0 4px 8px rgba(0, 34, 51, 0.06);
+  --sombra-popup: 0 24px 48px rgba(0, 136, 183, 0.2), 0 8px 16px rgba(0, 34, 51, 0.1);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --cor-fundo: #0f172a;           /* slate-900 */
-    --cor-superficie: #1e293b;      /* slate-800 */
-    --cor-superficie-hover: #334155;/* slate-700 */
-    --cor-superficie-ativa: #475569;/* slate-600 */
-    --cor-destaque-fundo: #1e3a8a;  /* blue-900 */
+    --cor-fundo: #001a28;
+    --cor-superficie: #0b2a3c;
+    --cor-superficie-hover: #10384d;
+    --cor-superficie-ativa: #16465f;
+    --cor-destaque-fundo: #10384d;
 
-    --cor-texto-principal: #f8fafc; /* slate-50 */
-    --cor-texto-secundario: #cbd5e1;/* slate-300 */
-    --cor-texto-atenuado: #94a3b8;  /* slate-400 */
-    --cor-texto-inverso: #0f172a;
+    --cor-texto-principal: var(--ufms-cinza-50);
+    --cor-texto-secundario: var(--ufms-cinza-200);
+    --cor-texto-atenuado: var(--ufms-cinza-300);
+    --cor-texto-inverso: var(--ufms-azul-900);
 
-    --cor-borda: #475569;           /* slate-600 */
-    --cor-borda-suave: #334155;     /* slate-700 */
-    --cor-borda-forte: #64748b;     /* slate-500 */
+    --cor-borda: #2a4e63;
+    --cor-borda-suave: #1b3b4f;
+    --cor-borda-forte: #6b8a9d;
 
-    --cor-primaria: #60a5fa;        /* blue-400 */
-    --cor-primaria-hover: #93c5fd;  /* blue-300 */
-    --cor-primaria-fundo: #172554;  /* blue-950 */
+    --cor-primaria: var(--ufms-azul-300);
+    --cor-primaria-hover: var(--ufms-azul-200);
+    --cor-primaria-fundo: #10384d;
+    --cor-primaria-decorativa: var(--ufms-azul-300);
 
-    --cor-sucesso: #4ade80;         /* green-400 */
-    --cor-sucesso-fundo: #052e16;   /* green-950 */
-    --cor-sucesso-borda: #166534;   /* green-800 */
+    --cor-sucesso: #5fd49a;
+    --cor-sucesso-fundo: #08331f;
+    --cor-sucesso-borda: #1f7a4d;
+    --cor-sucesso-texto: #8fe3b9;
 
-    --cor-erro: #f87171;            /* red-400 */
-    --cor-erro-fundo: #450a0a;      /* red-950 */
-    --cor-erro-borda: #991b1b;      /* red-800 */
+    --cor-erro: #ff8a80;
+    --cor-erro-fundo: #3d0f0f;
+    --cor-erro-borda: #8f2b2b;
+    --cor-erro-texto: #ffb3ad;
 
-    --cor-aviso: #fbbf24;           /* amber-400 */
-    --cor-aviso-fundo: #451a03;     /* amber-950 */
-    --cor-aviso-borda: #92400e;     /* amber-800 */
+    --cor-aviso: #ffb86b;
+    --cor-aviso-fundo: #3a2200;
+    --cor-aviso-borda: #8a5200;
+    --cor-aviso-texto: #ffd3a3;
 
-    --cor-foco: #60a5fa;
-    --sombra-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.4);
-    --sombra-md: 0 4px 6px -1px rgba(0, 0, 0, 0.4), 0 2px 4px -2px rgba(0, 0, 0, 0.4);
-    --sombra-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.45), 0 4px 6px -4px rgba(0, 0, 0, 0.45);
-    --sombra-popup: 0 20px 25px -5px rgba(0, 0, 0, 0.5), 0 8px 10px -6px rgba(0, 0, 0, 0.5);
+    --cor-foco: var(--ufms-azul-300);
+
+    --cor-faixa: #000f18;
+
+    --sombra-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
+    --sombra-md: 0 4px 12px rgba(0, 0, 0, 0.45);
+    --sombra-lg: 0 12px 32px rgba(0, 0, 0, 0.5);
+    --sombra-popup: 0 24px 48px rgba(0, 0, 0, 0.6);
   }
 }
 
@@ -112,5 +179,7 @@
   :root {
     --transicao-rapida: 0ms;
     --transicao-media: 0ms;
+    --transicao-lenta: 0ms;
+    --duracao-animacao: 0ms;
   }
 }

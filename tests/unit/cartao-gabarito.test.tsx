@@ -42,7 +42,6 @@ describe('CartaoGabarito', () => {
 
     const feedback = screen.getByRole('status');
     expect(feedback.textContent).toContain('Você marcou D — correta');
-    expect(feedback.textContent).toContain('✓');
   });
 
   it('exibe feedback de erro quando a alternativa marcada é incorreta', () => {
@@ -56,7 +55,6 @@ describe('CartaoGabarito', () => {
 
     const feedback = screen.getByRole('status');
     expect(feedback.textContent).toContain('Você marcou B — incorreta');
-    expect(feedback.textContent).toContain('✗');
   });
 
   it('exibe título adequado para questão discursiva sem cartão de letras', () => {
@@ -69,5 +67,16 @@ describe('CartaoGabarito', () => {
     render(<CartaoGabarito questao={discursivaMock} gabaritoOficial="***" />);
     expect(screen.getByText('Resposta esperada')).toBeDefined();
     expect(screen.queryByText(/Gabarito oficial/i)).toBeNull();
+  });
+
+  it('usa ícones SVG (não os caracteres ✓/✗) no feedback, mantendo o texto', () => {
+    for (const marcada of ['D', 'B'] as const) {
+      const { unmount } = render(<CartaoGabarito questao={questaoMock} gabaritoOficial="D" alternativaMarcada={marcada} />);
+      const status = screen.getByRole('status');
+      expect(status.textContent).not.toMatch(/[✓✗]/);
+      expect(status.textContent).toContain(`Você marcou ${marcada} — ${marcada === 'D' ? 'correta' : 'incorreta'}`);
+      expect(status.querySelector('svg[aria-hidden="true"]')).not.toBeNull();
+      unmount();
+    }
   });
 });

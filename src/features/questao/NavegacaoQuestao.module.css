@@ -3,78 +3,162 @@
   flex-direction: column;
   gap: var(--espaco-4);
   max-width: var(--largura-leitura);
-  margin: var(--espaco-6) auto 0 auto;
+  margin: var(--espaco-8) auto 0 auto;
 }
 
 .barraAcoesPrimarias {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: var(--espaco-4) 0;
+  padding: var(--espaco-2) 0 var(--espaco-4);
 }
 
+/* Botão primário UFMS, com "soft press" */
 .btnGabarito {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: var(--espaco-2);
+  gap: var(--espaco-3);
+  min-height: 52px;
   background-color: var(--cor-primaria);
   color: var(--cor-texto-inverso);
+  font-family: var(--fonte-titulos);
   font-size: 1.1rem;
   font-weight: 700;
-  padding: var(--espaco-3) var(--espaco-6);
-  border-radius: var(--raio-md);
+  padding: var(--espaco-3) var(--espaco-8);
+  border-radius: var(--raio-lg);
   text-decoration: none;
-  box-shadow: var(--sombra-md);
-  transition: background-color var(--transicao-rapida), transform var(--transicao-rapida);
+  box-shadow: var(--sombra-md), inset 0 -3px 0 rgba(0, 0, 0, 0.18);
+  transition: background-color var(--transicao-rapida), transform var(--transicao-rapida), box-shadow var(--transicao-rapida);
 }
 
 .btnGabarito:hover {
   background-color: var(--cor-primaria-hover);
   color: var(--cor-texto-inverso);
-  text-decoration: none;
-  transform: translateY(-1px);
+  transform: translateY(-2px);
+  box-shadow: var(--sombra-lg), inset 0 -3px 0 rgba(0, 0, 0, 0.18);
+}
+
+.btnGabarito:active {
+  transform: translateY(1px);
+  box-shadow: var(--sombra-sm), inset 0 -1px 0 rgba(0, 0, 0, 0.18);
 }
 
 .barraNavegacaoSecundaria {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
   align-items: center;
-  border-top: 1px solid var(--cor-borda-suave);
-  padding-top: var(--espaco-4);
-  flex-wrap: wrap;
-  gap: var(--espaco-3);
+  gap: var(--espaco-4);
+  padding: var(--espaco-4);
+  background-color: var(--cor-superficie);
+  border: 1px solid var(--cor-borda-suave);
+  border-radius: var(--raio-lg);
+  box-shadow: var(--sombra-sm);
+}
+
+.grupoAnteriorProxima {
+  display: flex;
+  gap: var(--espaco-2);
+  justify-self: end;
 }
 
 .btnNav {
   display: inline-flex;
   align-items: center;
   gap: var(--espaco-1);
+  min-height: var(--alvo-toque);
   padding: var(--espaco-2) var(--espaco-4);
   background-color: var(--cor-superficie);
-  border: 1px solid var(--cor-borda);
+  border: 2px solid var(--cor-borda);
   border-radius: var(--raio-md);
   color: var(--cor-texto-principal);
+  font-family: var(--fonte-titulos);
   font-weight: 600;
-  font-size: 0.95rem;
+  font-size: 0.92rem;
   text-decoration: none;
-  transition: all var(--transicao-rapida);
+  white-space: nowrap;
+  transition: background-color var(--transicao-rapida), border-color var(--transicao-rapida), color var(--transicao-rapida), transform var(--transicao-rapida);
 }
 
 .btnNav:hover:not(.desabilitado) {
-  background-color: var(--cor-superficie-hover);
+  background-color: var(--cor-destaque-fundo);
   border-color: var(--cor-primaria);
-  text-decoration: none;
+  color: var(--cor-primaria-hover);
+}
+
+.btnNav:active:not(.desabilitado) {
+  transform: scale(0.97);
 }
 
 .btnNav.desabilitado {
-  opacity: 0.4;
+  opacity: 0.45;
   cursor: not-allowed;
   pointer-events: none;
 }
 
+.progresso {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--espaco-2);
+  min-width: 0;
+}
+
 .posicaoIndicador {
   font-size: 0.9rem;
-  color: var(--cor-texto-atenuado);
+  color: var(--cor-texto-secundario);
   font-weight: 500;
+  white-space: nowrap;
+}
+
+.posicaoIndicador strong {
+  font-family: var(--fonte-titulos);
+  color: var(--cor-primaria);
+}
+
+/* Padrão "progress" do catálogo (17), com cores UFMS */
+.barraProgresso {
+  width: 100%;
+  max-width: 240px;
+  height: 8px;
+  border-radius: var(--raio-full);
+  background-color: var(--cor-borda-suave);
+  overflow: hidden;
+}
+
+.barraProgressoPreenchimento {
+  height: 100%;
+  border-radius: inherit;
+  background: var(--ufms-gradiente-institucional);
+  transition: width var(--transicao-lenta);
+}
+
+@media (max-width: 640px) {
+  .barraNavegacaoSecundaria {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .progresso {
+    grid-column: 1 / -1;
+    grid-row: 1;
+  }
+
+  .grupoAnteriorProxima {
+    justify-self: end;
+  }
+}
+
+@media (max-width: 400px) {
+  .barraNavegacaoSecundaria {
+    grid-template-columns: 1fr;
+  }
+
+  .grupoAnteriorProxima {
+    justify-self: stretch;
+  }
+
+  .grupoAnteriorProxima .btnNav {
+    flex: 1;
+    justify-content: center;
+  }
 }

@@ -1,30 +1,151 @@
 .paginaBanco {
   width: 100%;
-  max-width: var(--largura-maxima);
-  margin: 0 auto;
-  padding: var(--espaco-6) var(--espaco-4);
 }
 
-.cabecalhoPagina {
-  margin-bottom: var(--espaco-6);
+.conteudo {
+  width: 100%;
+  max-width: var(--largura-maxima);
+  margin: 0 auto;
+  padding: 0 var(--espaco-4) var(--espaco-10);
+}
+
+/* Hero: faixa com o gradiente profundo da UFMS (escuro nos dois temas) */
+.hero {
+  position: relative;
+  overflow: hidden;
+  background: var(--ufms-gradiente-profundo);
+  color: var(--cor-faixa-texto);
+  padding: var(--espaco-10) var(--espaco-4) var(--espaco-16);
+}
+
+/* Grade de pontos decorativa, sem conteúdo (padrão "hero" do catálogo) */
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.12) 1px, transparent 1px);
+  background-size: 22px 22px;
+  mask-image: linear-gradient(100deg, transparent 35%, #000 100%);
+  pointer-events: none;
+}
+
+.heroConteudo {
+  position: relative;
+  max-width: var(--largura-maxima);
+  margin: 0 auto;
+}
+
+.sobretitulo {
+  display: inline-block;
+  font-family: var(--fonte-mono);
+  font-size: 0.78rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ufms-amarelo);
+  margin-bottom: var(--espaco-3);
 }
 
 .tituloPrincipal {
-  font-size: 1.85rem;
+  font-size: clamp(2rem, 5vw, 3rem);
   font-weight: 800;
-  color: var(--cor-texto-principal);
-  margin-bottom: var(--espaco-2);
+  line-height: 1.1;
+  color: #ffffff;
+  margin-bottom: var(--espaco-3);
 }
 
 .subtituloPrincipal {
+  max-width: 60ch;
   font-size: 1.05rem;
+  color: var(--ufms-azul-50);
+}
+
+.pilulasResumo {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--espaco-2);
+  margin-top: var(--espaco-6);
+}
+
+.pilulasResumo li {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--espaco-2);
+  padding: var(--espaco-2) var(--espaco-4);
+  border-radius: var(--raio-full);
+  background-color: rgba(0, 34, 51, 0.55);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.pilulasResumo li svg {
+  color: var(--ufms-amarelo);
+}
+
+/* Filtros sobem sobre o fim do hero */
+.filtrosSobreHero {
+  margin-top: calc(-1 * var(--espaco-10));
+  position: relative;
+}
+
+.carregandoTexto {
+  padding-top: var(--espaco-12);
+  margin-bottom: var(--espaco-6);
+  text-align: center;
   color: var(--cor-texto-secundario);
 }
 
-.carregandoContainer {
+.esqueletoGrade {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr));
+  gap: var(--espaco-4);
+}
+
+.esqueletoCard {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: var(--espaco-12);
+  flex-direction: column;
+  gap: var(--espaco-3);
+  padding: var(--espaco-5);
+  border-radius: var(--raio-lg);
+  background-color: var(--cor-superficie);
+  border: 1px solid var(--cor-borda-suave);
+}
+
+.esqueletoLinha,
+.esqueletoLinhaCurta {
+  display: block;
+  height: 14px;
+  border-radius: var(--raio-full);
+  background: linear-gradient(90deg, var(--cor-borda-suave) 25%, var(--cor-superficie-hover) 50%, var(--cor-borda-suave) 75%);
+  background-size: 200% 100%;
+  animation: brilho 1.4s ease-in-out infinite;
+}
+
+.esqueletoLinhaCurta {
+  width: 55%;
+}
+
+@keyframes brilho {
+  from { background-position: 100% 0; }
+  to { background-position: -100% 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .esqueletoLinha,
+  .esqueletoLinhaCurta {
+    animation: none;
+  }
+}
+
+.vazioMensagem {
+  margin-top: var(--espaco-8);
+  text-align: center;
+  padding: var(--espaco-10);
+  background-color: var(--cor-superficie);
+  border: 1px dashed var(--cor-borda);
+  border-radius: var(--raio-lg);
   color: var(--cor-texto-secundario);
 }

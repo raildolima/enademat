@@ -1,44 +1,105 @@
-.grupoProva {
-  margin-bottom: var(--espaco-8);
+.listaContainer {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espaco-10);
 }
 
+/* Cor de cada prova (decorativa: o nome da prova está sempre no título do grupo) */
+.grupoProva {
+  --cor-prova: var(--ufms-azul-500);
+}
+
+.grupoProva[data-prova="2025-prova1"] {
+  --cor-prova: var(--ufms-amarelo);
+}
+
+.grupoProva[data-prova="2025-prova5"] {
+  --cor-prova: var(--ufms-verde);
+}
+
+/* Título de seção UFMS: sublinhado azul de 4 px */
 .tituloGrupo {
-  font-size: 1.25rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--espaco-3);
+  font-size: 1.35rem;
   font-weight: 700;
   color: var(--cor-texto-principal);
-  border-bottom: 2px solid var(--cor-borda);
-  padding-bottom: var(--espaco-2);
-  margin-bottom: var(--espaco-4);
+  margin-bottom: var(--espaco-5);
+}
+
+.tituloGrupo::before {
+  content: "";
+  width: 6px;
+  height: 1.4em;
+  border-radius: var(--raio-full);
+  background-color: var(--cor-prova);
+}
+
+.contagemGrupo {
+  font-family: var(--fonte-mono);
+  font-size: 0.78rem;
+  font-weight: 500;
+  padding: 0.2rem 0.7rem;
+  border-radius: var(--raio-full);
+  background-color: var(--cor-superficie-hover);
+  color: var(--cor-texto-secundario);
+  border: 1px solid var(--cor-borda);
 }
 
 .gradeQuestoes {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr));
   gap: var(--espaco-4);
 }
 
 .cardQuestao {
+  position: relative;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
   background-color: var(--cor-superficie);
   border: 1px solid var(--cor-borda-suave);
   border-radius: var(--raio-lg);
-  padding: var(--espaco-4);
+  padding: var(--espaco-5) var(--espaco-5) var(--espaco-4);
   text-decoration: none;
   color: inherit;
   box-shadow: var(--sombra-sm);
-  transition: transform var(--transicao-rapida), box-shadow var(--transicao-rapida), border-color var(--transicao-rapida);
+  transition: transform var(--transicao-media), box-shadow var(--transicao-media), border-color var(--transicao-media);
+  animation: entrada var(--transicao-lenta) both;
+  animation-delay: calc(var(--ordem, 0) * 30ms);
+}
+
+/* Faixa superior com a cor da prova (a UFMS desaconselha borda só na lateral) */
+.cardQuestao::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 5px;
+  background-color: var(--cor-prova);
 }
 
 .cardQuestao:hover {
-  transform: translateY(-2px);
-  box-shadow: var(--sombra-md);
+  transform: translateY(-4px);
+  box-shadow: var(--sombra-lg);
   border-color: var(--cor-primaria);
-  text-decoration: none;
+  color: inherit;
+}
+
+.cardQuestao:active {
+  transform: translateY(-1px) scale(0.99);
+}
+
+/* Só transform: opacidade parcial reduziria o contraste medido pelo axe durante a entrada */
+@keyframes entrada {
+  from { transform: translateY(12px); }
+  to { transform: none; }
 }
 
 .cabecalhoCard {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   margin-bottom: var(--espaco-3);
@@ -46,7 +107,8 @@
 }
 
 .rotuloQuestao {
-  font-size: 1.05rem;
+  font-family: var(--fonte-titulos);
+  font-size: 1.1rem;
   font-weight: 700;
   color: var(--cor-primaria);
 }
@@ -60,7 +122,7 @@
 .previaQuestao {
   font-size: 0.92rem;
   color: var(--cor-texto-secundario);
-  line-height: 1.5;
+  line-height: 1.55;
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
@@ -69,11 +131,22 @@
   flex: 1;
 }
 
+.setaCard {
+  align-self: flex-end;
+  margin-top: var(--espaco-3);
+  color: var(--cor-primaria);
+  transition: transform var(--transicao-media);
+}
+
+.cardQuestao:hover .setaCard {
+  transform: translateX(6px);
+}
+
 .vazioMensagem {
   text-align: center;
   padding: var(--espaco-10);
   background-color: var(--cor-superficie);
-  border: 1px dashed var(--cor-borda);
+  border: 2px dashed var(--cor-borda);
   border-radius: var(--raio-lg);
   color: var(--cor-texto-secundario);
 }

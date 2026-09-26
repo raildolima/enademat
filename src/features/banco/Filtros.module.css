@@ -1,23 +1,35 @@
 .filtrosContainer {
   background-color: var(--cor-superficie);
-  border: 1px solid var(--cor-borda);
-  border-radius: var(--raio-lg);
-  padding: var(--espaco-5);
-  margin-bottom: var(--espaco-6);
-  box-shadow: var(--sombra-sm);
+  border: 1px solid var(--cor-borda-suave);
+  border-radius: var(--raio-xl);
+  padding: var(--espaco-6);
+  margin-bottom: var(--espaco-8);
+  box-shadow: var(--sombra-lg);
 }
 
 .filtrosGrid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-template-columns: 1fr;
   gap: var(--espaco-4);
   align-items: flex-end;
+}
+
+@media (min-width: 560px) {
+  .filtrosGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 960px) {
+  .filtrosGrid {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 
 .campoGrupo {
   display: flex;
   flex-direction: column;
-  gap: var(--espaco-1);
+  gap: var(--espaco-2);
 }
 
 .rotuloCampo {
@@ -26,52 +38,121 @@
   color: var(--cor-texto-secundario);
 }
 
+/* Campos no padrão de formulário UFMS: borda 1 px, foco com anel de 3 px */
 .selectCampo,
 .inputCampo {
   width: 100%;
+  min-height: var(--alvo-toque);
   padding: var(--espaco-2) var(--espaco-3);
   font-size: 0.95rem;
   font-family: inherit;
   color: var(--cor-texto-principal);
   background-color: var(--cor-superficie);
-  border: 1px solid var(--cor-borda);
+  border: 1px solid var(--cor-borda-forte);
   border-radius: var(--raio-md);
-  transition: border-color var(--transicao-rapida), box-shadow var(--transicao-rapida);
+  cursor: pointer;
+  transition: border-color var(--transicao-rapida), box-shadow var(--transicao-rapida), background-color var(--transicao-rapida);
 }
 
-.selectCampo:focus,
-.inputCampo:focus {
+.inputCampo {
+  cursor: text;
+  padding-left: calc(var(--espaco-3) + 26px);
+}
+
+.selectCampo:hover,
+.inputCampo:hover {
+  border-color: var(--cor-primaria);
+  background-color: var(--cor-destaque-fundo);
+}
+
+.selectCampo:focus-visible,
+.inputCampo:focus-visible {
   border-color: var(--cor-foco);
   outline: none;
-  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--cor-foco) 30%, transparent);
+}
+
+.inputCampo::placeholder {
+  color: var(--cor-texto-atenuado);
 }
 
 .buscaGrupo {
   grid-column: 1 / -1;
 }
 
+.buscaCampo {
+  position: relative;
+  display: block;
+}
+
+.buscaIcone {
+  position: absolute;
+  left: var(--espaco-3);
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--cor-primaria);
+  pointer-events: none;
+}
+
 .rodapeFiltros {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  margin-top: var(--espaco-4);
-  padding-top: var(--espaco-3);
+  gap: var(--espaco-3);
+  margin-top: var(--espaco-5);
+  padding-top: var(--espaco-4);
   border-top: 1px solid var(--cor-borda-suave);
-  font-size: 0.9rem;
+  font-size: 0.92rem;
   color: var(--cor-texto-secundario);
 }
 
-.btnLimpar {
-  background: none;
-  border: none;
+.contador {
+  display: inline-flex;
+  align-items: baseline;
+  gap: var(--espaco-1);
+  padding: var(--espaco-1) var(--espaco-4);
+  border-radius: var(--raio-full);
+  background-color: var(--cor-primaria-fundo);
+  color: var(--cor-texto-principal);
+}
+
+.contador strong {
+  font-family: var(--fonte-titulos);
+  font-size: 1.05rem;
   color: var(--cor-primaria);
+}
+
+/* Botão outline UFMS */
+.btnLimpar {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--espaco-2);
+  min-height: var(--alvo-toque);
+  padding: var(--espaco-2) var(--espaco-4);
+  border: 2px solid var(--cor-primaria);
+  border-radius: var(--raio-md);
+  background: transparent;
+  color: var(--cor-primaria);
+  font-family: var(--fonte-titulos);
   font-weight: 600;
-  cursor: pointer;
-  padding: var(--espaco-1) var(--espaco-2);
-  border-radius: var(--raio-sm);
-  text-decoration: underline;
+  font-size: 0.92rem;
+  transition: background-color var(--transicao-rapida), color var(--transicao-rapida), transform var(--transicao-rapida);
 }
 
 .btnLimpar:hover {
-  color: var(--cor-primaria-hover);
+  background-color: var(--cor-primaria);
+  color: var(--cor-texto-inverso);
+}
+
+.btnLimpar:hover svg {
+  transform: rotate(-120deg);
+}
+
+.btnLimpar svg {
+  transition: transform var(--transicao-media);
+}
+
+.btnLimpar:active {
+  transform: scale(0.97);
 }
