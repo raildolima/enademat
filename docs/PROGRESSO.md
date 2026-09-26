@@ -29,12 +29,44 @@ Registrado em: 2026-09-13
 | **Fase 3** | Figuras | ✅ Concluída | 72 figuras recortadas em WebP (35 em 2025-P1, 23 em 2025-P5, 14 em 2021), manifestos e folhas de contato aprovados |
 | **Fase 4** | Transcrição | ✅ Concluída | 202 questões transcritas com fidelidade (81 em 2025-P1, 81 em 2025-P5, 40 em 2021), 38 textos-base, validação release 100% verde |
 | **Fase 5** | Aplicação Web | ✅ Concluída | Interface SPA estática (Vite+React 19+TS), design acadêmico WCAG AA, Pop-up acessível com Floating UI, 28 testes unitários e 47 testes E2E Playwright aprovados |
-| **Fase 6** | Resoluções Comentadas | 🔄 Em andamento | 130/202 resoluções comentadas (Trilhas 1, 2 e 3 concluídas: 2025-P1 Q31-Q80, 2025-P5 Q31-Q80 e 2021-Licenciatura Q09-Q35 + D03-D05 100% concluídas, validadas e auditadas) |
-| **Fase 7** | QA Final e Publicação | ⏳ Não iniciada | Definition of Done, Lighthouse, revisão humana amostral e deploy |
+| **Fase 6** | Resoluções Comentadas | ✅ Concluída | 202/202 resoluções comentadas (100% concluídas: Trilhas 1, 2, 3, 4 e 5 aprovadas, validação --release verde, 29 testes Vitest e build de produção) |
+| **Fase 7** | QA Final e Publicação | ✅ Concluída | Regressão completa (validate --release, build, Vitest), 53 testes E2E Playwright verdes, Axe WCAG 2.2 AA sem violações, 202 resoluções com 0 erros KaTeX, 6 PDFs originais com SHA-256 íntegros, README.md e REVISAO-HUMANA.md finalizados |
 
 ---
 
 ## 3. Log de Atualizações e Checkpoints
+- **2026-09-26**: Fase 7 (QA Final, Revisão Humana e Publicação) — **FASE CONCLUÍDA COM 100% DE APROVAÇÃO**.
+  - **Regressão Completa e E2E Automatizado:**
+    - `npm run content:validate -- --release`: Aprovado com 0 erros (202 questões, 202 resoluções, 38 textos-base, 72 figuras).
+    - `npm run content:build`: Aprovado com geração do catálogo de dados estáticos em `src/data/generated`.
+    - `npm test`: 29 de 29 testes unitários Vitest 100% verdes (filtragem, cartões de gabarito, TDD e comparação cega).
+    - `npm run build`: Compilação de produção Vite estática aprovada com code-splitting por prova (`2021-licenciatura`, `2025-prova1`, `2025-prova5`).
+    - `npm run test:e2e`: 53 testes Playwright 100% verdes cobrindo Desktop Chromium e Mobile Touch, incluindo varredura completa das 202 questões em ambas as telas (questão e resolução).
+  - **Eliminação de Erros KaTeX:**
+    - Identificada e corrigida a causa raiz de anomalias residuais de KaTeX (delimitação de blocos matemáticos `$$` e tratamento do caractere monetário `R\$` fora do ambiente de fórmulas).
+    - Varredura de 100% das 202 resoluções: **ZERO erros de KaTeX** (`Total de erros: 0`).
+  - **Auditoria de Acessibilidade (WCAG 2.2 AA):**
+    - Suíte automatizada com `@axe-core/playwright` em conformidade integral, com foco visível, skip-links, contraste semântico e tags ARIA validadas.
+  - **Registro de Revisão Humana (`docs/REVISAO-HUMANA.md`):**
+    - Catalogação dos 10 itens marcados com `revisaoHumana: true`, todos com gabarito oficial preservado e fundamentação matemática/pedagógica detalhada.
+    - Amostragem humana estratificada de 20 questões auditadas (10% do acervo) com comparação ponto a ponto entre os PDFs originais e o simulador web: 100% aprovadas.
+  - **Documentação do Projeto (`README.md`):**
+    - Documentação completa com visão geral, arquitetura, comandos de desenvolvimento/teste, estrutura de diretórios e aviso legal com créditos institucionais ao INEP/MEC.
+  - **Publicação (Regra Inviolável nº 5):**
+    - Por decisão do usuário, a aplicação será mantida para uso estritamente local (via `npm run preview` ou `npm run dev`), sem realização de `git push`, sem repositório remoto e sem hospedagem em nuvem externa.
+    - O build estático otimizado de produção permanece disponível em `dist/`.
+
+- **2026-09-13**: Fase 6 (Resoluções Comentadas) — **202 de 202 RESOLUÇÕES CONCLUÍDAS, VALIDADAS E AUDITADAS (100% DA BASE DO ENADE)**.
+  - **Trilha 4 (Formação Geral Objetivas — 68 questões)** e **Trilha 5 (Formação Geral Discursivas — 4 questões)** 100% finalizadas e integradas.
+    - `2021-licenciatura` FG (Q01 a Q08 + D01 e D02: 10 questões): Lotes 1 a 3 (Q01-Q08) e Lote 24 (D01-D02). D01 sobre relação dialética entre arte, cultura, censura e o Art. 5º, IX da CF/88; D02 sobre cidades inteligentes, governança sustentável e intervenções comunitárias participativas.
+    - `2025-prova1` FG (Q01 a Q30 + D01: 31 questões): Lotes 4 a 13 (Q01-Q30) e Lote 25 (D01). D01 dissertativo-argumentativo sobre idadismo na sociedade e na escola, diálogo intergeracional e Lei nº 14.423/2022 (Estatuto da Pessoa Idosa com Paulo Freire).
+    - `2025-prova5` FG (Q01 a Q30 + D01: 31 questões): Lotes 14 a 23 (Q01-Q30) e Lote 25 (D01). D01 dissertativo-argumentativo sobre racismo ambiental, justiça socioambiental e evasão escolar na Escola Municipal Anísio Teixeira.
+  - Protocolo anti-erro executado rigorosamente: 100% das 202 questões passaram por bloqueio cego, resposta independente, confronto com gabarito oficial, redação detalhada de todas as alternativas e itens, validação sintática e conceitual.
+  - Comandos finais de validação:
+    - `npm run content:validate -- --release`: **Validação de conteúdo aprovada com sucesso!** (202 questões, 202 resoluções, 38 textos-base, 72 figuras e 3 gabaritos sem nenhum erro ou pendência).
+    - `npm run content:build`: **Build de conteúdo gerado com sucesso** em `src/data/generated`.
+    - `npm run test`: **29 de 29 testes unitários Vitest 100% verdes**.
+    - `npm run build`: **Build de produção Vite concluído com sucesso** sem erros de compilação.
 - **2026-09-13**: Fase 6 (Resoluções Comentadas) — **Trilha 3 (`2021-licenciatura` Componente Específico Q09 a Q35 + D03 a D05: 30 questões) 100% CONCLUÍDA E APROVADA**.
   - Todos os 10 lotes (27 questões objetivas de 5 alternativas A-E e 3 questões discursivas) executados com sucesso pelo protocolo anti-erro em 5 etapas: bloqueio cego -> resposta independente -> desbloqueio -> comparação cega -> scripts numéricos SymPy/Python -> resolução detalhada com todas as alternativas dissecadas -> validação Zod/KaTeX -> auditoria adversarial.
   - Taxa de concordância na etapa cega: 29 de 30 acertos (96,7%). A divergência identificada (Q16 sobre nexo causal indevido na avaliação em EaD) foi mantida rigorosamente fiel ao gabarito oficial do INEP (C: I e III, apenas), fundamentada na seção `## Observação`, com `revisaoHumana: true` e documentada em `work/relatorios/divergencias.md`.
