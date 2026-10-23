@@ -1,0 +1,20 @@
+{
+  "id": "2026-prova1-q037",
+  "provaId": "2026-prova1",
+  "tipo": "objetiva",
+  "numero": 37,
+  "rotulo": "Questão 37",
+  "parte": "componente-especifico",
+  "ordemCaderno": 38,
+  "paginas": [22],
+  "textoBaseId": "tb-35-37",
+  "enunciado": [
+    { "tipo": "paragrafo", "texto": "Diante do contexto apresentado, uma intervenção pedagógica adequada para desenvolver o conteúdo sobre o Princípio Fundamental da Contagem nessa turma da EJA é utilizar" }
+  ],
+  "alternativas": [
+    { "letra": "A", "blocos": [{ "tipo": "paragrafo", "texto": "um anagrama para realizar a contagem das diferentes formas de montagem das marmitas, com um ingrediente de cada grupo, como ferramenta matemática na resolução desses problemas." }] },
+    { "letra": "B", "blocos": [{ "tipo": "paragrafo", "texto": "uma tabela de dupla entrada para encontrar o número de marmitas possíveis, com pares de grupos de alimentos, como alternativa ao princípio multiplicativo." }] },
+    { "letra": "C", "blocos": [{ "tipo": "paragrafo", "texto": "um diagrama de combinações, com um ingrediente de cada grupo, para perceber que cada escolha possibilita novos caminhos, como estratégia de justificativa matemática do processo." }] },
+    { "letra": "D", "blocos": [{ "tipo": "paragrafo", "texto": "o binômio de Newton, com combinações de possíveis pares de grupos de alimentos, para realizar a contagem, como alternativa ao princípio aditivo." }] }
+  ]
+}

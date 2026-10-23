@@ -1,0 +1,21 @@
+{
+  "id": "tb-75-76",
+  "provaId": "2026-prova1",
+  "titulo": "Texto para as questões 75 e 76",
+  "questoes": [75, 76],
+  "blocos": [
+    { "tipo": "paragrafo", "texto": "Uma montadora disponibiliza automóveis com diferentes opções de motorização, potência, modelo e cor." },
+    { "tipo": "lista", "ordenada": false, "itens": [
+      "**Motorização** – elétrica, bicombustível e híbrida (elétrica ou bicombustível);",
+      "**Potência (em HP)** – 75, 100, 125, 150 e 210;",
+      "**Modelo** – hatch, sedan, picape e SUV;",
+      "**Cores** – preto, branco, cinza, vermelho, grafite e prata."
+    ] },
+    { "tipo": "paragrafo", "texto": "Um potencial cliente pretende comprar um carro dessa montadora. Ele prefere um SUV que admita eletricidade como fonte de energia, tenha potência superior a 120 HP e não seja vermelho." },
+    { "tipo": "paragrafo", "texto": "Um professor explorou a situação em duas turmas de diferentes segmentos." },
+    { "tipo": "lista", "ordenada": false, "itens": [
+      "Turma A: Anos Finais do Ensino Fundamental. Antes de explicar o tema Princípio Fundamental da Contagem, o professor organizou os estudantes em trios para que discutissem quantos modelos disponibilizados pela montadora se enquadram na preferência do cliente. Na mesma aula, os estudantes deveriam apresentar as estratégias do grupo para validação coletiva.",
+      "Turma B: Ensino Médio. O professor apresentou à turma o problema: a montadora ofereceu um desconto de 20% se o cliente concordasse em comprar um carro definido por sorteio aleatório de cada um dos parâmetros (motorização, potência, modelo e cor). Os estudantes deveriam responder qual a probabilidade de o cliente, nessas condições, comprar um carro de acordo com a sua preferência."
+    ] }
+  ]
+}

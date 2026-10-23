@@ -104,10 +104,10 @@ def processar_prova(prova_id: str) -> dict:
 
 def main():
     parser = argparse.ArgumentParser(description="Gera inventário de páginas e texto de uma prova do ENADE.")
-    parser.add_argument("prova_id", nargs="?", help="ID da prova (ex: 2021-licenciatura, 2025-prova1, 2025-prova5) ou 'todas'")
+    parser.add_argument("prova_id", nargs="?", help="ID da prova (ex: 2021-licenciatura, 2025-prova1, 2025-prova5, 2026-prova1) ou 'todas'")
     args = parser.parse_args()
 
-    provas = ["2021-licenciatura", "2025-prova1", "2025-prova5"]
+    provas = ["2021-licenciatura", "2025-prova1", "2025-prova5", "2026-prova1"]
     if args.prova_id and args.prova_id != "todas":
         provas = [args.prova_id]
 

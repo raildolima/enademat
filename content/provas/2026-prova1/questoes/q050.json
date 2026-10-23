@@ -1,0 +1,35 @@
+{
+  "id": "2026-prova1-q050",
+  "provaId": "2026-prova1",
+  "tipo": "objetiva",
+  "numero": 50,
+  "rotulo": "Questão 50",
+  "parte": "componente-especifico",
+  "ordemCaderno": 51,
+  "paginas": [28],
+  "textoBaseId": "tb-49-50",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Considerando a proposta de relacionar os métodos de Jorge e de Adão com a Matemática formal escolar, o entendimento conceitual a ser desenvolvido pelos estudantes é o de que"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [{ "tipo": "paragrafo", "texto": "o método de Adão aproxima o cálculo da área do quadrilátero por meio da área de um retângulo não quadrado, enquanto o método de Jorge o aproxima por meio da área de um quadrado." }]
+    },
+    {
+      "letra": "B",
+      "blocos": [{ "tipo": "paragrafo", "texto": "ambos os métodos aproximam o cálculo da área do quadrilátero por meio da área de um retângulo não quadrado." }]
+    },
+    {
+      "letra": "C",
+      "blocos": [{ "tipo": "paragrafo", "texto": "ambos os métodos aproximam o cálculo da área do quadrilátero por meio da área de um quadrado." }]
+    },
+    {
+      "letra": "D",
+      "blocos": [{ "tipo": "paragrafo", "texto": "o método de Adão aproxima o cálculo da área do quadrilátero por meio da área de um quadrado, enquanto o método de Jorge o aproxima por meio da área de um retângulo não quadrado." }]
+    }
+  ]
+}

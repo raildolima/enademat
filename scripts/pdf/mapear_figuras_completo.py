@@ -6,11 +6,12 @@ RAIZ = Path(__file__).resolve().parents[2]
 
 # Páginas que contêm questões (conferido com as páginas registradas em content/provas/*/questoes).
 # Ficam de fora a capa/instruções (p.1) e o final do caderno: rascunho e Questionário de Percepção
-# (2021 p.36; 2025-prova1 p.48; 2025-prova5 p.47), conforme a especificação 0.1.
+# (2021 p.36; 2025-prova1 p.48; 2025-prova5 p.47; 2026-prova1 p.45), conforme a especificação 0.1.
 ULTIMA_PAGINA_COM_QUESTOES = {
     "2021-licenciatura": 35,
     "2025-prova1": 47,
     "2025-prova5": 45,
+    "2026-prova1": 44,
 }
 
 
@@ -59,6 +60,6 @@ def extrair_figuras_reais(prova_id: str):
 
 
 if __name__ == "__main__":
-    for p in ["2021-licenciatura", "2025-prova1", "2025-prova5"]:
+    for p in ["2021-licenciatura", "2025-prova1", "2025-prova5", "2026-prova1"]:
         print(f"\n==================== {p} ====================")
         extrair_figuras_reais(p)

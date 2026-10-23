@@ -1,0 +1,26 @@
+{
+  "id": "tb-55-56",
+  "provaId": "2026-prova1",
+  "titulo": "Texto para as questões 55 e 56",
+  "questoes": [55, 56],
+  "blocos": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Um laboratório clínico realizou uma coleta de sangue em uma população de 200 adultos, visando estabelecer o intervalo de referência para a contagem de hemoglobinas. Os resultados foram registrados em uma tabela de frequência."
+    },
+    {
+      "tipo": "tabela",
+      "cabecalho": ["Hemoglobina (g/dL)", "Frequência absoluta", "Frequência relativa"],
+      "linhas": [
+        ["11", "1", "$0{,}50\\%$"],
+        ["12", "7", "$3{,}50\\%$"],
+        ["13", "23", "$11{,}50\\%$"],
+        ["14", "40", "$20{,}00\\%$"],
+        ["15", "53", "$26{,}50\\%$"],
+        ["16", "41", "$20{,}50\\%$"],
+        ["17", "35", "$17{,}50\\%$"],
+        ["Total", "200", "100%"]
+      ]
+    }
+  ]
+}

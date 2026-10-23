@@ -1,0 +1,291 @@
+{
+  "2026-prova1-d01": [
+    "cultura-linguagens",
+    "didatica-avaliacao"
+  ],
+  "2026-prova1-q001": [
+    "diversidade-direitos",
+    "cultura-linguagens"
+  ],
+  "2026-prova1-q002": [
+    "didatica-avaliacao",
+    "politicas-gestao"
+  ],
+  "2026-prova1-q003": [
+    "politicas-gestao",
+    "didatica-avaliacao"
+  ],
+  "2026-prova1-q004": [
+    "diversidade-direitos"
+  ],
+  "2026-prova1-q005": [
+    "politicas-gestao"
+  ],
+  "2026-prova1-q006": [
+    "politicas-gestao",
+    "didatica-avaliacao"
+  ],
+  "2026-prova1-q007": [
+    "didatica-avaliacao"
+  ],
+  "2026-prova1-q008": [
+    "didatica-avaliacao",
+    "diversidade-direitos"
+  ],
+  "2026-prova1-q009": [
+    "diversidade-direitos",
+    "politicas-gestao"
+  ],
+  "2026-prova1-q010": [
+    "diversidade-direitos",
+    "didatica-avaliacao"
+  ],
+  "2026-prova1-q011": [
+    "meio-ambiente"
+  ],
+  "2026-prova1-q012": [
+    "meio-ambiente",
+    "didatica-avaliacao"
+  ],
+  "2026-prova1-q013": [
+    "politicas-gestao",
+    "didatica-avaliacao"
+  ],
+  "2026-prova1-q014": [
+    "cultura-linguagens"
+  ],
+  "2026-prova1-q015": [
+    "meio-ambiente",
+    "diversidade-direitos"
+  ],
+  "2026-prova1-q016": [
+    "meio-ambiente",
+    "diversidade-direitos"
+  ],
+  "2026-prova1-q017": [
+    "meio-ambiente",
+    "didatica-avaliacao"
+  ],
+  "2026-prova1-q018": [
+    "diversidade-direitos",
+    "cultura-linguagens"
+  ],
+  "2026-prova1-q019": [
+    "diversidade-direitos",
+    "cultura-linguagens"
+  ],
+  "2026-prova1-q020": [
+    "diversidade-direitos",
+    "cultura-linguagens"
+  ],
+  "2026-prova1-q021": [
+    "diversidade-direitos"
+  ],
+  "2026-prova1-q022": [
+    "diversidade-direitos"
+  ],
+  "2026-prova1-q023": [
+    "diversidade-direitos",
+    "didatica-avaliacao"
+  ],
+  "2026-prova1-q024": [
+    "diversidade-direitos",
+    "didatica-avaliacao"
+  ],
+  "2026-prova1-q025": [
+    "politicas-gestao",
+    "diversidade-direitos"
+  ],
+  "2026-prova1-q026": [
+    "didatica-avaliacao",
+    "politicas-gestao"
+  ],
+  "2026-prova1-q027": [
+    "diversidade-direitos",
+    "meio-ambiente"
+  ],
+  "2026-prova1-q028": [
+    "diversidade-direitos",
+    "didatica-avaliacao"
+  ],
+  "2026-prova1-q029": [
+    "diversidade-direitos",
+    "didatica-avaliacao"
+  ],
+  "2026-prova1-q030": [
+    "didatica-avaliacao"
+  ],
+  "2026-prova1-q031": [
+    "geometria",
+    "inclusiva-eja"
+  ],
+  "2026-prova1-q032": [
+    "geometria",
+    "analise-erros-saberes"
+  ],
+  "2026-prova1-q033": [
+    "aritmetica-numeros"
+  ],
+  "2026-prova1-q034": [
+    "curriculo-bncc",
+    "aritmetica-numeros"
+  ],
+  "2026-prova1-q035": [
+    "combinatoria-probabilidade"
+  ],
+  "2026-prova1-q036": [
+    "tendencias-educacao-matematica"
+  ],
+  "2026-prova1-q037": [
+    "combinatoria-probabilidade",
+    "inclusiva-eja"
+  ],
+  "2026-prova1-q038": [
+    "combinatoria-probabilidade"
+  ],
+  "2026-prova1-q039": [
+    "tendencias-educacao-matematica"
+  ],
+  "2026-prova1-q040": [
+    "geometria",
+    "trigonometria"
+  ],
+  "2026-prova1-q041": [
+    "tendencias-educacao-matematica",
+    "geometria"
+  ],
+  "2026-prova1-q042": [
+    "funcoes-calculo",
+    "geometria"
+  ],
+  "2026-prova1-q043": [
+    "aritmetica-numeros"
+  ],
+  "2026-prova1-q044": [
+    "aritmetica-numeros",
+    "tendencias-educacao-matematica"
+  ],
+  "2026-prova1-q045": [
+    "aritmetica-numeros"
+  ],
+  "2026-prova1-q046": [
+    "curriculo-bncc",
+    "logica-conjuntos-algoritmos"
+  ],
+  "2026-prova1-q047": [
+    "logica-conjuntos-algoritmos"
+  ],
+  "2026-prova1-q048": [
+    "logica-conjuntos-algoritmos"
+  ],
+  "2026-prova1-q049": [
+    "tendencias-educacao-matematica",
+    "geometria"
+  ],
+  "2026-prova1-q050": [
+    "geometria"
+  ],
+  "2026-prova1-q051": [
+    "aritmetica-numeros",
+    "analise-erros-saberes"
+  ],
+  "2026-prova1-q052": [
+    "aritmetica-numeros"
+  ],
+  "2026-prova1-q053": [
+    "funcoes-calculo",
+    "tendencias-educacao-matematica"
+  ],
+  "2026-prova1-q054": [
+    "geometria"
+  ],
+  "2026-prova1-q055": [
+    "estatistica"
+  ],
+  "2026-prova1-q056": [
+    "estatistica"
+  ],
+  "2026-prova1-q057": [
+    "geometria-analitica"
+  ],
+  "2026-prova1-q058": [
+    "geometria-analitica"
+  ],
+  "2026-prova1-q059": [
+    "geometria",
+    "inclusiva-eja"
+  ],
+  "2026-prova1-q060": [
+    "inclusiva-eja",
+    "tendencias-educacao-matematica"
+  ],
+  "2026-prova1-q061": [
+    "inclusiva-eja"
+  ],
+  "2026-prova1-q062": [
+    "geometria"
+  ],
+  "2026-prova1-q063": [
+    "inclusiva-eja",
+    "geometria"
+  ],
+  "2026-prova1-q064": [
+    "curriculo-bncc",
+    "aritmetica-numeros"
+  ],
+  "2026-prova1-q065": [
+    "analise-erros-saberes",
+    "aritmetica-numeros"
+  ],
+  "2026-prova1-q066": [
+    "algebra-linear",
+    "geometria"
+  ],
+  "2026-prova1-q067": [
+    "algebra-linear",
+    "curriculo-bncc"
+  ],
+  "2026-prova1-q068": [
+    "tendencias-educacao-matematica"
+  ],
+  "2026-prova1-q069": [
+    "aritmetica-numeros"
+  ],
+  "2026-prova1-q070": [
+    "aritmetica-numeros"
+  ],
+  "2026-prova1-q071": [
+    "algebra-linear",
+    "geometria"
+  ],
+  "2026-prova1-q072": [
+    "geometria-analitica",
+    "tecnologias-ensino"
+  ],
+  "2026-prova1-q073": [
+    "geometria",
+    "tecnologias-ensino"
+  ],
+  "2026-prova1-q074": [
+    "geometria"
+  ],
+  "2026-prova1-q075": [
+    "combinatoria-probabilidade"
+  ],
+  "2026-prova1-q076": [
+    "combinatoria-probabilidade"
+  ],
+  "2026-prova1-q077": [
+    "tendencias-educacao-matematica",
+    "funcoes-calculo"
+  ],
+  "2026-prova1-q078": [
+    "funcoes-calculo"
+  ],
+  "2026-prova1-q079": [
+    "funcoes-calculo"
+  ],
+  "2026-prova1-q080": [
+    "estatistica"
+  ]
+}

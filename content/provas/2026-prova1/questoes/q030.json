@@ -1,0 +1,55 @@
+{
+  "id": "2026-prova1-q030",
+  "provaId": "2026-prova1",
+  "tipo": "objetiva",
+  "numero": 30,
+  "rotulo": "Questão 30",
+  "parte": "formacao-geral",
+  "ordemCaderno": 30,
+  "paginas": [17],
+  "textoBaseId": "tb-29-30",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Na situação de aprendizagem apresentada na cena, a prática pedagógica da professora"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "revela uma perspectiva sociointeracionista, na qual a aprendizagem é resultado da mediação do outro, já que a estudante surdocega organiza experiências sensoriais e afetivas para a construção de sentidos."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "ilustra a teoria da aprendizagem significativa, na qual a experiência tátil se conecta diretamente a conhecimentos prévios já organizados, uma vez que a estudante surdocega assimila o novo conteúdo."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "evidencia uma perspectiva construtivista piagetiana, na qual a aprendizagem decorre da ação individual, visto que a estudante surdocega é estimulada a formular o próprio conhecimento."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "caracteriza a teoria behaviorista, na qual há uma relação direta entre estímulo tátil e resposta emocional, dado que a estudante surdocega forma associações estáveis por condicionamento."
+        }
+      ]
+    }
+  ]
+}

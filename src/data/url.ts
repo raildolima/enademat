@@ -1,9 +1,11 @@
 import type { FiltrosQuestoes, Letra, Parte, ProvaId, Questao } from './tipos';
+import { IDS_ASSUNTOS } from './assuntos';
 
 const PROVAS: Record<ProvaId, number> = {
   '2021-licenciatura': 2021,
   '2025-prova1': 2025,
   '2025-prova5': 2025,
+  '2026-prova1': 2026,
 };
 const PARTES: readonly Parte[] = ['formacao-geral', 'componente-especifico'];
 const TIPOS = ['objetiva', 'discursiva'] as const;
@@ -25,6 +27,7 @@ export function lerFiltrosDaUrl(params: URLSearchParams): FiltrosQuestoes {
 
   const parteParam = params.get('parte') as Parte | null;
   const tipoParam = params.get('tipo') as (typeof TIPOS)[number] | null;
+  const assuntoParam = params.get('assunto');
 
   return {
     ano,
@@ -32,6 +35,7 @@ export function lerFiltrosDaUrl(params: URLSearchParams): FiltrosQuestoes {
     parte: parteParam && PARTES.includes(parteParam) ? parteParam : 'todas',
     tipo: tipoParam && TIPOS.includes(tipoParam) ? tipoParam : 'todas',
     termo: params.get('termo') || params.get('busca') || '',
+    assunto: assuntoParam && (IDS_ASSUNTOS as readonly string[]).includes(assuntoParam) ? assuntoParam : 'todos',
   };
 }
 

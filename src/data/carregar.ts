@@ -47,6 +47,11 @@ export async function carregarProva(provaId: ProvaId): Promise<ProvaCompleta> {
         dados = (modulo.default || modulo) as ProvaCompleta;
         break;
       }
+      case '2026-prova1': {
+        const modulo = await import('./generated/2026-prova1.json');
+        dados = (modulo.default || modulo) as ProvaCompleta;
+        break;
+      }
       default:
         throw new Error(`Prova não reconhecida: ${provaId}`);
     }
@@ -75,6 +80,8 @@ export async function carregarQuestao(questaoId: string): Promise<{
     provaId = '2025-prova1';
   } else if (questaoId.startsWith('2025-prova5')) {
     provaId = '2025-prova5';
+  } else if (questaoId.startsWith('2026-prova1')) {
+    provaId = '2026-prova1';
   } else {
     throw new Error(`ID de questão inválido: ${questaoId}`);
   }

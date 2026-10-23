@@ -156,3 +156,10 @@
 .btnLimpar:active {
   transform: scale(0.97);
 }
+
+/* Cinco filtros lado a lado em telas largas (RF14 acrescentou Assunto) */
+@media (min-width: 1100px) {
+  .filtrosGrid {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}

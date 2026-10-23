@@ -9,15 +9,16 @@ Aplicação web estática, acessível e responsiva para estudo interativo e apro
 O **Simulador ENADE Matemática** reúne o acervo integral das edições mais recentes do exame:
 - **ENADE 2021 — Licenciatura em Matemática** (40 questões: 8 de Formação Geral e 32 do Componente Específico);
 - **ENADE 2025 — Prova 1 (Caderno 1 — Teoria e Prática Docente)** (81 questões: 30 de Formação Geral e 51 do Componente Específico);
-- **ENADE 2025 — Prova 5 (Caderno 5 — Prática Docente nos Anos Finais do Ensino Fundamental)** (81 questões: 30 de Formação Geral e 51 do Componente Específico).
+- **ENADE 2025 — Prova 5 (Caderno 5 — Prática Docente nos Anos Finais do Ensino Fundamental)** (81 questões: 30 de Formação Geral e 51 do Componente Específico);
+- **ENADE 2026 — Prova 1 (Prova Nacional Docente, Caderno 1401)** (81 questões: 31 de Formação Geral Docente e 50 do Componente Específico).
 
-Total: **202 questões transcritas com fidelidade literal** e **202 resoluções comentadas completas**, com rigor conceitual, linguagem didática e verificação matemática independente.
+Total: **283 questões transcritas com fidelidade literal** e **283 resoluções comentadas completas**, com rigor conceitual, linguagem didática e verificação matemática independente.
 
 ---
 
 ## ✨ Principais Funcionalidades
 
-- **Banco de Questões Filtrável:** busca instantânea e combinação de filtros por ano (2021, 2025), prova (2021, Prova 1, Prova 5), componente (Formação Geral ou Componente Específico) e tipo (Múltipla Escolha ou Discursiva), com sincronização transparente na URL (`hash`).
+- **Banco de Questões Filtrável:** busca instantânea e combinação de filtros por ano (2021, 2025, 2026), prova (2021, 2025 Prova 1, 2025 Prova 5, 2026 Prova 1), componente (Formação Geral ou Componente Específico) e tipo (Múltipla Escolha ou Discursiva), com sincronização transparente na URL (`hash`).
 - **Resoluções Comentadas Estruturadas:** cada resolução apresenta *Ideia-chave*, *Resolução passo a passo*, *Análise detalhada de cada alternativa* (ou *Padrão de Resposta / Critérios de Correção* nas discursivas), *Conceitos Envolvidos* e *Dica de Prova*.
 - **Pop-up Não Intrusivo da Questão:** na tela de resolução, o botão *"Ver questão"* permite visualizar o enunciado completo e as alternativas em um pop-up flutuante (`Floating UI`) via mouse hover com tolerância poligonal (`safePolygon`), foco por teclado (`Tab`/`Esc`) ou toque móvel com botão de fechamento.
 - **Treino de Questões Discursivas:** área de rascunho com salvamento local automático em memória, permitindo ao estudante estruturar seu texto antes de confrontar com o padrão oficial de resposta e os critérios de pontuação da banca.
@@ -104,7 +105,8 @@ O projeto possui rigorosa automação de testes cobrindo dados, lógica e interf
 │   └── provas/
 │       ├── 2021-licenciatura/   # Questões, textos-base, resoluções e gabarito.json
 │       ├── 2025-prova1/
-│       └── 2025-prova5/
+│       ├── 2025-prova5/
+│       └── 2026-prova1/
 ├── public/
 │   └── figuras/                 # Imagens recortadas em WebP das provas
 ├── scripts/

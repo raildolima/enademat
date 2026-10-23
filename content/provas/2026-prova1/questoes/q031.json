@@ -1,0 +1,20 @@
+{
+  "id": "2026-prova1-q031",
+  "provaId": "2026-prova1",
+  "tipo": "objetiva",
+  "numero": 31,
+  "rotulo": "Questão 31",
+  "parte": "componente-especifico",
+  "ordemCaderno": 32,
+  "paginas": [20],
+  "textoBaseId": "tb-31-32",
+  "enunciado": [
+    { "tipo": "paragrafo", "texto": "No segundo momento da aula mobilizado pela professora, ela deve propor aos estudantes que," }
+  ],
+  "alternativas": [
+    { "letra": "A", "blocos": [{ "tipo": "paragrafo", "texto": "em grupos heterogêneos, discutam quais características são necessárias para que uma figura seja considerada um polígono." }] },
+    { "letra": "B", "blocos": [{ "tipo": "paragrafo", "texto": "em grupos heterogêneos, resolvam uma lista de exercícios que possibilite explorar características necessárias para que uma figura seja considerada uma circunferência." }] },
+    { "letra": "C", "blocos": [{ "tipo": "paragrafo", "texto": "em grupos homogêneos, discutam quais características são necessárias para que uma figura seja considerada uma circunferência." }] },
+    { "letra": "D", "blocos": [{ "tipo": "paragrafo", "texto": "em grupos homogêneos, resolvam uma lista de exercícios que possibilite explorar características necessárias para que uma figura seja considerada um polígono." }] }
+  ]
+}

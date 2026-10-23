@@ -16,6 +16,9 @@ Registrado em: 2026-09-13
 | `2025 - Matemática - Gabarito 5 (2ª Aplicação).pdf` | 553.065 bytes | `F838A033BAD3194168A5EB64DAAB5CDD8A952051A3944F52AF9A7D16C5B6CED1` |
 | `2025 - Matemática - Prova 1.pdf` | 12.035.281 bytes | `D417760B15B8A0AD9C03B0CC3F2B7565C3873B629D1FF72AD8AECDB3AD246EAD` |
 | `2025 - Matemática - Prova 5 (2ª Aplicação).pdf` | 4.113.418 bytes | `C3C0C9DAE8A07026169DFF09969293D01744340C4E7F892C3D5328A8C4EFC5BE` |
+| `2026_matematica_GB_1.pdf` | 767.509 bytes | `9FA30B676CEDEC2B37964D5B3AD8C880F9EFBEC3E631A8EA21BFBE2452E80581` |
+
+| `2026_matematica_PV_1.pdf` | 4.197.900 bytes | `FCBFD44615307326944CE69902F956C3140056806234EFA4ADEC36A94919EE28` |
 
 ---
 
@@ -62,6 +65,22 @@ Registrado em: 2026-09-13
     - Por decisão do usuário, a aplicação será mantida para uso estritamente local (via `npm run preview` ou `npm run dev`), sem realização de `git push`, sem repositório remoto e sem hospedagem em nuvem externa.
     - O build estático otimizado de produção permanece disponível em `dist/`.
 
+- **2026-10-22**: Melhorias aprovadas pelo usuário após estudo comparativo de plataformas (RF10–RF16 em `docs/ESPECIFICACAO.md`; app segue sem persistência).
+  - RF10 dica progressiva (`DicaQuestao`, seção Ideia-chave); 57 Ideias-chave de 2021/2025/2026 deixaram de citar a letra correta e o validador passou a proibir isso.
+  - RF11 página da prova `#/prova/:provaId` com grade numerada; link em cada grupo do banco.
+  - RF13 impressão sem cabeçalho/filtros/navegação/botões.
+  - RF15 modo simulado `#/simulado/:provaId` (Treino e Prova, cronômetro opcional, respostas só na URL, resultado por parte, revisão das erradas).
+  - RF16 índice de acerto nacional: `scripts/inep/estatisticas_itens.py` sobre os microdados do INEP (grupo 702). 2021: 13 824 estudantes; 2025-prova1: 2 636 (caderno 1). 2025-prova5 tem só 20 presentes (não publicado) e 2026 ainda não tem microdados. Gabaritos dos microdados idênticos aos nossos, exceto 2021 Q09, Q13 e Q30, que constam como **anuladas** no gabarito final do INEP (exibido na resolução e excluído da correção do simulado; `gabarito.json` inalterado, decisão pendente com o usuário).
+  - RF12 relatar erro: link para issue preenchida em `https://github.com/raildolima/simulador-enade-matematica` (repositório ainda a ser criado pelo usuário).
+  - RF14 assuntos: vocabulário de 23 assuntos aprovado (`src/data/assuntos.ts`); 283 questões classificadas por 10 subagentes Haiku e revisadas por 2 (14 correções aplicadas); `content/provas/<id>/assuntos.json` validado (cobertura total, 1–3 ids); filtro Assunto, etiquetas nos cartões e "Questões relacionadas".
+  - 2021 Q09, Q13 e Q30: Observação sobre a anulação no gabarito final do INEP, `revisaoHumana: true`, registradas em `docs/REVISAO-HUMANA.md` (decisão do usuário).
+- **2026-10-22**: Inclusão da edição **ENADE 2026 (Prova Nacional Docente, Caderno 1401, Tipo 01)** como `2026-prova1` (80 objetivas + 1 discursiva = 81 questões; total do simulador: 283).
+  - Infra: `2026-prova1` registrado em `schema.ts`, `tipos.ts`, `build.ts`, `validate.ts`, `gabaritos-referencia.ts`, `comparar-cego.ts`, `carregar.ts`, `url.ts`, `filtrar.ts`, `ListaQuestoes.tsx`, `Filtros.tsx` (opções de ano/prova agora derivadas de uma lista) e scripts `scripts/pdf/*`; rodapé (RF09) e textos do banco atualizados.
+  - Gabarito: PDF sem camada de texto; lido visualmente duas vezes (página inteira e recorte ampliado), resultados idênticos. Sem questões anuladas.
+  - Figuras: 24 recortes em `public/figuras/2026-prova1/` (manifesto todo `aprovado`); tabelas e quadros transcritos.
+  - Transcrição (8 lotes), resolução cega (79/81 coincidentes; divergências Q23 e Q36), resoluções e verificação independente feitas por subagentes Haiku; correções finais e revisões das reprovações (Q02–Q04, Q23, Q56, Q62) pelo agente principal.
+  - `revisaoHumana: true`: Q23, Q36, Q62 (ver `docs/REVISAO-HUMANA.md`).
+  - Validação: `content:validate` e `--release` aprovados; `tsc -b` ok; vitest 106/106; unittest Python 10/10; Playwright 99 passed / 11 skipped (inclui varredura das 81 questões de 2026).
 - **2026-09-13**: Fase 6 (Resoluções Comentadas) — **202 de 202 RESOLUÇÕES CONCLUÍDAS, VALIDADAS E AUDITADAS (100% DA BASE DO ENADE)**.
   - **Trilha 4 (Formação Geral Objetivas — 68 questões)** e **Trilha 5 (Formação Geral Discursivas — 4 questões)** 100% finalizadas e integradas.
     - `2021-licenciatura` FG (Q01 a Q08 + D01 e D02: 10 questões): Lotes 1 a 3 (Q01-Q08) e Lote 24 (D01-D02). D01 sobre relação dialética entre arte, cultura, censura e o Art. 5º, IX da CF/88; D02 sobre cidades inteligentes, governança sustentável e intervenções comunitárias participativas.

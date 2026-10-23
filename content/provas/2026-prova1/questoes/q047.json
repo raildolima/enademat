@@ -1,0 +1,59 @@
+{
+  "id": "2026-prova1-q047",
+  "provaId": "2026-prova1",
+  "tipo": "objetiva",
+  "numero": 47,
+  "rotulo": "Questão 47",
+  "parte": "componente-especifico",
+  "ordemCaderno": 48,
+  "paginas": [27],
+  "textoBaseId": "tb-46-48",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Nessa atividade, os estudantes deveriam utilizar, em um primeiro momento, a representação gráfica de intervalos de números reais para caracterizar os intervalos de pena correspondentes aos regimes aberto, semiaberto e fechado. Os intervalos são representados, respectivamente, por"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "imagem",
+          "src": "figuras/2026-prova1/q047-alt-a.webp",
+          "alt": "Três retas numéricas: intervalo de 0 a 4 com bolinhas vazias em 0 e em 4; intervalo de 4 a 8 com bolinhas cheias em 4 e em 8; semirreta a partir de 8 com bolinha vazia em 8 e seta para a direita."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "imagem",
+          "src": "figuras/2026-prova1/q047-alt-b.webp",
+          "alt": "Três retas numéricas: intervalo de 0 a 4 com bolinha vazia em 0 e cheia em 4; intervalo de 4 a 8 com bolinha vazia em 4 e cheia em 8; semirreta a partir de 8 com bolinha vazia em 8 e seta para a direita."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "imagem",
+          "src": "figuras/2026-prova1/q047-alt-c.webp",
+          "alt": "Três retas numéricas: intervalo de 0 a 4 com bolinha vazia em 0 e cheia em 4; intervalo de 4 a 8 com bolinha cheia em 4 e vazia em 8; semirreta a partir de 8 com bolinha cheia em 8 e seta para a direita."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "imagem",
+          "src": "figuras/2026-prova1/q047-alt-d.webp",
+          "alt": "Três retas numéricas: intervalo de 0 a 4 com bolinhas vazias em 0 e em 4; intervalo de 4 a 8 com bolinhas vazias em 4 e em 8; semirreta a partir de 8 com bolinha vazia em 8 e seta para a direita."
+        }
+      ]
+    }
+  ]
+}

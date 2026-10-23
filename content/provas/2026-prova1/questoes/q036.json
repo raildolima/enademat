@@ -1,0 +1,20 @@
+{
+  "id": "2026-prova1-q036",
+  "provaId": "2026-prova1",
+  "tipo": "objetiva",
+  "numero": 36,
+  "rotulo": "Questão 36",
+  "parte": "componente-especifico",
+  "ordemCaderno": 37,
+  "paginas": [22],
+  "textoBaseId": "tb-35-37",
+  "enunciado": [
+    { "tipo": "paragrafo", "texto": "Com base na proposta de ensino descrita no texto, a tendência em Educação Matemática utilizada pela professora foi a" }
+  ],
+  "alternativas": [
+    { "letra": "A", "blocos": [{ "tipo": "paragrafo", "texto": "Etnomatemática, por validar os saberes e as práticas dos estudantes, reconhecendo a Matemática como ferramenta inerente a atividades cotidianas." }] },
+    { "letra": "B", "blocos": [{ "tipo": "paragrafo", "texto": "Investigação Matemática, por possibilitar o protagonismo dos estudantes ao explorar padrões e formular conjecturas, estabelecendo possibilidades que atendam à situação proposta." }] },
+    { "letra": "C", "blocos": [{ "tipo": "paragrafo", "texto": "Modelagem Matemática, por favorecer a proatividade dos estudantes ao modelar e resolver o problema, validando a solução que atenda à situação proposta." }] },
+    { "letra": "D", "blocos": [{ "tipo": "paragrafo", "texto": "Educação Matemática Crítica, por oportunizar a autonomia dos estudantes, discutindo o papel da Matemática no contexto social." }] }
+  ]
+}

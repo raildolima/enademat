@@ -1,0 +1,29 @@
+{
+  "id": "tb-66-68",
+  "provaId": "2026-prova1",
+  "titulo": "Texto para as questões 66 a 68",
+  "questoes": [66, 67, 68],
+  "blocos": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Durante uma aula de Álgebra Linear do curso de Licenciatura, o professor fala sobre transformações lineares e solicita aos licenciandos que resolvam o seguinte problema:"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Considere a transformação linear $T: \\mathbb{R}^2 \\to \\mathbb{R}^2$, definida por $T(x, y) = (-y, x)$. Determine a matriz que representa essa transformação na base canônica de $\\mathbb{R}^2$."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "A fim de mostrar uma aplicação do conteúdo, o professor apresentou, na sequência, quatro representações gráficas distintas, para que eles identificassem qual delas corresponde à transformação $T$. Nessas figuras, $A' = T(A)$, $B' = T(B)$ e $C' = T(C)$."
+    },
+    {
+      "tipo": "imagem",
+      "src": "figuras/2026-prova1/tb-66-68-f1.webp",
+      "alt": "Quatro gráficos (I a IV) em plano cartesiano, cada um com o triângulo ABC e sua imagem A'B'C' sob a transformação; no gráfico III há a reta vermelha y = x."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Na resolução da questão, Maria, uma licencianda da turma que está cursando Estágio Supervisionado, reflete sobre a aplicabilidade desse conhecimento na sua prática docente. A licencianda, então, tem a ideia de buscar maneiras de abordar o mesmo conteúdo nas atividades que iria desenvolver com a turma em que está realizando seu estágio."
+    }
+  ]
+}

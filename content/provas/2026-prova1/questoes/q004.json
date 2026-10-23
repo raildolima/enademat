@@ -1,0 +1,35 @@
+{
+  "id": "2026-prova1-q004",
+  "provaId": "2026-prova1",
+  "tipo": "objetiva",
+  "numero": 4,
+  "rotulo": "Questão 4",
+  "parte": "formacao-geral",
+  "ordemCaderno": 4,
+  "paginas": [3],
+  "textoBaseId": "tb-02-04",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Em uma formação continuada sobre desafios contemporâneos da escola, gestores e professores refletiram sobre a temática da xenofobia. Com base nos debates, um grupo decidiu elaborar um protocolo institucional de acolhimento no espaço escolar a pessoas em situação de refúgio com orientações voltadas ao respeito às diferenças culturais. Que planejamento pedagógico se alinha a essa proposta?"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [{ "tipo": "paragrafo", "texto": "Ações institucionais voltadas à apresentação de aspectos culturais brasileiros, a fim de que as pessoas em situação de refúgio possam se adequar aos costumes locais." }]
+    },
+    {
+      "letra": "B",
+      "blocos": [{ "tipo": "paragrafo", "texto": "Campanhas educativas voltadas à identificação de padrões culturais, a fim de exemplificar situações comunicativas adequadas a pessoas em situação de refúgio." }]
+    },
+    {
+      "letra": "C",
+      "blocos": [{ "tipo": "paragrafo", "texto": "Atividades voltadas à escuta das experiências culturais, a fim de promover integração das pessoas em situação de refúgio ao ambiente escolar." }]
+    },
+    {
+      "letra": "D",
+      "blocos": [{ "tipo": "paragrafo", "texto": "Reuniões voltadas à apresentação das normas institucionais, a fim de que as pessoas em situação de refúgio possam se integrar à cultura local." }]
+    }
+  ]
+}

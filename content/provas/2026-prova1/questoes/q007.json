@@ -1,0 +1,35 @@
+{
+  "id": "2026-prova1-q007",
+  "provaId": "2026-prova1",
+  "tipo": "objetiva",
+  "numero": 7,
+  "rotulo": "Questão 7",
+  "parte": "formacao-geral",
+  "ordemCaderno": 7,
+  "paginas": [5],
+  "textoBaseId": "tb-07-08",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Considerando o contexto apresentado, o momento da observação no Estágio Curricular Supervisionado tem como objetivo"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [{ "tipo": "paragrafo", "texto": "avaliar as práticas docentes, relacionando-as a saberes profissionais e curriculares." }]
+    },
+    {
+      "letra": "B",
+      "blocos": [{ "tipo": "paragrafo", "texto": "assimilar as práticas do professor supervisor, reproduzindo saberes pedagógicos." }]
+    },
+    {
+      "letra": "C",
+      "blocos": [{ "tipo": "paragrafo", "texto": "validar as práticas do professor supervisor, legitimando saberes acadêmicos." }]
+    },
+    {
+      "letra": "D",
+      "blocos": [{ "tipo": "paragrafo", "texto": "analisar as práticas docentes, articulando-as com saberes teóricos e práticos." }]
+    }
+  ]
+}

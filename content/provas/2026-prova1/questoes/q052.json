@@ -1,0 +1,35 @@
+{
+  "id": "2026-prova1-q052",
+  "provaId": "2026-prova1",
+  "tipo": "objetiva",
+  "numero": 52,
+  "rotulo": "Questão 52",
+  "parte": "componente-especifico",
+  "ordemCaderno": 53,
+  "paginas": [29],
+  "textoBaseId": "tb-51-52",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "No segundo momento da aula, a professora propõe à turma o problema “exiba um par de números inteiros positivos $a$ e $b$ tais que $\\operatorname{mdc}(a, b) = 31 \\cdot 43 \\cdot 103$ e $\\operatorname{mmc}(a, b) = 31^{2} \\cdot 43 \\cdot 103^{3} \\cdot 157$”. Acertou a resposta o licenciando que concluiu que"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [{ "tipo": "paragrafo", "texto": "$a = 31^{2} \\cdot 103 \\cdot 157$ e $b = 31 \\cdot 43 \\cdot 103^{3}$." }]
+    },
+    {
+      "letra": "B",
+      "blocos": [{ "tipo": "paragrafo", "texto": "$a = 31 \\cdot 43 \\cdot 103$ e $b = 31^{2} \\cdot 43 \\cdot 103^{3} \\cdot 157$." }]
+    },
+    {
+      "letra": "C",
+      "blocos": [{ "tipo": "paragrafo", "texto": "$a = 31^{2} \\cdot 43 \\cdot 103^{3}$ e $b = 31 \\cdot 43 \\cdot 103^{2}$." }]
+    },
+    {
+      "letra": "D",
+      "blocos": [{ "tipo": "paragrafo", "texto": "$a = 31^{2} \\cdot 43 \\cdot 103 \\cdot 157$ e $b = 31 \\cdot 43 \\cdot 103^{3} \\cdot 157$." }]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "2026-prova1-q026",
+  "provaId": "2026-prova1",
+  "tipo": "objetiva",
+  "numero": 26,
+  "rotulo": "Questão 26",
+  "parte": "formacao-geral",
+  "ordemCaderno": 26,
+  "paginas": [15],
+  "textoBaseId": "tb-25-26",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Uma proposta de avaliação da aprendizagem condizente com a Pedagogia da Alternância contempla"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "aferição de frequência nas atividades do tempo escola."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "construção de portfólio com os conteúdos estudados no tempo escola."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "elaboração de relatório analítico com os resultados obtidos no tempo comunidade."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "realização de atividades no tempo comunidade até o alcance da pontuação prevista."
+        }
+      ]
+    }
+  ]
+}

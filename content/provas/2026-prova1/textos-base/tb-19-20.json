@@ -1,0 +1,17 @@
+{
+  "id": "tb-19-20",
+  "provaId": "2026-prova1",
+  "titulo": "Texto para as questões 19 e 20",
+  "questoes": [19, 20],
+  "blocos": [
+    {
+      "tipo": "imagem",
+      "src": "figuras/2026-prova1/tb-19-20-f1.webp",
+      "alt": "Cartaz com a manchete original riscada, \"Mulher que caminhava à noite sozinha é morta a tiros por homens em motocicleta\", seguida da versão \"Homens em motocicleta matam mulher a tiros.\" e do texto \"Por um jornalismo sem preconceitos e que não revitimize as vítimas.\""
+    },
+    {
+      "tipo": "fonte",
+      "texto": "ONU Mulheres (Brasil). **Mulher que caminhava à noite sozinha é morta a tiros por homens em motocicleta**. Disponível em: www.instagram.com/p/DVzHh5bmiKu. Acesso em: 16 abr. 2026."
+    }
+  ]
+}

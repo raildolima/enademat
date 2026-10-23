@@ -1,0 +1,37 @@
+{
+  "id": "tb-59-61",
+  "provaId": "2026-prova1",
+  "titulo": "Texto para as questões de 59 a 61",
+  "questoes": [59, 60, 61],
+  "blocos": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Um professor de Matemática dos Anos Finais do Ensino Fundamental está planejando uma aula sobre triângulos. Especialmente por haver na turma um estudante cego, o professor decide utilizar geoplanos retangular (Figura 1) e isométrico (Figura 2)."
+    },
+    {
+      "tipo": "imagem",
+      "src": "figuras/2026-prova1/tb-59-61-f1.webp",
+      "alt": "Geoplano retangular com seis linhas e nove colunas de pontos igualmente espaçados em uma malha retangular.",
+      "legenda": "Figura 1 - Geoplano retangular"
+    },
+    {
+      "tipo": "imagem",
+      "src": "figuras/2026-prova1/tb-59-61-f2.webp",
+      "alt": "Geoplano isométrico com pontos dispostos em uma malha triangular, em linhas alternadas e deslocadas meio espaçamento.",
+      "legenda": "Figura 2 - Geoplano isométrico"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Em uma perspectiva inclusiva, todos os estudantes da turma irão interagir igualmente com o material. A proposta assumirá caráter investigativo, com formulação e teste de hipóteses pelos estudantes, e terá como foco a exploração progressiva de algumas características e propriedades dos triângulos, como medidas de lados e ângulos, bem como existência de simetrias. Os triângulos serão construídos, analisados e registrados, com uso de geoplanos, em três momentos:"
+    },
+    {
+      "tipo": "lista",
+      "ordenada": false,
+      "itens": [
+        "(1) triângulos isósceles",
+        "(2) triângulos equiláteros",
+        "(3) triângulos escalenos"
+      ]
+    }
+  ]
+}

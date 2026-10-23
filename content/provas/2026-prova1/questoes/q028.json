@@ -1,0 +1,55 @@
+{
+  "id": "2026-prova1-q028",
+  "provaId": "2026-prova1",
+  "tipo": "objetiva",
+  "numero": 28,
+  "rotulo": "Questão 28",
+  "parte": "formacao-geral",
+  "ordemCaderno": 28,
+  "paginas": [16],
+  "textoBaseId": "tb-27-28",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Em outro momento da formação continuada, a coordenadora pedagógica salientou que a escola já consolidou o pensamento de que as culturas indígenas não devem aparecer no currículo como conteúdo complementar, tampouco se restringir a festividades no calendário escolar. Para atender a essa orientação, que prática docente deve ser inserida no planejamento?"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Desenvolver atividades em sala de aula que adicionem conteúdos sobre culturas indígenas, articulando-os aos conteúdos previstos no currículo."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Organizar propostas pedagógicas que insiram os conhecimentos indígenas em momentos definidos da aula, relacionando-os aos componentes curriculares."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Eleger propostas pedagógicas que articulem o estudo das culturas indígenas às curiosidades da turma, ampliando os conhecimentos prévios dos estudantes."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Elaborar atividades em sala de aula que incluam elementos de culturas indígenas no desenvolvimento dos temas previstos no currículo, colaborando para o percurso formativo dos estudantes."
+        }
+      ]
+    }
+  ]
+}

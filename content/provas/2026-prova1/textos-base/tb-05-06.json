@@ -1,0 +1,16 @@
+{
+  "id": "tb-05-06",
+  "provaId": "2026-prova1",
+  "titulo": "Texto para as questões 05 e 06",
+  "questoes": [5, 6],
+  "blocos": [
+    {
+      "tipo": "paragrafo",
+      "texto": "A alimentação é um direito de todos, conforme estabelece a Constituição Federal de 1988. Entretanto, esse direito é negado a milhares de pessoas todos os dias, o que pode ser evidenciado pelo retorno dos brasileiros, em 2021, ao Mapa da Fome da Organização das Nações Unidas (ONU), posição que não ocupava desde 2014 e que, desde 2025, não ocupa mais. Investimentos governamentais em políticas sociais podem representar a linha tênue entre viver e não viver com o mínimo de dignidade. Entre os programas imprescindíveis à população brasileira está o Programa Nacional de Alimentação Escolar (PNAE), Lei n. 11 947/2009, destinado à compra de alimentos para as escolas."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "A relação entre a alimentação escolar e o processo de ensino e de aprendizagem tem sido investigada pelo Instituto de Pesquisa Econômica Aplicada (Ipea). Com base em dados do Sistema de Avaliação da Educação Básica (Saeb), o aumento de até 3,3 pontos nas notas de Matemática e de quase 3 pontos nas notas de Língua Portuguesa se relaciona diretamente com a alimentação escolar."
+    }
+  ]
+}

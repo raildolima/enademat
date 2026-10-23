@@ -1,0 +1,59 @@
+{
+  "id": "2026-prova1-q018",
+  "provaId": "2026-prova1",
+  "tipo": "objetiva",
+  "numero": 18,
+  "rotulo": "Questão 18",
+  "parte": "formacao-geral",
+  "ordemCaderno": 18,
+  "paginas": [10],
+  "textoBaseId": "tb-17-18",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Um professor observou nas redes sociais a recorrência de intervenções violentas marcadas por discursos de violação de direitos humanos. Diante da necessidade de desenvolver com sua turma regras de respeito e conduta nas redes, decidiu propor atividades pautadas na Competência Geral 7 da BNCC que prevê que os estudantes desenvolvam a capacidade de argumentar com base em informações confiáveis, a fim de defender ideias e de propor decisões coletivas orientadas pelo respeito aos direitos humanos, pela consciência socioambiental e pelo consumo responsável."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Considerando a competência em questão, ele desenvolveu uma atividade didática cujos objetivos são"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "compreender as situações de conflito observadas nos ambientes digitais e mapear os grupos envolvidos em casos de violência."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "problematizar as situações identificadas nos ambientes digitais e sugerir encaminhamentos pautados no respeito aos direitos humanos."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "analisar as situações de divergências de opiniões sobre os casos observados nos ambientes digitais e descrever os diferentes posicionamentos encontrados."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "reconhecer as situações de desrespeito aos direitos humanos nos ambientes digitais e registrar exemplos similares aos observados no próprio cotidiano."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "tb-15-16",
+  "provaId": "2026-prova1",
+  "titulo": "Texto para as questões 15 e 16",
+  "questoes": [15, 16],
+  "blocos": [
+    {
+      "tipo": "titulo",
+      "texto": "TEXTO 1"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "**Rio Grande do Sul: condomínio de luxo usa dutos clandestinos e causa “pavor” em comunidade**"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "“Imagina o absurdo que é, além dessa catástrofe já anunciada das chuvas no Rio Grande do Sul, nós sermos prejudicados com esse duto. Nós ficamos bem impactados com a situação, alagou bastante ali a nossa área que fica ao fundo do condomínio”, afirmou a líder comunitária de Passo dos Negros e presidente da organização Cuidando de Nós, que promove ações sociais às famílias locais."
+    },
+    {
+      "tipo": "fonte",
+      "texto": "Disponível em: https://noticias.uol.com.br. Acesso em: 2 mar. 2026 (adaptado)."
+    },
+    {
+      "tipo": "titulo",
+      "texto": "TEXTO 2"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "**Racismo ambiental: uma outra emergência**"
+    },
+    {
+      "tipo": "imagem",
+      "src": "figuras/2026-prova1/tb-15-16-f1.webp",
+      "alt": "Ilustração de um território cortado por um rio azul: à esquerda, casas organizadas com telhados alaranjados e ruas largas; à direita, aglomerado denso de casas pequenas e cinzentas às margens do rio."
+    },
+    {
+      "tipo": "fonte",
+      "texto": "Disponível em: www.defensoria.ce.def.br. Acesso em: 2 mar. 2026."
+    }
+  ]
+}

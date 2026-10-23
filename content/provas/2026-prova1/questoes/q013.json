@@ -1,0 +1,62 @@
+{
+  "id": "2026-prova1-q013",
+  "provaId": "2026-prova1",
+  "tipo": "objetiva",
+  "numero": 13,
+  "rotulo": "Questão 13",
+  "parte": "formacao-geral",
+  "ordemCaderno": 13,
+  "paginas": [8],
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Ofertada em todo o Brasil, a Educação Profissional e Tecnológica (EPT) é uma modalidade de ensino que se integra tanto às demais modalidades da educação quanto às dimensões do trabalho, da ciência, da cultura e da tecnologia. O processo formativo é norteado pela indissociabilidade entre educação e prática social, bem como entre saberes e fazeres, reconhece a historicidade do conhecimento, valoriza os sujeitos envolvidos e adota metodologias de aprendizagem centradas nos estudantes. A organização curricular utiliza estratégias educacionais que favorecem a contextualização, a flexibilização e a interdisciplinaridade, garantindo a relação permanente entre teoria e prática profissional ao longo de todo o processo de ensino e de aprendizagem."
+    },
+    {
+      "tipo": "fonte",
+      "texto": "BRASIL. **Resolução CNE/CP n. 1, de 5 de janeiro de 2021**. Disponível em: https://portal.mec.gov.br. Acesso em: 25 jan. 2026 (adaptado)."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Considerando o texto, uma organização curricular alinhada aos princípios norteadores da EPT deve contemplar o(a)"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "trabalho como princípio pedagógico, focalizando os conhecimentos práticos para superar a precarização da atividade profissional."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "formação técnica como princípio pedagógico, valorizando a relação entre teoria e prática para superar os desafios do mundo do trabalho."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "trabalho como princípio educativo, focalizando a articulação entre a base científica e a prática profissional para superar a fragmentação de conhecimentos."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "formação teórica como princípio educativo, valorizando os conhecimentos acadêmicos para superar a falta de mão de obra qualificada no mercado de trabalho."
+        }
+      ]
+    }
+  ]
+}

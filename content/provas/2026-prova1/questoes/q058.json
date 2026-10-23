@@ -1,0 +1,35 @@
+{
+  "id": "2026-prova1-q058",
+  "provaId": "2026-prova1",
+  "tipo": "objetiva",
+  "numero": 58,
+  "rotulo": "Questão 58",
+  "parte": "componente-especifico",
+  "ordemCaderno": 59,
+  "paginas": [32],
+  "textoBaseId": "tb-57-58",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "O licenciando trouxe para os colegas da turma de Geometria Analítica um dos problemas que discutiu com o desenvolvedor do algoritmo: os pontos $A$ e $D$ da figura, que são referência para a realização das simulações com o carro autônomo, devem ser posicionados nas coordenadas $A = (-3, -6)$ e $D = (5, 10)$ de um plano cartesiano. A partir daí, a posição do ponto $P' = (x, y)$, fora dos limites da rua, deve ser determinada para corrigir eventuais falhas de sinal do GPS e, por sua vez, redirecionar a trajetória do carro para o meio da rua. O ponto $P'$ deve ser tal que $\\overrightarrow{DP'} = \\frac{1}{4}\\overrightarrow{AD}$. Esse procedimento resulta em"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [{ "tipo": "paragrafo", "texto": "$P' = (-5, -10)$." }]
+    },
+    {
+      "letra": "B",
+      "blocos": [{ "tipo": "paragrafo", "texto": "$P' = (-1, -2)$." }]
+    },
+    {
+      "letra": "C",
+      "blocos": [{ "tipo": "paragrafo", "texto": "$P' = (3, 6)$." }]
+    },
+    {
+      "letra": "D",
+      "blocos": [{ "tipo": "paragrafo", "texto": "$P' = (7, 14)$." }]
+    }
+  ]
+}

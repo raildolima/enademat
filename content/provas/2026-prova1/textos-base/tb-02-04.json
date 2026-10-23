@@ -1,0 +1,16 @@
+{
+  "id": "tb-02-04",
+  "provaId": "2026-prova1",
+  "titulo": "Texto para as questões de 02 a 04",
+  "questoes": [2, 3, 4],
+  "blocos": [
+    {
+      "tipo": "paragrafo",
+      "texto": "A gestão escolar envolve dimensões administrativas essenciais para o funcionamento eficiente da escola, mas sua finalidade maior é a promoção da aprendizagem. Nesse contexto, os processos avaliativos internos e externos tornam-se instrumentos importantes para monitorar a qualidade do ensino. No que diz respeito aos professores, a função gestora articula-se com o desenvolvimento desses profissionais, pois considera que a formação deles se inicia na universidade, mas deve ser contínua ao longo da prática escolar."
+    },
+    {
+      "tipo": "fonte",
+      "texto": "SIQUEIRA, C. G.; SILVA, R. I. P. Gestão escolar: a importância da relação professor e gestor escolar no processo avaliativo interno e externo. Revista Ibero-Americana de Humanidades, Ciências e Educação, n. 3, mar. 2026. Acesso em: 28 jun. 2026."
+    }
+  ]
+}

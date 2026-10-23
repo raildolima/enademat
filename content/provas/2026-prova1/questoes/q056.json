@@ -1,0 +1,35 @@
+{
+  "id": "2026-prova1-q056",
+  "provaId": "2026-prova1",
+  "tipo": "objetiva",
+  "numero": 56,
+  "rotulo": "Questão 56",
+  "parte": "componente-especifico",
+  "ordemCaderno": 57,
+  "paginas": [31],
+  "textoBaseId": "tb-55-56",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Esse mesmo professor continuou a aula e solicitou aos estudantes que fizessem uma nova análise. A partir dos dados da tabela, eles devem inferir que"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [{ "tipo": "paragrafo", "texto": "a média aritmética de hemoglobina dos 200 participantes está situada no intervalo de 12 a 14." }]
+    },
+    {
+      "letra": "B",
+      "blocos": [{ "tipo": "paragrafo", "texto": "dentre os 200 participantes, pelo menos 70 possuem hemoglobina menor ou igual a 14." }]
+    },
+    {
+      "letra": "C",
+      "blocos": [{ "tipo": "paragrafo", "texto": "ao menos 64% dos 200 participantes possuem hemoglobina 16." }]
+    },
+    {
+      "letra": "D",
+      "blocos": [{ "tipo": "paragrafo", "texto": "a mediana da frequência relativa da quantidade de hemoglobina dos 200 participantes é de 20%." }]
+    }
+  ]
+}

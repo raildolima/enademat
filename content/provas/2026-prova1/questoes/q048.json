@@ -1,0 +1,53 @@
+{
+  "id": "2026-prova1-q048",
+  "provaId": "2026-prova1",
+  "tipo": "objetiva",
+  "numero": 48,
+  "rotulo": "Questão 48",
+  "parte": "componente-especifico",
+  "ordemCaderno": 49,
+  "paginas": [27],
+  "textoBaseId": "tb-46-48",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Com base na análise do Texto 1, o professor solicitou, em um segundo momento, que os estudantes elaborassem um algoritmo e um pseudocódigo para representar o funcionamento do programa mencionado na atividade do Texto 2. Um estudante apresentou a seguinte solução:"
+    },
+    {
+      "tipo": "tabela",
+      "cabecalho": ["Algoritmo:", "Pseudocódigo:"],
+      "linhas": [
+        ["Ler o valor da pena $x$, em anos.", "$x$ = pena"],
+        ["Se $x$ é maior que 4, então", "se $x > 4$ então"],
+        ["   Informar: “Regime semiaberto”.", "   mostrar “Regime semiaberto”"],
+        ["Caso contrário, se $x$ é maior que 8, então", "senão se $x > 8$ então"],
+        ["   Informar: “Regime fechado”.", "   mostrar “Regime fechado”"],
+        ["Caso contrário,", "senão"],
+        ["   Informar: “Regime aberto”.", "   mostrar “Regime aberto”"],
+        ["Encerrar o algoritmo.", "fim."]
+      ]
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "A solução do estudante está"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [{ "tipo": "paragrafo", "texto": "incorreta, pois a verificação da condição $x > 4$ ocorre antes da condição $x > 8$, fazendo com que penas superiores a oito anos sejam classificadas como regime semiaberto e não alcancem a condição que indicaria regime fechado." }]
+    },
+    {
+      "letra": "B",
+      "blocos": [{ "tipo": "paragrafo", "texto": "incorreta, pois o algoritmo verifica as condições relativas aos três regimes previstos na lei, e a ordem em que essas condições são testadas não interfere no resultado final." }]
+    },
+    {
+      "letra": "C",
+      "blocos": [{ "tipo": "paragrafo", "texto": "correta, pois a verificação das condições se dá em ordem crescente dos valores da pena, testando primeiro a condição $x > 4$ e depois a condição $x > 8$." }]
+    },
+    {
+      "letra": "D",
+      "blocos": [{ "tipo": "paragrafo", "texto": "correta, pois o algoritmo verifica as condições relativas aos três regimes previstos na lei, e a ordem em que essas condições são testadas não interfere no resultado final." }]
+    }
+  ]
+}

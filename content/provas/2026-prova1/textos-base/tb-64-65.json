@@ -1,0 +1,53 @@
+{
+  "id": "tb-64-65",
+  "provaId": "2026-prova1",
+  "titulo": "Texto para as questões 64 e 65",
+  "questoes": [64, 65],
+  "blocos": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Uma professora de Matemática do 6º ano do Ensino Fundamental iniciou a organização de um plano de aula com a seguinte metodologia:"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "**1º momento:** Apresentar aos estudantes o desafio a seguir, estimulando-os a expressarem verbalmente suas conjecturas."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Dois estudantes, João e Maria, foram resolver a conta $\\frac{2}{4}+\\frac{1}{3}$. João disse que o resultado era $\\frac{2}{6}$. Maria disse que era impossível ser $\\frac{2}{6}$. Afinal, $\\frac{2}{6}$ é menor do que $\\frac{1}{2}$. Sem usar papel e caneta, verificar quem tem razão. Discutir sobre o erro de João e por que esse erro é tão comum."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "**2º momento:** Apresentar a proposta geométrica para a adição de frações com denominadores diferentes. Explicar cada etapa e orientar que os estudantes façam as representações no papel quadriculado."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Depois, eles devem recortar e colar no caderno a seguinte imagem:"
+    },
+    {
+      "tipo": "imagem",
+      "src": "figuras/2026-prova1/tb-64-65-f1.webp",
+      "alt": "Retângulos divididos em quartos e terços: 2/4 em verde e 1/3 em azul, com sobreposição que resulta em 10/12 = 5/6 quadrados pintados em um total de 12 quadrados."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Após a colagem, concluir que a adição das frações corresponde à fração em que o numerador é o número de quadrados que estão pintados ao final da sobreposição e do deslocamento dos quadrados com duas cores, separando-as, e o denominador é o total de quadrados. Logo, $\\frac{2}{4}+\\frac{1}{3}=\\frac{10}{12}$."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "**3º momento:** Explicar que a resolução da operação $\\frac{2}{4}-\\frac{1}{3}$ tem a mesma representação no quadriculado, realizando todas as sobreposições possíveis, sendo a interpretação diferente. Na subtração de duas frações com denominadores diferentes, o resultado corresponde à fração em que o numerador é o número de quadrados que têm uma única cor e o denominador é o total de quadrados. Logo, $\\frac{2}{4}-\\frac{1}{3}=\\frac{2}{12}$."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "**4º momento:** Em duplas, orientar que os estudantes resolvam geometricamente algumas operações de adição e de subtração de frações com denominadores diferentes."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "**5º momento:** Corrigir as operações no caderno de cada estudante, à medida que finalizam as atividades."
+    },
+    {
+      "tipo": "fonte",
+      "texto": "CAMPOS, C. A. M.; MAGINA, S.; MERLINI, V. Frapet: uma proposta ao ensino de frações a partir de material manipulativo. **Educação Matemática em Revista**, n. 29, 2024 (adaptado)."
+    }
+  ]
+}

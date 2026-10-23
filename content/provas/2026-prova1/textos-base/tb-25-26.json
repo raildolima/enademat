@@ -1,0 +1,48 @@
+{
+  "id": "tb-25-26",
+  "provaId": "2026-prova1",
+  "titulo": "Texto para as questões 25 e 26",
+  "questoes": [25, 26],
+  "blocos": [
+    {
+      "tipo": "titulo",
+      "texto": "TEXTO 1"
+    },
+    {
+      "tipo": "titulo",
+      "texto": "Resolução CNE/CP n. 1, de 16 de agosto de 2023"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Art. 1º A presente Resolução define princípios e valores relacionados ao ensino, à aprendizagem, à formação docente (inicial e continuada) e aos referenciais pedagógicos e metodológicos para a execução da Pedagogia da Alternância nas modalidades da Educação Básica e da Educação Superior."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "§ 1º A Pedagogia da Alternância é uma forma de organização da educação e dos processos formativos que objetiva atender às comunidades do campo, do cerrado, dos rios, das florestas, de outros biomas e de comunidades urbanas específicas."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "§ 3º Esta Resolução objetiva a formação de estudantes do campo, indígenas, quilombolas e de comunidades tradicionais em contextos intraculturais."
+    },
+    {
+      "tipo": "fonte",
+      "texto": "Disponível em: www.gov.br/mec. Acesso em: 15 abr. 2026 (adaptado)."
+    },
+    {
+      "tipo": "titulo",
+      "texto": "TEXTO 2"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Maria, 16 anos, está se arrumando no alojamento que divide com outras garotas na Casa Familiar Rural (CFR) Padre Sérgio Tonetto, em Moju, a 70 quilômetros de Belém. O trajeto até a escola dá indícios do isolamento dessa população. Não há placas de indicação na estrada e uma das pontes de acesso estava caída. Quem não quer fazer o trajeto de barco pelo Rio Jambuaçu precisa contornar o curso-d’água por um caminho de chão que serpenteia por entre as casas das famílias remanescentes de uma comunidade quilombola. Outro aspecto que chama a atenção é que os habitantes hoje sobrevivem do plantio de mandioca, agressivo com o solo e de baixo valor no mercado."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Na CFR, o ensino conjuga as disciplinas tradicionais com as aulas de técnicas agrícolas realizadas na horta e no pomar da instituição. Os estudantes são incentivados a disseminar conhecimentos sobre culturas mais sustentáveis, como o cacau. Foi essa proposta que atraiu Maria para a instituição. “Quero trabalhar com agropecuária, por isso quis estudar aqui. Com o que aprendo, poderei melhorar a produção no campo”, diz a garota. A cada mês, duas semanas são dedicadas às aulas, o chamado “tempo escola”. As duas seguintes são destinadas ao “tempo comunidade”, momento de aplicar em casa os saberes aprendidos. Mesmo quem não tem lavoura – caso de Maria, que mora com a mãe, professora, e o padrasto, marceneiro – se compromete a transmitir as informações aos familiares."
+    },
+    {
+      "tipo": "fonte",
+      "texto": "**Pedagogia da Alternância**: quando a escola é o lar. Disponível em: https://novaescola.org.br. Acesso em: 15 abr. 2026 (adaptado)."
+    }
+  ]
+}

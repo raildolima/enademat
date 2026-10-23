@@ -8,6 +8,9 @@ import { ConteudoQuestao } from '../../components/ConteudoQuestao';
 import { Badge } from '../../components/Badge';
 import { NavegacaoQuestao } from './NavegacaoQuestao';
 import { RascunhoDiscursiva } from './RascunhoDiscursiva';
+import { DicaQuestao } from './DicaQuestao';
+import { RelatarErro } from '../../components/RelatarErro';
+import { extrairCorpoMarkdown, extrairSecao, resolucaoDaQuestao } from '../../data/resolucao';
 import { ChevronRight } from 'lucide-react';
 import styles from './PaginaQuestao.module.css';
 
@@ -65,6 +68,8 @@ export const PaginaQuestao: React.FC = () => {
   }
 
   const nomeProva = prova.prova.subtitulo || prova.prova.titulo;
+  const resolucao = questao.tipo === 'objetiva' ? resolucaoDaQuestao(prova, questao) : null;
+  const dica = resolucao ? extrairSecao(extrairCorpoMarkdown(resolucao), 'Ideia-chave') : null;
 
   return (
     <article className={styles.paginaQuestao}>
@@ -109,6 +114,9 @@ export const PaginaQuestao: React.FC = () => {
         onSelecionarAlternativa={selecionarAlternativa}
       />
 
+      {/* Dica progressiva (RF10): só a Ideia-chave, sem a letra correta */}
+      {dica && <DicaQuestao key={questao.id} dica={dica} />}
+
       {/* Rascunho para discursivas */}
       {questao.tipo === 'discursiva' && (
         <div style={{ maxWidth: 'var(--largura-leitura)', margin: '0 auto' }}>
@@ -127,6 +135,8 @@ export const PaginaQuestao: React.FC = () => {
         totalFiltrado={infoVizinhas.total}
         queryStringParams={queryStringAtual}
       />
+
+      <RelatarErro questaoId={questao.id} rotulo={questao.rotulo} tela="questão" />
     </article>
   );
 };

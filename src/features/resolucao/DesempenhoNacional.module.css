@@ -1,0 +1,89 @@
+.container {
+  max-width: var(--largura-leitura);
+  margin: var(--espaco-6) auto 0;
+  padding: var(--espaco-5);
+  background-color: var(--cor-superficie);
+  border: 1px solid var(--cor-borda-suave);
+  border-radius: var(--raio-lg);
+}
+
+.titulo {
+  display: flex;
+  align-items: center;
+  gap: var(--espaco-2);
+  font-size: 1.1rem;
+  margin-bottom: var(--espaco-3);
+}
+
+.destaque {
+  margin-bottom: var(--espaco-4);
+}
+
+.aviso {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--espaco-2);
+  padding: var(--espaco-3);
+  margin-bottom: var(--espaco-4);
+  color: var(--cor-aviso-texto);
+  background-color: var(--cor-aviso-fundo);
+  border: 1px solid var(--cor-aviso-borda);
+  border-radius: var(--raio-md);
+}
+
+.distribuicao {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espaco-2);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Letra | barra | valor: a barra é decorativa; o valor numérico está sempre em texto */
+.linha {
+  display: grid;
+  grid-template-columns: minmax(6.5rem, auto) 1fr 3.8rem;
+  align-items: center;
+  gap: var(--espaco-3);
+  font-size: 0.92rem;
+}
+
+.letra {
+  font-weight: 600;
+}
+
+.marcaGabarito {
+  font-weight: 400;
+  color: var(--cor-sucesso-texto);
+}
+
+.trilho {
+  height: 10px;
+  background-color: var(--cor-borda-suave);
+  border-radius: var(--raio-full);
+  overflow: hidden;
+}
+
+.barra {
+  display: block;
+  height: 100%;
+  background-color: var(--cor-borda-forte);
+}
+
+.barraCorreta {
+  background-color: var(--cor-sucesso);
+}
+
+.valor {
+  font-family: var(--fonte-mono);
+  text-align: right;
+}
+
+.fonte {
+  margin-top: var(--espaco-4);
+  overflow-wrap: anywhere;
+
+  font-size: 0.8rem;
+  color: var(--cor-texto-secundario);
+}

@@ -1,0 +1,16 @@
+{
+  "id": "tb-33-34",
+  "provaId": "2026-prova1",
+  "titulo": "Texto para as questões 33 e 34",
+  "questoes": [33, 34],
+  "blocos": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Um professor de Matemática de uma turma da Educação de Jovens e Adultos (EJA) observou que um grupo de estudantes estava conversando e fazendo cálculos em um papel. Ao questioná-los sobre a motivação da conversa, um dos estudantes respondeu: “Professor, eu ganhei de presente de aniversário da minha neta uma caixa que está trancada com um cadeado, com uma senha composta por três algarismos que variam de 0 a 5. Ela me disse que a senha para abrir a caixa é o número 108, só que não é possível digitar o algarismo 8 para abrir o cadeado. Acho que ela fez uma charada comigo”."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "O professor aproveitou a situação apresentada e discutiu com a turma que existem sistemas de numeração em outras bases nas quais o símbolo para o algarismo oito pode não existir. Na sequência, o professor propôs aos estudantes que investigassem se a senha apresentada estava em outra base numérica."
+    }
+  ]
+}

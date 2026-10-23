@@ -1,0 +1,28 @@
+{
+  "id": "2026-prova1-q080",
+  "provaId": "2026-prova1",
+  "tipo": "objetiva",
+  "numero": 80,
+  "rotulo": "Questão 80",
+  "parte": "componente-especifico",
+  "ordemCaderno": 81,
+  "paginas": [44],
+  "enunciado": [
+    { "tipo": "paragrafo", "texto": "A preservação dos rios é essencial para a saúde dos ecossistemas e para o abastecimento de água. A poluição por esgoto, resíduos industriais e agrotóxicos compromete a fauna, a flora e a vida humana. Por isso, políticas de descontaminação, como tratamento de efluentes, monitoramento e reflorestamento das margens, são adotadas para recuperar rios degradados e prevenir novas contaminações, garantindo a sustentabilidade dos recursos hídricos." },
+    { "tipo": "paragrafo", "texto": "Durante o estudo de Estatística Básica, os estudantes acessaram os dados do Departamento de Meio Ambiente de sua cidade, que continham informações sobre a concentração de metais pesados (mg/L) em cinco pontos de um rio, antes e depois da aplicação de filtros biológicos para descontaminação. Os dados estão apresentados na tabela." },
+    { "tipo": "tabela", "cabecalho": ["Ponto", "Inicial (mg/L)", "Após tratamento (mg/L)"], "linhas": [
+      ["A", "0,85", "0,30"],
+      ["B", "1,10", "0,45"],
+      ["C", "0,95", "0,50"],
+      ["D", "1,20", "0,40"],
+      ["E", "0,80", "0,25"]
+    ] },
+    { "tipo": "paragrafo", "texto": "Na análise dos dados, os estudantes verificaram uma redução absoluta das concentrações de metais pesados entre a mensuração inicial e após o tratamento, concluindo que" }
+  ],
+  "alternativas": [
+    { "letra": "A", "blocos": [ { "tipo": "paragrafo", "texto": "a média das reduções é 0,38 mg/L, a mediana é 0,40 mg/L e o ponto E apresentou a maior redução absoluta." } ] },
+    { "letra": "B", "blocos": [ { "tipo": "paragrafo", "texto": "a média das reduções é 0,60 mg/L, a mediana é 0,45 mg/L e o ponto D apresentou a maior redução absoluta." } ] },
+    { "letra": "C", "blocos": [ { "tipo": "paragrafo", "texto": "a média das reduções é 0,60 mg/L, a mediana é 0,55 mg/L e o ponto D apresentou a maior redução absoluta." } ] },
+    { "letra": "D", "blocos": [ { "tipo": "paragrafo", "texto": "a média das reduções é 0,98 mg/L, a mediana é 0,95 mg/L e o ponto E apresentou a maior redução absoluta." } ] }
+  ]
+}

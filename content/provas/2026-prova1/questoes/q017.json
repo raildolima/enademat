@@ -1,0 +1,55 @@
+{
+  "id": "2026-prova1-q017",
+  "provaId": "2026-prova1",
+  "tipo": "objetiva",
+  "numero": 17,
+  "rotulo": "Questão 17",
+  "parte": "formacao-geral",
+  "ordemCaderno": 17,
+  "paginas": [10],
+  "textoBaseId": "tb-17-18",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "A Competência Geral 2 da BNCC propõe que os estudantes investiguem situações do cotidiano, formulem hipóteses e construam soluções relacionadas aos diferentes contextos sociais por meio de reflexão e de análise crítica. Que ações contribuem para o desenvolvimento dessa competência com base no tema Uso de recursos naturais no cotidiano escolar?"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Propor regras de utilização dos recursos naturais nos espaços escolares e acompanhar o cumprimento dessas normas."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Ler artigos científicos relacionados ao desperdício de recursos naturais e elaborar uma síntese para sistematizar as informações."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Interpretar informações obtidas em uma pesquisa sobre práticas de consumo e definir estratégias para utilizar os recursos naturais."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Participar de um ciclo de palestras voltadas ao uso dos recursos naturais e visitar uma exposição de painéis sobre práticas sustentáveis."
+        }
+      ]
+    }
+  ]
+}

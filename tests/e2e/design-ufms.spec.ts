@@ -9,6 +9,18 @@ const PAGINAS = [
     url: '/#/questao/2025-prova1-q032/resolucao?marcada=B',
     pronta: (p: Page) => expect(p.locator('h1')).toHaveText('Resolução · Questão 32'),
   },
+  {
+    // Fonte do INEP com URL longa (RF16): não pode alargar a página no celular
+    nome: 'Resolução com desempenho nacional',
+    url: '/#/questao/2025-prova1-q032/resolucao',
+    pronta: (p: Page) => expect(p.getByRole('region', { name: 'Desempenho nacional no ENADE 2025' })).toBeVisible(),
+  },
+  { nome: 'Prova', url: '/#/prova/2026-prova1', pronta: (p: Page) => expect(p.locator('h1')).toHaveText(/ENADE 2026/) },
+  {
+    nome: 'Simulado',
+    url: '/#/simulado/2026-prova1?modo=prova&crono=1&q=47',
+    pronta: (p: Page) => expect(p.getByRole('timer')).toBeVisible(),
+  },
 ];
 
 const ALT_LOGO = 'UFMS — Universidade Federal de Mato Grosso do Sul';

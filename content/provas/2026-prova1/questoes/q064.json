@@ -1,0 +1,35 @@
+{
+  "id": "2026-prova1-q064",
+  "provaId": "2026-prova1",
+  "tipo": "objetiva",
+  "numero": 64,
+  "rotulo": "Questão 64",
+  "parte": "componente-especifico",
+  "ordemCaderno": 65,
+  "paginas": [35],
+  "textoBaseId": "tb-64-65",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "No plano de aula que está sendo elaborado pela professora, qual habilidade da Base Nacional Comum Curricular (BNCC) é contemplada?"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [{ "tipo": "paragrafo", "texto": "Resolver e elaborar problemas que envolvam adição ou subtração com números racionais positivos na representação fracionária." }]
+    },
+    {
+      "letra": "B",
+      "blocos": [{ "tipo": "paragrafo", "texto": "Compreender, comparar e ordenar frações associadas às ideias de partes de inteiros e resultado de divisão, identificando frações equivalentes." }]
+    },
+    {
+      "letra": "C",
+      "blocos": [{ "tipo": "paragrafo", "texto": "Resolver e elaborar problemas que envolvam o cálculo da fração de uma quantidade em que o resultado é um número natural, com e sem uso de calculadora." }]
+    },
+    {
+      "letra": "D",
+      "blocos": [{ "tipo": "paragrafo", "texto": "Reconhecer que os números racionais positivos podem ser expressos nas formas fracionária e decimal, estabelecer relações entre essas representações, passando de uma representação para outra, e relacioná-los a pontos na reta numérica." }]
+    }
+  ]
+}

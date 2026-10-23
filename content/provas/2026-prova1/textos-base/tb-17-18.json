@@ -1,0 +1,12 @@
+{
+  "id": "tb-17-18",
+  "provaId": "2026-prova1",
+  "titulo": "Texto para as questões 17 e 18",
+  "questoes": [17, 18],
+  "blocos": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Na Base Nacional Comum Curricular (BNCC), as competências gerais da Educação Básica inter-relacionam-se e desdobram-se no tratamento didático proposto para as três etapas da Educação Básica (Educação Infantil, Ensino Fundamental e Ensino Médio), articulando-se na construção de conhecimentos, no desenvolvimento de habilidades, bem como na formação de atitudes e de valores."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "tb-40-42",
+  "provaId": "2026-prova1",
+  "titulo": "Texto para as questões de 40 a 42",
+  "questoes": [40, 41, 42],
+  "blocos": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Em um curso de Licenciatura em Matemática, uma professora propõe à turma uma atividade no GeoGebra com o objetivo de explorar o comprimento da circunferência. A atividade começa pela construção de um hexágono regular inscrito em uma circunferência. Os passos seguintes são construir polígonos regulares inscritos de 12, 24 e 48 lados. A partir dessas construções, os estudantes conjecturaram que, quanto maior o número de lados do polígono, mais o perímetro se aproxima do comprimento da circunferência. Na continuidade da aula, a professora solicitou que os estudantes calculassem as medidas do lado $l$, do apótema $a$ e do perímetro $2p$ de um polígono regular de $n$ lados, inscrito em uma circunferência de raio $r$, em função de $r$ e do ângulo central $\\frac{2\\pi}{n}$. Posteriormente, os estudantes exploraram a relação entre a área de um polígono inscrito em uma circunferência e a área do círculo, intuindo que a área do polígono aproxima-se da área do círculo à medida que o número de lados do polígono aumenta. Além disso, observaram que o polígono pode ser decomposto em $n$ triângulos isósceles congruentes entre si. Nesse caso, a área desse polígono pode ser dada pela soma das áreas desses triângulos."
+    }
+  ]
+}

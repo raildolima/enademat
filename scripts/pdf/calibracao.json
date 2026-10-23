@@ -28,5 +28,15 @@
     "margem_direita_max_x": 546.93,
     "area_min_figura_raster": 1500.0,
     "area_min_figura_vetorial": 2000.0
+  },
+  "2026-prova1": {
+    "largura": 566.93,
+    "altura": 779.53,
+    "cabecalho_max_y": 70.0,
+    "rodape_min_y": 740.0,
+    "margem_esquerda_min_x": 20.0,
+    "margem_direita_max_x": 546.93,
+    "area_min_figura_raster": 1500.0,
+    "area_min_figura_vetorial": 2000.0
   }
 }

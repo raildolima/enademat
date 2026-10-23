@@ -1,0 +1,59 @@
+{
+  "id": "2026-prova1-q022",
+  "provaId": "2026-prova1",
+  "tipo": "objetiva",
+  "numero": 22,
+  "rotulo": "Questão 22",
+  "parte": "formacao-geral",
+  "ordemCaderno": 22,
+  "paginas": [13],
+  "textoBaseId": "tb-21-22",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Desenvolvido pelo Tribunal de Justiça do estado do Rio de Janeiro, em parceria com escolas e redes locais de proteção, o Projeto Rio Lilás promove nas escolas ações voltadas à reflexão sobre violência contra meninas e mulheres, relações de gênero, direitos humanos e cultura de paz. Por meio de rodas de conversa, atividades formativas e espaços de leitura, o programa busca tanto aproximar a comunidade escolar do sistema de justiça quanto contribuir para a prevenção de práticas discriminatórias e violências de gênero."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Iniciativas como o Projeto Rio Lilás fundamentam-se em uma perspectiva de educação para as relações de gênero entendida como um(a)"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "abordagem didática que integra a discussão sobre desigualdade e violência de gênero à compreensão das políticas públicas e dos mecanismos institucionais de proteção, contribuindo para a garantia de direitos."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "prática educativa que favorece a análise crítica dos processos de socialização e das relações de poder presentes na vida cotidiana, contribuindo para a revisão de padrões culturais que produzem e legitimam formas de desigualdade."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "processo pedagógico que valoriza a compreensão das diferentes formas de violência dirigidas às mulheres, orientando o reconhecimento de comportamentos e discursos associados ao preconceito e à discriminação de gênero."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "campo formativo que enfatiza o reconhecimento jurídico da igualdade entre homens e mulheres, orientando a compreensão dos direitos e das garantias legais como referência para o enfrentamento de práticas discriminatórias e violências de gênero."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "tb-53-54",
+  "provaId": "2026-prova1",
+  "titulo": "Texto para as questões 53 e 54",
+  "questoes": [53, 54],
+  "blocos": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Um professor de Matemática propôs a um grupo de estudantes a elaboração de um projeto com o objetivo de minimizar consequências de uma urbanização não planejada: moradias em áreas de risco perto de um rio e enchentes frequentes na área central de uma cidade. Nesse projeto, os estudantes devem monitorar o nível do rio em uma ponte e dimensionar uma galeria de drenagem para uma área impermeabilizada (asfalto, concreto) de 5 000 m² em torno do canal central. O monitoramento do rio deve ser feito por meio de um sensor ultrassônico instalado em uma ponte, o qual emite uma onda sonora que bate na lâmina d’água e retorna para ele. A galeria será construída ao longo do canal, com módulos pré-fabricados, no formato de prismas retos que têm como bases trapézios de altura 3 m, base maior 8 m e base menor 4 m. Além disso, a altura de cada módulo é 1 m."
+    }
+  ]
+}

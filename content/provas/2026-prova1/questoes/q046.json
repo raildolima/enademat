@@ -1,0 +1,35 @@
+{
+  "id": "2026-prova1-q046",
+  "provaId": "2026-prova1",
+  "tipo": "objetiva",
+  "numero": 46,
+  "rotulo": "Questão 46",
+  "parte": "componente-especifico",
+  "ordemCaderno": 47,
+  "paginas": [26],
+  "textoBaseId": "tb-46-48",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Considerando os objetivos traçados pelo professor, qual habilidade da Base Nacional Comum Curricular (BNCC) do Ensino Médio está sendo abordada na atividade proposta no Texto 2?"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [{ "tipo": "paragrafo", "texto": "Investigar conjuntos de dados relativos ao comportamento de duas variáveis numéricas, usando tecnologias da informação, e, se apropriado, levar em conta a variação e utilizar uma reta para descrever a relação observada." }]
+    },
+    {
+      "letra": "B",
+      "blocos": [{ "tipo": "paragrafo", "texto": "Resolver e elaborar problemas do cotidiano, da Matemática e de outras áreas do conhecimento, que envolvem equações lineares simultâneas, usando técnicas algébricas e gráficas, incluindo ou não tecnologias digitais." }]
+    },
+    {
+      "letra": "C",
+      "blocos": [{ "tipo": "paragrafo", "texto": "Reconhecer um problema algorítmico, enunciá-lo, procurar uma solução e expressá-la por meio de um algoritmo, com o respectivo fluxograma." }]
+    },
+    {
+      "letra": "D",
+      "blocos": [{ "tipo": "paragrafo", "texto": "Utilizar os conceitos básicos de uma linguagem de programação na implementação de algoritmos escritos em linguagem corrente e/ou matemática." }]
+    }
+  ]
+}

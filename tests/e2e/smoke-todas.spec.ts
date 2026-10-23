@@ -57,7 +57,7 @@ function coletarErrosConsole(page: Page, prefixo: string): string[] {
 }
 
 test.describe('Smoke Tests de Integridade', () => {
-  // Amostra representativa detalhada das 3 provas cobrindo discursivas, matrizes, figuras e fórmulas
+  // Amostra representativa detalhada das 4 provas cobrindo discursivas, matrizes, figuras e fórmulas
   const questoesAmostra = [
     // 2021-licenciatura
     '2021-licenciatura-d01',
@@ -77,6 +77,12 @@ test.describe('Smoke Tests de Integridade', () => {
     '2025-prova5-q001',
     '2025-prova5-q066', // matrizes
     '2025-prova5-q080',
+    // 2026-prova1
+    '2026-prova1-d01',
+    '2026-prova1-q001', // figura no enunciado
+    '2026-prova1-q047', // alternativas-imagem
+    '2026-prova1-q066', // texto-base com figura
+    '2026-prova1-q079', // alternativas-imagem
   ];
 
   for (const qId of questoesAmostra) {
@@ -87,8 +93,8 @@ test.describe('Smoke Tests de Integridade', () => {
     });
   }
 
-  // Validação consolidada de cobertura de 100% das 202 questões do simulador por prova
-  const provas = ['2021-licenciatura', '2025-prova1', '2025-prova5'];
+  // Validação consolidada de cobertura de 100% das 283 questões do simulador por prova
+  const provas = ['2021-licenciatura', '2025-prova1', '2025-prova5', '2026-prova1'];
 
   for (const pId of provas) {
     const questoesDaProva = indice.questoes.filter((q) => q.provaId === pId);

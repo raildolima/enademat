@@ -1,0 +1,26 @@
+{
+  "id": "2026-prova1-q039",
+  "provaId": "2026-prova1",
+  "tipo": "objetiva",
+  "numero": 39,
+  "rotulo": "Questão 39",
+  "parte": "componente-especifico",
+  "ordemCaderno": 40,
+  "paginas": [23],
+  "textoBaseId": "tb-38-39",
+  "enunciado": [
+    { "tipo": "paragrafo", "texto": "Em uma aula de Etnomatemática de um curso de Licenciatura em Matemática, a professora utilizou a reportagem (Texto 1) para mostrar como conhecimentos matemáticos podem emergir de práticas culturais." },
+    { "tipo": "paragrafo", "texto": "Com o objetivo de exemplificar para os licenciandos algumas dimensões da Etnomatemática, a professora selecionou três aspectos do projeto Profetas da Chuva e solicitou que fossem relacionados à dimensão que os representasse." },
+    { "tipo": "paragrafo", "texto": "Os aspectos apresentados foram:" },
+    { "tipo": "paragrafo", "texto": "**(1)** Um projeto científico que une tecnologia a saberes tradicionais e reconhece os conhecimentos dos profetas da chuva como uma forma legítima de produzir e interpretar informações sobre fenômenos naturais." },
+    { "tipo": "paragrafo", "texto": "**(2)** Um projeto científico desenvolvido no contexto escolar que, entre os objetivos, busca fortalecer a cultura nordestina e ampliar o acesso dos sertanejos a ferramentas que possam auxiliar as próprias práticas." },
+    { "tipo": "paragrafo", "texto": "**(3)** Um projeto científico inspirado em histórias que o estudante ouvia do avô e que representam um conhecimento tradicional, transmitido de geração para geração." },
+    { "tipo": "paragrafo", "texto": "As dimensões da Etnomatemática correspondentes aos três aspectos apresentados são, respectivamente," }
+  ],
+  "alternativas": [
+    { "letra": "A", "blocos": [{ "tipo": "paragrafo", "texto": "(1) Educacional, (2) Cognitiva e (3) Histórica." }] },
+    { "letra": "B", "blocos": [{ "tipo": "paragrafo", "texto": "(1) Epistemológica, (2) Política e (3) Histórica." }] },
+    { "letra": "C", "blocos": [{ "tipo": "paragrafo", "texto": "(1) Educacional, (2) Política e (3) Conceitual." }] },
+    { "letra": "D", "blocos": [{ "tipo": "paragrafo", "texto": "(1) Epistemológica, (2) Conceitual e (3) Educacional." }] }
+  ]
+}

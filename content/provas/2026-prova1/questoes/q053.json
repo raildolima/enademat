@@ -1,0 +1,35 @@
+{
+  "id": "2026-prova1-q053",
+  "provaId": "2026-prova1",
+  "tipo": "objetiva",
+  "numero": 53,
+  "rotulo": "Questão 53",
+  "parte": "componente-especifico",
+  "ordemCaderno": 54,
+  "paginas": [30],
+  "textoBaseId": "tb-53-54",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Na situação descrita, os estudantes devem considerar que a velocidade do som no ar é 343 m/s e que um sinal sonoro deve estar programado para soar se a distância da lâmina-d’água à ponte atingir $1{,}75$ m. Para que esse alarme dispare e a população seja alertada sobre o risco de transbordamento do rio, os estudantes devem concluir que o tempo de retorno da onda sonora ao sensor é de"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [{ "tipo": "paragrafo", "texto": "$\\frac{1}{196}$ s." }]
+    },
+    {
+      "letra": "B",
+      "blocos": [{ "tipo": "paragrafo", "texto": "$\\frac{1}{98}$ s." }]
+    },
+    {
+      "letra": "C",
+      "blocos": [{ "tipo": "paragrafo", "texto": "$\\frac{5}{98}$ s." }]
+    },
+    {
+      "letra": "D",
+      "blocos": [{ "tipo": "paragrafo", "texto": "$\\frac{5}{49}$ s." }]
+    }
+  ]
+}

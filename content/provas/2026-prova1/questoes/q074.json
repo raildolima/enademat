@@ -1,0 +1,20 @@
+{
+  "id": "2026-prova1-q074",
+  "provaId": "2026-prova1",
+  "tipo": "objetiva",
+  "numero": 74,
+  "rotulo": "Questão 74",
+  "parte": "componente-especifico",
+  "ordemCaderno": 75,
+  "paginas": [40],
+  "textoBaseId": "tb-73-74",
+  "enunciado": [
+    { "tipo": "paragrafo", "texto": "Interessado em apresentar aplicações da sua área na Geologia, campo que estuda os vulcões, a estrutura da Terra e a formação de montanhas, um professor de Matemática sugeriu a uma turma do Ensino Médio a visita ao Pico do Cabugi. Depois, ele propôs aos estudantes que estimassem a massa de material que constitui aquela montanha. Os estudantes estimaram que o vulcão inativo tem sua base num plano horizontal a 190 m de altura em relação ao nível do mar e que o diâmetro da base mede dez vezes o valor da sua altura. Aproximando $\\pi = 3$, qual resultado os estudantes deverão encontrar?" }
+  ],
+  "alternativas": [
+    { "letra": "A", "blocos": [ { "tipo": "paragrafo", "texto": "$4{,}8 \\times 10^{12}$ kg." } ] },
+    { "letra": "B", "blocos": [ { "tipo": "paragrafo", "texto": "$1{,}44 \\times 10^{13}$ kg." } ] },
+    { "letra": "C", "blocos": [ { "tipo": "paragrafo", "texto": "$1{,}54 \\times 10^{13}$ kg." } ] },
+    { "letra": "D", "blocos": [ { "tipo": "paragrafo", "texto": "$1{,}92 \\times 10^{13}$ kg." } ] }
+  ]
+}

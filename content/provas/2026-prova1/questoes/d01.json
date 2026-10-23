@@ -1,0 +1,87 @@
+{
+  "id": "2026-prova1-d01",
+  "provaId": "2026-prova1",
+  "tipo": "discursiva",
+  "numero": 1,
+  "rotulo": "Questão Discursiva 1",
+  "parte": "formacao-geral",
+  "ordemCaderno": 31,
+  "paginas": [18],
+  "enunciado": [
+    {
+      "tipo": "titulo",
+      "texto": "TEXTO 1"
+    },
+    {
+      "tipo": "titulo",
+      "texto": "Ler: compromisso de todas as áreas?"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "A tarefa de ensinar a ler um texto de Ciências é do professor de Ciências, e não do professor de Português. A tarefa de ensinar a ler um texto de Geografia é do professor de Geografia, e não do professor de Português."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Estar alfabetizado em Geografia, por exemplo, significa relacionar espaço com natureza, espaço com sociedade, isto é, perceber os aspectos econômicos, políticos e culturais do mundo em que vivemos. Ler em Geografia não é apenas se localizar. É ler o mundo de maneira que o estudante saiba situar-se e posicionar-se. É assumir um posicionamento crítico com relação às desigualdades socioespaciais."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Será que a tarefa de ler não deveria ser um compromisso de todas as áreas?"
+    },
+    {
+      "tipo": "fonte",
+      "texto": "NEVES, I. C. B. (org.). **Ler e escrever**: compromisso de todas as áreas. Porto Alegre: UFRGS, 2007 (adaptado)."
+    },
+    {
+      "tipo": "titulo",
+      "texto": "TEXTO 2"
+    },
+    {
+      "tipo": "titulo",
+      "texto": "Inferência: uma habilidade de leitura"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Para a linguista Roxane Rojo, o texto tem seus implícitos ou pressupostos que podem ser compreendidos numa leitura efetiva pelas pistas que o autor deixa no texto, pelo conjunto da significação construída e pelos conhecimentos de mundo."
+    },
+    {
+      "tipo": "imagem",
+      "src": "figuras/2026-prova1/d01-f1.webp",
+      "alt": "Quatro painéis sobre inferência: linguagens (duas crianças e um peixe sob guarda-chuva, com a fala 'Até o peixe resolveu usar guarda-chuva!'); matemática (gráfico de barras de venda de picolés por dia, de quarta a domingo, com 60, 80, 100, 110 e 190 unidades); ciências humanas (fotografia de uma fila de pessoas, 'Vaga de emprego (1930)'); ciências naturais (planta em vaso, com folhas caídas)."
+    },
+    {
+      "tipo": "titulo",
+      "texto": "TEXTO 3"
+    },
+    {
+      "tipo": "titulo",
+      "texto": "A leitura como prática social"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "O ato de ler não se esgota na decodificação (por exemplo, reconhecer letras e palavras, relacionar escrita e sons), tampouco nas capacidades de compreensão (por exemplo, localizar informações, levantar hipóteses, produzir inferências). A leitura como prática social parte dessas duas dimensões, mas amplia seu alcance na medida em que envolve o uso de diferentes linguagens para participar da vida em sociedade: resolver situações cotidianas, interagir com outras pessoas, tomar decisões, posicionar-se criticamente etc."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Uma ida ao supermercado, por exemplo, pode mobilizar diferentes práticas de leitura: em Matemática, ao comparar preços com base nos descontos e nos pesos dos produtos; em Linguagens, ao interpretar placas ou solicitar, de modo educado, informações a um funcionário; em Ciências Humanas, ao refletir sobre condições de trabalho das pessoas no estabelecimento; e, em Ciências da Natureza, ao analisar informações sobre consumo de energia de determinados produtos."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Como professor do Ensino Fundamental, você pretende elaborar um projeto envolvendo habilidades de leitura. Para mobilizar o corpo docente, você decide redigir um artigo de opinião para publicar no site da escola e evidenciar o potencial desse trabalho. Nesse artigo de opinião, você deve:"
+    }
+  ],
+  "itens": [
+    {
+      "rotulo": "1",
+      "texto": "defender a ideia de que ler deve ser um compromisso de todas as áreas (de todos os componentes curriculares)."
+    },
+    {
+      "rotulo": "2",
+      "texto": "propor uma atividade pedagógica por meio da qual você, como professor, pode explorar a inferência como habilidade leitora em seu componente curricular."
+    },
+    {
+      "rotulo": "3",
+      "texto": "refletir de que modo a atividade pedagógica proposta pode ser um ponto de partida para que os estudantes experienciem a leitura como prática social."
+    }
+  ]
+}

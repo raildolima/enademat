@@ -1,0 +1,35 @@
+{
+  "id": "2026-prova1-q043",
+  "provaId": "2026-prova1",
+  "tipo": "objetiva",
+  "numero": 43,
+  "rotulo": "Questão 43",
+  "parte": "componente-especifico",
+  "ordemCaderno": 44,
+  "paginas": [25],
+  "textoBaseId": "tb-43-45",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Durante a atividade descrita no Texto 1, a professora solicitou que dois estudantes registrassem as quantidades obtidas no Nunca 7: o estudante A ficou com 2 pratos, 1 copo e 3 tampinhas, enquanto o estudante B terminou com 1 prato, 6 copos e 6 tampinhas. Quem ganhou o jogo foi o estudante"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [{ "tipo": "paragrafo", "texto": "A, que obteve o equivalente a 42 unidades na base 10." }]
+    },
+    {
+      "letra": "B",
+      "blocos": [{ "tipo": "paragrafo", "texto": "A, que obteve o equivalente a 108 unidades na base 10." }]
+    },
+    {
+      "letra": "C",
+      "blocos": [{ "tipo": "paragrafo", "texto": "B, que obteve o equivalente a 91 unidades na base 10." }]
+    },
+    {
+      "letra": "D",
+      "blocos": [{ "tipo": "paragrafo", "texto": "B, que obteve o equivalente a 166 unidades na base 10." }]
+    }
+  ]
+}

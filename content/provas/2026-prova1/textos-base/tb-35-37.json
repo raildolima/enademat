@@ -1,0 +1,27 @@
+{
+  "id": "tb-35-37",
+  "provaId": "2026-prova1",
+  "titulo": "Texto para as questões de 35 a 37",
+  "questoes": [35, 36, 37],
+  "blocos": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Com o objetivo de contextualizar o ensino de Matemática, uma professora da Educação de Jovens e Adultos (EJA) utilizou o tema “Produção de marmitas” como eixo gerador. Por meio de rodas de conversas com os estudantes, ela explorou os saberes prévios de cada estudante sobre produção e comércio de alimentação."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Em seguida, os estudantes simularam um negócio próprio no qual precisariam criar cardápios variados. Para cada grupo de alimentos (por exemplo, carboidratos), os estudantes citaram ingredientes comuns e acessíveis, como o arroz, para a produção das marmitas."
+    },
+    {
+      "tipo": "lista",
+      "ordenada": false,
+      "itens": [
+        "3 tipos de carboidratos: arroz, macarrão e batata;",
+        "3 tipos de proteínas: frango, carne e ovo;",
+        "2 tipos de folhas: alface e rúcula;",
+        "2 tipos de grãos: feijão e lentilha;",
+        "2 tipos de legumes: chuchu e cenoura."
+      ]
+    }
+  ]
+}

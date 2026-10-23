@@ -4,6 +4,7 @@ import type { ResumoQuestao, Prova, ProvaId } from '../../data/tipos';
 import { Badge } from '../../components/Badge';
 import { TextoRico } from '../../components/TextoRico';
 import { ArrowRight } from 'lucide-react';
+import { rotuloAssunto } from '../../data/assuntos';
 import styles from './ListaQuestoes.module.css';
 
 interface ListaQuestoesProps {
@@ -31,7 +32,7 @@ export const ListaQuestoes: React.FC<ListaQuestoesProps> = ({
     mapaProvas.set(p.id, p);
   }
 
-  const ordemProvas: ProvaId[] = ['2021-licenciatura', '2025-prova1', '2025-prova5'];
+  const ordemProvas: ProvaId[] = ['2021-licenciatura', '2025-prova1', '2025-prova5', '2026-prova1'];
   const questoesPorProva = new Map<ProvaId, ResumoQuestao[]>();
 
   for (const id of ordemProvas) {
@@ -63,6 +64,9 @@ export const ListaQuestoes: React.FC<ListaQuestoesProps> = ({
                 {itensDaProva.length} {itensDaProva.length === 1 ? 'questão' : 'questões'}
               </span>
             </h2>
+            <Link to={`/prova/${provaId}`} className={styles.linkProva}>
+              Ver a prova completa (grade de questões)
+            </Link>
             <div className={styles.gradeQuestoes}>
               {itensDaProva.map((q, idx) => {
                 const linkHref = `/questao/${q.id}${queryStringParams}`;
@@ -99,6 +103,12 @@ export const ListaQuestoes: React.FC<ListaQuestoesProps> = ({
                     <div className={styles.previaQuestao}>
                       <TextoRico texto={q.previa} />
                     </div>
+                    {q.assuntos && q.assuntos.length > 0 && (
+                      <p className={styles.assuntosCard}>
+                        <span className="sr-only">Assuntos: </span>
+                        {q.assuntos.map(rotuloAssunto).join(' · ')}
+                      </p>
+                    )}
                     <ArrowRight size={20} className={styles.setaCard} aria-hidden="true" />
                   </Link>
                 );

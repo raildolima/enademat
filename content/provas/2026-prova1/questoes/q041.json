@@ -1,0 +1,20 @@
+{
+  "id": "2026-prova1-q041",
+  "provaId": "2026-prova1",
+  "tipo": "objetiva",
+  "numero": 41,
+  "rotulo": "Questão 41",
+  "parte": "componente-especifico",
+  "ordemCaderno": 42,
+  "paginas": [24],
+  "textoBaseId": "tb-40-42",
+  "enunciado": [
+    { "tipo": "paragrafo", "texto": "A professora solicita aos licenciandos que adaptem a atividade sobre o comprimento da circunferência para uma avaliação nos Anos Finais do Ensino Fundamental em uma perspectiva investigativa. Essa proposta de avaliação deve verificar a capacidade de" }
+  ],
+  "alternativas": [
+    { "letra": "A", "blocos": [{ "tipo": "paragrafo", "texto": "seguir os passos da atividade, aplicar as instruções de forma sequencial e perceber a tendência dos perímetros ao aumentar o número de lados." }] },
+    { "letra": "B", "blocos": [{ "tipo": "paragrafo", "texto": "aplicar o conhecimento sobre triângulos isósceles na construção dos polígonos e realizar cálculos dos perímetros de acordo com os procedimentos indicados pelo software." }] },
+    { "letra": "C", "blocos": [{ "tipo": "paragrafo", "texto": "interpretar os resultados obtidos nos diferentes polígonos, organizar essas informações e apresentar as justificativas para explicar a aproximação do perímetro ao comprimento da circunferência." }] },
+    { "letra": "D", "blocos": [{ "tipo": "paragrafo", "texto": "construir os polígonos e compreender a variação do valor do seno da metade do ângulo central nos triângulos isósceles à medida em que o número de lados aumenta." }] }
+  ]
+}

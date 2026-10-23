@@ -1,0 +1,49 @@
+{
+  "id": "2026-prova1-q010",
+  "provaId": "2026-prova1",
+  "tipo": "objetiva",
+  "numero": 10,
+  "rotulo": "Questão 10",
+  "parte": "formacao-geral",
+  "ordemCaderno": 10,
+  "paginas": [6],
+  "enunciado": [
+    { "tipo": "titulo", "texto": "Ensino de Ciências e educação inclusiva: um estudo de caso em uma sala regular" },
+    {
+      "tipo": "paragrafo",
+      "texto": "Ao vivenciar a experiência de ensinar uma estudante surda, a professora de Ciências incluiu, no planejamento, a exploração de recursos visuais e de materiais concretos para tratar de conteúdos científicos. Na aula, ela recorre a vídeos e imagens, solicitando aos estudantes que realizem trabalhos escolares que envolvam a montagem de maquetes, como ilustra a figura. Além disso, a professora relata: “Procuro colocar mais recursos visuais pra ela [a estudante surda] entender melhor. Não só ela, isto ajuda a turma”."
+    },
+    {
+      "tipo": "imagem",
+      "src": "figuras/2026-prova1/q010-f1.webp",
+      "alt": "Fotografia de quatro maquetes de estruturas celulares confeccionadas pelos estudantes, com diferentes materiais e cores, cada uma representando uma célula com suas organelas.",
+      "legenda": "Maquetes sobre estruturas celulares confeccionadas pelos estudantes."
+    },
+    {
+      "tipo": "fonte",
+      "texto": "OLIVEIRA, J. F.; FERRAZ, D. P. A. Ensino de Ciências ao aluno surdo: um estudo de caso sobre a sala regular, o atendimento educacional especializado e o intérprete educacional. **Revista Brasileira de Pesquisa em Educação em Ciências**, n. 21, mar. 2021 (adaptado)."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Considerando o estudo de caso, que envolve uma estudante surda do 8º ano do Ensino Fundamental, a prática pedagógica descrita evidencia uma perspectiva de educação inclusiva segundo a qual os recursos concretos"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [{ "tipo": "paragrafo", "texto": "estimulam a aprendizagem de surdos ao substituir as explicações verbais por elementos visuais e táteis." }]
+    },
+    {
+      "letra": "B",
+      "blocos": [{ "tipo": "paragrafo", "texto": "viabilizam a aprendizagem dos conceitos científicos pelos estudantes surdos por meio de elementos lúdicos." }]
+    },
+    {
+      "letra": "C",
+      "blocos": [{ "tipo": "paragrafo", "texto": "favorecem a aprendizagem de surdos e ouvintes ao ampliar as possibilidades de mediação pedagógica." }]
+    },
+    {
+      "letra": "D",
+      "blocos": [{ "tipo": "paragrafo", "texto": "possibilitam a aprendizagem de surdos por meio de atividades distintas dos ouvintes." }]
+    }
+  ]
+}

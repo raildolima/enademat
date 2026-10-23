@@ -1,0 +1,55 @@
+{
+  "id": "2026-prova1-q016",
+  "provaId": "2026-prova1",
+  "tipo": "objetiva",
+  "numero": 16,
+  "rotulo": "Questão 16",
+  "parte": "formacao-geral",
+  "ordemCaderno": 16,
+  "paginas": [9],
+  "textoBaseId": "tb-15-16",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Na aula seguinte, a professora propôs um estudo de caso intitulado O duto de Pelotas e a engenharia do racismo ambiental. Com o intuito de articular os textos a uma análise crítica, o objetivo de aprendizagem desse estudo consiste em"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "identificar que as ações de enfrentamento às mudanças climáticas partem da relação de forças entre a especulação imobiliária e os interesses das comunidades tradicionais."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "identificar que as estratégias para a redução de riscos partem de motivações históricas convergentes entre os diferentes grupos envolvidos e de alinhamento político para a reivindicação de direitos."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "reconhecer que as estratégias para a redução de impactos dependem de especificidades técnicas, como o desenvolvimento de projetos urbanos, o cálculo e a precisão de vazão do diâmetro dos dutos."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "reconhecer que as ações de enfrentamento às vulnerabilidades decorrentes de desastres ambientais dependem do reconhecimento de questões históricas e sociais da resistência de grupos específicos."
+        }
+      ]
+    }
+  ]
+}

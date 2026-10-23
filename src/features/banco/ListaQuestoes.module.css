@@ -17,6 +17,10 @@
   --cor-prova: var(--ufms-verde);
 }
 
+.grupoProva[data-prova="2026-prova1"] {
+  --cor-prova: var(--ufms-azul-800);
+}
+
 /* Título de seção UFMS: sublinhado azul de 4 px */
 .tituloGrupo {
   display: flex;
@@ -149,4 +153,20 @@
   border: 2px dashed var(--cor-borda);
   border-radius: var(--raio-lg);
   color: var(--cor-texto-secundario);
+}
+
+.linkProva {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--alvo-toque);
+  margin: calc(-1 * var(--espaco-3)) 0 var(--espaco-3);
+  font-weight: 600;
+  color: var(--cor-primaria);
+}
+
+.assuntosCard {
+  margin: var(--espaco-2) 0 0;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--cor-primaria);
 }

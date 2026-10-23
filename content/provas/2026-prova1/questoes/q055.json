@@ -1,0 +1,35 @@
+{
+  "id": "2026-prova1-q055",
+  "provaId": "2026-prova1",
+  "tipo": "objetiva",
+  "numero": 55,
+  "rotulo": "Questão 55",
+  "parte": "componente-especifico",
+  "ordemCaderno": 56,
+  "paginas": [31],
+  "textoBaseId": "tb-55-56",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Para revisitar conceitos de Estatística, um professor de Ensino Fundamental apresentou a tabela. Ao realizar uma análise dos dados em plenária, os estudantes devem concluir sobre a frequência que"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [{ "tipo": "paragrafo", "texto": "alguns percentuais são aproximados, o que significa que há algumas dízimas periódicas entre eles, independentemente do número de pessoas da população estudada." }]
+    },
+    {
+      "letra": "B",
+      "blocos": [{ "tipo": "paragrafo", "texto": "as frequências relativas serão as mesmas se essa pesquisa for aplicada em uma população menor de 200 pessoas." }]
+    },
+    {
+      "letra": "C",
+      "blocos": [{ "tipo": "paragrafo", "texto": "as frequências relativas de uma pesquisa são números inteiros somente em uma população de 100 pessoas." }]
+    },
+    {
+      "letra": "D",
+      "blocos": [{ "tipo": "paragrafo", "texto": "a relação entre a frequência relativa e a frequência absoluta é dada pela multiplicação por uma constante cujo valor depende do número de pessoas da população estudada." }]
+    }
+  ]
+}

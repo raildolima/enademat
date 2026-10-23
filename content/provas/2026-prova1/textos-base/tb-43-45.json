@@ -1,0 +1,28 @@
+{
+  "id": "tb-43-45",
+  "provaId": "2026-prova1",
+  "titulo": "Texto para as questões de 43 a 45",
+  "questoes": [43, 44, 45],
+  "blocos": [
+    {
+      "tipo": "titulo",
+      "texto": "TEXTO 1"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "O Jogo do Nunca tem como objetivo explorar agrupamentos e desagrupamentos em diferentes bases numéricas, podendo receber variações como, por exemplo, Nunca 3 ou Nunca 5. Em geral, estudantes utilizam dados ou roletas para obter tampinhas a cada rodada. Sempre que a quantidade de tampinhas atinge a base escolhida, realiza-se um agrupamento em uma ordem superior, utilizando copos descartáveis. Quando os copos também alcançam o valor da base, devem ser agrupados em uma nova ordem superior, em pratos descartáveis. Ao final de um tempo previamente definido, vence quem obtiver a maior quantidade representada. No Jogo do Nunca, expressões como “três copos e duas tampinhas” ou “duas tampinhas e três copos” representam a mesma quantidade. A complexidade do jogo pode aumentar gradualmente até a base 10, quando também é possível utilizar o material dourado."
+    },
+    {
+      "tipo": "fonte",
+      "texto": "GOMES, I. C. R.; ZANON, T. X. D.-C. De onde vem o vai 1? In: **Anais do X Encontro Nacional de Educação Matemática**. Salvador: SBEM, 2010 (adaptado)."
+    },
+    {
+      "tipo": "titulo",
+      "texto": "TEXTO 2"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "No início do ano letivo, uma professora observou que parte significativa da sua turma apresentava dificuldades na realização do algoritmo de divisão, especialmente em situações nas quais o dividendo ou o quociente continham o algarismo zero em alguma posição de sua representação decimal. Diante desse cenário, a professora compreendeu que o obstáculo não se restringia à técnica operatória, mas envolvia a compreensão do papel do zero na escrita numérica e nos processos de desagrupamento. Buscando criar um ambiente em que essas ideias pudessem ganhar sentido, ela optou por recorrer ao Jogo do Nunca. De modo intencional, a professora utilizou o jogo para explicitar situações de ausência de agrupamentos, atribuindo significado ao zero antes da retomada do algoritmo da divisão. Ao término da mediação, a professora propôs uma situação-problema: o posto de saúde do bairro realizaria uma campanha de vacinação ao longo de três dias consecutivos e, para isso, havia recebido 3 015 folhetos informativos e 1 005 cartões de agendamento. Como o material deveria ser distribuído igualmente entre os três dias de atendimento, os estudantes precisariam calcular quantos folhetos e quantos cartões seriam destinados a cada dia."
+    }
+  ]
+}

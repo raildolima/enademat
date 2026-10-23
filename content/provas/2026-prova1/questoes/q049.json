@@ -1,0 +1,35 @@
+{
+  "id": "2026-prova1-q049",
+  "provaId": "2026-prova1",
+  "tipo": "objetiva",
+  "numero": 49,
+  "rotulo": "Questão 49",
+  "parte": "componente-especifico",
+  "ordemCaderno": 50,
+  "paginas": [28],
+  "textoBaseId": "tb-49-50",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Com base nesses dois momentos, essa aula se fundamenta em qual tendência da Educação Matemática?"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [{ "tipo": "paragrafo", "texto": "Modelagem Matemática, pois o planejamento parte de uma situação real do contexto sociocultural, envolvendo levantamento de hipóteses, uso de representações diversas e validação coletiva dos modelos construídos pelos estudantes." }]
+    },
+    {
+      "letra": "B",
+      "blocos": [{ "tipo": "paragrafo", "texto": "Resolução de Problemas, uma vez que os estudantes resolvem situações contextualizadas relacionadas ao conteúdo de área de quadriláteros, ainda que o fenômeno sociocultural seja apenas um ponto de partida didático." }]
+    },
+    {
+      "letra": "C",
+      "blocos": [{ "tipo": "paragrafo", "texto": "Ensino Tradicional Contextualizado, uma vez que a professora organiza previamente os conteúdos e conduz o processo de aprendizagem, a partir de exemplos contextualizados de práticas socioculturais." }]
+    },
+    {
+      "letra": "D",
+      "blocos": [{ "tipo": "paragrafo", "texto": "Etnomatemática, pois o planejamento valoriza os conhecimentos vinculados a práticas socioculturais, integrando saberes do cotidiano à construção dos conceitos matemáticos trabalhados em sala de aula." }]
+    }
+  ]
+}

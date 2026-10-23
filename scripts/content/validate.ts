@@ -6,6 +6,8 @@ import {
   TextoBaseSchema,
   ProvaSchema,
   GabaritoSchema,
+  EstatisticasSchema,
+  AssuntosProvaSchema,
   FigurasManifestSchema,
   ResolucaoObjetivaFrontmatterSchema,
   ResolucaoDiscursivaFrontmatterSchema,
@@ -13,6 +15,7 @@ import {
   validarTextoRico,
 } from './schema';
 import { obterGabaritoReferencia } from './gabaritos-referencia';
+import { extrairSecao } from '../../src/data/resolucao';
 
 const RAIZ = process.cwd();
 
@@ -21,7 +24,25 @@ const CONTAGENS_ESPERADAS: Record<string, { objetivas: number; discursivas: numb
   '2021-licenciatura': { objetivas: 35, discursivas: 5 },
   '2025-prova1': { objetivas: 80, discursivas: 1 },
   '2025-prova5': { objetivas: 80, discursivas: 1 },
+  '2026-prova1': { objetivas: 80, discursivas: 1 },
 };
+
+/** RF16: estatísticas do INEP coerentes com o gabarito (mesmas questões; acerto só nas não anuladas). */
+function validarEstatisticas(dados: any, gabarito: any): string[] {
+  const parsed = EstatisticasSchema.safeParse(dados);
+  if (!parsed.success) return parsed.error.issues.map((i) => `${i.path.join('.')}: ${i.message}`);
+  const erros: string[] = [];
+  const numerosGabarito = Object.keys(gabarito?.objetivas ?? {}).sort();
+  const numerosItens = Object.keys(parsed.data.itens).sort();
+  if (numerosGabarito.join(',') !== numerosItens.join(',')) {
+    erros.push('As questões das estatísticas não correspondem às objetivas do gabarito.json.');
+  }
+  for (const [numero, item] of Object.entries(parsed.data.itens)) {
+    if (!item.anulada && item.acerto === undefined) erros.push(`Q${numero}: falta o acerto de questão não anulada.`);
+    if (item.anulada && item.acerto !== undefined) erros.push(`Q${numero}: questão anulada não pode ter acerto.`);
+  }
+  return erros;
+}
 
 function nomeBaseQuestao(tipo: string, numero: number): string {
   return tipo === 'discursiva' ? `d${String(numero).padStart(2, '0')}` : `q${String(numero).padStart(3, '0')}`;
@@ -208,6 +229,13 @@ export function validarResolucaoMarkdown(
       }
     }
 
+    // RF10: a Ideia-chave é exibida como dica antes do gabarito e não pode entregar a letra
+    const ideiaChave = extrairSecao(corpo, 'Ideia-chave');
+    // Letra maiúscula: "alternativa e comparar" ou "alternativa b da pesquisa" não são a resposta
+    if (ideiaChave && (/[Aa]lternativa\s+\**[A-E]\b|\*\*[A-E]\*\*/.test(ideiaChave) || /gabarito/i.test(ideiaChave))) {
+      erros.push('A seção ## Ideia-chave é usada como dica (RF10) e não pode citar a letra da alternativa nem o gabarito.');
+    }
+
     // Na análise das alternativas, checa se há itens para as letras
     if (corpo.includes('## Análise das alternativas')) {
       const letras = info.provaId === '2021-licenciatura' ? ['A', 'B', 'C', 'D', 'E'] : ['A', 'B', 'C', 'D'];
@@ -279,6 +307,13 @@ export function executarValidacaoCompleta(opts: {
         } else if (sub === '' && fName === 'prova.json') {
           const res = ProvaSchema.safeParse(content);
           if (!res.success) todosErros.push(...res.error.issues.map((i) => i.message));
+        } else if (sub === '' && fName === 'assuntos.json') {
+          const res = AssuntosProvaSchema.safeParse(content);
+          if (!res.success) todosErros.push(...res.error.issues.map((i) => `${i.path.join('.')}: ${i.message}`));
+        } else if (sub === '' && fName === 'estatisticas.json') {
+          const gabPath = path.resolve(raiz, 'content/provas', pId, 'gabarito.json');
+          const gab = fs.existsSync(gabPath) ? JSON.parse(fs.readFileSync(gabPath, 'utf-8')) : null;
+          todosErros.push(...validarEstatisticas(content, gab));
         } else if (sub === '' && fName === 'figuras.manifest.json') {
           const res = FigurasManifestSchema.safeParse(content);
           if (!res.success) todosErros.push(...res.error.issues.map((i) => i.message));
@@ -354,6 +389,13 @@ export function executarValidacaoCompleta(opts: {
       if (!resGab.valido) todosErros.push(...resGab.erros.map((e) => `[${p}/gabarito.json] ${e}`));
     } else {
       todosErros.push(`[${p}] gabarito.json ausente.`);
+    }
+
+    // 2b. estatisticas.json (opcional, RF16)
+    const estatFile = path.join(provaDir, 'estatisticas.json');
+    if (fs.existsSync(estatFile)) {
+      const erros = validarEstatisticas(JSON.parse(fs.readFileSync(estatFile, 'utf-8')), gabaritoData);
+      todosErros.push(...erros.map((e) => `[${p}/estatisticas.json] ${e}`));
     }
 
     // Imagens referenciadas no conteúdo (questões e textos-base), para conferir o manifesto
@@ -432,6 +474,26 @@ export function executarValidacaoCompleta(opts: {
       todosErros.push(
         `[${p}] Contagem de questões: esperado ${esperado.objetivas} objetivas + ${esperado.discursivas} discursiva(s), encontrado ${totalObjetivas} + ${totalDiscursivas}.`
       );
+    }
+
+    // 4b. assuntos.json (RF14): todas as questões da prova, e só elas, com 1 a 3 assuntos do vocabulário
+    const assuntosFile = path.join(provaDir, 'assuntos.json');
+    if (fs.existsSync(assuntosFile)) {
+      const assuntosData = JSON.parse(fs.readFileSync(assuntosFile, 'utf-8'));
+      const resAssuntos = AssuntosProvaSchema.safeParse(assuntosData);
+      if (!resAssuntos.success) {
+        todosErros.push(...resAssuntos.error.issues.map((i) => `[${p}/assuntos.json] ${i.path.join('.')}: ${i.message}`));
+      }
+      const idsQuestoes = new Set(nomesQuestoes.map((n) => `${p}-${n}`));
+      const idsAssuntos = new Set(Object.keys(assuntosData));
+      for (const id of idsQuestoes) {
+        if (!idsAssuntos.has(id)) todosErros.push(`[${p}/assuntos.json] Questão ${id} sem assunto.`);
+      }
+      for (const id of idsAssuntos) {
+        if (!idsQuestoes.has(id)) todosErros.push(`[${p}/assuntos.json] ${id} não é questão desta prova.`);
+      }
+    } else {
+      todosErros.push(`[${p}] assuntos.json ausente.`);
     }
 
     // 5. figuras.manifest.json: schema, status ≠ pendente, sem órfãs e sem imagens fora do manifesto

@@ -1,0 +1,52 @@
+{
+  "id": "2026-prova1-q009",
+  "provaId": "2026-prova1",
+  "tipo": "objetiva",
+  "numero": 9,
+  "rotulo": "Questão 9",
+  "parte": "formacao-geral",
+  "ordemCaderno": 9,
+  "paginas": [6],
+  "enunciado": [
+    { "tipo": "titulo", "texto": "TEXTO 1" },
+    {
+      "tipo": "paragrafo",
+      "texto": "Como eu só tinha lido livros nos quais os personagens eram estrangeiros, tinha ficado convencida de que os livros, por sua natureza, precisavam ter estrangeiros e ser sobre coisas com as quais eu não podia me identificar. As histórias importam. Muitas histórias importam. As histórias foram usadas para espoliar e caluniar, mas também podem ser usadas para empoderar e humanizar. Elas podem despedaçar a dignidade de um povo, mas também podem reparar essa dignidade despedaçada."
+    },
+    {
+      "tipo": "fonte",
+      "texto": "ADICHIE, C. N. **O perigo de uma história única**. São Paulo: Cia. das Letras, 2019."
+    },
+    { "tipo": "titulo", "texto": "TEXTO 2" },
+    {
+      "tipo": "paragrafo",
+      "texto": "PERCEBER-SE CRITICAMENTE implica uma série de desafios para quem passa a vida sem questionar o sistema de opressão racial. A capacidade desse sistema de passar despercebido, mesmo estando em todos os lugares, é intrínseca a ele. Acordar para os privilégios que certos grupos sociais têm e praticar pequenos exercícios de percepção pode transformar situações de violência que antes do processo de conscientização não seriam questionadas."
+    },
+    {
+      "tipo": "fonte",
+      "texto": "RIBEIRO, D. **Pequeno manual antirracista**. São Paulo: Cia. das Letras, 2018."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "De acordo com as reflexões apresentadas nos textos, a prática educativa que contribui para uma gestão democrática e uma educação antirracista consiste em"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [{ "tipo": "paragrafo", "texto": "fomentar espaços de diálogo institucional com o intuito de reconstruir o planejamento pedagógico, pautando-se no protagonismo dos grupos historicamente afetados por preconceitos." }]
+    },
+    {
+      "letra": "B",
+      "blocos": [{ "tipo": "paragrafo", "texto": "implementar diretrizes curriculares sobre o ensino de história africana com o intuito de reconhecer convergências culturais, contemplando ações para a superação de preconceitos." }]
+    },
+    {
+      "letra": "C",
+      "blocos": [{ "tipo": "paragrafo", "texto": "adotar um sistema de permanência semelhante ao de acesso por cotas para os estudantes vulnerabilizados com o intuito de reduzir desigualdades históricas." }]
+    },
+    {
+      "letra": "D",
+      "blocos": [{ "tipo": "paragrafo", "texto": "incorporar ao currículo o estudo de heranças culturais com o intuito de assegurar o sentimento de pertencimento a uma identidade nacional." }]
+    }
+  ]
+}

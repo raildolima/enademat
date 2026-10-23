@@ -1,0 +1,42 @@
+{
+  "id": "tb-62-63",
+  "provaId": "2026-prova1",
+  "titulo": "Texto para as questões 62 e 63",
+  "questoes": [62, 63],
+  "blocos": [
+    {
+      "tipo": "titulo",
+      "texto": "TEXTO 1"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Na Educação de Jovens e Adultos (EJA), o ensino de Matemática precisa considerar as experiências anteriores das pessoas que retornam à escola. Essas lembranças não devem ser tratadas como simples atalho para acelerar conteúdos, mas como parte da produção de sentido sobre o que é aprender Matemática."
+    },
+    {
+      "tipo": "fonte",
+      "texto": "FONSECA, M. C. F. R. Lembranças da matemática escolar: a constituição dos alunos da EJA como sujeitos da aprendizagem. **Educação e Pesquisa**, n. 2, jul.-dez. 2001 (adaptado)."
+    },
+    {
+      "tipo": "titulo",
+      "texto": "TEXTO 2"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Em uma turma da EJA com estudantes que são bordadeiras, o professor visa, a partir do bordado, reconhecer e aplicar reflexão, translação e rotação, compreendendo as transformações como movimentos no plano. A escolha do bordado em ponto cruz contribuiu para transformar a sala de aula em um espaço de criação e de descobertas, ampliando a percepção e a visualização de conceitos matemáticos."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "A atividade iniciou-se com questionamentos sobre transformações geométricas, como reflexão, translação e rotação, associadas ao contexto do bordado. A partir dos questionamentos, os estudantes completaram gráficos de ponto cruz com lápis de cor, dialogaram sobre os conceitos em questão e concluíram a proposta com o bordado manual em tecido etamine, explorando os conteúdos abordados."
+    },
+    {
+      "tipo": "imagem",
+      "src": "figuras/2026-prova1/tb-62-63-f1.webp",
+      "alt": "Grades de ponto cruz lado a lado: à esquerda, a imagem original, com parte verde no alto e parte vermelha embaixo; à direita, a versão feita pelo estudante, com as mesmas cores desenhadas a lápis em outra posição do quadriculado.",
+      "legenda": "Transformação geométrica realizada por um estudante, com imagem original à esquerda."
+    },
+    {
+      "tipo": "fonte",
+      "texto": "OLIVEIRA, S. C. **Isometrias por meio de atividades didáticas envolvendo bordado em ponto cruz**: investigando a produção de alunos. Instituto Federal do Espírito Santo, Vitória, 2014 (adaptado)."
+    }
+  ]
+}

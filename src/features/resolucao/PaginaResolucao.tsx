@@ -6,18 +6,13 @@ import { filtrarQuestoes, vizinhas } from '../../data/filtrar';
 import { CartaoGabarito } from './CartaoGabarito';
 import { PopupQuestao } from './PopupQuestao';
 import { Markdown } from '../../components/Markdown';
+import { extrairCorpoMarkdown, resolucaoDaQuestao } from '../../data/resolucao';
+import type { Letra } from '../../data/tipos';
+import { DesempenhoNacional } from './DesempenhoNacional';
+import { RelatarErro } from '../../components/RelatarErro';
+import { QuestoesRelacionadas } from './QuestoesRelacionadas';
 import { ArrowLeft, ArrowRight } from 'lucide-react';
 import styles from './PaginaResolucao.module.css';
-
-function extrairCorpoMarkdown(conteudo: string): string {
-  if (conteudo.startsWith('---')) {
-    const fimFrontmatter = conteudo.indexOf('\n---', 3);
-    if (fimFrontmatter !== -1) {
-      return conteudo.slice(fimFrontmatter + 4).trim();
-    }
-  }
-  return conteudo;
-}
 
 export const PaginaResolucao: React.FC = () => {
   const { questaoId } = useParams<{ questaoId: string }>();
@@ -71,16 +66,13 @@ export const PaginaResolucao: React.FC = () => {
   }
 
   // Resolução em Markdown se existir nos dados
-  const idCurto = questao.tipo === 'discursiva'
-    ? `d${String(questao.numero).padStart(2, '0')}`
-    : `q${String(questao.numero).padStart(3, '0')}`;
-
-  const conteudoResolucaoRaw =
-    prova.resolucoes[questao.id] || prova.resolucoes[idCurto] || null;
+  const conteudoResolucaoRaw = resolucaoDaQuestao(prova, questao);
 
   const corpoMarkdown = conteudoResolucaoRaw
     ? extrairCorpoMarkdown(conteudoResolucaoRaw)
     : null;
+  const estatisticaItem =
+    questao.tipo === 'objetiva' ? prova.estatisticas?.itens[String(questao.numero)] : undefined;
 
   return (
     <article className={styles.paginaResolucao}>
@@ -113,6 +105,22 @@ export const PaginaResolucao: React.FC = () => {
             <p>Não foi possível carregar a resolução comentada desta questão. O gabarito acima continua válido.</p>
           </section>
         )}
+
+        {/* Índice de acerto nacional (RF16), quando há microdados do INEP para a prova */}
+        {estatisticaItem && prova.estatisticas && (
+          <DesempenhoNacional
+            item={estatisticaItem}
+            letras={questao.alternativas?.map((a) => a.letra) ?? []}
+            gabarito={(gabaritoOficial as Letra | null) ?? null}
+            presentes={prova.estatisticas.presentes}
+            ano={prova.prova.ano}
+            fonte={prova.estatisticas.fonte}
+          />
+        )}
+
+        {indice && <QuestoesRelacionadas indice={indice} questaoId={questao.id} />}
+
+        <RelatarErro questaoId={questao.id} rotulo={questao.rotulo} tela="resolução" />
 
         {/* Rodapé com navegação */}
         <footer className={styles.rodapeResolucao}>

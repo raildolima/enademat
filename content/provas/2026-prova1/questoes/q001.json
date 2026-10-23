@@ -1,0 +1,55 @@
+{
+  "id": "2026-prova1-q001",
+  "provaId": "2026-prova1",
+  "tipo": "objetiva",
+  "numero": 1,
+  "rotulo": "Questão 1",
+  "parte": "formacao-geral",
+  "ordemCaderno": 1,
+  "paginas": [2],
+  "enunciado": [
+    { "tipo": "titulo", "texto": "TEXTO 1" },
+    {
+      "tipo": "paragrafo",
+      "texto": "Durante sua formação inicial em uma licenciatura, uma professora da Educação Básica teve contato com o artigo intitulado *Racismo algorítmico e inteligência artificial*. Ela retoma essa leitura no momento em que planeja uma aula sobre o uso de tecnologias. Nesse artigo, os autores definem o conceito de racismo algorítmico (Texto 2) e analisam uma postagem. A professora decide testar em uma inteligência artificial um comando similar ao citado na postagem do artigo, com o *prompt*: crie uma arte inspirada na Pixar da Disney de uma mulher negra em um cenário de favela. A imagem gerada foi:"
+    },
+    {
+      "tipo": "imagem",
+      "src": "figuras/2026-prova1/q001-f1.webp",
+      "alt": "Imagem gerada por inteligência artificial, em estilo Pixar, de uma mulher negra de tranças presas no alto, em uma rua de favela; ao fundo, uma viatura da polícia e dois policiais."
+    },
+    { "tipo": "paragrafo", "texto": "**Não pode uma mulher negra ser representada em um espaço de não violência?**" },
+    { "tipo": "paragrafo", "texto": "**O que leva a inteligência artificial associar a favela a um cenário de insegurança?**" },
+    { "tipo": "titulo", "texto": "TEXTO 2" },
+    {
+      "tipo": "paragrafo",
+      "texto": "A interseção entre tecnologia, algoritmos e questões sociais tem sido objeto de análise e de crítica por diversos pesquisadores contemporâneos, cujas obras fundamentais lançam luzes sobre a problemática do racismo algorítmico e sua influência nas dinâmicas de poder e discriminação. Em *Algoritmos da opressão*, Safiya Umoja Noble (2021) perpetra uma investigação crítica sobre o papel dos algoritmos, dos motores de busca e das plataformas digitais na perpetuação de estereótipos, racismo e discriminação. A análise de Noble evidencia que os algoritmos – longe de serem neutros – refletem e amplificam desigualdades estruturais, manipulando e controlando a percepção pública e a reprodução de narrativas prejudiciais."
+    },
+    {
+      "tipo": "fonte",
+      "texto": "ARAÚJO, J.; ARAÚJO, J. Racismo algorítmico e inteligência artificial: uma análise crítica multimodal. **Linguagem em Foco**, n. 2, out. 2024 (adaptado)."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "A professora tem observado que os estudantes utilizam tecnologias digitais no cotidiano, mas raramente problematizam como algoritmos podem reproduzir estereótipos raciais. Diante dessa realidade, ela sensibiliza a turma com o *prompt* testado (Texto 1) e se vale do conceito de racismo algorítmico (Texto 2) para propor uma atividade didática reflexiva. Uma ação relacionada a essa atividade é a"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [{ "tipo": "paragrafo", "texto": "debate sobre a associação estabelecida entre resultados produzidos por inteligência artificial e perfis raciais." }]
+    },
+    {
+      "letra": "B",
+      "blocos": [{ "tipo": "paragrafo", "texto": "partilha de experiências pessoais relacionadas ao uso de redes sociais e à inteligência artificial." }]
+    },
+    {
+      "letra": "C",
+      "blocos": [{ "tipo": "paragrafo", "texto": "síntese do artigo científico por meio de prompts da inteligência artificial para reanalisar a imagem produzida." }]
+    },
+    {
+      "letra": "D",
+      "blocos": [{ "tipo": "paragrafo", "texto": "produção textual gerada por meio de prompts da inteligência artificial sobre desigualdades raciais para comparar diferentes realidades." }]
+    }
+  ]
+}

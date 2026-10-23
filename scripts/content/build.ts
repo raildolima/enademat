@@ -88,7 +88,7 @@ export function compilarConteudo(opts: { dryRun?: boolean } = {}): {
   const resumosQuestoes: ResumoQuestao[] = [];
   const dadosPorProva: Record<string, any> = {};
 
-  const provasIds = ['2021-licenciatura', '2025-prova1', '2025-prova5'];
+  const provasIds = ['2021-licenciatura', '2025-prova1', '2025-prova5', '2026-prova1'];
 
   for (const provaId of provasIds) {
     const provaDir = path.join(CONTENT_DIR, provaId);
@@ -117,6 +117,12 @@ export function compilarConteudo(opts: { dryRun?: boolean } = {}): {
       }
     }
 
+    // Assuntos (RF14): anexados a cada questão e ao resumo do índice
+    const assuntosPath = path.join(provaDir, 'assuntos.json');
+    const assuntos: Record<string, string[]> = fs.existsSync(assuntosPath)
+      ? JSON.parse(fs.readFileSync(assuntosPath, 'utf-8'))
+      : {};
+
     // Questões
     const questoesDir = path.join(provaDir, 'questoes');
     const questoes: any[] = [];
@@ -125,6 +131,7 @@ export function compilarConteudo(opts: { dryRun?: boolean } = {}): {
         if (file.endsWith('.json')) {
           const q = JSON.parse(fs.readFileSync(path.join(questoesDir, file), 'utf-8'));
           anotarDimensoesImagens(q);
+          q.assuntos = assuntos[q.id] ?? [];
           questoes.push(q);
 
           resumosQuestoes.push({
@@ -136,6 +143,7 @@ export function compilarConteudo(opts: { dryRun?: boolean } = {}): {
             parte: q.parte,
             ordemCaderno: q.ordemCaderno,
             previa: extrairPrevia(q.enunciado),
+            assuntos: q.assuntos,
           });
         }
       }
@@ -154,12 +162,19 @@ export function compilarConteudo(opts: { dryRun?: boolean } = {}): {
       }
     }
 
+    // Índice de acerto nacional (RF16), quando houver
+    const estatisticasPath = path.join(provaDir, 'estatisticas.json');
+    const estatisticas = fs.existsSync(estatisticasPath)
+      ? JSON.parse(fs.readFileSync(estatisticasPath, 'utf-8'))
+      : null;
+
     dadosPorProva[provaId] = {
       prova: provaMeta,
       gabarito,
       textosBase,
       questoes,
       resolucoes,
+      estatisticas,
     };
   }
 

@@ -1,7 +1,16 @@
 import React from 'react';
 import type { FiltrosQuestoes, ProvaId, Parte } from '../../data/tipos';
 import { RotateCcw, Search } from 'lucide-react';
+import { ASSUNTOS } from '../../data/assuntos';
 import styles from './Filtros.module.css';
+
+const PROVAS_POR_ANO: { id: ProvaId; ano: number; label: string }[] = [
+  { id: '2021-licenciatura', ano: 2021, label: '2021 · Licenciatura' },
+  { id: '2025-prova1', ano: 2025, label: '2025 · Prova 1 (1ª aplicação)' },
+  { id: '2025-prova5', ano: 2025, label: '2025 · Prova 5 (2ª aplicação)' },
+  { id: '2026-prova1', ano: 2026, label: '2026 · Prova 1' },
+];
+const ANOS = [...new Set(PROVAS_POR_ANO.map((p) => p.ano))];
 
 interface FiltrosProps {
   filtros: FiltrosQuestoes;
@@ -19,16 +28,16 @@ export const Filtros: React.FC<FiltrosProps> = ({
   const parteAtual = filtros.parte || 'todas';
   const tipoAtual = filtros.tipo || 'todas';
   const termoAtual = filtros.termo || '';
+  const assuntoAtual = filtros.assunto || 'todos';
 
   const handleAnoChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
     const val = e.target.value;
     const novoAno = val === 'todos' ? 'todos' : Number(val);
     
-    // Se o ano mudar para 2021 e a prova for de 2025 (ou vice-versa), limpa prova
+    // Se a prova escolhida não pertence ao novo ano, limpa prova
     let novaProva: ProvaId | 'todas' = provaAtual;
-    if (novoAno === 2021 && (provaAtual === '2025-prova1' || provaAtual === '2025-prova5')) {
-      novaProva = 'todas';
-    } else if (novoAno === 2025 && provaAtual === '2021-licenciatura') {
+    const anoDaProva = PROVAS_POR_ANO.find((p) => p.id === provaAtual)?.ano;
+    if (novoAno !== 'todos' && anoDaProva !== undefined && anoDaProva !== novoAno) {
       novaProva = 'todas';
     }
 
@@ -41,13 +50,8 @@ export const Filtros: React.FC<FiltrosProps> = ({
 
   const handleProvaChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
     const val = e.target.value as ProvaId | 'todas';
-    // Se selecionou uma prova de 2021, garante ano 2021; se 2025, garante ano 2025
-    let novoAno = anoAtual;
-    if (val === '2021-licenciatura') {
-      novoAno = 2021;
-    } else if (val === '2025-prova1' || val === '2025-prova5') {
-      novoAno = 2025;
-    }
+    // Selecionar uma prova fixa o ano dela
+    const novoAno = PROVAS_POR_ANO.find((p) => p.id === val)?.ano ?? anoAtual;
 
     onChangeFiltros({
       ...filtros,
@@ -70,6 +74,13 @@ export const Filtros: React.FC<FiltrosProps> = ({
     });
   };
 
+  const handleAssuntoChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
+    onChangeFiltros({
+      ...filtros,
+      assunto: e.target.value,
+    });
+  };
+
   const handleTermoChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     onChangeFiltros({
       ...filtros,
@@ -83,6 +94,7 @@ export const Filtros: React.FC<FiltrosProps> = ({
       provaId: 'todas',
       parte: 'todas',
       tipo: 'todas',
+      assunto: 'todos',
       termo: '',
     });
   };
@@ -90,15 +102,7 @@ export const Filtros: React.FC<FiltrosProps> = ({
   // Opções de prova dependentes do ano
   const opcoesProva = [
     { id: 'todas', label: 'Todas as provas' },
-    ...(anoAtual === 'todos' || anoAtual === 2021
-      ? [{ id: '2021-licenciatura', label: '2021 · Licenciatura' }]
-      : []),
-    ...(anoAtual === 'todos' || anoAtual === 2025
-      ? [
-          { id: '2025-prova1', label: '2025 · Prova 1 (1ª aplicação)' },
-          { id: '2025-prova5', label: '2025 · Prova 5 (2ª aplicação)' },
-        ]
-      : []),
+    ...PROVAS_POR_ANO.filter((p) => anoAtual === 'todos' || p.ano === anoAtual),
   ];
 
   return (
@@ -116,8 +120,11 @@ export const Filtros: React.FC<FiltrosProps> = ({
             className={styles.selectCampo}
           >
             <option value="todos">Todos os anos</option>
-            <option value="2021">2021</option>
-            <option value="2025">2025</option>
+            {ANOS.map((ano) => (
+              <option key={ano} value={ano}>
+                {ano}
+              </option>
+            ))}
           </select>
         </div>
 
@@ -171,6 +178,30 @@ export const Filtros: React.FC<FiltrosProps> = ({
             <option value="todas">Todos os tipos</option>
             <option value="objetiva">Objetiva</option>
             <option value="discursiva">Discursiva</option>
+          </select>
+        </div>
+
+        {/* Filtro Assunto (RF14), agrupado como no vocabulário */}
+        <div className={styles.campoGrupo}>
+          <label htmlFor="filtro-assunto" className={styles.rotuloCampo}>
+            Assunto
+          </label>
+          <select
+            id="filtro-assunto"
+            value={assuntoAtual}
+            onChange={handleAssuntoChange}
+            className={styles.selectCampo}
+          >
+            <option value="todos">Todos os assuntos</option>
+            {['Matemática', 'Educação Matemática', 'Formação Geral'].map((grupo) => (
+              <optgroup key={grupo} label={grupo}>
+                {ASSUNTOS.filter((a) => a.grupo === grupo).map((a) => (
+                  <option key={a.id} value={a.id}>
+                    {a.rotulo}
+                  </option>
+                ))}
+              </optgroup>
+            ))}
           </select>
         </div>
 

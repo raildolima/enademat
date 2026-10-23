@@ -1,0 +1,39 @@
+{
+  "id": "2026-prova1-q068",
+  "provaId": "2026-prova1",
+  "tipo": "objetiva",
+  "numero": 68,
+  "rotulo": "Questão 68",
+  "parte": "componente-especifico",
+  "ordemCaderno": 69,
+  "paginas": [36],
+  "textoBaseId": "tb-66-68",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Ainda explorando as possibilidades pedagógicas da atividade desenvolvida na aula da Álgebra Linear no contexto da Educação Básica, Maria elaborou uma nova atividade utilizando as mesmas figuras apresentadas por seu professor. Para isso, ela criou o seguinte contexto: em um jogo digital, uma peça triangular se movimenta sobre um plano cartesiano. Ao atingir determinadas casas especiais do tabuleiro, a peça pode sofrer diferentes tipos de transformações geométricas. O desenvolvedor do jogo programou quatro possíveis movimentos para a peça, representados nas figuras I, II, III e IV."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Considerando esse contexto, Maria planeja que os estudantes formulem problemas relacionados à posição da peça, traduzam esses problemas em linguagem matemática e, por fim, interpretem e validem as soluções. Essa atividade mostra a preocupação de Maria em"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [{ "tipo": "paragrafo", "texto": "construir o conhecimento de maneira técnica e formal, formando estudantes capazes de utilizá-lo como ferramenta no desempenho das atividades laborais." }]
+    },
+    {
+      "letra": "B",
+      "blocos": [{ "tipo": "paragrafo", "texto": "construir o conhecimento de maneira coletiva, formando estudantes capazes de reconhecer e de refletir sobre os problemas da comunidade." }]
+    },
+    {
+      "letra": "C",
+      "blocos": [{ "tipo": "paragrafo", "texto": "relacionar a teoria e a prática em diferentes ambientes educacionais, formando estudantes capazes de modelar e de resolver problemas contextualizados." }]
+    },
+    {
+      "letra": "D",
+      "blocos": [{ "tipo": "paragrafo", "texto": "relacionar a aprendizagem matemática a uma reflexão crítica sobre a realidade social, formando estudantes capazes de problematizar situações de desigualdade." }]
+    }
+  ]
+}

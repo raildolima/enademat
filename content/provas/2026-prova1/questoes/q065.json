@@ -1,0 +1,35 @@
+{
+  "id": "2026-prova1-q065",
+  "provaId": "2026-prova1",
+  "tipo": "objetiva",
+  "numero": 65,
+  "rotulo": "Questão 65",
+  "parte": "componente-especifico",
+  "ordemCaderno": 66,
+  "paginas": [35],
+  "textoBaseId": "tb-64-65",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "A professora de Matemática deseja continuar abordando o mesmo objeto de conhecimento em uma nova aula. Uma intervenção pedagógica que utiliza como metodologia de ensino a Análise de Erros na perspectiva de Helena Cury é"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [{ "tipo": "paragrafo", "texto": "propor problemas com frações relacionados à divisão de herança, em que os estudantes devem resolver e apresentar uma solução para, ao final, a professora indicar e corrigir eventuais erros." }]
+    },
+    {
+      "letra": "B",
+      "blocos": [{ "tipo": "paragrafo", "texto": "modelar consumo e perda de água no bebedouro da escola, utilizando frações para matematizar o consumo e as perdas identificadas." }]
+    },
+    {
+      "letra": "C",
+      "blocos": [{ "tipo": "paragrafo", "texto": "entregar cálculos com frações propositalmente errados, em que os estudantes devem identificar e explicar o motivo do erro para, ao final, sugerirem uma correção com a professora." }]
+    },
+    {
+      "letra": "D",
+      "blocos": [{ "tipo": "paragrafo", "texto": "utilizar jogos de trilha com frações dadas e operações sorteadas, realizando os cálculos com o menor número de erros para vencer o jogo." }]
+    }
+  ]
+}

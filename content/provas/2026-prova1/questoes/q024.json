@@ -1,0 +1,55 @@
+{
+  "id": "2026-prova1-q024",
+  "provaId": "2026-prova1",
+  "tipo": "objetiva",
+  "numero": 24,
+  "rotulo": "Questão 24",
+  "parte": "formacao-geral",
+  "ordemCaderno": 24,
+  "paginas": [14],
+  "textoBaseId": "tb-23-24",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Para a aplicabilidade da Lei n. 11 645/2008, que versa sobre a obrigatoriedade do ensino e da cultura indígena e afro-brasileira, professores de Educação Física e de História de uma escola de Tocantins realizaram, com os estudantes, uma visita guiada à comunidade quilombola Malhadinha. Ao retornarem para a escola, desenvolveram uma atividade com o intuito de replicar modalidades da Quiolimpíada e de realizar uma análise histórica em seguida. Considerando a metodologia adotada, objetivou-se identificar que os(as)"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "modos de subsistência e de autoconsumo fundamentam-se nas modalidades quiolímpicas associadas aos saberes da antiguidade."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "modalidades quiolímpicas demandam técnicas corporais e esportivas originais associadas ao saber-fazer e ao autoconsumo."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "modalidades quiolímpicas são validadas como esporte e trabalho, pelo reconhecimento do Estado e pela aplicabilidade no contexto escolar."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "jogos quiolímpicos se ancoram na cultura e na religiosidade popular, por meio de valores locais e de saberes históricos comuns advindos da tradição regional."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "tb-23-24",
+  "provaId": "2026-prova1",
+  "titulo": "Texto para as questões 23 e 24",
+  "questoes": [23, 24],
+  "blocos": [
+    {
+      "tipo": "titulo",
+      "texto": "TEXTO 1"
+    },
+    {
+      "tipo": "titulo",
+      "texto": "As Quiolimpíadas na comunidade quilombola Malhadinha (TO)"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "As Quiolimpíadas nasceram como jogos internos da comunidade quilombola Malhadinha e foram conquistando outras comunidades do estado. Na edição de 2025, foram esperadas, entre competidores e visitantes, cerca de 3 mil pessoas. As provas que trazem atividades características do cotidiano dos territórios são o coração do evento."
+    },
+    {
+      "tipo": "imagem",
+      "src": "figuras/2026-prova1/tb-23-24-f1.webp",
+      "alt": "Fotografia de uma mulher de vestido colorido equilibrando sobre a cabeça um feixe de lenha, sem usar as mãos, sobre um tapete vermelho, com espectadores ao fundo.",
+      "legenda": "O desafio da prova Feixe de Lenha, uma das mais aguardadas, é saber como arrumar a rudia sobre a cabeça e transportar a lenha sem o uso das mãos."
+    },
+    {
+      "tipo": "imagem",
+      "src": "figuras/2026-prova1/tb-23-24-f2.webp",
+      "alt": "Fotografia de um homem de chapéu mirando um estilingue, com a tira elástica esticada, enquanto crianças e espectadores observam ao redor.",
+      "legenda": "O estilingue, que já foi arma de caça, hoje é instrumento para acertar o alvo."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "“Essas provas servem para valorizar nossa tradição, incentivar os mais jovens a reconhecerem a importância dos modos de vida presentes ainda hoje e manter a cultura viva”, enfatiza um professor."
+    },
+    {
+      "tipo": "fonte",
+      "texto": "Disponível em: www.to.gov.br. Acesso em: 10 abr. 2026 (adaptado)."
+    },
+    {
+      "tipo": "titulo",
+      "texto": "TEXTO 2"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Coletivos em movimentos trazem a consciência política de não terem sido meros destinatários de concepções pedagógicas transpostas, mas que as formas de pensá-los e de classificá-los no padrão de poder/saber obrigaram o pensamento educacional nas Américas a pedagogias outras, diante de povos outros a serem subalternizados. Processo de produção de teorias e práticas pedagógicas que se atualizam nas escolas públicas populares."
+    },
+    {
+      "tipo": "fonte",
+      "texto": "ARROYO, M. **Outros sujeitos, outras pedagogias**. Petrópolis: Vozes, 2017 (adaptado)."
+    }
+  ]
+}

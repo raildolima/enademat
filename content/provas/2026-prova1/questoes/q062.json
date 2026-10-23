@@ -1,0 +1,35 @@
+{
+  "id": "2026-prova1-q062",
+  "provaId": "2026-prova1",
+  "tipo": "objetiva",
+  "numero": 62,
+  "rotulo": "Questão 62",
+  "parte": "componente-especifico",
+  "ordemCaderno": 63,
+  "paginas": [34],
+  "textoBaseId": "tb-62-63",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Ao analisar a transformação geométrica realizada por um estudante na imagem do Texto 2 em relação à imagem original, constata-se que,"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [{ "tipo": "paragrafo", "texto": "na parte verde, o estudante realizou a translação." }]
+    },
+    {
+      "letra": "B",
+      "blocos": [{ "tipo": "paragrafo", "texto": "na parte vermelha, o estudante realizou a translação." }]
+    },
+    {
+      "letra": "C",
+      "blocos": [{ "tipo": "paragrafo", "texto": "na parte verde, o estudante realizou a reflexão vertical." }]
+    },
+    {
+      "letra": "D",
+      "blocos": [{ "tipo": "paragrafo", "texto": "na parte vermelha, o estudante realizou a reflexão vertical." }]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "tb-11-12",
+  "provaId": "2026-prova1",
+  "titulo": "Texto para as questões 11 e 12",
+  "questoes": [11, 12],
+  "blocos": [
+    {
+      "tipo": "titulo",
+      "texto": "TEXTO 1"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "As únicas florestas plantadas com muita competência são as de vida curta, que em seis, oito anos são cortadas para virar celulose. O que estou tentando dizer é que a minha escolha pessoal de parar de derrubar a floresta não é capaz de anular o fato de que as florestas do planeta estão sendo devastadas. Minha decisão de não usar automóvel e combustível fóssil não muda o fato de que estamos derretendo. Ou você ouve a voz de todos os outros seres que habitam o planeta junto com você, ou faz guerra contra a vida na Terra."
+    },
+    {
+      "tipo": "fonte",
+      "texto": "KRENAK, A. **A vida não é útil**. São Paulo: Cia. das Letras, 2020 (adaptado)."
+    },
+    {
+      "tipo": "titulo",
+      "texto": "TEXTO 2"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Enquanto a humanidade está se distanciando do seu lugar, um monte de corporações espertalhonas vai tomando conta da Terra. Nós ficamos tão perturbados com o desarranjo regional que vivemos, ficamos tão fora do sério com a falta de perspectiva política que não conseguimos nos erguer e respirar, ver o que importa mesmo para as pessoas, os coletivos e as comunidades nas suas ecologias."
+    },
+    {
+      "tipo": "fonte",
+      "texto": "KRENAK, A. **Ideias para adiar o fim do mundo**. São Paulo: Cia. das Letras, 2019 (adaptado)."
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "2026-prova1-q025",
+  "provaId": "2026-prova1",
+  "tipo": "objetiva",
+  "numero": 25,
+  "rotulo": "Questão 25",
+  "parte": "formacao-geral",
+  "ordemCaderno": 25,
+  "paginas": [15],
+  "textoBaseId": "tb-25-26",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Pautando-se na Pedagogia da Alternância (Texto 1), a forma de organização educacional descrita no Texto 2 contempla o caráter cooperativo entre escola, família e comunidade, na medida em que a escola planeja o tempo e o espaço escolares considerando o(a)"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "perspectiva tecnicista da realidade da comunidade."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "superação de dificuldades de acesso à escola pelos estudantes."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "construção do calendário pedagógico com base no calendário da comunidade."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "protagonismo das experiências dos estudantes mediante os saberes escolares teóricos."
+        }
+      ]
+    }
+  ]
+}

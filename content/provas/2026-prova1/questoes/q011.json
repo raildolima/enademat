@@ -1,0 +1,55 @@
+{
+  "id": "2026-prova1-q011",
+  "provaId": "2026-prova1",
+  "tipo": "objetiva",
+  "numero": 11,
+  "rotulo": "Questão 11",
+  "parte": "formacao-geral",
+  "ordemCaderno": 11,
+  "paginas": [7],
+  "textoBaseId": "tb-11-12",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Com base nos textos, um plano de aula voltado à reflexão crítica sobre os modos de habitar o mundo tem como objetivo"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "envolver práticas de reaproveitamento de resíduos como forma de promoção da sustentabilidade."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "relacionar conflitos territoriais às lógicas econômicas que organizam os modelos de desenvolvimento."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "abordar hábitos cotidianos dos estudantes como forma de sensibilização para questões socioambientais."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "conhecer diretrizes de preservação ambiental que se articulam a dispositivos legais internacionais."
+        }
+      ]
+    }
+  ]
+}

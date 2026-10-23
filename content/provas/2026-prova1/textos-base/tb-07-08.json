@@ -1,0 +1,36 @@
+{
+  "id": "tb-07-08",
+  "provaId": "2026-prova1",
+  "titulo": "Texto para as questões 07 e 08",
+  "questoes": [7, 8],
+  "blocos": [
+    {
+      "tipo": "paragrafo",
+      "texto": "O Estágio Curricular Supervisionado, regulamentado pela Lei n. 11 788/2008, prevê diferentes ações desenvolvidas no ambiente de trabalho, como a observação e a regência ao longo do percurso formativo, que visam o aprendizado de competências próprias da atividade profissional."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Desde 2024, o Inep vem avaliando o estágio em dois períodos ao ano por meio da Avaliação da Prática (AP) do Enade das Licenciaturas, a qual se centra na análise de competências essenciais à atuação docente. Um exemplo de informação extraída do Relatório Analítico da Avaliação da Prática do Enade das Licenciaturas pode ser observado na tabela."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "**Distribuição de respostas à questão: “Durante o estágio, quais competências, habilidades e conhecimentos foram desenvolvidos?”**"
+    },
+    {
+      "tipo": "tabela",
+      "cabecalho": [
+        "Categorias de resposta",
+        "Primeiro período (2024/1): Quantidade",
+        "Primeiro período (2024/1): Percentual",
+        "Segundo período (2024/2): Quantidade",
+        "Segundo período (2024/2): Percentual"
+      ],
+      "linhas": [
+        ["Elaboração de planejamento de aulas", "43 074", "91,7%", "31 385", "91,9%"],
+        ["Regência de aulas com mais desenvoltura", "41 019", "87,3%", "29 780", "87,2%"],
+        ["Tratamento de questões sobre desigualdades", "22 844", "48,6%", "16 534", "48,4%"],
+        ["Tratamento de questões sobre bullying e outras formas de violência", "20 784", "44,3%", "15 654", "45,8%"]
+      ]
+    }
+  ]
+}

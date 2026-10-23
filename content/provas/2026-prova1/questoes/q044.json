@@ -1,0 +1,35 @@
+{
+  "id": "2026-prova1-q044",
+  "provaId": "2026-prova1",
+  "tipo": "objetiva",
+  "numero": 44,
+  "rotulo": "Questão 44",
+  "parte": "componente-especifico",
+  "ordemCaderno": 45,
+  "paginas": [25],
+  "textoBaseId": "tb-43-45",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Com base nas informações dos dois textos, verifica-se que o jogo"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [{ "tipo": "paragrafo", "texto": "favorece a compreensão dos agrupamentos, pois promove experimentação e visualização." }]
+    },
+    {
+      "letra": "B",
+      "blocos": [{ "tipo": "paragrafo", "texto": "desenvolve a capacidade de memorização, pois associa elementos a ordens numéricas." }]
+    },
+    {
+      "letra": "C",
+      "blocos": [{ "tipo": "paragrafo", "texto": "ensina o algoritmo da divisão, pois transforma operações em ações concretas." }]
+    },
+    {
+      "letra": "D",
+      "blocos": [{ "tipo": "paragrafo", "texto": "reduz as dificuldades procedimentais, pois exercita o algoritmo da divisão." }]
+    }
+  ]
+}

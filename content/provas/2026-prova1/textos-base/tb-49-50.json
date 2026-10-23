@@ -1,0 +1,52 @@
+{
+  "id": "tb-49-50",
+  "provaId": "2026-prova1",
+  "titulo": "Texto para as questões 49 e 50",
+  "questoes": [49, 50],
+  "blocos": [
+    {
+      "tipo": "titulo",
+      "texto": "TEXTO 1"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "O conhecimento de agricultores tem sido objeto de investigação em pesquisas na área de Educação Matemática. Entre esses estudos, destacam-se as práticas de medição de terras, conhecidas como cubação de terra. Em uma investigação realizada com professores em formação de uma instituição de ensino, identificaram-se dois procedimentos para o cálculo aproximado da área de terrenos quadriláteros, denominados: método de Adão e método de Jorge."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Considerando $a$, $b$, $c$ e $d$ como os comprimentos dos lados de um quadrilátero, as áreas aproximadas são obtidas da seguinte forma:"
+    },
+    {
+      "tipo": "lista",
+      "ordenada": false,
+      "itens": [
+        "Método de Jorge: o quadrado da quarta parte da soma dos lados.",
+        "Método de Adão: o produto das médias dos pares de lados opostos do quadrilátero."
+      ]
+    },
+    {
+      "tipo": "fonte",
+      "texto": "KNIJNIK, G. **Exclusão e resistência**: Educação Matemática e legitimidade cultural. Porto Alegre: Artes Médicas, 1996 (adaptado)."
+    },
+    {
+      "tipo": "titulo",
+      "texto": "TEXTO 2"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Uma professora de Matemática planejou uma aula cujo objetivo era empregar diferentes métodos para a obtenção da medida da área de quadriláteros."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Para tanto, propôs e desenvolveu os seguintes momentos:"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "(1) Socializar a prática da cubação da terra (Texto 1), com o objetivo de valorizar a Matemática presente nas atividades dos agricultores, especialmente no cálculo aproximado de áreas de quadriláteros, a fim de desmistificar a ideia de que a Matemática escolar constitui a única forma legítima de conhecimento matemático."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "(2) Trabalhar o cálculo aproximado da área de quadriláteros a partir dos métodos de Jorge e de Adão, apresentados no Texto 1."
+    }
+  ]
+}

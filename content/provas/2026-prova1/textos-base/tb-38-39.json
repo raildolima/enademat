@@ -1,0 +1,85 @@
+{
+  "id": "tb-38-39",
+  "provaId": "2026-prova1",
+  "titulo": "Texto para as questões 38 e 39",
+  "questoes": [38, 39],
+  "blocos": [
+    {
+      "tipo": "titulo",
+      "texto": "TEXTO 1"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Inspirado nos profetas da chuva, um estudante de 16 anos venceu o Prêmio Jovem Cientista de 2025, desenvolvendo uma plataforma que une Inteligência Artificial (IA) e saberes tradicionais. A plataforma combina as análises de agricultores sobre a natureza com informações meteorológicas, ajudando o trabalhador a se planejar diante das mudanças climáticas."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "O sistema chamado Inteligência Artificial dos Profetas da Chuva, construído com tecnologia de aprendizado de máquina, funciona assim:"
+    },
+    {
+      "tipo": "afirmativas",
+      "itens": [
+        {
+          "rotulo": "I",
+          "texto": "As informações são fornecidas por seis profetas de cinco municípios do Vale do Jaguaribe, e os dados são organizados em categorias:"
+        }
+      ]
+    },
+    {
+      "tipo": "lista",
+      "ordenada": false,
+      "itens": [
+        "a. fenômenos atmosféricos (halo lunar, barra de nuvem no início do ano e alto brilho do Sete-Estrelo);",
+        "b. fatores botânicos (florescer do mandacaru, observação da embiratanha e florescer do juazeiro);",
+        "c. comportamento animal (borboleta preta, aranha-caranguejeira, rã e formigueiros)."
+      ]
+    },
+    {
+      "tipo": "afirmativas",
+      "itens": [
+        {
+          "rotulo": "II",
+          "texto": "A IA é treinada com registros coletados pela Fundação Cearense de Meteorologia e Recursos Hídricos (Funceme) e pelo Instituto Nacional de Meteorologia (Inmet). As variáveis incluem diversos fatores, como o volume de chuva."
+        }
+      ]
+    },
+    {
+      "tipo": "afirmativas",
+      "itens": [
+        {
+          "rotulo": "III",
+          "texto": "Como a plataforma é, de certa maneira, colaborativa, o usuário vai preencher no sistema o que ele estiver observando em campo, o que ajuda a alimentar a ferramenta."
+        }
+      ]
+    },
+    {
+      "tipo": "fonte",
+      "texto": "Disponível em: https://g1.globo.com. Acesso em: 5 mar. 2026 (adaptado)."
+    },
+    {
+      "tipo": "titulo",
+      "texto": "TEXTO 2"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Uma professora de Matemática decidiu relacionar os saberes tradicionais dos profetas da chuva com o estudo de probabilidade e propôs a seguinte situação-problema:"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Um usuário da plataforma Inteligência Artificial dos Profetas da Chuva observa o sinal do florescimento do mandacaru e calcula a probabilidade de chover nesse dia."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Com base nos registros coletados, a IA sabe que"
+    },
+    {
+      "tipo": "lista",
+      "ordenada": false,
+      "itens": [
+        "a probabilidade de chover em determinado dia nesse período é de **0,50**;",
+        "os mandacarus florescem com probabilidade de **0,80** quando chove;",
+        "os mandacarus florescem com probabilidade de **0,10** quando não chove."
+      ]
+    }
+  ]
+}

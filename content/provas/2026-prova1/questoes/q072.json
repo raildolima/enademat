@@ -1,0 +1,31 @@
+{
+  "id": "2026-prova1-q072",
+  "provaId": "2026-prova1",
+  "tipo": "objetiva",
+  "numero": 72,
+  "rotulo": "Questão 72",
+  "parte": "componente-especifico",
+  "ordemCaderno": 73,
+  "paginas": [39],
+  "enunciado": [
+    { "tipo": "paragrafo", "texto": "A arquitetura de Brasília serviu de cenário para uma articulação pedagógica entre Artes e Matemática. O foco da investigação foi a Catedral Metropolitana (Figura 1), cuja estrutura, composta por 16 pilares de concreto, remete à Geometria de um hiperbolóide de revolução." },
+    { "tipo": "imagem", "src": "figuras/2026-prova1/q072-f1.webp", "alt": "Fotografia da Catedral Metropolitana de Brasília, com 16 pilares de concreto em formato de hiperbolóide de revolução.", "legenda": "Figura 1", "larguraMaxPx": 360 },
+    { "tipo": "paragrafo", "texto": "Diante da hipótese de que as seções do monumento seriam hipérboles, o professor de Matemática ressaltou a necessidade de um argumento para validar se essa percepção visual era matematicamente correta. Para atender a essa necessidade, o projeto integrou o contexto histórico-cultural ao estudo da Geometria Analítica. A trajetória de aprendizagem da turma iniciou-se, portanto, pela exploração teórica da hipérbole, abrangendo propriedades, elementos e representações algébricas dessa cônica, conforme desenvolvido na atividade proposta." },
+    { "tipo": "paragrafo", "texto": "Construção de uma hipérbole usando o GeoGebra:" },
+    { "tipo": "lista", "ordenada": true, "itens": [
+      "Marque os pontos $A = (-2, 0)$, $B = (2, 0)$ e $P = (-2, 3)$.",
+      "Selecione o ícone hipérbole e depois clique nos pontos $A$, $B$ e $P$ em sequência.",
+      "Observe a curva gerada e tome sobre ela um ponto $Q$ qualquer."
+    ] },
+    { "tipo": "imagem", "src": "figuras/2026-prova1/q072-f2.webp", "alt": "Hipérbole com focos A = (−2, 0) e B = (2, 0), vértices em (−1, 0) e (1, 0), com pontos P = (−2, 3) e Q sobre a curva e os segmentos PA, PB, QA e QB.", "legenda": "Figura 2", "larguraMaxPx": 360 },
+    { "tipo": "paragrafo", "texto": "4. Calcule os módulos das diferenças entre as medidas dos segmentos $\\overline{PB}$ e $\\overline{PA}$ e entre $\\overline{QB}$ e $\\overline{QA}$." },
+    { "tipo": "paragrafo", "texto": "5. Mova os pontos $P$ e $Q$ ao longo da curva e observe o que acontece com essas medidas." },
+    { "tipo": "paragrafo", "texto": "Com base na construção realizada, o professor solicitou que os estudantes analisassem afirmativas quanto à equação e às propriedades da curva, concluindo que a equação da hipérbole é" }
+  ],
+  "alternativas": [
+    { "letra": "A", "blocos": [ { "tipo": "paragrafo", "texto": "$\\frac{x^{2}}{2^{2}} - \\frac{y^{2}}{2^{2}} = 1$, e a diferença absoluta das distâncias de um ponto qualquer da hipérbole aos dois pontos fixos $A$ e $B$ é igual à distância focal." } ] },
+    { "letra": "B", "blocos": [ { "tipo": "paragrafo", "texto": "$x^{2} - \\frac{y^{2}}{3} = 1$, e a diferença absoluta das distâncias de um ponto qualquer da hipérbole aos dois pontos fixos $A$ e $B$ é igual à distância focal." } ] },
+    { "letra": "C", "blocos": [ { "tipo": "paragrafo", "texto": "$x^{2} - \\frac{y^{2}}{3} = 1$, e a diferença absoluta das distâncias de um ponto qualquer da hipérbole aos dois pontos fixos $A$ e $B$ é menor que a distância focal." } ] },
+    { "letra": "D", "blocos": [ { "tipo": "paragrafo", "texto": "$\\frac{x^{2}}{2^{2}} - \\frac{y^{2}}{2^{2}} = 1$, e a diferença absoluta das distâncias de um ponto qualquer da hipérbole aos dois pontos fixos $A$ e $B$ é menor que a distância focal." } ] }
+  ]
+}

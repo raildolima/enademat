@@ -1,0 +1,20 @@
+{
+  "id": "2026-prova1-q075",
+  "provaId": "2026-prova1",
+  "tipo": "objetiva",
+  "numero": 75,
+  "rotulo": "Questão 75",
+  "parte": "componente-especifico",
+  "ordemCaderno": 76,
+  "paginas": [41],
+  "textoBaseId": "tb-75-76",
+  "enunciado": [
+    { "tipo": "paragrafo", "texto": "Admitindo que uma estudante da Turma B resolva corretamente o problema, a resposta deve ser" }
+  ],
+  "alternativas": [
+    { "letra": "A", "blocos": [ { "tipo": "paragrafo", "texto": "$\\frac{1}{60}$." } ] },
+    { "letra": "B", "blocos": [ { "tipo": "paragrafo", "texto": "$\\frac{1}{18}$." } ] },
+    { "letra": "C", "blocos": [ { "tipo": "paragrafo", "texto": "$\\frac{1}{12}$." } ] },
+    { "letra": "D", "blocos": [ { "tipo": "paragrafo", "texto": "$\\frac{1}{3}$." } ] }
+  ]
+}

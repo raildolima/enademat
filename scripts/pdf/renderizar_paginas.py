@@ -92,7 +92,7 @@ def main():
     parser.add_argument("--dpi", type=int, default=110, help="DPI da renderização (padrão: 110)")
     args = parser.parse_args()
 
-    provas = ["2021-licenciatura", "2025-prova1", "2025-prova5"]
+    provas = ["2021-licenciatura", "2025-prova1", "2025-prova5", "2026-prova1"]
     if args.prova_id and args.prova_id != "todas":
         provas = [args.prova_id]
 

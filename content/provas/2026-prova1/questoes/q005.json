@@ -1,0 +1,35 @@
+{
+  "id": "2026-prova1-q005",
+  "provaId": "2026-prova1",
+  "tipo": "objetiva",
+  "numero": 5,
+  "rotulo": "Questão 5",
+  "parte": "formacao-geral",
+  "ordemCaderno": 5,
+  "paginas": [4],
+  "textoBaseId": "tb-05-06",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Ao estabelecer diretrizes da alimentação escolar, o PNAE incentiva a"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [{ "tipo": "paragrafo", "texto": "realização de convênios com empresas que garantam maior diversidade alimentar, a fim de favorecer a autonomia dos estudantes na escolha do que consumir." }]
+    },
+    {
+      "letra": "B",
+      "blocos": [{ "tipo": "paragrafo", "texto": "realização de convênios com restaurantes de empreendedores locais, para que os estudantes tenham acesso à alimentação fornecida por esses estabelecimentos." }]
+    },
+    {
+      "letra": "C",
+      "blocos": [{ "tipo": "paragrafo", "texto": "compra de alimentos variados, sejam orgânicos ou ultraprocessados, para que os estudantes tenham acesso a uma maior diversidade alimentar." }]
+    },
+    {
+      "letra": "D",
+      "blocos": [{ "tipo": "paragrafo", "texto": "compra de alimentos naturais, como frutas e hortaliças, a fim de favorecer a segurança alimentar dos estudantes." }]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "2026-prova1-q029",
+  "provaId": "2026-prova1",
+  "tipo": "objetiva",
+  "numero": 29,
+  "rotulo": "Questão 29",
+  "parte": "formacao-geral",
+  "ordemCaderno": 29,
+  "paginas": [17],
+  "textoBaseId": "tb-29-30",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Para explicar um conceito subjetivo (o amor) à estudante surdocega Helen Keller, a professora Anne Sullivan utiliza uma estratégia pedagógica que"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "possibilita uma associação entre estímulo cinestésico e conceito abstrato, compreendendo a experiência sensorial tátil como suficiente para a generalização conceitual."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "evidencia a substituição dos canais visuais e auditivos por estímulos táteis equivalentes, mantendo a mesma lógica de assimilação de conteúdos abstratos por via direta."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "utiliza o tato como sentido alternativo e como canal de acesso à informação, criando condições para a atribuição progressiva e sistematizada de significados com base no contexto da cena."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "constrói significados abstratos com base na interpretação da estudante, observando nela potencialidades para que, mesmo com pouca interação social, seja protagonista da própria aprendizagem."
+        }
+      ]
+    }
+  ]
+}

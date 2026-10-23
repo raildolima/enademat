@@ -1,0 +1,20 @@
+{
+  "id": "2026-prova1-q079",
+  "provaId": "2026-prova1",
+  "tipo": "objetiva",
+  "numero": 79,
+  "rotulo": "Questão 79",
+  "parte": "componente-especifico",
+  "ordemCaderno": 80,
+  "paginas": [43],
+  "textoBaseId": "tb-77-79",
+  "enunciado": [
+    { "tipo": "paragrafo", "texto": "Um dos grupos de licenciandos propôs, como atividade investigativa para estudantes do Ensino Médio, conjecturar o comportamento de $g(x)$ para $x$ próximo de 2, a partir da construção do gráfico da função $g$ que é" }
+  ],
+  "alternativas": [
+    { "letra": "A", "blocos": [ { "tipo": "imagem", "src": "figuras/2026-prova1/q079-alt-a.webp", "alt": "Gráfico de g com assíntota vertical em x = 2, tendendo a −∞ pela esquerda e a +∞ pela direita de x = 2." } ] },
+    { "letra": "B", "blocos": [ { "tipo": "imagem", "src": "figuras/2026-prova1/q079-alt-b.webp", "alt": "Gráfico de g com assíntota vertical em x = 2, tendendo a +∞ pela esquerda e a −∞ pela direita de x = 2." } ] },
+    { "letra": "C", "blocos": [ { "tipo": "imagem", "src": "figuras/2026-prova1/q079-alt-c.webp", "alt": "Gráfico de g com assíntota vertical em x = 2, tendendo a +∞ pelos dois lados de x = 2." } ] },
+    { "letra": "D", "blocos": [ { "tipo": "imagem", "src": "figuras/2026-prova1/q079-alt-d.webp", "alt": "Gráfico de g com assíntota vertical em x = 2, tendendo a −∞ pelos dois lados de x = 2." } ] }
+  ]
+}

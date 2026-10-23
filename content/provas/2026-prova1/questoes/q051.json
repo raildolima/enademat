@@ -1,0 +1,35 @@
+{
+  "id": "2026-prova1-q051",
+  "provaId": "2026-prova1",
+  "tipo": "objetiva",
+  "numero": 51,
+  "rotulo": "Questão 51",
+  "parte": "componente-especifico",
+  "ordemCaderno": 52,
+  "paginas": [29],
+  "textoBaseId": "tb-51-52",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Considerando as conclusões apresentadas pelos proponentes da pesquisa sobre as causas dos erros dos estudantes, a intervenção pedagógica que promove a compreensão conceitual do TFA, visando superar as dificuldades identificadas, é propor que os estudantes"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [{ "tipo": "paragrafo", "texto": "construam árvores de fatoração completa para números como 120 e 180, representando todas as possíveis decomposições que levam aos fatores primos; e apresentem suas estratégias para a turma, a fim de reforçar a técnica de decomposição e explicar o TFA." }]
+    },
+    {
+      "letra": "B",
+      "blocos": [{ "tipo": "paragrafo", "texto": "decomponham números como 144, 210 e 343 em fatores primos, usando divisões sucessivas; e socializem as resoluções com outros estudantes para verificar a correção dos cálculos, discutindo os erros encontrados e as possíveis causas das dificuldades." }]
+    },
+    {
+      "letra": "C",
+      "blocos": [{ "tipo": "paragrafo", "texto": "analisem diferentes representações de um mesmo número, como $36 = 6 \\times 6$, $36 = 4 \\times 9$, $36 = 3 \\times 12$; e discutam qual dessas representações revela a estrutura multiplicativa do número, justificando por que o TFA elege a decomposição em fatores primos como a representação fundamental." }]
+    },
+    {
+      "letra": "D",
+      "blocos": [{ "tipo": "paragrafo", "texto": "investiguem uma lista de diferentes números, como $31$, $101$, $151 \\times 157$, $17 \\times 19$; e utilizem critérios de divisibilidade para classificar cada um deles como número primo ou composto, registrando todos os testes realizados e comparando, ao final, o tempo e o esforço despendidos em cada caso." }]
+    }
+  ]
+}

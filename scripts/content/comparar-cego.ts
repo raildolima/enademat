@@ -123,7 +123,7 @@ if (process.argv[1] && (process.argv[1].endsWith('comparar-cego.ts') || process.
 
   const provasParaRodar: ProvaId[] = provaArg
     ? [provaArg]
-    : ['2021-licenciatura', '2025-prova1', '2025-prova5'];
+    : ['2021-licenciatura', '2025-prova1', '2025-prova5', '2026-prova1'];
 
   for (const p of provasParaRodar) {
     const res = executarComparacaoCega(p);

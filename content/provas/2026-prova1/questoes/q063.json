@@ -1,0 +1,35 @@
+{
+  "id": "2026-prova1-q063",
+  "provaId": "2026-prova1",
+  "tipo": "objetiva",
+  "numero": 63,
+  "rotulo": "Questão 63",
+  "parte": "componente-especifico",
+  "ordemCaderno": 64,
+  "paginas": [34],
+  "textoBaseId": "tb-62-63",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "A opção metodológica para o ensino de Geometria na referida modalidade educacional consiste em"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [{ "tipo": "paragrafo", "texto": "formalizar conteúdos abordados, utilizando linguagem algébrica simbólica." }]
+    },
+    {
+      "letra": "B",
+      "blocos": [{ "tipo": "paragrafo", "texto": "explorar definições geométricas, aprofundando-as com exercícios." }]
+    },
+    {
+      "letra": "C",
+      "blocos": [{ "tipo": "paragrafo", "texto": "apresentar situações do cotidiano, antecedendo definições formais." }]
+    },
+    {
+      "letra": "D",
+      "blocos": [{ "tipo": "paragrafo", "texto": "explicar conteúdos teoricamente, ilustrando-os com imagens diversas." }]
+    }
+  ]
+}

@@ -27,7 +27,7 @@ describe('Layout com identidade UFMS', () => {
     renderizarLayout();
     const rodape = screen.getByRole('contentinfo');
     expect(rodape.textContent).toContain(
-      'Questões: INEP/MEC — ENADE 2021 e 2025. Resoluções elaboradas para fins educacionais.'
+      'Questões: INEP/MEC — ENADE 2021, 2025 e 2026. Resoluções elaboradas para fins educacionais.'
     );
     expect(rodape.textContent).toContain('Site não oficial.');
     expect(within(rodape).getByRole('img', { name: 'UFMS — Universidade Federal de Mato Grosso do Sul' })).toBeTruthy();

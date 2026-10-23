@@ -1,0 +1,35 @@
+{
+  "id": "2026-prova1-q069",
+  "provaId": "2026-prova1",
+  "tipo": "objetiva",
+  "numero": 69,
+  "rotulo": "Questão 69",
+  "parte": "componente-especifico",
+  "ordemCaderno": 70,
+  "paginas": [37],
+  "textoBaseId": "tb-69-70",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "A iniciativa gerou expectativas e dúvidas entre os participantes, que buscavam entender a lógica da distribuição e conjecturavam em qual equipe cada estudante estaria. É correto afirmar que,"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [{ "tipo": "paragrafo", "texto": "se uma das turmas tem 24 estudantes, cada equipe contará com quatro estudantes da turma." }]
+    },
+    {
+      "letra": "B",
+      "blocos": [{ "tipo": "paragrafo", "texto": "se um estudante está na posição 104, ele estará em uma equipe par." }]
+    },
+    {
+      "letra": "C",
+      "blocos": [{ "tipo": "paragrafo", "texto": "se o município tem 36 escolas, haverá um estudante de cada escola em cada equipe." }]
+    },
+    {
+      "letra": "D",
+      "blocos": [{ "tipo": "paragrafo", "texto": "se um estudante está na posição 306, ele estará na equipe 5." }]
+    }
+  ]
+}

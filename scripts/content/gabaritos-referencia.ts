@@ -30,6 +30,17 @@ export const GABARITO_REF_2025_P5 = (
   'D B A B D B A D A D'
 ).split(' ');
 
+export const GABARITO_REF_2026_P1 = (
+  'A D C C D B D A A C ' +
+  'B A C B A D C B A D ' +
+  'D B A B C C B D C A ' +
+  'A B A C D A C D B B ' +
+  'C A B A D C B A D A ' +
+  'C B B C D B A D D C ' +
+  'A A C A C B D C B C ' +
+  'B C C A C A A D B C'
+).split(' ');
+
 export function obterGabaritoReferencia(provaId: string): Record<string, string> {
   const mapa: Record<string, string> = {};
   if (provaId === '2021-licenciatura') {
@@ -42,6 +53,10 @@ export function obterGabaritoReferencia(provaId: string): Record<string, string>
     });
   } else if (provaId === '2025-prova5') {
     GABARITO_REF_2025_P5.forEach((letra, idx) => {
+      mapa[String(idx + 1)] = letra;
+    });
+  } else if (provaId === '2026-prova1') {
+    GABARITO_REF_2026_P1.forEach((letra, idx) => {
       mapa[String(idx + 1)] = letra;
     });
   }

@@ -25,7 +25,7 @@
 
 ## 0.2 Requisitos funcionais
 
-- **RF01** Banco de questões com filtros **Ano** (Todos, 2021, 2025) e **Prova** (dependente do ano: "2021 · Licenciatura", "2025 · Prova 1 (1ª aplicação)", "2025 · Prova 5 (2ª aplicação)"). Filtros refletidos na URL. Incluídos por decisão do usuário em 2026-09-26 (CR-35 de `docs/CODE-REVIEW.md`): filtro **Componente** (Formação Geral/Componente Específico), filtro **Tipo de Questão** (Objetiva/Discursiva) e **busca por termo** (rótulo, prévia ou número da questão), também refletidos na URL (`parte`, `tipo`, `termo`).
+- **RF01** Banco de questões com filtros **Ano** (Todos, 2021, 2025, 2026) e **Prova** (dependente do ano: "2021 · Licenciatura", "2025 · Prova 1 (1ª aplicação)", "2025 · Prova 5 (2ª aplicação)", "2026 · Prova 1"). Filtros refletidos na URL. Incluídos por decisão do usuário em 2026-09-26 (CR-35 de `docs/CODE-REVIEW.md`): filtro **Componente** (Formação Geral/Componente Específico), filtro **Tipo de Questão** (Objetiva/Discursiva) e **busca por termo** (rótulo, prévia ou número da questão), também refletidos na URL (`parte`, `tipo`, `termo`).
 - **RF02** Lista das questões filtradas: rótulo, badge Parte (Formação Geral/Componente Específico), badge Tipo (Objetiva/Discursiva), prévia de 1 linha.
 - **RF03** Tela da questão: texto-base (se houver), enunciado com fórmulas e figuras, alternativas; "Anterior"/"Próxima" dentro do filtro; "Voltar ao banco".
 - **RF04** Marcação opcional de uma alternativa (clicar de novo desmarca). Sem persistência (sem localStorage).
@@ -33,7 +33,15 @@
 - **RF06** Tela de resolução: cartão "Gabarito: X" com **somente a alternativa correta** (letra + conteúdo); se houve marcação, "Você marcou Y — correta/incorreta" (texto + ícone, não só cor); resolução comentada completa.
 - **RF07** Botão **"Ver questão"** na tela de resolução: ao passar o mouse abre pop-up com a questão completa (texto-base, enunciado, figuras, alternativas), somente leitura; permanece aberto enquanto o ponteiro entra no pop-up; rolagem interna; fecha ao sair, com Esc ou clique fora; abre também por foco de teclado; em telas de toque, toque abre/fecha e há botão "Fechar".
 - **RF08** Discursivas: itens (a, b, c) com valores; campo de rascunho opcional **não salvo**; resolução = resposta esperada + critérios + exemplo de resposta.
-- **RF09** Rodapé: "Questões: INEP/MEC — ENADE 2021 e 2025. Resoluções elaboradas para fins educacionais. Site não oficial." Créditos das fontes das figuras preservados.
+- **RF09** Rodapé: "Questões: INEP/MEC — ENADE 2021, 2025 e 2026. Resoluções elaboradas para fins educacionais. Site não oficial." Créditos das fontes das figuras preservados.
+- **Melhorias aprovadas pelo usuário em 2026-10-22** (estudo comparativo de plataformas; o app continua **sem persistência**, RF04 inalterado):
+  - **RF10** Dica progressiva: na tela da questão objetiva, botão **"Ver dica"** que revela apenas a seção `## Ideia-chave` da resolução, sem mostrar a letra correta.
+  - **RF11** Página da prova (`#/prova/:provaId`): título, subtítulo, composição (Formação Geral, Componente Específico, Discursiva) e grade numerada de todas as questões com link para cada uma; acessível a partir do banco.
+  - **RF12** Relatar erro: link "Relatar erro nesta questão" que abre uma *issue* do GitHub já preenchida com o id da questão (repositório público a ser informado pelo usuário).
+  - **RF13** Impressão: questão e resolução imprimíveis sem cabeçalho, filtros, navegação e botões.
+  - **RF14** Assunto: cada questão tem `assuntos` de um vocabulário fechado aprovado pelo usuário; filtro **Assunto** no banco (URL `assunto`), etiquetas nos cartões e "Questões relacionadas" ao fim da resolução.
+  - **RF15** Modo simulado (`#/simulado/:provaId`): modos **Treino** (gabarito a cada questão) e **Prova** (cronômetro opcional, resultado só no fim); respostas guardadas apenas em memória e na URL; tela final com acertos por parte e links para as resoluções das questões erradas.
+  - **RF16** Índice de acerto nacional por questão, se publicado pelo INEP, exibido na resolução com a fonte citada (dados conferidos como o gabarito).
 
 ## 0.3 Requisitos não funcionais
 

@@ -1,8 +1,9 @@
 import { z } from 'zod';
+import { IDS_ASSUNTOS } from '../../src/data/assuntos';
 import katex from 'katex';
 import type { Bloco } from '../../src/data/tipos';
 
-export const ProvaIdSchema = z.enum(['2021-licenciatura', '2025-prova1', '2025-prova5']);
+export const ProvaIdSchema = z.enum(['2021-licenciatura', '2025-prova1', '2025-prova5', '2026-prova1']);
 export const LetraSchema = z.enum(['A', 'B', 'C', 'D', 'E']);
 export const ParteSchema = z.enum(['formacao-geral', 'componente-especifico']);
 export const TipoQuestaoSchema = z.enum(['objetiva', 'discursiva']);
@@ -157,7 +158,7 @@ export function validarBloco(bloco: any): { valido: boolean; erros: string[] } {
 
 export const ProvaSchema = z.object({
   id: ProvaIdSchema,
-  ano: z.union([z.literal(2021), z.literal(2025)]),
+  ano: z.union([z.literal(2021), z.literal(2025), z.literal(2026)]),
   ordem: z.number().int().positive(),
   titulo: z.string().min(3),
   subtitulo: z.string().min(3),
@@ -237,6 +238,33 @@ export const GabaritoSchema = z.object({
   fonte: z.string(),
   objetivas: z.record(z.string(), LetraSchema),
   discursivas: z.array(z.string()),
+});
+
+// RF14: assuntos de cada questão da prova (id da questão -> 1 a 3 ids do vocabulário fechado)
+export const AssuntosProvaSchema = z.record(
+  z.string(),
+  z
+    .array(z.enum(IDS_ASSUNTOS as [string, ...string[]]))
+    .min(1)
+    .max(3)
+    .refine((lista) => new Set(lista).size === lista.length, 'assuntos repetidos na mesma questão')
+);
+
+// RF16: índice de acerto nacional por questão, gerado por scripts/inep/estatisticas_itens.py
+const PercentualSchema = z.number().min(0).max(100);
+export const EstatisticasSchema = z.object({
+  provaId: ProvaIdSchema,
+  fonte: z.string().min(10),
+  presentes: z.number().int().positive(),
+  itens: z.record(
+    z.string().regex(/^\d+$/),
+    z.object({
+      anulada: z.boolean(),
+      acerto: PercentualSchema.optional(),
+      distribuicao: z.partialRecord(LetraSchema, PercentualSchema),
+      brancoOuInvalida: PercentualSchema,
+    })
+  ),
 });
 
 export const FigurasManifestSchema = z.object({

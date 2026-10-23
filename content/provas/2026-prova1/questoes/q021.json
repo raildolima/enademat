@@ -1,0 +1,55 @@
+{
+  "id": "2026-prova1-q021",
+  "provaId": "2026-prova1",
+  "tipo": "objetiva",
+  "numero": 21,
+  "rotulo": "Questão 21",
+  "parte": "formacao-geral",
+  "ordemCaderno": 21,
+  "paginas": [13],
+  "textoBaseId": "tb-21-22",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Com base na leitura dos textos, uma prática educativa alinhada à educação para as relações de gênero deve"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "priorizar o ensino sobre os dispositivos legais relacionados ao feminicídio, apresentando as penalidades previstas para os agressores e os meios de proteção à vítima."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "apresentar uma análise estatística sobre a violência contra a mulher, discutindo a importância do acesso aos serviços de atendimento às vítimas."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "promover a sensibilização sobre a violência contra as mulheres, evidenciando o impacto social dos casos de feminicídio."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "propor uma análise de práticas cotidianas de interação social, abordando as formas de prevenção à violência contra a mulher."
+        }
+      ]
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-export type ProvaId = '2021-licenciatura' | '2025-prova1' | '2025-prova5';
+export type ProvaId = '2021-licenciatura' | '2025-prova1' | '2025-prova5' | '2026-prova1';
 export type Letra = 'A' | 'B' | 'C' | 'D' | 'E';
 export type Parte = 'formacao-geral' | 'componente-especifico';
 
@@ -28,7 +28,7 @@ export type Bloco =
 
 export interface Prova {
   id: ProvaId;
-  ano: 2021 | 2025;
+  ano: 2021 | 2025 | 2026;
   ordem: number;
   titulo: string;
   subtitulo: string;
@@ -65,6 +65,8 @@ export interface Questao {
   alternativas?: Alternativa[];
   itens?: { rotulo: string; texto: TextoRico; valor?: string }[];
   notaEditorial?: string;
+  /** RF14: assuntos do vocabulário fechado (src/data/assuntos.ts), anexados no build a partir de assuntos.json */
+  assuntos?: string[];
 }
 
 export interface Gabarito {
@@ -83,11 +85,28 @@ export interface ResumoQuestao {
   parte: Parte;
   ordemCaderno: number;
   previa: string;
+  /** RF14 */
+  assuntos?: string[];
 }
 
 export interface IndiceProvas {
   provas: Prova[];
   questoes: ResumoQuestao[];
+}
+
+/** RF16: índice de acerto nacional (microdados do INEP), em %. */
+export interface EstatisticaItem {
+  anulada: boolean;
+  acerto?: number;
+  distribuicao: Partial<Record<Letra, number>>;
+  brancoOuInvalida: number;
+}
+
+export interface EstatisticasProva {
+  provaId: ProvaId;
+  fonte: string;
+  presentes: number;
+  itens: Record<string, EstatisticaItem>;
 }
 
 export interface ProvaCompleta {
@@ -96,6 +115,7 @@ export interface ProvaCompleta {
   textosBase: Record<string, TextoBase>;
   questoes: Questao[];
   resolucoes: Record<string, string>;
+  estatisticas?: EstatisticasProva | null;
 }
 
 export interface FiltrosQuestoes {
@@ -104,4 +124,5 @@ export interface FiltrosQuestoes {
   parte?: Parte | 'todas';
   tipo?: 'objetiva' | 'discursiva' | 'todas';
   termo?: string;
+  assunto?: string | 'todos';
 }

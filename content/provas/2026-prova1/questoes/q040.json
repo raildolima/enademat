@@ -1,0 +1,20 @@
+{
+  "id": "2026-prova1-q040",
+  "provaId": "2026-prova1",
+  "tipo": "objetiva",
+  "numero": 40,
+  "rotulo": "Questão 40",
+  "parte": "componente-especifico",
+  "ordemCaderno": 41,
+  "paginas": [24],
+  "textoBaseId": "tb-40-42",
+  "enunciado": [
+    { "tipo": "paragrafo", "texto": "Com base na situação descrita sobre as medidas de $l$ e de $2p$, é correto afirmar que" }
+  ],
+  "alternativas": [
+    { "letra": "A", "blocos": [{ "tipo": "paragrafo", "texto": "$l = 2r\\cos\\left(\\frac{\\pi}{n}\\right)$ e $2p = 2nr\\cos\\left(\\frac{\\pi}{n}\\right)$." }] },
+    { "letra": "B", "blocos": [{ "tipo": "paragrafo", "texto": "$l = 2r\\operatorname{sen}\\left(\\frac{\\pi}{n}\\right)$ e $2p = 2nr\\operatorname{sen}\\left(\\frac{\\pi}{n}\\right)$." }] },
+    { "letra": "C", "blocos": [{ "tipo": "paragrafo", "texto": "$l = r\\operatorname{sen}\\left(\\frac{\\pi}{n}\\right)$ e $2p = nr\\operatorname{sen}\\left(\\frac{\\pi}{n}\\right)$." }] },
+    { "letra": "D", "blocos": [{ "tipo": "paragrafo", "texto": "$l = r\\cos\\left(\\frac{\\pi}{n}\\right)$ e $2p = nr\\cos\\left(\\frac{\\pi}{n}\\right)$." }] }
+  ]
+}

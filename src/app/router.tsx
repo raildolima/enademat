@@ -37,6 +37,18 @@ export const router = createHashRouter([
         }),
       },
       {
+        path: 'prova/:provaId',
+        lazy: async () => ({
+          Component: (await import('../features/prova/PaginaProva')).PaginaProva,
+        }),
+      },
+      {
+        path: 'simulado/:provaId',
+        lazy: async () => ({
+          Component: (await import('../features/simulado/PaginaSimulado')).PaginaSimulado,
+        }),
+      },
+      {
         path: '*',
         element: <Pagina404 />,
       },

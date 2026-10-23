@@ -2,7 +2,7 @@ import type { IndiceProvas, ResumoQuestao, FiltrosQuestoes } from './tipos';
 
 /**
  * Filtra a lista de resumos de questões com base nos critérios selecionados.
- * Ordena por prova (2021 -> 2025-prova1 -> 2025-prova5) e ordemCaderno.
+ * Ordena por prova (2021 -> 2025-prova1 -> 2025-prova5 -> 2026-prova1) e ordemCaderno.
  */
 export function filtrarQuestoes(
   indice: IndiceProvas,
@@ -17,6 +17,7 @@ export function filtrarQuestoes(
   const parteFiltro = filtros.parte && filtros.parte !== 'todas' ? filtros.parte : undefined;
   const tipoFiltro = filtros.tipo && filtros.tipo !== 'todas' ? filtros.tipo : undefined;
   const termoFiltro = filtros.termo?.trim().toLowerCase();
+  const assuntoFiltro = filtros.assunto && filtros.assunto !== 'todos' ? filtros.assunto : undefined;
 
   // Mapeia provaId para ano para checagem rápida
   const mapaProvaAno = new Map<string, number>();
@@ -48,6 +49,11 @@ export function filtrarQuestoes(
       return false;
     }
 
+    // Filtro por Assunto (RF14)
+    if (assuntoFiltro && !(q.assuntos ?? []).includes(assuntoFiltro)) {
+      return false;
+    }
+
     // Filtro por Termo de busca
     if (termoFiltro) {
       const matchRotulo = q.rotulo.toLowerCase().includes(termoFiltro);
@@ -66,6 +72,7 @@ export function filtrarQuestoes(
     '2021-licenciatura': 1,
     '2025-prova1': 2,
     '2025-prova5': 3,
+    '2026-prova1': 4,
   };
 
   resultado.sort((a, b) => {

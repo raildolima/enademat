@@ -1,0 +1,35 @@
+{
+  "id": "2026-prova1-q070",
+  "provaId": "2026-prova1",
+  "tipo": "objetiva",
+  "numero": 70,
+  "rotulo": "Questão 70",
+  "parte": "componente-especifico",
+  "ordemCaderno": 71,
+  "paginas": [37],
+  "textoBaseId": "tb-69-70",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Para sanar dúvidas, o professor propôs a sua turma que analisasse a lista completa de inscritos, transformando a atividade da gincana em um estudo sobre frequências e probabilidades. Para isso, os estudantes deveriam buscar alternativas para determinar, de maneira rápida e prática, a composição das equipes. Sem precisar completar a tabela, a turma concluiu que os estudantes que ocupam as posições"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [{ "tipo": "paragrafo", "texto": "213, 297 e 384 estarão na equipe de número 3." }]
+    },
+    {
+      "letra": "B",
+      "blocos": [{ "tipo": "paragrafo", "texto": "126, 306 e 416 estarão na equipe de número 6." }]
+    },
+    {
+      "letra": "C",
+      "blocos": [{ "tipo": "paragrafo", "texto": "130, 208 e 436 estarão na equipe de número 4." }]
+    },
+    {
+      "letra": "D",
+      "blocos": [{ "tipo": "paragrafo", "texto": "105, 150 e 510 estarão na equipe de número 5." }]
+    }
+  ]
+}

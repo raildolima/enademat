@@ -1,0 +1,424 @@
+{
+  "provaId": "2021-licenciatura",
+  "fonte": "INEP — Microdados do Enade 2021 (https://download.inep.gov.br/microdados/microdados_enade_2021.zip), licença CC BY-ND 3.0. Cálculo do simulador: cursos de Matemática (Licenciatura), estudantes com presença válida.",
+  "presentes": 13824,
+  "itens": {
+    "1": {
+      "anulada": false,
+      "distribuicao": {
+        "A": 5.1,
+        "B": 30.0,
+        "C": 22.9,
+        "D": 5.3,
+        "E": 36.2
+      },
+      "brancoOuInvalida": 0.5,
+      "acerto": 36.2
+    },
+    "2": {
+      "anulada": false,
+      "distribuicao": {
+        "A": 43.8,
+        "B": 24.0,
+        "C": 22.8,
+        "D": 6.2,
+        "E": 2.7
+      },
+      "brancoOuInvalida": 0.5,
+      "acerto": 22.8
+    },
+    "3": {
+      "anulada": false,
+      "distribuicao": {
+        "A": 7.1,
+        "B": 51.1,
+        "C": 3.7,
+        "D": 7.7,
+        "E": 30.0
+      },
+      "brancoOuInvalida": 0.4,
+      "acerto": 51.1
+    },
+    "4": {
+      "anulada": false,
+      "distribuicao": {
+        "A": 54.6,
+        "B": 30.9,
+        "C": 5.9,
+        "D": 6.4,
+        "E": 1.9
+      },
+      "brancoOuInvalida": 0.4,
+      "acerto": 30.9
+    },
+    "5": {
+      "anulada": false,
+      "distribuicao": {
+        "A": 49.4,
+        "B": 1.8,
+        "C": 34.8,
+        "D": 3.8,
+        "E": 9.8
+      },
+      "brancoOuInvalida": 0.4,
+      "acerto": 49.4
+    },
+    "6": {
+      "anulada": false,
+      "distribuicao": {
+        "A": 49.6,
+        "B": 14.9,
+        "C": 12.9,
+        "D": 8.6,
+        "E": 13.6
+      },
+      "brancoOuInvalida": 0.4,
+      "acerto": 49.6
+    },
+    "7": {
+      "anulada": false,
+      "distribuicao": {
+        "A": 17.5,
+        "B": 3.8,
+        "C": 58.5,
+        "D": 8.8,
+        "E": 10.9
+      },
+      "brancoOuInvalida": 0.5,
+      "acerto": 58.5
+    },
+    "8": {
+      "anulada": false,
+      "distribuicao": {
+        "A": 26.1,
+        "B": 13.0,
+        "C": 21.1,
+        "D": 19.0,
+        "E": 20.5
+      },
+      "brancoOuInvalida": 0.5,
+      "acerto": 19.0
+    },
+    "9": {
+      "anulada": true,
+      "distribuicao": {
+        "A": 13.4,
+        "B": 6.8,
+        "C": 50.1,
+        "D": 11.7,
+        "E": 17.5
+      },
+      "brancoOuInvalida": 0.4
+    },
+    "10": {
+      "anulada": false,
+      "distribuicao": {
+        "A": 19.2,
+        "B": 2.8,
+        "C": 2.7,
+        "D": 45.6,
+        "E": 29.2
+      },
+      "brancoOuInvalida": 0.6,
+      "acerto": 45.6
+    },
+    "11": {
+      "anulada": false,
+      "distribuicao": {
+        "A": 15.4,
+        "B": 14.9,
+        "C": 15.2,
+        "D": 16.4,
+        "E": 37.5
+      },
+      "brancoOuInvalida": 0.6,
+      "acerto": 37.5
+    },
+    "12": {
+      "anulada": false,
+      "distribuicao": {
+        "A": 32.4,
+        "B": 15.8,
+        "C": 16.4,
+        "D": 20.7,
+        "E": 14.0
+      },
+      "brancoOuInvalida": 0.6,
+      "acerto": 20.7
+    },
+    "13": {
+      "anulada": true,
+      "distribuicao": {
+        "A": 34.7,
+        "B": 24.3,
+        "C": 17.6,
+        "D": 16.1,
+        "E": 6.8
+      },
+      "brancoOuInvalida": 0.5
+    },
+    "14": {
+      "anulada": false,
+      "distribuicao": {
+        "A": 28.9,
+        "B": 11.6,
+        "C": 22.3,
+        "D": 18.2,
+        "E": 18.5
+      },
+      "brancoOuInvalida": 0.5,
+      "acerto": 28.9
+    },
+    "15": {
+      "anulada": false,
+      "distribuicao": {
+        "A": 28.0,
+        "B": 32.7,
+        "C": 13.7,
+        "D": 12.5,
+        "E": 12.7
+      },
+      "brancoOuInvalida": 0.5,
+      "acerto": 32.7
+    },
+    "16": {
+      "anulada": false,
+      "distribuicao": {
+        "A": 5.4,
+        "B": 4.4,
+        "C": 42.7,
+        "D": 9.4,
+        "E": 37.6
+      },
+      "brancoOuInvalida": 0.5,
+      "acerto": 42.7
+    },
+    "17": {
+      "anulada": false,
+      "distribuicao": {
+        "A": 63.9,
+        "B": 16.2,
+        "C": 6.9,
+        "D": 9.4,
+        "E": 3.2
+      },
+      "brancoOuInvalida": 0.5,
+      "acerto": 63.9
+    },
+    "18": {
+      "anulada": false,
+      "distribuicao": {
+        "A": 5.8,
+        "B": 4.9,
+        "C": 58.6,
+        "D": 8.2,
+        "E": 21.9
+      },
+      "brancoOuInvalida": 0.6,
+      "acerto": 58.6
+    },
+    "19": {
+      "anulada": false,
+      "distribuicao": {
+        "A": 13.9,
+        "B": 11.7,
+        "C": 19.1,
+        "D": 46.7,
+        "E": 8.0
+      },
+      "brancoOuInvalida": 0.5,
+      "acerto": 46.7
+    },
+    "20": {
+      "anulada": false,
+      "distribuicao": {
+        "A": 20.3,
+        "B": 10.0,
+        "C": 46.3,
+        "D": 11.6,
+        "E": 11.3
+      },
+      "brancoOuInvalida": 0.6,
+      "acerto": 46.3
+    },
+    "21": {
+      "anulada": false,
+      "distribuicao": {
+        "A": 5.1,
+        "B": 68.2,
+        "C": 3.6,
+        "D": 19.3,
+        "E": 3.3
+      },
+      "brancoOuInvalida": 0.5,
+      "acerto": 68.2
+    },
+    "22": {
+      "anulada": false,
+      "distribuicao": {
+        "A": 59.5,
+        "B": 9.8,
+        "C": 5.2,
+        "D": 5.3,
+        "E": 19.5
+      },
+      "brancoOuInvalida": 0.6,
+      "acerto": 59.5
+    },
+    "23": {
+      "anulada": false,
+      "distribuicao": {
+        "A": 52.1,
+        "B": 8.0,
+        "C": 16.9,
+        "D": 5.2,
+        "E": 17.4
+      },
+      "brancoOuInvalida": 0.5,
+      "acerto": 52.1
+    },
+    "24": {
+      "anulada": false,
+      "distribuicao": {
+        "A": 42.2,
+        "B": 38.6,
+        "C": 6.6,
+        "D": 9.4,
+        "E": 2.6
+      },
+      "brancoOuInvalida": 0.6,
+      "acerto": 38.6
+    },
+    "25": {
+      "anulada": false,
+      "distribuicao": {
+        "A": 25.0,
+        "B": 8.5,
+        "C": 4.3,
+        "D": 4.5,
+        "E": 57.2
+      },
+      "brancoOuInvalida": 0.5,
+      "acerto": 57.2
+    },
+    "26": {
+      "anulada": false,
+      "distribuicao": {
+        "A": 8.4,
+        "B": 4.4,
+        "C": 51.4,
+        "D": 5.6,
+        "E": 29.7
+      },
+      "brancoOuInvalida": 0.5,
+      "acerto": 51.4
+    },
+    "27": {
+      "anulada": false,
+      "distribuicao": {
+        "A": 22.1,
+        "B": 17.0,
+        "C": 21.2,
+        "D": 26.0,
+        "E": 13.1
+      },
+      "brancoOuInvalida": 0.6,
+      "acerto": 22.1
+    },
+    "28": {
+      "anulada": false,
+      "distribuicao": {
+        "A": 14.2,
+        "B": 21.5,
+        "C": 19.4,
+        "D": 29.9,
+        "E": 14.2
+      },
+      "brancoOuInvalida": 0.8,
+      "acerto": 29.9
+    },
+    "29": {
+      "anulada": false,
+      "distribuicao": {
+        "A": 6.5,
+        "B": 7.6,
+        "C": 22.4,
+        "D": 12.2,
+        "E": 50.7
+      },
+      "brancoOuInvalida": 0.6,
+      "acerto": 22.4
+    },
+    "30": {
+      "anulada": true,
+      "distribuicao": {
+        "A": 28.8,
+        "B": 14.0,
+        "C": 25.2,
+        "D": 13.3,
+        "E": 18.0
+      },
+      "brancoOuInvalida": 0.7
+    },
+    "31": {
+      "anulada": false,
+      "distribuicao": {
+        "A": 7.6,
+        "B": 12.1,
+        "C": 12.9,
+        "D": 32.7,
+        "E": 33.9
+      },
+      "brancoOuInvalida": 0.7,
+      "acerto": 32.7
+    },
+    "32": {
+      "anulada": false,
+      "distribuicao": {
+        "A": 50.1,
+        "B": 19.6,
+        "C": 15.4,
+        "D": 9.5,
+        "E": 4.5
+      },
+      "brancoOuInvalida": 0.9,
+      "acerto": 50.1
+    },
+    "33": {
+      "anulada": false,
+      "distribuicao": {
+        "A": 12.1,
+        "B": 5.9,
+        "C": 48.4,
+        "D": 23.9,
+        "E": 9.0
+      },
+      "brancoOuInvalida": 0.6,
+      "acerto": 48.4
+    },
+    "34": {
+      "anulada": false,
+      "distribuicao": {
+        "A": 12.4,
+        "B": 19.2,
+        "C": 37.2,
+        "D": 20.4,
+        "E": 10.1
+      },
+      "brancoOuInvalida": 0.7,
+      "acerto": 37.2
+    },
+    "35": {
+      "anulada": false,
+      "distribuicao": {
+        "A": 6.7,
+        "B": 8.0,
+        "C": 13.7,
+        "D": 23.2,
+        "E": 47.8
+      },
+      "brancoOuInvalida": 0.6,
+      "acerto": 47.8
+    }
+  }
+}

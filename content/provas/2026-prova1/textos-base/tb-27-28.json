@@ -1,0 +1,20 @@
+{
+  "id": "tb-27-28",
+  "provaId": "2026-prova1",
+  "titulo": "Texto para as questões 27 e 28",
+  "questoes": [27, 28],
+  "blocos": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Alguns povos estão começando a abrir as portas das salas de aula para que os saberes indígenas tradicionais entrem e comecem a fazer parte dos currículos. Com isso, a prática de interculturalidade começa a ganhar forma, força e gosto, promovendo, enfim, a convivência, possibilitando a aplicação articulada e mutuamente complementar dos conhecimentos indígenas e dos conhecimentos científicos escolares. É importante lembrarmos sempre que a melhor forma de “domesticar” nós, índios, domesticar no sentido de dominação e de tutela, é fechando-nos em uma sala de aula, como fomos tratados ao longo dos 519 anos da nossa história de invasão e de perversa colonização."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "É preciso pensar a educação escolar de indígenas na perspectiva de uma possibilidade de manejo do mundo que implica a necessidade de domesticar o mundo humano dominante e hostil da escola, do ponto de vista indígena. As ideias de manejo e de domesticação do mundo servem para sair da famigerada linha de pensamento dominante de dualismo índio versus branco, conhecimento tradicional indígena versus conhecimento científico, mundo indígena versus mundo do branco que, definitivamente, não representa o pensamento indígena na contemporaneidade, tampouco ajuda na construção de um horizonte intercultural do mundo desejável."
+    },
+    {
+      "tipo": "fonte",
+      "texto": "BANIWA, G. Educação para manejo do mundo. **R. Articul. Const. Saber**, n. 4, ago. 2019 (adaptado)."
+    }
+  ]
+}

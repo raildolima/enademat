@@ -1,0 +1,37 @@
+{
+  "id": "tb-51-52",
+  "provaId": "2026-prova1",
+  "titulo": "Texto para as questões 51 e 52",
+  "questoes": [51, 52],
+  "blocos": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Em uma turma de Fundamentos de Álgebra e Aritmética do curso de Licenciatura, uma professora discute com os licenciandos as dificuldades na compreensão de números primos e do Teorema Fundamental da Aritmética (TFA). Em um primeiro momento, ela apresenta o recorte de uma pesquisa."
+    },
+    {
+      "tipo": "quadro",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "**Estudantes de Licenciatura em Matemática participaram de uma pesquisa envolvendo números primos e o Teorema Fundamental da Aritmética (TFA). Eles responderam à seguinte questão: “Considere $F = 151 \\times 157$. $F$ é um número primo? Indique SIM ou NÃO e explique sua decisão”.**"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Resposta do estudante 1: “A multiplicação desses dois valores dá 23 707. Utilizando alguns critérios de divisibilidade, percebi que nenhum se adequará e, para ser mais preciso, seria necessário continuar fazendo testes, logo acredito que esse resultado é primo”."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Resposta do estudante 8: “Sim, eu considerei apenas o último número, 7, por ele ser um primo, então considerei 23 707 um número primo”."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Ao analisar as respostas desses estudantes, os proponentes da pesquisa identificaram dificuldades conceituais. Eles apontam que, no caso do estudante 1, embora o conceito de número composto tenha sido apresentado em outro momento, ele não foi mobilizado para resolver o problema, revelando uma falta de significado ou uma crença em uma possível fatoração alternativa. No caso do estudante 8, a resposta é classificada como um “modelo intuitivo”, sem conexão com conceitos coerentes com a situação e o formalismo matemático. Os autores concluem que tais dificuldades levam os estudantes a substituir os conceitos e seus significados por intuições incorretas ou por “estratégias de alto custo operatório”, como a checagem exaustiva de divisores."
+        },
+        {
+          "tipo": "fonte",
+          "texto": "OLIVEIRA, G. P.; FONSECA, R. V. A teoria dos números na formação de professores de Matemática: (in)compreensões acerca da primalidade e do Teorema Fundamental da Aritmética. **Ciência & Educação**, n. 4, 2017 (adaptado)."
+        }
+      ]
+    }
+  ]
+}

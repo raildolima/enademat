@@ -1,0 +1,20 @@
+{
+  "id": "2026-prova1-q035",
+  "provaId": "2026-prova1",
+  "tipo": "objetiva",
+  "numero": 35,
+  "rotulo": "Questão 35",
+  "parte": "componente-especifico",
+  "ordemCaderno": 36,
+  "paginas": [22],
+  "textoBaseId": "tb-35-37",
+  "enunciado": [
+    { "tipo": "paragrafo", "texto": "As marmitas produzidas precisam ser montadas incluindo exatamente um tipo de ingrediente de cada grupo de alimentos. Para atender a essa necessidade, os estudantes calcularam a probabilidade de alguns tipos de ingredientes aparecerem ou não na composição das marmitas. Conforme o texto, a probabilidade de se adquirir uma marmita" }
+  ],
+  "alternativas": [
+    { "letra": "A", "blocos": [{ "tipo": "paragrafo", "texto": "com ovo e com feijão é de $\\frac{1}{3}$." }] },
+    { "letra": "B", "blocos": [{ "tipo": "paragrafo", "texto": "sem ovo e sem feijão é de $\\frac{1}{2}$." }] },
+    { "letra": "C", "blocos": [{ "tipo": "paragrafo", "texto": "sem ovo e com feijão é de $\\frac{2}{3}$." }] },
+    { "letra": "D", "blocos": [{ "tipo": "paragrafo", "texto": "com ovo e sem feijão é de $\\frac{1}{6}$." }] }
+  ]
+}

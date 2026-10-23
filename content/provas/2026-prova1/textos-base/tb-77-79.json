@@ -1,0 +1,10 @@
+{
+  "id": "tb-77-79",
+  "provaId": "2026-prova1",
+  "titulo": "Texto para as questões de 77 a 79",
+  "questoes": [77, 78, 79],
+  "blocos": [
+    { "tipo": "paragrafo", "texto": "Em uma disciplina de Fundamentos de Análise, o professor propõe uma atividade em que os licenciandos investiguem o comportamento das funções $f(x) = \\frac{x^{3} + x^{2} - 6x}{x - 2}$ e $g(x) = \\frac{2x^{2} - 7x + 3}{x - 2}$. Inicialmente, os licenciandos calculam valores das funções para diferentes pontos no domínio próximos a 2 e organizam os resultados em tabelas numéricas e representações gráficas. Posteriormente, discutem o comportamento das funções nesses pontos e formulam hipóteses sobre se cada uma delas se aproxima de um valor real quando $x$ se aproxima de 2 e, em caso positivo, qual é esse valor." },
+    { "tipo": "paragrafo", "texto": "Em seguida, o professor solicita aos licenciandos que comparem as hipóteses levantadas com eventuais simplificações algébricas de $f(x)$ e de $g(x)$ para discutir o papel de diferentes representações na análise do comportamento de funções. Por fim, os licenciandos elaboram propostas de atividades para o Ensino Médio que permitam explorar, por meio de tabelas, gráficos e expressões algébricas, a análise do comportamento de funções em diferentes pontos do domínio." }
+  ]
+}

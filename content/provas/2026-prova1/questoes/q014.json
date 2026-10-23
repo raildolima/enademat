@@ -1,0 +1,62 @@
+{
+  "id": "2026-prova1-q014",
+  "provaId": "2026-prova1",
+  "tipo": "objetiva",
+  "numero": 14,
+  "rotulo": "Questão 14",
+  "parte": "formacao-geral",
+  "ordemCaderno": 14,
+  "paginas": [8],
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Na sociedade moderna, de massa, tecnológico-industrial, a arte torna-se um meio de preservação e de fortalecimento da comunicação pessoal, bem como de sublimação da melancolia, do medo e da desalegria. Como instrumento de libertação, a arte torna-se um meio indispensável de educação, pelo fato de exercer uma contribuição essencial à formação da consciência humana."
+    },
+    {
+      "tipo": "fonte",
+      "texto": "KOELLREUTTER, H.-J. O ensino da música num mundo modificado. **Cadernos de Estudo: Educação Musical**, n. 6, fev. 1998 (adaptado)."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "A compreensão da arte apresentada no texto permite reconhecer que a experiência artística assume relevância para a formação humana por"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "favorecer a inserção dos sujeitos nos universos simbólicos produzidos historicamente pelas diferentes culturas, ampliando as possibilidades de apropriação e de transmissão dos patrimônios artísticos constituídos socialmente."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "constituir um espaço de elaboração de experiências individuais e coletivas, possibilitando a produção de sentidos sobre a realidade, o fortalecimento da consciência crítica e a ampliação das formas de participação na vida social."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "viabilizar a construção de vínculos de pertencimento cultural pelo contato com produções artísticas consagradas de diferentes contextos sócio-históricos, favorecendo o reconhecimento de referências compartilhadas entre os grupos humanos."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "promover o acesso aos sistemas de representação próprios das linguagens artísticas, contribuindo para o desenvolvimento de competências expressivas e para a valorização da experiência artística nas manifestações culturais presentes na sociedade."
+        }
+      ]
+    }
+  ]
+}

@@ -37,6 +37,7 @@ export const PaginaBanco: React.FC = () => {
     if (novos.provaId && novos.provaId !== 'todas') params.set('prova', novos.provaId);
     if (novos.parte && novos.parte !== 'todas') params.set('parte', novos.parte);
     if (novos.tipo && novos.tipo !== 'todas') params.set('tipo', novos.tipo);
+    if (novos.assunto && novos.assunto !== 'todos') params.set('assunto', novos.assunto);
     // O campo de busca é controlado pela URL: o termo vai como digitado (com espaços) e
     // filtrarQuestoes aplica o trim só na comparação.
     if (novos.termo && novos.termo.trim() !== '') params.set('termo', novos.termo);
@@ -92,7 +93,7 @@ export const PaginaBanco: React.FC = () => {
           <p className={styles.sobretitulo}>ENADE · Matemática Licenciatura</p>
           <h1 className={styles.tituloPrincipal}>Banco de Questões</h1>
           <p className={styles.subtituloPrincipal}>
-            202 questões do ENADE Matemática Licenciatura (2021, 2025 Prova 1 e 2025 Prova 5).
+            283 questões do ENADE Matemática Licenciatura (2021, 2025 Prova 1, 2025 Prova 5 e 2026 Prova 1).
           </p>
           <ul className={styles.pilulasResumo}>
             <li>

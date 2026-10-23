@@ -1,0 +1,11 @@
+{
+  "id": "2026-prova1",
+  "ano": 2026,
+  "ordem": 4,
+  "titulo": "ENADE 2026 · Matemática (Licenciatura) · Prova 1",
+  "subtitulo": "Prova Nacional Docente · Caderno 1401 · Tipo 01",
+  "arquivoProva": "2026_matematica_PV_1.pdf",
+  "arquivoGabarito": "2026_matematica_GB_1.pdf",
+  "alternativasPorQuestao": 4,
+  "linhasDiscursiva": 30
+}

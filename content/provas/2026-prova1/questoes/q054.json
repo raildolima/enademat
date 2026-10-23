@@ -1,0 +1,35 @@
+{
+  "id": "2026-prova1-q054",
+  "provaId": "2026-prova1",
+  "tipo": "objetiva",
+  "numero": 54,
+  "rotulo": "Questão 54",
+  "parte": "componente-especifico",
+  "ordemCaderno": 55,
+  "paginas": [30],
+  "textoBaseId": "tb-53-54",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Para garantir que uma precipitação de até 120 mm/m² escoe completamente da área impermeabilizada até a galeria, sem transbordar, qual o número mínimo de módulos necessários para a construção dessa galeria?"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [{ "tipo": "paragrafo", "texto": "17." }]
+    },
+    {
+      "letra": "B",
+      "blocos": [{ "tipo": "paragrafo", "texto": "25." }]
+    },
+    {
+      "letra": "C",
+      "blocos": [{ "tipo": "paragrafo", "texto": "34." }]
+    },
+    {
+      "letra": "D",
+      "blocos": [{ "tipo": "paragrafo", "texto": "50." }]
+    }
+  ]
+}

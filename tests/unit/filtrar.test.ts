@@ -6,15 +6,21 @@ import indiceReal from '../../src/data/generated/indice.json';
 describe('filtrarQuestoes e vizinhas', () => {
   const indice = indiceReal as unknown as IndiceProvas;
 
-  it('retorna todas as 202 questões quando nenhum filtro é passado', () => {
+  it('retorna todas as 283 questões quando nenhum filtro é passado', () => {
     const res = filtrarQuestoes(indice);
-    expect(res.length).toBe(202);
+    expect(res.length).toBe(283);
   });
 
   it('filtra por ano 2021 (40 questões)', () => {
     const res = filtrarQuestoes(indice, { ano: 2021 });
     expect(res.length).toBe(40);
     expect(res.every((q) => q.provaId === '2021-licenciatura')).toBe(true);
+  });
+
+  it('filtra por ano 2026 (81 questões)', () => {
+    const res = filtrarQuestoes(indice, { ano: 2026 });
+    expect(res.length).toBe(81);
+    expect(res.every((q) => q.provaId === '2026-prova1')).toBe(true);
   });
 
   it('filtra por ano 2025 (162 questões)', () => {
@@ -29,16 +35,16 @@ describe('filtrarQuestoes e vizinhas', () => {
     expect(res.every((q) => q.provaId === '2025-prova1')).toBe(true);
   });
 
-  it('filtra por tipo discursiva (7 questões no total)', () => {
+  it('filtra por tipo discursiva (8 questões no total)', () => {
     const res = filtrarQuestoes(indice, { tipo: 'discursiva' });
-    expect(res.length).toBe(7);
+    expect(res.length).toBe(8);
     expect(res.every((q) => q.tipo === 'discursiva')).toBe(true);
   });
 
   it('filtra por parte componente-especifico', () => {
     const res = filtrarQuestoes(indice, { parte: 'componente-especifico' });
-    // 2021: 30 questões (D03-D05 + Q09-Q35); 2025-P1: 50 questões (Q31-Q80); 2025-P5: 50 questões (Q31-Q80) = 130
-    expect(res.length).toBe(130);
+    // 2021: 30 questões (D03-D05 + Q09-Q35); 2025-P1: 50 questões (Q31-Q80); 2025-P5: 50 questões (Q31-Q80); 2026-P1: 50 questões (Q31-Q80) = 180
+    expect(res.length).toBe(180);
     expect(res.every((q) => q.parte === 'componente-especifico')).toBe(true);
   });
 

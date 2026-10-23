@@ -1,0 +1,20 @@
+{
+  "id": "2026-prova1-q077",
+  "provaId": "2026-prova1",
+  "tipo": "objetiva",
+  "numero": 77,
+  "rotulo": "Questão 77",
+  "parte": "componente-especifico",
+  "ordemCaderno": 78,
+  "paginas": [42],
+  "textoBaseId": "tb-77-79",
+  "enunciado": [
+    { "tipo": "paragrafo", "texto": "Na proposta planejada pelo professor, o aspecto que caracteriza uma abordagem investigativa no estudo de Fundamentos de Análise na formação dos licenciandos é a" }
+  ],
+  "alternativas": [
+    { "letra": "A", "blocos": [ { "tipo": "paragrafo", "texto": "exploração de valores das funções em pontos próximos a 2, com vistas a formular hipóteses sobre o comportamento das funções nesse ponto." } ] },
+    { "letra": "B", "blocos": [ { "tipo": "paragrafo", "texto": "organização de tabelas numéricas e representações gráficas, a fim de confirmar o resultado obtido por eventuais simplificações algébricas das expressões das funções." } ] },
+    { "letra": "C", "blocos": [ { "tipo": "paragrafo", "texto": "comparação entre representações gráficas, numéricas e algébricas, com o objetivo de ilustrar o comportamento esperado das funções quando $x$ se aproxima de 2." } ] },
+    { "letra": "D", "blocos": [ { "tipo": "paragrafo", "texto": "utilização de simplificações algébricas e de representações gráficas, com a finalidade de ilustrar o conceito de limite." } ] }
+  ]
+}

@@ -1,7 +1,7 @@
 # Simulador ENADE Matemática — instruções para agentes
 
 ## Produto
-Webapp estático (Vite + React + TypeScript) com as 202 questões do ENADE Matemática Licenciatura (2021, 2025-prova1, 2025-prova5) e resoluções comentadas. Fonte da verdade: docs/ESPECIFICACAO.md. Plano: PLANO-ANTIGRAVITY-GEMINI-3.8-FLASH.md.
+Webapp estático (Vite + React + TypeScript) com as 283 questões do ENADE Matemática Licenciatura (2021, 2025-prova1, 2025-prova5, 2026-prova1) e resoluções comentadas. Fonte da verdade: docs/ESPECIFICACAO.md. Plano: PLANO-ANTIGRAVITY-GEMINI-3.8-FLASH.md.
 
 ## Comandos
 - npm run dev | build | preview | test | test:e2e

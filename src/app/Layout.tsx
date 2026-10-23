@@ -61,7 +61,7 @@ export const Layout: React.FC = () => {
         <div className={styles.rodapeConteudo}>
           <LogoUfms sempreNegativo className={styles.logoRodape} />
           <p>
-            Questões: INEP/MEC — ENADE 2021 e 2025. Resoluções elaboradas para fins educacionais.
+            Questões: INEP/MEC — ENADE 2021, 2025 e 2026. Resoluções elaboradas para fins educacionais.
           </p>
           <p className={styles.rodapeAviso}>
             Site não oficial. Créditos das fontes das figuras preservados.

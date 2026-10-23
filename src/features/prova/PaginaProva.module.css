@@ -1,0 +1,118 @@
+.paginaProva {
+  width: 100%;
+  max-width: var(--largura-maxima);
+  margin: 0 auto;
+  padding: var(--espaco-8) var(--espaco-4) var(--espaco-12);
+}
+
+.cabecalho {
+  margin-bottom: var(--espaco-8);
+}
+
+.linkVoltar {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--espaco-1);
+  font-size: 0.9rem;
+  color: var(--cor-texto-secundario);
+  margin-bottom: var(--espaco-4);
+}
+
+.titulo {
+  font-size: clamp(1.5rem, 1.2rem + 1.2vw, 2.1rem);
+  margin-bottom: var(--espaco-2);
+}
+
+.subtitulo {
+  color: var(--cor-texto-secundario);
+  margin-bottom: var(--espaco-4);
+}
+
+.composicao {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--espaco-2) var(--espaco-6);
+  list-style: none;
+  padding: 0;
+  margin: 0 0 var(--espaco-6);
+  color: var(--cor-texto-secundario);
+}
+
+.acoes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--espaco-3);
+}
+
+.btnPrimario,
+.btnSecundario {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--espaco-2);
+  min-height: var(--alvo-toque);
+  padding: var(--espaco-2) var(--espaco-5);
+  border-radius: var(--raio-md);
+  font-family: var(--fonte-titulos);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.btnPrimario {
+  background-color: var(--cor-primaria);
+  color: var(--cor-texto-inverso);
+}
+
+.btnPrimario:hover {
+  background-color: var(--cor-primaria-hover);
+  color: var(--cor-texto-inverso);
+}
+
+.btnSecundario {
+  background-color: var(--cor-superficie);
+  color: var(--cor-primaria);
+  border: 1px solid var(--cor-borda-forte);
+}
+
+.btnSecundario:hover {
+  background-color: var(--cor-superficie-hover);
+}
+
+.grupo {
+  margin-bottom: var(--espaco-8);
+}
+
+.tituloGrupo {
+  font-size: 1.15rem;
+  margin-bottom: var(--espaco-3);
+}
+
+/* Grade numerada, como a folha de respostas do caderno */
+.grade {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(var(--alvo-toque), 1fr));
+  gap: var(--espaco-2);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.celula {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: var(--alvo-toque);
+  font-family: var(--fonte-mono);
+  font-weight: 600;
+  color: var(--cor-texto-principal);
+  background-color: var(--cor-superficie);
+  border: 1px solid var(--cor-borda);
+  border-radius: var(--raio-md);
+  text-decoration: none;
+  transition: background-color var(--transicao-rapida), border-color var(--transicao-rapida);
+}
+
+.celula:hover {
+  background-color: var(--cor-superficie-hover);
+  border-color: var(--cor-primaria);
+  color: var(--cor-primaria);
+}

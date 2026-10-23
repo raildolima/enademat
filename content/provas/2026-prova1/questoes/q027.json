@@ -1,0 +1,55 @@
+{
+  "id": "2026-prova1-q027",
+  "provaId": "2026-prova1",
+  "tipo": "objetiva",
+  "numero": 27,
+  "rotulo": "Questão 27",
+  "parte": "formacao-geral",
+  "ordemCaderno": 27,
+  "paginas": [16],
+  "textoBaseId": "tb-27-28",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Durante uma formação continuada, uma equipe de professores planeja atividades que, em consonância com uma abordagem intercultural, buscam articular conhecimentos indígenas a conhecimentos científicos. Para integrar tais conhecimentos, uma das professoras propõe uma atividade de escrita coletiva para que os estudantes discutam os impactos das mudanças climáticas em regiões vulneráveis. A atividade que atende a essa finalidade é aquela em que os estudantes"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "explicam fenômenos diversos, como a redução dos níveis dos rios e o aumento dos incêndios florestais, com base em dados científicos, de modo a reorientar práticas indígenas, como o uso tradicional do solo."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "desenvolvem propostas para minimizar os impactos do efeito estufa e do desmatamento, considerando conhecimentos científicos a respeito das mudanças climáticas e saberes indígenas sobre manejo da floresta."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "destacam práticas indígenas para reduzir a ocorrência de incêndios florestais e o acúmulo de matéria seca, utilizando conhecimentos científicos para ilustrar devidamente esses fenômenos e suas dinâmicas ambientais."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "descrevem práticas indígenas de cuidado com a terra, como o uso controlado do fogo e o cultivo de diferentes espécies de plantas medicinais, de modo a apresentá-las como alternativas ao conhecimento científico no monitoramento climático."
+        }
+      ]
+    }
+  ]
+}

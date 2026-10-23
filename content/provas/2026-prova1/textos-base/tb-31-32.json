@@ -1,0 +1,38 @@
+{
+  "id": "tb-31-32",
+  "provaId": "2026-prova1",
+  "titulo": "Texto para as questões 31 e 32",
+  "questoes": [31, 32],
+  "blocos": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Uma professora de Matemática do 6º ano do Ensino Fundamental recebeu, em sua turma, um estudante com baixa visão. Ao preparar uma aula de Geometria na perspectiva inclusiva, a professora buscou promover a autonomia estudantil."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Ela organizou a aula em dois momentos. No primeiro, levou imagens ampliadas de placas, sólidos geométricos manipuláveis e figuras em alto-relevo, possibilitando a exploração visual e tátil. Na sequência, realizou o segundo momento da aula."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Em um terceiro momento, a professora propôs uma atividade avaliativa, solicitando que os estudantes classificassem diferentes figuras como polígonos ou não polígonos e justificassem as próprias respostas."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Ao analisar as produções, ela identificou níveis distintos de compreensão expressos nas seguintes afirmações:"
+    },
+    {
+      "tipo": "lista",
+      "ordenada": false,
+      "itens": [
+        "Estudante A: O pentagrama é um polígono simples por possuir apenas segmentos de reta.",
+        "Estudante B: O círculo é polígono simples por ser fechado.",
+        "Estudante C: O polígono simples é uma figura plana fechada formada apenas por segmentos de reta.",
+        "Estudante D: O polígono simples é uma figura plana fechada formada apenas por segmentos de reta que se cruzam."
+      ]
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Em vez de registrar apenas acertos e erros, a professora, em um quarto momento, organizou uma discussão coletiva a partir das afirmações dos estudantes. Assim, os próprios estudantes reformularam argumentos, ampliaram definições e perceberam inconsistências. Ao final da aula, a professora sistematizou o conceito formal, relacionando-o às hipóteses apresentadas pelos estudantes."
+    }
+  ]
+}

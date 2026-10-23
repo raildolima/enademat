@@ -161,7 +161,18 @@ tr:last-child td {
     background-color: #ffffff;
     color: #000000;
   }
-  .skip-link, nav, button, .nao-imprimir {
+  /* RF13: questão e resolução sem cabeçalho, filtros, navegação e botões; o rodapé (créditos, RF09) fica */
+  .skip-link, nav, button, header[role="banner"], [role="search"], .nao-imprimir {
     display: none !important;
+  }
+  figure, img, table, .katex-display, [role="radiogroup"] > * {
+    break-inside: avoid;
+  }
+  h1, h2, h3 {
+    break-after: avoid;
+  }
+  a {
+    color: #000000;
+    text-decoration: none;
   }
 }

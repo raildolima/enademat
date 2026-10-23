@@ -1,0 +1,397 @@
+{
+  "provaId": "2026-prova1",
+  "figuras": [
+    {
+      "arquivo": "q001-f1.webp",
+      "pagina": 2,
+      "bbox": [
+        155,
+        167,
+        412,
+        424
+      ],
+      "dpi": 220,
+      "uso": {
+        "questaoId": "2026-prova1-q001",
+        "papel": "enunciado"
+      },
+      "status": "aprovado"
+    },
+    {
+      "arquivo": "q010-f1.webp",
+      "pagina": 6,
+      "bbox": [
+        289,
+        221,
+        539,
+        410
+      ],
+      "dpi": 220,
+      "uso": {
+        "questaoId": "2026-prova1-q010",
+        "papel": "enunciado"
+      },
+      "status": "aprovado"
+    },
+    {
+      "arquivo": "tb-15-16-f1.webp",
+      "pagina": 9,
+      "bbox": [
+        168,
+        212,
+        398,
+        427
+      ],
+      "dpi": 220,
+      "uso": {
+        "questaoId": "2026-prova1-q015",
+        "papel": "texto-base"
+      },
+      "status": "aprovado"
+    },
+    {
+      "arquivo": "tb-19-20-f1.webp",
+      "pagina": 11,
+      "bbox": [
+        175,
+        82,
+        392,
+        370
+      ],
+      "dpi": 220,
+      "uso": {
+        "questaoId": "2026-prova1-q019",
+        "papel": "texto-base"
+      },
+      "status": "aprovado"
+    },
+    {
+      "arquivo": "tb-21-22-f1.webp",
+      "pagina": 12,
+      "bbox": [
+        90,
+        102,
+        477,
+        390
+      ],
+      "dpi": 220,
+      "uso": {
+        "questaoId": "2026-prova1-q021",
+        "papel": "texto-base"
+      },
+      "status": "aprovado"
+    },
+    {
+      "arquivo": "tb-23-24-f1.webp",
+      "pagina": 14,
+      "bbox": [
+        28,
+        206,
+        278,
+        360
+      ],
+      "dpi": 220,
+      "uso": {
+        "questaoId": "2026-prova1-q023",
+        "papel": "texto-base"
+      },
+      "status": "aprovado"
+    },
+    {
+      "arquivo": "tb-23-24-f2.webp",
+      "pagina": 14,
+      "bbox": [
+        28,
+        401,
+        278,
+        556
+      ],
+      "dpi": 220,
+      "uso": {
+        "questaoId": "2026-prova1-q023",
+        "papel": "texto-base"
+      },
+      "status": "aprovado"
+    },
+    {
+      "arquivo": "d01-f1.webp",
+      "pagina": 18,
+      "bbox": [
+        33,
+        267,
+        534,
+        490
+      ],
+      "dpi": 220,
+      "uso": {
+        "questaoId": "2026-prova1-d01",
+        "papel": "enunciado"
+      },
+      "status": "aprovado"
+    },
+    {
+      "arquivo": "q047-alt-a.webp",
+      "pagina": 27,
+      "bbox": [
+        42,
+        119,
+        461,
+        148
+      ],
+      "dpi": 220,
+      "uso": {
+        "questaoId": "2026-prova1-q047",
+        "papel": "alternativa",
+        "letra": "A"
+      },
+      "status": "aprovado"
+    },
+    {
+      "arquivo": "q047-alt-b.webp",
+      "pagina": 27,
+      "bbox": [
+        42,
+        154,
+        461,
+        183
+      ],
+      "dpi": 220,
+      "uso": {
+        "questaoId": "2026-prova1-q047",
+        "papel": "alternativa",
+        "letra": "B"
+      },
+      "status": "aprovado"
+    },
+    {
+      "arquivo": "q047-alt-c.webp",
+      "pagina": 27,
+      "bbox": [
+        42,
+        189,
+        461,
+        218
+      ],
+      "dpi": 220,
+      "uso": {
+        "questaoId": "2026-prova1-q047",
+        "papel": "alternativa",
+        "letra": "C"
+      },
+      "status": "aprovado"
+    },
+    {
+      "arquivo": "q047-alt-d.webp",
+      "pagina": 27,
+      "bbox": [
+        42,
+        224,
+        461,
+        253
+      ],
+      "dpi": 220,
+      "uso": {
+        "questaoId": "2026-prova1-q047",
+        "papel": "alternativa",
+        "letra": "D"
+      },
+      "status": "aprovado"
+    },
+    {
+      "arquivo": "tb-57-58-f1.webp",
+      "pagina": 32,
+      "bbox": [
+        28,
+        164,
+        539,
+        393
+      ],
+      "dpi": 220,
+      "uso": {
+        "questaoId": "2026-prova1-q057",
+        "papel": "texto-base"
+      },
+      "status": "aprovado"
+    },
+    {
+      "arquivo": "tb-59-61-f1.webp",
+      "pagina": 33,
+      "bbox": [
+        31,
+        146,
+        275,
+        320
+      ],
+      "dpi": 220,
+      "uso": {
+        "questaoId": "2026-prova1-q059",
+        "papel": "texto-base"
+      },
+      "status": "aprovado"
+    },
+    {
+      "arquivo": "tb-59-61-f2.webp",
+      "pagina": 33,
+      "bbox": [
+        31,
+        339,
+        275,
+        513
+      ],
+      "dpi": 220,
+      "uso": {
+        "questaoId": "2026-prova1-q059",
+        "papel": "texto-base"
+      },
+      "status": "aprovado"
+    },
+    {
+      "arquivo": "tb-62-63-f1.webp",
+      "pagina": 34,
+      "bbox": [
+        147,
+        291,
+        420,
+        465
+      ],
+      "dpi": 220,
+      "uso": {
+        "questaoId": "2026-prova1-q062",
+        "papel": "texto-base"
+      },
+      "status": "aprovado"
+    },
+    {
+      "arquivo": "tb-64-65-f1.webp",
+      "pagina": 35,
+      "bbox": [
+        28,
+        335,
+        278,
+        524
+      ],
+      "dpi": 220,
+      "uso": {
+        "questaoId": "2026-prova1-q064",
+        "papel": "texto-base"
+      },
+      "status": "aprovado"
+    },
+    {
+      "arquivo": "tb-66-68-f1.webp",
+      "pagina": 36,
+      "bbox": [
+        30,
+        215,
+        276,
+        474
+      ],
+      "dpi": 220,
+      "uso": {
+        "questaoId": "2026-prova1-q066",
+        "papel": "texto-base"
+      },
+      "status": "aprovado"
+    },
+    {
+      "arquivo": "q072-f1.webp",
+      "pagina": 39,
+      "bbox": [
+        42,
+        146,
+        264,
+        290
+      ],
+      "dpi": 220,
+      "uso": {
+        "questaoId": "2026-prova1-q072",
+        "papel": "enunciado"
+      },
+      "status": "aprovado"
+    },
+    {
+      "arquivo": "q072-f2.webp",
+      "pagina": 39,
+      "bbox": [
+        50,
+        493,
+        256,
+        722
+      ],
+      "dpi": 220,
+      "uso": {
+        "questaoId": "2026-prova1-q072",
+        "papel": "enunciado"
+      },
+      "status": "aprovado"
+    },
+    {
+      "arquivo": "q079-alt-a.webp",
+      "pagina": 43,
+      "bbox": [
+        42,
+        110,
+        216,
+        322
+      ],
+      "dpi": 220,
+      "uso": {
+        "questaoId": "2026-prova1-q079",
+        "papel": "alternativa",
+        "letra": "A"
+      },
+      "status": "aprovado"
+    },
+    {
+      "arquivo": "q079-alt-b.webp",
+      "pagina": 43,
+      "bbox": [
+        42,
+        337,
+        216,
+        548
+      ],
+      "dpi": 220,
+      "uso": {
+        "questaoId": "2026-prova1-q079",
+        "papel": "alternativa",
+        "letra": "B"
+      },
+      "status": "aprovado"
+    },
+    {
+      "arquivo": "q079-alt-c.webp",
+      "pagina": 43,
+      "bbox": [
+        299,
+        110,
+        473,
+        322
+      ],
+      "dpi": 220,
+      "uso": {
+        "questaoId": "2026-prova1-q079",
+        "papel": "alternativa",
+        "letra": "C"
+      },
+      "status": "aprovado"
+    },
+    {
+      "arquivo": "q079-alt-d.webp",
+      "pagina": 43,
+      "bbox": [
+        299,
+        336,
+        473,
+        548
+      ],
+      "dpi": 220,
+      "uso": {
+        "questaoId": "2026-prova1-q079",
+        "papel": "alternativa",
+        "letra": "D"
+      },
+      "status": "aprovado"
+    }
+  ]
+}

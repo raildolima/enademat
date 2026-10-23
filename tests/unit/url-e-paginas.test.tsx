@@ -110,13 +110,20 @@ beforeEach(() => {
 
 describe('CR-06 — lerFiltrosDaUrl', () => {
   it('descarta valores desconhecidos', () => {
-    const filtros = lerFiltrosDaUrl(new URLSearchParams('ano=abc&prova=2025-prova9&parte=x&tipo=y&termo=matriz'));
-    expect(filtros).toEqual({ ano: 'todos', provaId: 'todas', parte: 'todas', tipo: 'todas', termo: 'matriz' });
+    const filtros = lerFiltrosDaUrl(new URLSearchParams('ano=abc&prova=2025-prova9&parte=x&tipo=y&termo=matriz&assunto=astrologia'));
+    expect(filtros).toEqual({ ano: 'todos', provaId: 'todas', parte: 'todas', tipo: 'todas', termo: 'matriz', assunto: 'todos' });
   });
 
   it('aceita valores válidos, inclusive o parâmetro legado provaId', () => {
-    const filtros = lerFiltrosDaUrl(new URLSearchParams('ano=2025&provaId=2025-prova5&parte=formacao-geral&tipo=discursiva'));
-    expect(filtros).toEqual({ ano: 2025, provaId: '2025-prova5', parte: 'formacao-geral', tipo: 'discursiva', termo: '' });
+    const filtros = lerFiltrosDaUrl(new URLSearchParams('ano=2025&provaId=2025-prova5&parte=formacao-geral&tipo=discursiva&assunto=estatistica'));
+    expect(filtros).toEqual({
+      ano: 2025,
+      provaId: '2025-prova5',
+      parte: 'formacao-geral',
+      tipo: 'discursiva',
+      termo: '',
+      assunto: 'estatistica',
+    });
   });
 
   it('descarta prova incompatível com o ano', () => {

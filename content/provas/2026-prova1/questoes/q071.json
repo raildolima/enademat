@@ -1,0 +1,24 @@
+{
+  "id": "2026-prova1-q071",
+  "provaId": "2026-prova1",
+  "tipo": "objetiva",
+  "numero": 71,
+  "rotulo": "Questão 71",
+  "parte": "componente-especifico",
+  "ordemCaderno": 72,
+  "paginas": [38],
+  "enunciado": [
+    { "tipo": "paragrafo", "texto": "Em uma disciplina de Licenciatura em Matemática, o professor apresenta uma situação inspirada em computação gráfica. Determinado software ilustra a seguinte transformação linear no plano:" },
+    { "tipo": "formula", "latex": "T(x, y) = A \\begin{pmatrix} x \\\\ y \\end{pmatrix}" },
+    { "tipo": "paragrafo", "texto": "sendo $A = \\begin{pmatrix} 2 & 1 \\\\ 1 & 1 \\end{pmatrix}$." },
+    { "tipo": "paragrafo", "texto": "Em um sistema de coordenadas cartesianas, o professor destaca inicialmente a região quadrada:" },
+    { "tipo": "formula", "latex": "Q = \\{(x, y) \\in \\mathbb{R}^2 \\mid 0 \\le x \\le 1, 0 \\le y \\le 1\\}" },
+    { "tipo": "paragrafo", "texto": "Antes de usar o software para a ilustração, o professor propõe que a turma verifique o que acontece com a forma e com a área da imagem $T(Q)$. A finalidade pedagógica é analisar diferentes compreensões acerca da relação entre determinante, forma e área, possibilitando retomar as propriedades estruturais das transformações lineares. Os estudantes devem concluir que a imagem de $Q$ é um" }
+  ],
+  "alternativas": [
+    { "letra": "A", "blocos": [ { "tipo": "paragrafo", "texto": "quadrado de área igual a 1, pois transformações lineares preservam tanto forma como área." } ] },
+    { "letra": "B", "blocos": [ { "tipo": "paragrafo", "texto": "paralelogramo de área igual a 1, pois transformações lineares levam quadrados em paralelogramos, e a área da imagem é a área de $Q$ multiplicada pelo valor absoluto do determinante de $A$." } ] },
+    { "letra": "C", "blocos": [ { "tipo": "paragrafo", "texto": "retângulo de área igual a 2, pois transformações lineares levam quadrados em retângulos, e a imagem de um vetor de módulo igual a 1 é um vetor de módulo igual a 2." } ] },
+    { "letra": "D", "blocos": [ { "tipo": "paragrafo", "texto": "quadrado de área igual a 2, pois transformações lineares preservam forma, e a entrada da 1ª linha e da 1ª coluna da matriz $A$ é igual a 2." } ] }
+  ]
+}

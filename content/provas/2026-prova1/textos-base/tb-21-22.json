@@ -1,0 +1,41 @@
+{
+  "id": "tb-21-22",
+  "provaId": "2026-prova1",
+  "titulo": "Texto para as questões 21 e 22",
+  "questoes": [21, 22],
+  "blocos": [
+    {
+      "tipo": "titulo",
+      "texto": "TEXTO 1"
+    },
+    {
+      "tipo": "imagem",
+      "src": "figuras/2026-prova1/tb-21-22-f1.webp",
+      "alt": "Charge de Fraga com uma menina ao lado da mãe: a menina, com cabeça em forma de símbolo feminino com alvo, pergunta \"Mãe, por que ser mulher é tão perigoso?\", enquanto a mãe, com o mesmo símbolo na cabeça, cozinha em um fogão."
+    },
+    {
+      "tipo": "fonte",
+      "texto": "FRAGA, G. Disponível em: https://gauchazh.clicrbs.com.br. Acesso em: 14 abr. 2026."
+    },
+    {
+      "tipo": "titulo",
+      "texto": "TEXTO 2"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "O termo contrário ao machismo não é feminismo, é femismo. E o que femismo significa? Ideologia que defende a superioridade da mulher sobre o homem. O feminismo é um movimento que luta pela igualdade de direitos, de oportunidades e de tratamento entre homens e mulheres; não visa à superioridade. E o que vem a ser a misoginia? A misoginia se traduz no ódio, na aversão, no desprezo extremo às mulheres, muitas vezes manifestado por meio de violência física e psicológica."
+    },
+    {
+      "tipo": "fonte",
+      "texto": "Disponível em: www12.senado.leg.br. Acesso em: 14 abr. 2026."
+    },
+    {
+      "tipo": "titulo",
+      "texto": "TEXTO 3"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "O feminicídio é compreendido como a expressão extrema de um contínuo de violências de gênero, frequentemente precedido por práticas naturalizadas de misoginia na linguagem, nas relações sociais e nas instituições. O enfrentamento dessa violência demanda não apenas respostas punitivas, mas também ações preventivas, incluindo o fortalecimento de marcos legais e a promoção de uma educação voltada às relações de gênero."
+    }
+  ]
+}

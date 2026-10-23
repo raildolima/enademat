@@ -1,0 +1,35 @@
+{
+  "id": "2026-prova1-q002",
+  "provaId": "2026-prova1",
+  "tipo": "objetiva",
+  "numero": 2,
+  "rotulo": "Questão 2",
+  "parte": "formacao-geral",
+  "ordemCaderno": 2,
+  "paginas": [3],
+  "textoBaseId": "tb-02-04",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Docentes e gestores devem assumir, em comum, a tarefa de acompanhar a aprendizagem dos estudantes. Nesse processo, o Sistema de Avaliação da Educação Básica (Saeb), como um conjunto de avaliações externas que produzem indicadores sobre a qualidade da Educação Básica, pode impactar as decisões pedagógicas. Diante dos resultados, o papel do professor, em articulação com a gestão escolar, consiste em"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [{ "tipo": "paragrafo", "texto": "reorganizar o planejamento pedagógico para focalizar conteúdos mais recorrentes no Saeb, selecionando objetivos curriculares em função dessa avaliação." }]
+    },
+    {
+      "letra": "B",
+      "blocos": [{ "tipo": "paragrafo", "texto": "desenvolver estratégias pedagógicas para comparar o rendimento de diferentes escolas no Saeb, estabelecendo parâmetros de classificação entre elas." }]
+    },
+    {
+      "letra": "C",
+      "blocos": [{ "tipo": "paragrafo", "texto": "adequar os processos avaliativos conduzidos na escola para alcançar melhores resultados no Saeb, monitorando o desempenho dos estudantes." }]
+    },
+    {
+      "letra": "D",
+      "blocos": [{ "tipo": "paragrafo", "texto": "analisar os resultados produzidos pelo Saeb para reorientar práticas pedagógicas, ajustando-as às necessidades dos estudantes." }]
+    }
+  ]
+}

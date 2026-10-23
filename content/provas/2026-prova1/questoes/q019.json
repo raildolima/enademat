@@ -1,0 +1,55 @@
+{
+  "id": "2026-prova1-q019",
+  "provaId": "2026-prova1",
+  "tipo": "objetiva",
+  "numero": 19,
+  "rotulo": "Questão 19",
+  "parte": "formacao-geral",
+  "ordemCaderno": 19,
+  "paginas": [11],
+  "textoBaseId": "tb-19-20",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Um professor do Ensino Médio propôs a sua turma uma análise conjunta do cartaz produzido pela ONU Mulheres, com o intuito de abordar o uso responsável da linguagem. A ação pedagógica que atende a essa proposta é aquela em que os estudantes"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "comparam as versões de manchetes, percebendo como determinadas escolhas linguísticas podem reforçar práticas de violência simbólica."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "analisam a versão de maior impacto no público, considerando as construções linguísticas e o potencial de engajamento nas redes sociais."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "refletem sobre comportamentos considerados de risco, discutindo, por meio das manchetes jornalísticas, como determinadas atitudes podem expor pessoas a situações de violência."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "debatem sobre a importância de divulgar informações completas sobre os acontecimentos, valorizando a inclusão de detalhes sobre o contexto da vítima nas manchetes jornalísticas."
+        }
+      ]
+    }
+  ]
+}

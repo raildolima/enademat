@@ -1,0 +1,35 @@
+{
+  "id": "2026-prova1-q059",
+  "provaId": "2026-prova1",
+  "tipo": "objetiva",
+  "numero": 59,
+  "rotulo": "Questão 59",
+  "parte": "componente-especifico",
+  "ordemCaderno": 60,
+  "paginas": [33],
+  "textoBaseId": "tb-59-61",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Considerando a sequência investigativa e as características dos geoplanos (retangular e isométrico), constata-se que o geoplano"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [{ "tipo": "paragrafo", "texto": "isométrico inviabiliza a realização do momento 2 da atividade." }]
+    },
+    {
+      "letra": "B",
+      "blocos": [{ "tipo": "paragrafo", "texto": "retangular inviabiliza a realização do momento 3 da atividade." }]
+    },
+    {
+      "letra": "C",
+      "blocos": [{ "tipo": "paragrafo", "texto": "retangular permite a realização dos momentos 1, 2 e 3 da atividade." }]
+    },
+    {
+      "letra": "D",
+      "blocos": [{ "tipo": "paragrafo", "texto": "isométrico permite a realização dos momentos 1, 2 e 3 da atividade." }]
+    }
+  ]
+}

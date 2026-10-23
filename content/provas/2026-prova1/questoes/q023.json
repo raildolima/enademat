@@ -1,0 +1,55 @@
+{
+  "id": "2026-prova1-q023",
+  "provaId": "2026-prova1",
+  "tipo": "objetiva",
+  "numero": 23,
+  "rotulo": "Questão 23",
+  "parte": "formacao-geral",
+  "ordemCaderno": 23,
+  "paginas": [14],
+  "textoBaseId": "tb-23-24",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Para que o currículo escolar se paute tanto na concepção de Miguel Arroyo acerca de outros sujeitos e outras pedagogias (Texto 2) quanto nos conhecimentos tradicionais (Texto 1), ele deve priorizar o(a)"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "inserção de novos conhecimentos, por meio do ingresso de estudantes na escola com outros valores e com outras experiências sociais, a fim de ressignificar a vivência escolar."
+        }
+      ]
+    },
+    {
+      "letra": "B",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "resgate identitário, por meio da mobilização de outros recursos, de outras fontes e de outras referências, a fim de adaptar o planejamento docente."
+        }
+      ]
+    },
+    {
+      "letra": "C",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "emancipação dos estudantes, por meio de um planejamento pedagógico voltado aos povos tradicionais para uma formação específica."
+        }
+      ]
+    },
+    {
+      "letra": "D",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "aprendizagem transformadora, por meio da mobilização de conteúdos escolares formais para a construção de autoidentidades."
+        }
+      ]
+    }
+  ]
+}

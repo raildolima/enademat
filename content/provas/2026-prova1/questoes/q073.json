@@ -1,0 +1,20 @@
+{
+  "id": "2026-prova1-q073",
+  "provaId": "2026-prova1",
+  "tipo": "objetiva",
+  "numero": 73,
+  "rotulo": "Questão 73",
+  "parte": "componente-especifico",
+  "ordemCaderno": 74,
+  "paginas": [40],
+  "textoBaseId": "tb-73-74",
+  "enunciado": [
+    { "tipo": "paragrafo", "texto": "As estratégias descritas em (i), (ii) e (iii) indicam abordagens que privilegiam, respectivamente, as linguagens" }
+  ],
+  "alternativas": [
+    { "letra": "A", "blocos": [ { "tipo": "paragrafo", "texto": "numérica, geométrica e algébrica." } ] },
+    { "letra": "B", "blocos": [ { "tipo": "paragrafo", "texto": "numérica, algébrica e geométrica." } ] },
+    { "letra": "C", "blocos": [ { "tipo": "paragrafo", "texto": "geométrica, numérica e algébrica." } ] },
+    { "letra": "D", "blocos": [ { "tipo": "paragrafo", "texto": "geométrica, algébrica e numérica." } ] }
+  ]
+}

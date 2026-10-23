@@ -1,0 +1,22 @@
+{
+  "id": "tb-69-70",
+  "provaId": "2026-prova1",
+  "titulo": "Texto para as questões 69 e 70",
+  "questoes": [69, 70],
+  "blocos": [
+    {
+      "tipo": "paragrafo",
+      "texto": "A Secretaria de Educação de um município elaborou um projeto integrador. A proposta consistia em realizar uma gincana envolvendo os estudantes dos 9º anos da rede municipal. Para a competição, os estudantes foram listados em ordem alfabética e distribuídos em seis equipes, conforme detalhado na tabela."
+    },
+    {
+      "tipo": "tabela",
+      "cabecalho": ["Equipe 1", "Equipe 2", "Equipe 3", "Equipe 4", "Equipe 5", "Equipe 6"],
+      "linhas": [
+        ["1º", "2º", "3º", "4º", "5º", "6º"],
+        ["7º", "8º", "9º", "10º", "11º", "12º"],
+        ["13º", "…", "…", "…", "…", "…"],
+        ["…", "…", "…", "…", "…", "$n$"]
+      ]
+    }
+  ]
+}

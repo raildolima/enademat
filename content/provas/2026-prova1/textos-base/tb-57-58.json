@@ -1,0 +1,18 @@
+{
+  "id": "tb-57-58",
+  "provaId": "2026-prova1",
+  "titulo": "Texto para as questões 57 e 58",
+  "questoes": [57, 58],
+  "blocos": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Um doutorando em Ciência da Computação desenvolveu um algoritmo para realizar simulações de rua com carros autônomos, utilizando triangulação de sinal de GPS (sigla em inglês para Sistema de Posição Global). Em um dos cenários, o carro apresentou dificuldade para se deslocar em linha reta, situação que pode provocar acidentes com pedestres na calçada. Ele, então, recorreu a um licenciando em Matemática, que o orientou: insira, no seu algoritmo, o conceito de ponto que divide um segmento de reta numa razão dada, conforme a imagem."
+    },
+    {
+      "tipo": "imagem",
+      "src": "figuras/2026-prova1/tb-57-58-f1.webp",
+      "alt": "Três instantes de um carro autônomo em uma rua; no instante central, os pontos A (acima), P (entre A e D) e D (abaixo) estão alinhados verticalmente, e P' fica abaixo de D, fora da rua.",
+      "legenda": "Cenário: ambiente de simulação de um carro autônomo"
+    }
+  ]
+}

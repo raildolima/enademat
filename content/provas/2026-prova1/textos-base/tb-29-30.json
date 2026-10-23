@@ -1,0 +1,52 @@
+{
+  "id": "tb-29-30",
+  "provaId": "2026-prova1",
+  "titulo": "Texto para as questões 29 e 30",
+  "questoes": [29, 30],
+  "blocos": [
+    {
+      "tipo": "titulo",
+      "texto": "TEXTO 1"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "A criança surdocega não é uma criança surda que não pode ver, nem cega que não pode ouvir. Não se trata de simples somatória de surdez e cegueira, nem só um problema de comunicação e percepção, ainda que englobe todos esses fatores e alguns mais. Essas crianças precisam ser encorajadas a desenvolver um estilo de aprendizagem próprio para compensar suas dificuldades visuais e auditivas, assim como para estabelecer e manter relações interpessoais."
+    },
+    {
+      "tipo": "fonte",
+      "texto": "NASCIMENTO, F. A. A. A. C. **Educação infantil: saberes e práticas da inclusão** – dificuldades de comunicação e sinalização: surdocegueira/múltipla deficiência sensorial. Brasília: MEC, Secretaria de Educação Especial, 2006 (adaptado)."
+    },
+    {
+      "tipo": "titulo",
+      "texto": "TEXTO 2"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Helen Keller, que perdeu a visão e a audição ainda na infância no final do século XIX, transformou o silêncio e a escuridão em linguagem, pensamento e luta, sobretudo graças ao encontro decisivo com sua professora Anne Sullivan, cuja paciência e sensibilidade romperam o isolamento ao ensinar-lhe, letra a letra, na palma da mão, que o mundo podia ser nomeado. Nesse processo de aprendizagem, Helen não apenas aprendeu palavras, mas descobriu sentidos, construiu conhecimentos e conquistou autonomia intelectual, tornando-se a primeira pessoa surdocega a obter um diploma universitário, além de escritora e ativista incansável, cuja vida ecoa como símbolo de que educar é, antes de tudo, fazer nascer possibilidades onde antes parecia haver apenas limites."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "O trecho do livro autobiográfico *A história da minha vida*, a seguir, descreve um momento de interação da surdocega Helen Keller com sua professora, Anne Sullivan:"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Lembro-me da manhã em que perguntei, pela primeira vez, o significado da palavra “amor”. Isso foi antes que eu conhecesse muitas palavras. Eu encontrara algumas violetas precoces no jardim e as trouxera para a srta. Sullivan [a professora]. A srta. Sullivan me abraçou gentilmente e soletrou na minha mão:"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "— Eu amo Helen."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "— O que é amor? — perguntei."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Ela se aproximou e disse:"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "— Está aqui — apontando para o meu coração, de cujas batidas tive consciência pela primeira vez."
+    }
+  ]
+}

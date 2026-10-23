@@ -21,6 +21,20 @@ test.describe('Filtros do Banco de Questões', () => {
     await expect(page.locator('text=162 questões encontradas')).toBeVisible();
   });
 
+  test('ano 2026 mostra só a prova 2026-prova1 com 81 questões', async ({ page }) => {
+    await page.goto('/#/');
+
+    await page.selectOption('#filtro-ano', '2026');
+
+    const valoresOpcoes = page.locator('#filtro-prova option');
+    await expect(valoresOpcoes).toHaveCount(2);
+    expect(await valoresOpcoes.evaluateAll((opts) => opts.map((o) => (o as HTMLOptionElement).value))).toEqual([
+      'todas',
+      '2026-prova1',
+    ]);
+    await expect(page.locator('text=81 questões encontradas')).toBeVisible();
+  });
+
   test('selecionar prova 2025-prova1 lista exatamente 81 questões', async ({ page }) => {
     await page.goto('/#/');
 

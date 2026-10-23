@@ -1,0 +1,61 @@
+{
+  "id": "tb-46-48",
+  "provaId": "2026-prova1",
+  "titulo": "Texto para as questões de 46 a 48",
+  "questoes": [46, 47, 48],
+  "blocos": [
+    {
+      "tipo": "titulo",
+      "texto": "TEXTO 1"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Um algoritmo é uma sequência finita de passos que levam à execução de uma tarefa. Essas tarefas não podem ser redundantes nem subjetivas na sua definição, devendo fazer uso de linguagem precisa. Os algoritmos podem ser descritos em linguagem natural, independentemente das linguagens de programação, devendo ser de fácil codificação e interpretação. Eles atuam como o intermediário entre a linguagem falada e a linguagem de programação."
+    },
+    {
+      "tipo": "titulo",
+      "texto": "TEXTO 2"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Um professor de Matemática do Ensino Médio queria abordar a integração entre linguagem matemática e outras linguagens importantes para a sociedade. Para isso, trouxe a seguinte atividade para a turma:"
+    },
+    {
+      "tipo": "quadro",
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": "No campo do Direito, muitas leis utilizam expressões que podem ser traduzidas matematicamente, o que contribui para reduzir ambiguidades de interpretação."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Observe o trecho adaptado do art. 33, § 2º, do Código Penal, que estabelece critérios para a definição do regime inicial de cumprimento de pena:"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "“A pena privativa de liberdade deverá ser executada em regime *fechado* quando aplicada em quantidade superior a oito anos. Será executada em regime *semiaberto* quando aplicada em quantidade superior a quatro anos e não excedente a oito anos. Será executada em regime *aberto* quando aplicada em quantidade igual ou inferior a quatro anos”."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Agora, imagine um programa de computador que identifique o regime inicial de cumprimento de pena: o usuário informa a quantidade de anos, e o sistema retorna o regime a ser aplicado."
+        }
+      ]
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Com base nessa atividade, o professor estruturou o planejamento, considerando dois objetivos de aprendizagem:"
+    },
+    {
+      "tipo": "lista",
+      "ordenada": true,
+      "itens": [
+        "Interpretar situações descritas em linguagem natural e representá-las por meio de intervalos numéricos em linguagem matemática.",
+        "Modelar uma situação descrita em linguagem natural ou matemática, por meio de uma sequência lógica de decisões, utilizando a linguagem computacional."
+      ]
+    },
+    {
+      "tipo": "fonte",
+      "texto": "Disponível em: www.seduc.ce.gov.br. Acesso em: 4 mar. 2026 (adaptado)."
+    }
+  ]
+}

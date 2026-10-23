@@ -1,0 +1,35 @@
+{
+  "id": "2026-prova1-q057",
+  "provaId": "2026-prova1",
+  "tipo": "objetiva",
+  "numero": 57,
+  "rotulo": "Questão 57",
+  "parte": "componente-especifico",
+  "ordemCaderno": 58,
+  "paginas": [32],
+  "textoBaseId": "tb-57-58",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Como o ponto $P$ deve ser determinado a partir dos pontos $A$ e $D$ para que o carro representado pelo ponto $P$ permaneça centralizado na rua?"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [{ "tipo": "paragrafo", "texto": "$\\overrightarrow{AP} = -\\overrightarrow{DP}$." }]
+    },
+    {
+      "letra": "B",
+      "blocos": [{ "tipo": "paragrafo", "texto": "$\\overrightarrow{AP} = \\overrightarrow{DP}$." }]
+    },
+    {
+      "letra": "C",
+      "blocos": [{ "tipo": "paragrafo", "texto": "$\\overrightarrow{AP} = \\frac{1}{2}\\overrightarrow{DP}$." }]
+    },
+    {
+      "letra": "D",
+      "blocos": [{ "tipo": "paragrafo", "texto": "$\\overrightarrow{AP} = -\\frac{1}{2}\\overrightarrow{DP}$." }]
+    }
+  ]
+}

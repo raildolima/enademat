@@ -1,0 +1,20 @@
+{
+  "id": "2026-prova1-q033",
+  "provaId": "2026-prova1",
+  "tipo": "objetiva",
+  "numero": 33,
+  "rotulo": "Questão 33",
+  "parte": "componente-especifico",
+  "ordemCaderno": 34,
+  "paginas": [21],
+  "textoBaseId": "tb-33-34",
+  "enunciado": [
+    { "tipo": "paragrafo", "texto": "Para abrirem o cadeado da caixa, os estudantes devem utilizar a senha representada por" }
+  ],
+  "alternativas": [
+    { "letra": "A", "blocos": [{ "tipo": "paragrafo", "texto": "300, pois esse número escrito na base 6 resulta em 108." }] },
+    { "letra": "B", "blocos": [{ "tipo": "paragrafo", "texto": "044, pois esse número escrito na base 8 resulta em 108." }] },
+    { "letra": "C", "blocos": [{ "tipo": "paragrafo", "texto": "412, pois esse número escrito na base 5 resulta em 108." }] },
+    { "letra": "D", "blocos": [{ "tipo": "paragrafo", "texto": "312, pois esse número escrito na base 7 resulta em 108." }] }
+  ]
+}

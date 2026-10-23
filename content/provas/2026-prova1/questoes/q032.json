@@ -1,0 +1,20 @@
+{
+  "id": "2026-prova1-q032",
+  "provaId": "2026-prova1",
+  "tipo": "objetiva",
+  "numero": 32,
+  "rotulo": "Questão 32",
+  "parte": "componente-especifico",
+  "ordemCaderno": 33,
+  "paginas": [20],
+  "textoBaseId": "tb-31-32",
+  "enunciado": [
+    { "tipo": "paragrafo", "texto": "Ao mobilizar uma discussão com base nas afirmações dos estudantes, a professora constatou que" }
+  ],
+  "alternativas": [
+    { "letra": "A", "blocos": [{ "tipo": "paragrafo", "texto": "o estudante A reconheceu uma característica dos polígonos simples, apresentando um exemplo correto." }] },
+    { "letra": "B", "blocos": [{ "tipo": "paragrafo", "texto": "o estudante B reconheceu uma característica dos polígonos simples, equivocando-se no exemplo dado." }] },
+    { "letra": "C", "blocos": [{ "tipo": "paragrafo", "texto": "o estudante C apresentou a definição correta de polígonos simples." }] },
+    { "letra": "D", "blocos": [{ "tipo": "paragrafo", "texto": "o estudante D apresentou a definição correta de polígonos simples." }] }
+  ]
+}

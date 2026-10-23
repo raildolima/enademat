@@ -1,0 +1,35 @@
+{
+  "id": "2026-prova1-q066",
+  "provaId": "2026-prova1",
+  "tipo": "objetiva",
+  "numero": 66,
+  "rotulo": "Questão 66",
+  "parte": "componente-especifico",
+  "ordemCaderno": 67,
+  "paginas": [36],
+  "textoBaseId": "tb-66-68",
+  "enunciado": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Ao encontrar a resposta dos problemas que o professor propôs durante a aula, Maria percebeu que a transformação $T$ está representada na imagem"
+    }
+  ],
+  "alternativas": [
+    {
+      "letra": "A",
+      "blocos": [{ "tipo": "paragrafo", "texto": "I, pois rotaciona o triângulo ABC em torno da origem por um ângulo de 90° no sentido horário." }]
+    },
+    {
+      "letra": "B",
+      "blocos": [{ "tipo": "paragrafo", "texto": "II, pois rotaciona o triângulo ABC em torno da origem por um ângulo de 90° no sentido anti-horário." }]
+    },
+    {
+      "letra": "C",
+      "blocos": [{ "tipo": "paragrafo", "texto": "III, pois reflete o triângulo ABC em relação à reta $y = x$." }]
+    },
+    {
+      "letra": "D",
+      "blocos": [{ "tipo": "paragrafo", "texto": "IV, pois reflete o triângulo ABC em relação à reta $y = 0$." }]
+    }
+  ]
+}
