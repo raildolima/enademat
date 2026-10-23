@@ -3,7 +3,7 @@ import { MessageSquareWarning } from 'lucide-react';
 import styles from './RelatarErro.module.css';
 
 /** Repositório público onde as issues de erro são abertas (RF12). */
-export const URL_REPOSITORIO = 'https://github.com/raildolima/simulador-enade-matematica';
+export const URL_REPOSITORIO = 'https://github.com/raildolima/enademat';
 
 /** Link para uma issue nova já preenchida com a questão e a tela de origem. */
 export function urlNovaIssue(questaoId: string, rotulo: string, tela: 'questão' | 'resolução'): string {

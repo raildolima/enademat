@@ -71,7 +71,7 @@ Registrado em: 2026-09-13
   - RF13 impressão sem cabeçalho/filtros/navegação/botões.
   - RF15 modo simulado `#/simulado/:provaId` (Treino e Prova, cronômetro opcional, respostas só na URL, resultado por parte, revisão das erradas).
   - RF16 índice de acerto nacional: `scripts/inep/estatisticas_itens.py` sobre os microdados do INEP (grupo 702). 2021: 13 824 estudantes; 2025-prova1: 2 636 (caderno 1). 2025-prova5 tem só 20 presentes (não publicado) e 2026 ainda não tem microdados. Gabaritos dos microdados idênticos aos nossos, exceto 2021 Q09, Q13 e Q30, que constam como **anuladas** no gabarito final do INEP (exibido na resolução e excluído da correção do simulado; `gabarito.json` inalterado, decisão pendente com o usuário).
-  - RF12 relatar erro: link para issue preenchida em `https://github.com/raildolima/simulador-enade-matematica` (repositório ainda a ser criado pelo usuário).
+  - RF12 relatar erro: link para issue preenchida em `https://github.com/raildolima/enademat` (repositório público criado em 2026-10-22; app publicado em https://raildolima.github.io/enademat/).
   - RF14 assuntos: vocabulário de 23 assuntos aprovado (`src/data/assuntos.ts`); 283 questões classificadas por 10 subagentes Haiku e revisadas por 2 (14 correções aplicadas); `content/provas/<id>/assuntos.json` validado (cobertura total, 1–3 ids); filtro Assunto, etiquetas nos cartões e "Questões relacionadas".
   - 2021 Q09, Q13 e Q30: Observação sobre a anulação no gabarito final do INEP, `revisaoHumana: true`, registradas em `docs/REVISAO-HUMANA.md` (decisão do usuário).
 - **2026-10-22**: Inclusão da edição **ENADE 2026 (Prova Nacional Docente, Caderno 1401, Tipo 01)** como `2026-prova1` (80 objetivas + 1 discursiva = 81 questões; total do simulador: 283).

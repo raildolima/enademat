@@ -138,7 +138,7 @@ test.describe('Relatar erro (RF12)', () => {
     const link = page.getByRole('link', { name: /Relatar erro nesta questão/ });
     await expect(link).toHaveAttribute('target', '_blank');
     const href = await link.getAttribute('href');
-    expect(href).toContain('https://github.com/raildolima/simulador-enade-matematica/issues/new?title=');
+    expect(href).toContain('https://github.com/raildolima/enademat/issues/new?title=');
     expect(decodeURIComponent(href!)).toContain('2026-prova1-q053');
   });
 });
