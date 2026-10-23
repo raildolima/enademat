@@ -52,21 +52,22 @@ export const ListaQuestoes: React.FC<ListaQuestoesProps> = ({
         if (itensDaProva.length === 0) return null;
 
         const infoProva = mapaProvas.get(provaId);
-        const tituloSecao = infoProva
-          ? `${infoProva.titulo} (${infoProva.ano})`
-          : provaId;
+        // O título da prova já começa por "ENADE <ano>"
+        const tituloSecao = infoProva ? infoProva.titulo : provaId;
 
         return (
           <section key={provaId} className={styles.grupoProva} aria-label={tituloSecao} data-prova={provaId}>
-            <h2 className={styles.tituloGrupo}>
-              {tituloSecao}
-              <span className={styles.contagemGrupo}>
-                {itensDaProva.length} {itensDaProva.length === 1 ? 'questão' : 'questões'}
-              </span>
-            </h2>
-            <Link to={`/prova/${provaId}`} className={styles.linkProva}>
-              Ver a prova completa (grade de questões)
-            </Link>
+            <div className={styles.cabecalhoGrupo}>
+              <h2 className={styles.tituloGrupo}>{tituloSecao}</h2>
+              <p className={styles.metaGrupo}>
+                <span>
+                  {itensDaProva.length} {itensDaProva.length === 1 ? 'questão' : 'questões'}
+                </span>
+                <Link to={`/prova/${provaId}`} className={styles.linkProva}>
+                  Ver a prova completa (grade de questões)
+                </Link>
+              </p>
+            </div>
             <div className={styles.gradeQuestoes}>
               {itensDaProva.map((q, idx) => {
                 const linkHref = `/questao/${q.id}${queryStringParams}`;
@@ -79,26 +80,15 @@ export const ListaQuestoes: React.FC<ListaQuestoesProps> = ({
                   >
                     <div className={styles.cabecalhoCard}>
                       <span className={styles.rotuloQuestao}>{q.rotulo}</span>
-                      <div className={styles.badgesGrupo}>
-                        <Badge
-                          variante={
-                            q.parte === 'componente-especifico'
-                              ? 'primaria'
-                              : 'padrao'
-                          }
-                        >
-                          {q.parte === 'componente-especifico'
-                            ? 'Componente Específico'
-                            : 'Formação Geral'}
-                        </Badge>
-                        <Badge
-                          variante={
-                            q.tipo === 'discursiva' ? 'aviso' : 'padrao'
-                          }
-                        >
-                          {q.tipo === 'discursiva' ? 'Discursiva' : 'Objetiva'}
-                        </Badge>
-                      </div>
+                      <ArrowRight size={20} className={styles.setaCard} aria-hidden="true" />
+                    </div>
+                    <div className={styles.badgesGrupo}>
+                      <Badge variante={q.parte === 'componente-especifico' ? 'primaria' : 'padrao'}>
+                        {q.parte === 'componente-especifico' ? 'Componente Específico' : 'Formação Geral'}
+                      </Badge>
+                      <Badge variante={q.tipo === 'discursiva' ? 'aviso' : 'padrao'}>
+                        {q.tipo === 'discursiva' ? 'Discursiva' : 'Objetiva'}
+                      </Badge>
                     </div>
                     <div className={styles.previaQuestao}>
                       <TextoRico texto={q.previa} />
@@ -109,7 +99,6 @@ export const ListaQuestoes: React.FC<ListaQuestoesProps> = ({
                         {q.assuntos.map(rotuloAssunto).join(' · ')}
                       </p>
                     )}
-                    <ArrowRight size={20} className={styles.setaCard} aria-hidden="true" />
                   </Link>
                 );
               })}

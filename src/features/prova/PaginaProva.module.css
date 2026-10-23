@@ -2,7 +2,7 @@
   width: 100%;
   max-width: var(--largura-maxima);
   margin: 0 auto;
-  padding: var(--espaco-8) var(--espaco-4) var(--espaco-12);
+  padding: var(--espaco-8) var(--margem-lateral) var(--espaco-12);
 }
 
 .cabecalho {

@@ -6,16 +6,16 @@
   width: 100%;
   max-width: var(--largura-maxima);
   margin: 0 auto;
-  padding: 0 var(--espaco-4) var(--espaco-10);
+  padding: var(--espaco-10) var(--margem-lateral) var(--espaco-12);
 }
 
-/* Hero: faixa com o gradiente profundo da UFMS (escuro nos dois temas) */
+/* Hero: faixa com o gradiente profundo da UFMS (escuro nos dois temas), como em pagina/ */
 .hero {
   position: relative;
   overflow: hidden;
   background: var(--ufms-gradiente-profundo);
   color: var(--cor-faixa-texto);
-  padding: var(--espaco-10) var(--espaco-4) var(--espaco-16);
+  padding: var(--espaco-12) 0;
 }
 
 /* Grade de pontos decorativa, sem conteúdo (padrão "hero" do catálogo) */
@@ -33,14 +33,14 @@
   position: relative;
   max-width: var(--largura-maxima);
   margin: 0 auto;
+  padding: 0 var(--margem-lateral);
 }
 
 .sobretitulo {
   display: inline-block;
-  font-family: var(--fonte-mono);
-  font-size: 0.78rem;
-  font-weight: 500;
-  letter-spacing: 0.12em;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--ufms-amarelo);
   margin-bottom: var(--espaco-3);
@@ -56,39 +56,35 @@
 
 .subtituloPrincipal {
   max-width: 60ch;
-  font-size: 1.05rem;
-  color: var(--ufms-azul-50);
+  font-size: 1.1rem;
+  color: var(--ufms-cinza-100);
 }
 
-.pilulasResumo {
+/* Acervo em números, separado do texto por um filete (mesmo bloco da apresentação) */
+.numeros {
   list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--espaco-2);
-  margin-top: var(--espaco-6);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--espaco-4);
+  margin: var(--espaco-8) 0 0;
+  padding: var(--espaco-6) 0 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
+  color: var(--ufms-cinza-100);
 }
 
-.pilulasResumo li {
-  display: inline-flex;
-  align-items: center;
-  gap: var(--espaco-2);
-  padding: var(--espaco-2) var(--espaco-4);
-  border-radius: var(--raio-full);
-  background-color: rgba(0, 34, 51, 0.55);
-  border: 1px solid rgba(255, 255, 255, 0.22);
-  font-size: 0.9rem;
-  font-weight: 600;
+@media (min-width: 720px) {
+  .numeros {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.numeros strong {
+  display: block;
+  font-family: var(--fonte-titulos);
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 1.1;
   color: #ffffff;
-}
-
-.pilulasResumo li svg {
-  color: var(--ufms-amarelo);
-}
-
-/* Filtros sobem sobre o fim do hero */
-.filtrosSobreHero {
-  margin-top: calc(-1 * var(--espaco-10));
-  position: relative;
 }
 
 .carregandoTexto {

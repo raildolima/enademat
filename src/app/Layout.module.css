@@ -4,12 +4,17 @@
   min-height: 100vh;
 }
 
+/* Faixa escura nos dois temas, como a página de apresentação (pagina/) */
 .cabecalhoApp {
   position: relative;
   z-index: var(--z-cabecalho);
-  background-color: var(--cor-superficie);
-  padding: var(--espaco-3) var(--espaco-4);
-  box-shadow: var(--sombra-sm);
+  background-color: var(--cor-faixa);
+  color: var(--cor-faixa-texto);
+  padding: var(--espaco-3) 0;
+}
+
+.cabecalhoApp :focus-visible {
+  outline-color: var(--ufms-amarelo);
 }
 
 /* Filete institucional: gradiente UFMS sob o cabeçalho */
@@ -24,24 +29,33 @@
 .cabecalhoConteudo {
   max-width: var(--largura-maxima);
   margin: 0 auto;
+  padding: 0 var(--margem-lateral);
   display: flex;
   align-items: center;
   gap: var(--espaco-4);
   min-height: 56px;
 }
 
-/* Área de proteção do logo: margem mínima equivalente ao módulo X da marca */
-.logoUfms {
-  height: 44px;
-  width: auto;
+/* Assinatura positiva sobre placa branca: a área branca é a área de proteção da marca */
+.placaLogo {
+  display: inline-flex;
   flex-shrink: 0;
+  padding: 6px 10px;
+  background-color: #ffffff;
+  border-radius: var(--raio-md);
+}
+
+.logoUfms {
+  display: block;
+  height: 36px;
+  width: auto;
 }
 
 .divisor {
   align-self: stretch;
   width: 1px;
   margin: var(--espaco-1) 0;
-  background-color: var(--cor-borda);
+  background-color: rgba(255, 255, 255, 0.25);
 }
 
 .logoLink {
@@ -50,12 +64,12 @@
   gap: var(--espaco-3);
   min-height: var(--alvo-toque);
   text-decoration: none;
-  color: var(--cor-texto-principal);
+  color: var(--cor-faixa-texto);
   border-radius: var(--raio-md);
 }
 
 .logoLink:hover {
-  color: var(--cor-texto-principal);
+  color: var(--cor-faixa-texto);
 }
 
 .logoIcone {
@@ -87,7 +101,7 @@
   display: block;
   font-size: 0.82rem;
   font-weight: 500;
-  color: var(--cor-texto-secundario);
+  color: var(--cor-faixa-texto-suave);
 }
 
 .conteudoPrincipal {
@@ -104,25 +118,23 @@
 .rodapeApp {
   background-color: var(--cor-faixa);
   color: var(--cor-faixa-texto-suave);
-  padding: var(--espaco-10) var(--espaco-4) var(--espaco-8);
+  padding: var(--espaco-8) 0;
   margin-top: auto;
 }
 
 .rodapeConteudo {
   max-width: var(--largura-maxima);
   margin: 0 auto;
+  padding: 0 var(--margem-lateral);
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   gap: var(--espaco-2);
-  text-align: center;
   font-size: 0.88rem;
   line-height: 1.6;
 }
 
-.logoRodape {
-  height: 56px;
-  width: auto;
+.placaLogoRodape {
   margin-bottom: var(--espaco-3);
 }
 
@@ -137,7 +149,7 @@
   }
 
   .logoUfms {
-    height: 36px;
+    height: 30px;
   }
 
   .logoIcone {

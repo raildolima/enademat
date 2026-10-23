@@ -38,6 +38,8 @@
   --altura-linha: 1.6;
   --largura-leitura: 72ch;
   --largura-maxima: 1180px;
+  /* Margem lateral única: cabeçalho, hero, conteúdo e rodapé alinhados na mesma coluna */
+  --margem-lateral: 16px;
 
   /* Espaçamentos (base 4 px) */
   --espaco-1: 0.25rem;
@@ -125,6 +127,12 @@
   --sombra-md: 0 4px 12px rgba(0, 136, 183, 0.1), 0 2px 4px rgba(0, 34, 51, 0.05);
   --sombra-lg: 0 12px 32px rgba(0, 136, 183, 0.16), 0 4px 8px rgba(0, 34, 51, 0.06);
   --sombra-popup: 0 24px 48px rgba(0, 136, 183, 0.2), 0 8px 16px rgba(0, 34, 51, 0.1);
+}
+
+@media (min-width: 720px) {
+  :root {
+    --margem-lateral: 32px;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
