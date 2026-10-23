@@ -216,3 +216,9 @@ Registrado em: 2026-09-13
   - Scripts npm `dev`, `build`, `test`, `content:build`, `content:validate` validados e operacionais.
   - Agentes, regras, skills e hooks configurados em `.agents/` e testados.
   - `docs/ESPECIFICACAO.md`, `docs/PROGRESSO.md` e `docs/REVISAO-HUMANA.md` estabelecidos.
+
+## Publicação no GitHub Pages (2026-10-22)
+
+- Repositório público https://github.com/raildolima/enademat; workflow `.github/workflows/deploy-pages.yml` publica a cada push na `master`.
+- Página de apresentação (`pagina/`, montada por `scripts/pagina/montar.ts`) em https://raildolima.github.io/enademat/ e simulador em https://raildolima.github.io/enademat/app/. Links antigos com `#/` na raiz redirecionam para `app/`.
+- Conferência local da apresentação: axe WCAG 2.2 AA sem violações nos temas claro e escuro, sem rolagem horizontal em 360 px, links para prova/simulado e redirecionamento testados.

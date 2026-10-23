@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>
+    // Links antigos (antes de o simulador ir para app/) usavam a raiz: /enademat/#/questao/...
+    if (location.hash.indexOf('#/') === 0) location.replace('app/' + location.hash);
+  </script>
+  <title>EnadeMat · Simulador ENADE Matemática</title>
+  <meta name="description" content="283 questões do ENADE Matemática (Licenciatura) 2021, 2025 e 2026 com resoluções comentadas, dicas, simulado cronometrado e desempenho nacional dos estudantes. Gratuito, sem cadastro.">
+  <meta property="og:title" content="EnadeMat · Simulador ENADE Matemática (Licenciatura)">
+  <meta property="og:description" content="Provas oficiais do ENADE 2021, 2025 e 2026 com resoluções comentadas e modo simulado. Gratuito e sem cadastro.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <link rel="icon" href="app/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="fontes/poppins-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <a class="pular" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="hero">
+    <div class="faixa-topo">
+      <div class="container faixa-topo__conteudo">
+        <span class="logo-placa"><img class="logo" src="app/marca/ufms-assinatura-horizontal-positivo.webp" alt="UFMS — Universidade Federal de Mato Grosso do Sul" width="343" height="120"></span>
+        <nav aria-label="Seções da página">
+          <ul class="nav">
+            <li><a href="#provas">Provas</a></li>
+            <li><a href="#recursos">Recursos</a></li>
+            <li><a href="#como-estudar">Como estudar</a></li>
+            <li><a href="https://github.com/raildolima/enademat">GitHub</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <div class="container hero__conteudo">
+      <p class="sobretitulo">ENADE · Matemática (Licenciatura)</p>
+      <h1>Estude para o ENADE com as provas oficiais e resoluções comentadas</h1>
+      <p class="hero__texto">
+        Todas as questões do ENADE 2021, 2025 e 2026 de Matemática (Licenciatura), cada uma com resolução passo a passo,
+        análise das alternativas e dica de prova. Gratuito, sem cadastro e pronto para o celular.
+      </p>
+      <div class="acoes">
+        <a class="botao botao--destaque" href="app/">
+          Abrir o simulador
+          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <a class="botao botao--contorno" href="app/#/simulado/2026-prova1">Fazer o simulado de 2026</a>
+      </div>
+
+      <ul class="numeros" aria-label="O acervo em números">
+        <li><strong>283</strong> questões</li>
+        <li><strong>283</strong> resoluções comentadas</li>
+        <li><strong>4</strong> provas oficiais</li>
+        <li><strong>23</strong> assuntos</li>
+      </ul>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section id="provas" class="secao" aria-labelledby="titulo-provas">
+      <div class="container">
+        <h2 id="titulo-provas">Provas disponíveis</h2>
+        <p class="secao__intro">Escolha uma prova para ver a grade de questões ou fazer o simulado completo.</p>
+        <ul class="grade grade--provas">
+          <li class="cartao cartao--prova">
+            <p class="etiqueta">2026</p>
+            <h3>Prova 1 · Prova Nacional Docente</h3>
+            <p>81 questões: 80 objetivas e 1 discursiva.</p>
+            <div class="cartao__links">
+              <a href="app/#/prova/2026-prova1">Ver a prova<span class="sr"> de 2026</span></a>
+              <a href="app/#/simulado/2026-prova1">Fazer simulado<span class="sr"> de 2026</span></a>
+            </div>
+          </li>
+          <li class="cartao cartao--prova">
+            <p class="etiqueta">2025</p>
+            <h3>Prova 1 · Teoria e Prática Docente</h3>
+            <p>81 questões: 80 objetivas e 1 discursiva.</p>
+            <div class="cartao__links">
+              <a href="app/#/prova/2025-prova1">Ver a prova<span class="sr"> 1 de 2025</span></a>
+              <a href="app/#/simulado/2025-prova1">Fazer simulado<span class="sr"> da prova 1 de 2025</span></a>
+            </div>
+          </li>
+          <li class="cartao cartao--prova">
+            <p class="etiqueta">2025</p>
+            <h3>Prova 5 · 2ª aplicação</h3>
+            <p>81 questões: 80 objetivas e 1 discursiva.</p>
+            <div class="cartao__links">
+              <a href="app/#/prova/2025-prova5">Ver a prova<span class="sr"> 5 de 2025</span></a>
+              <a href="app/#/simulado/2025-prova5">Fazer simulado<span class="sr"> da prova 5 de 2025</span></a>
+            </div>
+          </li>
+          <li class="cartao cartao--prova">
+            <p class="etiqueta">2021</p>
+            <h3>Licenciatura em Matemática</h3>
+            <p>40 questões: 35 objetivas e 5 discursivas.</p>
+            <div class="cartao__links">
+              <a href="app/#/prova/2021-licenciatura">Ver a prova<span class="sr"> de 2021</span></a>
+              <a href="app/#/simulado/2021-licenciatura">Fazer simulado<span class="sr"> de 2021</span></a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="recursos" class="secao secao--alternada" aria-labelledby="titulo-recursos">
+      <div class="container">
+        <h2 id="titulo-recursos">O que você encontra</h2>
+        <ul class="grade grade--recursos">
+          <li class="cartao">
+            <svg class="icone" aria-hidden="true" viewBox="0 0 24 24"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+            <h3>Resoluções comentadas</h3>
+            <p>Ideia-chave, passo a passo, análise de cada alternativa, conceitos envolvidos e dica de prova. Contas conferidas por script.</p>
+          </li>
+          <li class="cartao">
+            <svg class="icone" aria-hidden="true" viewBox="0 0 24 24"><path d="M9 18h6M10 22h4"/><path d="M12 2a7 7 0 0 0-4 12.7c.6.5 1 1.3 1 2.3h6c0-1 .4-1.8 1-2.3A7 7 0 0 0 12 2z"/></svg>
+            <h3>Dica sem entregar a resposta</h3>
+            <p>Travou? Abra a dica da questão antes de ver a resolução. Ela aponta o caminho sem revelar a alternativa.</p>
+          </li>
+          <li class="cartao">
+            <svg class="icone" aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2 2M10 2h4"/></svg>
+            <h3>Simulado com cronômetro</h3>
+            <p>Modo treino, com correção a cada questão, ou modo prova, com resultado por parte e lista do que revisar.</p>
+          </li>
+          <li class="cartao">
+            <svg class="icone" aria-hidden="true" viewBox="0 0 24 24"><path d="M3 3v18h18"/><path d="M8 17v-5M13 17V8M18 17v-8"/></svg>
+            <h3>Desempenho nacional</h3>
+            <p>Veja quantos estudantes do país acertaram cada questão e qual alternativa mais escolheram, com dados dos microdados do INEP.</p>
+          </li>
+          <li class="cartao">
+            <svg class="icone" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 2H2v10l9.3 9.3a1 1 0 0 0 1.4 0l8.6-8.6a1 1 0 0 0 0-1.4z"/><circle cx="7" cy="7" r="1.5"/></svg>
+            <h3>Filtro por assunto</h3>
+            <p>Geometria, Álgebra Linear, Cálculo, Probabilidade, Educação Matemática e mais: 23 assuntos, com questões relacionadas em todas as provas.</p>
+          </li>
+          <li class="cartao">
+            <svg class="icone" aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="4" r="2"/><path d="M5 8l7 2 7-2M12 10v5l-3 7M12 15l3 7"/></svg>
+            <h3>Acessível e leve</h3>
+            <p>Navegação por teclado, leitor de tela, tema claro e escuro e fórmulas nítidas em qualquer tela. Também dá para imprimir.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="como-estudar" class="secao" aria-labelledby="titulo-como">
+      <div class="container">
+        <h2 id="titulo-como">Como estudar</h2>
+        <ol class="passos">
+          <li>
+            <h3>Escolha as questões</h3>
+            <p>No <a href="app/">banco de questões</a>, filtre por ano, prova, parte, tipo ou assunto.</p>
+          </li>
+          <li>
+            <h3>Tente resolver</h3>
+            <p>Marque sua alternativa. Se precisar, abra a dica. Nas discursivas, escreva seu rascunho.</p>
+          </li>
+          <li>
+            <h3>Confira e aprenda</h3>
+            <p>Compare com o gabarito oficial, leia a resolução e veja como foi o desempenho nacional.</p>
+          </li>
+          <li>
+            <h3>Teste-se na prova inteira</h3>
+            <p>Faça o simulado com cronômetro e, no resultado, revise só o que errou.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="secao secao--alternada" aria-labelledby="titulo-sobre">
+      <div class="container sobre">
+        <div>
+          <h2 id="titulo-sobre">Sobre o projeto</h2>
+          <p>
+            As questões foram transcritas dos cadernos oficiais do INEP, e o gabarito é sempre o oficial. As resoluções
+            foram escritas para fins educacionais e revisadas, mas podem conter erros: se encontrar algum, use o botão
+            <strong>Relatar erro</strong> em cada questão.
+          </p>
+          <p>
+            O simulador não pede cadastro e não guarda nada no seu navegador: suas respostas ficam só no endereço da página.
+            O código é aberto.
+          </p>
+        </div>
+        <div class="sobre__acoes">
+          <a class="botao botao--primario" href="app/">Abrir o simulador</a>
+          <a class="botao botao--secundario" href="https://github.com/raildolima/enademat">Ver o código no GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <div class="container">
+      <p>Questões: INEP/MEC — ENADE 2021, 2025 e 2026. Desempenho nacional: Microdados do ENADE, INEP (CC BY-ND 3.0).</p>
+      <p>Site não oficial, sem vínculo com o INEP. Resoluções elaboradas para fins educacionais.</p>
+    </div>
+  </footer>
+</body>
+</html>

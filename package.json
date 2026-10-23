@@ -11,6 +11,7 @@
     "test:e2e": "playwright test",
     "lint": "oxlint",
     "content:build": "tsx scripts/content/build.ts",
+    "pagina:montar": "tsx scripts/pagina/montar.ts",
     "content:validate": "tsx scripts/content/validate.ts"
   },
   "dependencies": {

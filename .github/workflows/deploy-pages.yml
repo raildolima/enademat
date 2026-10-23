@@ -28,9 +28,10 @@ jobs:
       - run: npm run content:build
       - run: npm test
       - run: npm run build
+      - run: npm run pagina:montar
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: dist
+          path: site
 
   deploy:
     needs: build

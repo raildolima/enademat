@@ -37,6 +37,8 @@ npx tsx scripts/content/comparar-cego.ts --prova 2025-prova1   # respostas cegas
 
 E2E: `playwright.config.ts` roda `npm run build` e serve na porta 4290 com `--strictPort` e sem `reuseExistingServer` — porta ocupada dá erro "is already used" em vez de testar outro build (outras cópias do projeto, como `Enade_simulador - AGY`, usam a 4173). `scripts/conferir_ui_screenshots.ts` ainda aponta para a 4173 e exige preview iniciado à mão. `tests/e2e/conferir-ui.spec.ts` (capturas em `work/conferencia/ui/`) só roda com `CONFERIR_UI=1`.
 
+Publicação: `.github/workflows/deploy-pages.yml` roda a cada push na `master` (validate, content:build, vitest, build, pagina:montar) e publica `site/` em https://raildolima.github.io/enademat/ — apresentação estática em `pagina/` (HTML/CSS puros, tokens UFMS copiados à mão) e o simulador em `/enademat/app/`; links antigos `/enademat/#/...` são redirecionados para `app/`.
+
 `content:validate` é obrigatório após qualquer mudança em `content/`. Resultado final só é "concluído" com a saída de validação/testes colada.
 
 ## Arquitetura
@@ -67,4 +69,4 @@ E2E: `playwright.config.ts` roda `npm run build` e serve na porta 4290 com `--st
 - No máximo 5 imagens por passo; usar PNG de página, nunca o PDF inteiro.
 - Nunca `git push`, criar remoto ou publicar sem autorização explícita.
 - Parar e perguntar: gabarito divergente em ≥ 2 questões do lote; erro persistente após 2 tentativas; qualquer exclusão fora de `work/`; qualquer publicação.
-- `work/`, `scratch/`, `src/data/generated/`, `dist/` são gitignored.
+- `work/`, `scratch/`, `src/data/generated/`, `dist/`, `site/` são gitignored.
